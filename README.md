@@ -1,4 +1,4 @@
-# MP-UI [![License: LGPL v3](https://img.shields.io/badge/License-LGPL%20v3-blue.svg)](http://www.gnu.org/licenses/lgpl-3.0)
+# ModularPolyphony-TUI [![License: LGPL v3](https://img.shields.io/badge/License-LGPL%20v3-blue.svg)](http://www.gnu.org/licenses/lgpl-3.0)
 
 This library is a set of OpenGL UI component using the [MP protocol] (https://github.com/LAM-IJLRA/ModularPolyphony) in Max (® Cycling74).
 
