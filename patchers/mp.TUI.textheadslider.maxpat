@@ -705,7 +705,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 593.75, 368.0, 165.0, 22.0 ],
 					"style" : "",
-					"text" : "WM.TUI.antinormalize.psr.2d"
+					"text" : "mp.TUI.object2world"
 				}
 
 			}
@@ -2095,9 +2095,9 @@
 					"numinlets" : 4,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 360.75, 291.0, 207.25, 22.0 ],
+					"patching_rect" : [ 360.75, 291.0, 121.0, 22.0 ],
 					"style" : "",
-					"text" : "WM.TUI.normalize.psr.2d"
+					"text" : "mp.TUI.world2object"
 				}
 
 			}

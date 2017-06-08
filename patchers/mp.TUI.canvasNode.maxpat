@@ -66,7 +66,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-1",
-					"index" : 2,
+					"index" : 0,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -167,7 +167,7 @@
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 88.0, 157.958923, 199.0, 22.0 ],
 									"style" : "",
-									"text" : "WM.TUI.normalize.psr.2d"
+									"text" : "mp.TUI.world2object"
 								}
 
 							}
@@ -427,7 +427,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "jit_matrix", "" ],
-					"patching_rect" : [ 411.0, 431.0, 279.0, 49.0 ],
+					"patching_rect" : [ 411.0, 431.0, 282.0, 49.0 ],
 					"style" : "",
 					"text" : "jit.gl.gridshape #1 @name #0.background @shape plane @dim 2 2   @blend_enable 1 @depth_enable 0"
 				}
@@ -490,7 +490,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-23",
-					"index" : 1,
+					"index" : 0,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -528,7 +528,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-3",
-					"index" : 2,
+					"index" : 0,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -555,7 +555,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-122",
-					"index" : 1,
+					"index" : 0,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -770,7 +770,21 @@
 				}
 
 			}
- ]
+ ],
+		"dependency_cache" : [ 			{
+				"name" : "mp.TUI.world2object.maxpat",
+				"bootpath" : "~/Documents/Max 7/Packages/ModularPolyphony-TUI/patchers",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "WM.d2r.maxpat",
+				"bootpath" : "~/Documents/Max 7/Packages/WM.lib/patchers",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+ ],
+		"autosave" : 0
 	}
 
 }

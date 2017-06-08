@@ -38,9 +38,22 @@
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-5",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 3,
+					"outlettype" : [ "int", "", "int" ],
+					"patching_rect" : [ 323.850006, 46.0, 40.0, 22.0 ],
+					"style" : "",
+					"text" : "t 1 l 0"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-24",
 					"maxclass" : "newobj",
-					"numinlets" : 4,
+					"numinlets" : 5,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patcher" : 					{
@@ -53,7 +66,7 @@
 							"modernui" : 1
 						}
 ,
-						"rect" : [ 0.0, 0.0, 640.0, 480.0 ],
+						"rect" : [ 59.0, 81.0, 640.0, 480.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -81,6 +94,34 @@
 						"style" : "",
 						"subpatcher_template" : "",
 						"boxes" : [ 							{
+								"box" : 								{
+									"comment" : "",
+									"id" : "obj-2",
+									"index" : 5,
+									"maxclass" : "inlet",
+									"numinlets" : 0,
+									"numoutlets" : 1,
+									"outlettype" : [ "int" ],
+									"patching_rect" : [ 419.0, 40.0, 30.0, 30.0 ],
+									"presentation_rect" : [ 419.0, 40.0, 0.0, 0.0 ],
+									"style" : ""
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-1",
+									"maxclass" : "newobj",
+									"numinlets" : 2,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 143.0, 235.0, 54.0, 22.0 ],
+									"style" : "",
+									"text" : "gate 1 1"
+								}
+
+							}
+, 							{
 								"box" : 								{
 									"id" : "obj-17",
 									"maxclass" : "newobj",
@@ -196,7 +237,7 @@
 									"maxclass" : "outlet",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 173.5, 182.0, 30.0, 30.0 ],
+									"patching_rect" : [ 143.0, 265.0, 30.0, 30.0 ],
 									"style" : ""
 								}
 
@@ -205,20 +246,27 @@
 						"lines" : [ 							{
 								"patchline" : 								{
 									"destination" : [ "obj-22", 0 ],
+									"source" : [ "obj-1", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-1", 1 ],
 									"source" : [ "obj-15", 0 ]
 								}
 
 							}
 , 							{
 								"patchline" : 								{
-									"destination" : [ "obj-22", 0 ],
+									"destination" : [ "obj-1", 1 ],
 									"source" : [ "obj-16", 0 ]
 								}
 
 							}
 , 							{
 								"patchline" : 								{
-									"destination" : [ "obj-22", 0 ],
+									"destination" : [ "obj-1", 1 ],
 									"source" : [ "obj-17", 0 ]
 								}
 
@@ -239,6 +287,13 @@
 							}
 , 							{
 								"patchline" : 								{
+									"destination" : [ "obj-1", 0 ],
+									"source" : [ "obj-2", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
 									"destination" : [ "obj-16", 0 ],
 									"source" : [ "obj-20", 0 ]
 								}
@@ -253,7 +308,7 @@
 							}
 , 							{
 								"patchline" : 								{
-									"destination" : [ "obj-22", 0 ],
+									"destination" : [ "obj-1", 1 ],
 									"source" : [ "obj-5", 0 ]
 								}
 
@@ -890,7 +945,7 @@
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 50.0, 204.0, 241.229675, 22.0 ],
 									"style" : "",
-									"text" : "WM.TUI.normalize.psr.2d"
+									"text" : "mp.TUI.world2object"
 								}
 
 							}
@@ -1202,7 +1257,7 @@
 					"numinlets" : 6,
 					"numoutlets" : 6,
 					"outlettype" : [ "", "", "", "", "", "" ],
-					"patching_rect" : [ 334.350006, 87.0, 181.0, 22.0 ],
+					"patching_rect" : [ 334.350006, 80.0, 181.0, 22.0 ],
 					"style" : "",
 					"text" : "route gain freq bw type nbpoints"
 				}
@@ -1217,7 +1272,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 334.350006, 42.0, 30.0, 30.0 ],
+					"patching_rect" : [ 323.850006, 7.0, 30.0, 30.0 ],
 					"style" : ""
 				}
 
@@ -1284,7 +1339,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 356.0, 330.0, 394.0, 49.0 ],
+					"patching_rect" : [ 356.0, 330.0, 388.0, 49.0 ],
 					"style" : "",
 					"text" : "jit.phys.body @shape cube @scale 0.4 0.2 @position 0.2 0.2 0 @name #0.filtergraph @kinematic 1 @filters #1/picker  @worldname #1.phys"
 				}
@@ -1470,7 +1525,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-13", 0 ],
+					"destination" : [ "obj-5", 0 ],
 					"source" : [ "obj-11", 0 ]
 				}
 
@@ -1630,6 +1685,27 @@
 				"patchline" : 				{
 					"destination" : [ "obj-133", 5 ],
 					"source" : [ "obj-44", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-13", 0 ],
+					"source" : [ "obj-5", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-24", 4 ],
+					"source" : [ "obj-5", 2 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-24", 4 ],
+					"source" : [ "obj-5", 0 ]
 				}
 
 			}

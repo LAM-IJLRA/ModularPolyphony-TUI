@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 222.0, 269.0, 1184.0, 758.0 ],
+		"rect" : [ 212.0, 129.0, 1184.0, 758.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -5200,7 +5200,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 593.0, 163.0, 91.0, 22.0 ],
+					"patching_rect" : [ 621.0, 156.0, 91.0, 22.0 ],
 					"style" : "",
 					"text" : "r #0.enable"
 				}
@@ -5214,7 +5214,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 593.0, 204.0, 24.0, 24.0 ],
+					"patching_rect" : [ 621.0, 197.0, 24.0, 24.0 ],
 					"style" : ""
 				}
 
@@ -5226,7 +5226,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 593.0, 235.0, 63.0, 22.0 ],
+					"patching_rect" : [ 621.0, 228.0, 63.0, 22.0 ],
 					"style" : "",
 					"text" : "enable $1"
 				}
@@ -5241,7 +5241,7 @@
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 44.0, 272.0, 596.0, 22.0 ],
 					"style" : "",
-					"text" : "mp.TUI.canvas /WMglui @name #0.myMenu @position 0.2 0.2 -1. @scale 0.1 0.02 @color 0.2 0.2 0.4 0.2 "
+					"text" : "mp.TUI.canvas #1 @name #0.myMenu @position 0.2 0.2 -1. @scale 0.1 0.02 @color 0.2 0.2 0.4 0.2 "
 				}
 
 			}
