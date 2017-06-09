@@ -43,9 +43,9 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 590.0, 179.0, 137.0, 22.0 ],
+					"patching_rect" : [ 590.0, 179.0, 93.0, 22.0 ],
 					"style" : "",
-					"text" : "sprintf #0.multislider"
+					"text" : "sprintf #0.%s"
 				}
 
 			}
@@ -864,7 +864,6 @@
 , 											{
 												"box" : 												{
 													"id" : "obj-2",
-													"linecount" : 2,
 													"maxclass" : "newobj",
 													"numinlets" : 1,
 													"numoutlets" : 4,
