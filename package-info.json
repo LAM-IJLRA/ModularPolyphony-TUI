@@ -1,0 +1,32 @@
+{
+	"author" : "Vincent Goudard",
+	"authors" : [  ],
+	"description" : "OpenGL GUI toolbox supporting ModularPolyphony.",
+	"displayname" : "",
+	"extends" : "",
+	"extensible" : 0,
+	"homepatcher" : "mp.TUI.overview.maxpat",
+	"max_version_max" : "none",
+	"max_version_min" : "none",
+	"name" : "ModularPolyphony-TUI",
+	"os" : 	{
+		"macintosh" : 		{
+			"platform" : [ "ia32", "x64" ],
+			"min_version" : "none"
+		}
+,
+		"windows" : 		{
+			"platform" : [ "ia32", "x64" ],
+			"min_version" : "none"
+		}
+
+	}
+,
+	"package_extra" : 	{
+
+	}
+,
+	"tags" : [ "modular", "polyphony", "TUI"],
+	"version" : "1.0.0",
+	"website" : "http://vincentgoudard.com"
+}
