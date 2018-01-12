@@ -2,9 +2,9 @@
 	"patcher" : 	{
 		"fileversion" : 1,
 		"appversion" : 		{
-			"major" : 7,
-			"minor" : 3,
-			"revision" : 4,
+			"major" : 8,
+			"minor" : 0,
+			"revision" : 0,
 			"architecture" : "x86",
 			"modernui" : 1
 		}
@@ -44,6 +44,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 158.5, 153.0, 70.0, 22.0 ],
+					"presentation_rect" : [ 158.5, 153.0, 70.0, 22.0 ],
 					"style" : "",
 					"text" : "route value"
 				}
@@ -57,6 +58,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
 					"patching_rect" : [ 276.0, 166.0, 29.5, 22.0 ],
+					"presentation_rect" : [ 276.0, 166.0, 29.5, 22.0 ],
 					"style" : "",
 					"text" : "> 0"
 				}
@@ -70,6 +72,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 276.0, 200.0, 63.0, 22.0 ],
+					"presentation_rect" : [ 276.0, 200.0, 63.0, 22.0 ],
 					"style" : "",
 					"text" : "enable $1"
 				}
@@ -83,6 +86,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 276.0, 133.0, 29.5, 22.0 ],
+					"presentation_rect" : [ 276.0, 133.0, 29.5, 22.0 ],
 					"style" : "",
 					"text" : "$3"
 				}
@@ -96,8 +100,9 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 41.0, 263.0, 385.0, 22.0 ],
+					"presentation_rect" : [ 41.0, 263.0, 385.0, 22.0 ],
 					"style" : "",
-					"text" : "WM.TUI.multislider #2 @name #0.multimultislider @enable 0"
+					"text" : "mp.TUI.multislider #2 @name #0.multimultislider @enable 0"
 				}
 
 			}
@@ -109,6 +114,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 41.0, 139.0, 29.5, 22.0 ],
+					"presentation_rect" : [ 41.0, 139.0, 29.5, 22.0 ],
 					"style" : "",
 					"text" : "$3"
 				}
@@ -122,6 +128,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 276.0, 73.0, 54.0, 22.0 ],
+					"presentation_rect" : [ 276.0, 73.0, 54.0, 22.0 ],
 					"style" : "",
 					"text" : "mute $1"
 				}
@@ -135,6 +142,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
 					"patching_rect" : [ 276.0, 43.0, 35.0, 22.0 ],
+					"presentation_rect" : [ 276.0, 43.0, 35.0, 22.0 ],
 					"style" : "",
 					"text" : "== 0"
 				}
@@ -149,6 +157,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 346.5, 313.0, 39.0, 23.0 ],
+					"presentation_rect" : [ 346.5, 313.0, 39.0, 23.0 ],
 					"style" : "",
 					"text" : "out 2"
 				}
@@ -165,6 +174,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 41.0, 102.0, 254.0, 22.0 ],
+					"presentation_rect" : [ 41.0, 102.0, 254.0, 22.0 ],
 					"style" : "",
 					"text" : "mp.muter #1 @automute 0"
 				}
@@ -180,6 +190,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 369.5, 68.0, 30.0, 22.0 ],
+					"presentation_rect" : [ 369.5, 68.0, 30.0, 22.0 ],
 					"style" : "",
 					"text" : "in 2"
 				}
@@ -194,6 +205,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 41.0, 310.0, 39.0, 23.0 ],
+					"presentation_rect" : [ 41.0, 310.0, 39.0, 23.0 ],
 					"style" : "",
 					"text" : "out 1"
 				}
@@ -209,6 +221,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 41.0, 60.0, 30.0, 22.0 ],
+					"presentation_rect" : [ 41.0, 60.0, 30.0, 22.0 ],
 					"saved_object_attributes" : 					{
 						"attr_comment" : ""
 					}
@@ -237,6 +250,20 @@
 				"patchline" : 				{
 					"destination" : [ "obj-33", 1 ],
 					"source" : [ "obj-3", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-13", 0 ],
+					"source" : [ "obj-33", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-5", 0 ],
+					"source" : [ "obj-33", 0 ]
 				}
 
 			}
