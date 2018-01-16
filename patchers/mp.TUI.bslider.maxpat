@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 165.0, 78.0, 1085.0, 773.0 ],
+		"rect" : [ 474.0, 63.0, 1085.0, 773.0 ],
 		"bgcolor" : [ 0.873141, 0.888071, 0.887667, 1.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
@@ -26,7 +26,7 @@
 		"toptoolbarpinned" : 0,
 		"righttoolbarpinned" : 0,
 		"bottomtoolbarpinned" : 0,
-		"toolbars_unpinned_last_save" : 0,
+		"toolbars_unpinned_last_save" : 2,
 		"tallnewobj" : 0,
 		"boxanimatetime" : 200,
 		"enablehscroll" : 1,
@@ -174,6 +174,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 479.0, 146.0, 50.0, 35.0 ],
+									"presentation_linecount" : 2,
 									"presentation_rect" : [ 479.0, 146.0, 50.0, 35.0 ],
 									"style" : "",
 									"text" : "6.283185"
@@ -855,9 +856,10 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 361.0, 389.0, 50.0, 62.0 ],
+					"presentation_linecount" : 4,
 					"presentation_rect" : [ 361.0, 389.0, 50.0, 62.0 ],
 					"style" : "",
-					"text" : "-0.305808 0.461079 -99"
+					"text" : "-0.452183 0.424569 -99"
 				}
 
 			}
@@ -1084,6 +1086,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 156.5, 131.0, 67.0, 22.0 ],
+									"presentation_linecount" : 3,
 									"presentation_rect" : [ 156.5, 131.0, 67.0, 22.0 ],
 									"style" : "",
 									"text" : "r #0.length"
@@ -1099,6 +1102,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 236.0, 131.0, 63.0, 22.0 ],
+									"presentation_linecount" : 3,
 									"presentation_rect" : [ 236.0, 131.0, 63.0, 22.0 ],
 									"style" : "",
 									"text" : "r #0.width"
@@ -1156,6 +1160,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 92.0, 75.5, 107.0, 22.0 ],
+									"presentation_linecount" : 3,
 									"presentation_rect" : [ 92.0, 75.5, 107.0, 22.0 ],
 									"style" : "",
 									"text" : "r #0.mousecoords"
@@ -1213,6 +1218,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 37.0, 27.0, 60.0, 22.0 ],
+									"presentation_linecount" : 3,
 									"presentation_rect" : [ 37.0, 27.0, 60.0, 22.0 ],
 									"style" : "",
 									"text" : "r #0.case"
@@ -1473,6 +1479,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 272.5, 101.0, 131.0, 49.0 ],
+									"presentation_linecount" : 3,
 									"presentation_rect" : [ 272.5, 101.0, 131.0, 49.0 ],
 									"style" : "",
 									"text" : "r #0.closeCircleRadius"
@@ -1572,6 +1579,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 237.0, 212.0, 61.0, 49.0 ],
+									"presentation_linecount" : 3,
 									"presentation_rect" : [ 237.0, 212.0, 61.0, 49.0 ],
 									"style" : "",
 									"text" : "r #0.theta"
@@ -1615,6 +1623,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 111.0, 75.5, 107.0, 49.0 ],
+									"presentation_linecount" : 3,
 									"presentation_rect" : [ 111.0, 75.5, 107.0, 49.0 ],
 									"style" : "",
 									"text" : "r #0.mousecoords"
@@ -1672,6 +1681,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 56.0, 27.0, 60.0, 49.0 ],
+									"presentation_linecount" : 3,
 									"presentation_rect" : [ 56.0, 27.0, 60.0, 49.0 ],
 									"style" : "",
 									"text" : "r #0.case"
@@ -1701,6 +1711,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 82.0, 315.5, 63.0, 49.0 ],
+									"presentation_linecount" : 3,
 									"presentation_rect" : [ 82.0, 315.5, 63.0, 49.0 ],
 									"style" : "",
 									"text" : "r #0.width"
@@ -2092,7 +2103,7 @@
 							"modernui" : 1
 						}
 ,
-						"rect" : [ 59.0, 81.0, 1099.0, 480.0 ],
+						"rect" : [ 307.0, 300.0, 1099.0, 480.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -2120,6 +2131,62 @@
 						"style" : "",
 						"subpatcher_template" : "",
 						"boxes" : [ 							{
+								"box" : 								{
+									"id" : "obj-8",
+									"maxclass" : "newobj",
+									"numinlets" : 2,
+									"numoutlets" : 2,
+									"outlettype" : [ "", "" ],
+									"patching_rect" : [ 58.0, 228.0, 106.0, 22.0 ],
+									"presentation_rect" : [ 58.0, 228.0, 106.0, 22.0 ],
+									"style" : "",
+									"text" : "routepass position"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-6",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 2,
+									"outlettype" : [ "jit_matrix", "" ],
+									"patching_rect" : [ 173.0, 332.0, 381.0, 22.0 ],
+									"presentation_rect" : [ 173.0, 332.0, 381.0, 22.0 ],
+									"style" : "",
+									"text" : "jit.matrix 3 float32 40 @usesrcdim 1 @srcdimstart 39 @srcdimend 0"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-5",
+									"maxclass" : "newobj",
+									"numinlets" : 2,
+									"numoutlets" : 2,
+									"outlettype" : [ "jit_matrix", "" ],
+									"patching_rect" : [ 22.0, 370.0, 136.0, 22.0 ],
+									"presentation_rect" : [ 22.0, 370.0, 136.0, 22.0 ],
+									"style" : "",
+									"text" : "jit.concat @concatdim 0"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-4",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 3,
+									"outlettype" : [ "jit_matrix", "jit_matrix", "" ],
+									"patching_rect" : [ 58.0, 296.0, 181.0, 22.0 ],
+									"presentation_rect" : [ 58.0, 296.0, 181.0, 22.0 ],
+									"style" : "",
+									"text" : "jit.split @splitdim 1 @splitpoint 1"
+								}
+
+							}
+, 							{
 								"box" : 								{
 									"id" : "obj-13",
 									"maxclass" : "toggle",
@@ -2150,15 +2217,14 @@
 , 							{
 								"box" : 								{
 									"id" : "obj-12",
-									"linecount" : 2,
 									"maxclass" : "newobj",
 									"numinlets" : 9,
 									"numoutlets" : 2,
 									"outlettype" : [ "jit_matrix", "" ],
-									"patching_rect" : [ 159.875, 406.0, 510.0, 35.0 ],
-									"presentation_rect" : [ 159.875, 406.0, 510.0, 35.0 ],
+									"patching_rect" : [ 216.875, 417.0, 526.0, 22.0 ],
+									"presentation_rect" : [ 216.875, 417.0, 526.0, 22.0 ],
 									"style" : "",
-									"text" : "jit.gl.mesh #1 @draw_mode quad_strip @color 0 1 1 1 @layer -3 @poly_mode 1 1 @enable 0"
+									"text" : "jit.gl.mesh #1 @draw_mode polygon @color 0 1 1 1 @layer -3 @poly_mode 1 1 @enable 0"
 								}
 
 							}
@@ -2304,6 +2370,20 @@
 								}
 
 							}
+, 							{
+								"box" : 								{
+									"attr" : "draw_mode",
+									"id" : "obj-9",
+									"maxclass" : "attrui",
+									"numinlets" : 1,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 216.875, 387.0, 150.0, 22.0 ],
+									"presentation_rect" : [ 216.875, 387.0, 150.0, 22.0 ],
+									"style" : ""
+								}
+
+							}
  ],
 						"lines" : [ 							{
 								"patchline" : 								{
@@ -2329,7 +2409,7 @@
 							}
 , 							{
 								"patchline" : 								{
-									"destination" : [ "obj-12", 0 ],
+									"destination" : [ "obj-162", 0 ],
 									"order" : 0,
 									"source" : [ "obj-15", 0 ]
 								}
@@ -2337,7 +2417,7 @@
 							}
 , 							{
 								"patchline" : 								{
-									"destination" : [ "obj-162", 0 ],
+									"destination" : [ "obj-8", 0 ],
 									"order" : 1,
 									"source" : [ "obj-15", 0 ]
 								}
@@ -2408,6 +2488,55 @@
 								"patchline" : 								{
 									"destination" : [ "obj-13", 0 ],
 									"source" : [ "obj-37", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-5", 0 ],
+									"source" : [ "obj-4", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-6", 0 ],
+									"source" : [ "obj-4", 1 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-12", 0 ],
+									"source" : [ "obj-5", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-5", 1 ],
+									"source" : [ "obj-6", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-12", 0 ],
+									"source" : [ "obj-8", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-4", 0 ],
+									"source" : [ "obj-8", 1 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-12", 0 ],
+									"source" : [ "obj-9", 0 ]
 								}
 
 							}
@@ -3924,7 +4053,7 @@
 							"modernui" : 1
 						}
 ,
-						"rect" : [ 382.0, 78.0, 1337.0, 736.0 ],
+						"rect" : [ 69.0, 78.0, 1337.0, 736.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -7126,6 +7255,7 @@
 																	"numoutlets" : 1,
 																	"outlettype" : [ "" ],
 																	"patching_rect" : [ 19.0, 64.0, 183.0, 35.0 ],
+																	"presentation_linecount" : 2,
 																	"presentation_rect" : [ 19.0, 64.0, 183.0, 35.0 ],
 																	"style" : "",
 																	"text" : ";\rmax getsystem #0_getsystem"
@@ -8614,6 +8744,7 @@
 																	"numinlets" : 1,
 																	"numoutlets" : 0,
 																	"patching_rect" : [ 207.0, 324.0, 331.0, 127.0 ],
+																	"presentation_linecount" : 9,
 																	"presentation_rect" : [ 207.0, 324.0, 331.0, 127.0 ],
 																	"style" : "",
 																	"text" : "This can be done using Newton's Method as follows. Guess a starting \nvalue of\n\n     x(0) = sqrt(6-6*k)\n\nThen for each n = 0, 1, 2, ..., compute\n\n     x(n+1) = x(n) - (sin[x(n)]-k*x[n])/(cos[x(n)]-k)"
@@ -9117,6 +9248,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 0,
 									"patching_rect" : [ 36.0, 397.0, 150.0, 33.0 ],
+									"presentation_linecount" : 2,
 									"presentation_rect" : [ 36.0, 397.0, 150.0, 33.0 ],
 									"style" : "",
 									"text" : "http://mathforum.org/library/drmath/view/51797.html"
@@ -9131,6 +9263,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 0,
 									"patching_rect" : [ 36.0, 297.0, 150.0, 87.0 ],
+									"presentation_linecount" : 6,
 									"presentation_rect" : [ 36.0, 297.0, 150.0, 87.0 ],
 									"style" : "",
 									"text" : "exact answer :\nhttps://math.stackexchange.com/questions/8487/calculating-the-height-of-a-circular-segment-at-all-points-provided-only-chord-a"
@@ -9145,6 +9278,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 0,
 									"patching_rect" : [ 34.0, 233.0, 150.0, 47.0 ],
+									"presentation_linecount" : 3,
 									"presentation_rect" : [ 34.0, 233.0, 150.0, 47.0 ],
 									"style" : "",
 									"text" : "approximate formula : http://mathworld.wolfram.com/CircularSegment.html"
@@ -9159,6 +9293,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 0,
 									"patching_rect" : [ 19.75, 131.0, 150.0, 74.0 ],
+									"presentation_linecount" : 5,
 									"presentation_rect" : [ 19.75, 131.0, 150.0, 74.0 ],
 									"style" : "",
 									"text" : "https://math.stackexchange.com/questions/1779414/2d-parametric-equation-for-an-arc-between-two-points-with-a-start-angle"
@@ -9638,6 +9773,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 132.0, 65.0, 570.0, 35.0 ],
+					"presentation_linecount" : 2,
 					"presentation_rect" : [ 132.0, 65.0, 570.0, 35.0 ],
 					"style" : "",
 					"text" : "patcherargs @position 0 0 @scale 0.1 0.1 @rotatexyz 0 0 0 @name #0.bslider @length -0.4 @offset 40"
