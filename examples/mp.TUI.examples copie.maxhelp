@@ -746,7 +746,7 @@
 									"presentation_linecount" : 3,
 									"presentation_rect" : [ 126.0, 218.0, 50.0, 49.0 ],
 									"style" : "",
-									"text" : "send 2450.bslider"
+									"text" : "send 1652.dial"
 								}
 
 							}
@@ -868,7 +868,7 @@
 									"patching_rect" : [ 267.666718, 201.0, 142.0, 22.0 ],
 									"presentation_rect" : [ 267.666718, 201.0, 142.0, 22.0 ],
 									"style" : "",
-									"text" : "2450.bslider"
+									"text" : "1652.dial"
 								}
 
 							}
@@ -1187,7 +1187,7 @@
 							"modernui" : 1
 						}
 ,
-						"rect" : [ 624.0, 387.0, 776.0, 481.0 ],
+						"rect" : [ 49.0, 141.0, 478.0, 365.0 ],
 						"bgcolor" : [ 0.9, 0.91, 0.91, 1.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
@@ -4060,13 +4060,13 @@
 													"presentation_rect" : [ 15.0, 496.0, 329.0, 24.0 ],
 													"saved_attribute_attributes" : 													{
 														"valueof" : 														{
-															"parameter_type" : 0,
-															"parameter_unitstyle" : 4,
 															"parameter_mmin" : -70.0,
 															"parameter_longname" : "live.gain~[10]",
 															"parameter_mmax" : 6.0,
 															"parameter_initial" : [ 0.0 ],
-															"parameter_shortname" : "live.gain~[9]"
+															"parameter_shortname" : "live.gain~[9]",
+															"parameter_type" : 0,
+															"parameter_unitstyle" : 4
 														}
 
 													}
@@ -13124,13 +13124,13 @@
 													"presentation_rect" : [ 436.0, 356.589478, 175.0, 31.0 ],
 													"saved_attribute_attributes" : 													{
 														"valueof" : 														{
-															"parameter_type" : 0,
-															"parameter_unitstyle" : 4,
 															"parameter_mmin" : -70.0,
 															"parameter_longname" : "live.gain~[8]",
 															"parameter_mmax" : 6.0,
 															"parameter_initial" : [ 0.0 ],
-															"parameter_shortname" : "live.gain~"
+															"parameter_shortname" : "live.gain~",
+															"parameter_type" : 0,
+															"parameter_unitstyle" : 4
 														}
 
 													}
@@ -17944,13 +17944,13 @@
 													"presentation_rect" : [ 74.0, 416.0, 123.0, 24.0 ],
 													"saved_attribute_attributes" : 													{
 														"valueof" : 														{
-															"parameter_type" : 0,
-															"parameter_unitstyle" : 4,
 															"parameter_mmin" : -70.0,
 															"parameter_longname" : "live.gain~[7]",
 															"parameter_mmax" : 6.0,
 															"parameter_initial" : [ 0.0 ],
-															"parameter_shortname" : "live.gain~"
+															"parameter_shortname" : "live.gain~",
+															"parameter_type" : 0,
+															"parameter_unitstyle" : 4
 														}
 
 													}
@@ -19172,13 +19172,13 @@
 													"presentation_rect" : [ 114.0, 370.0, 136.0, 31.0 ],
 													"saved_attribute_attributes" : 													{
 														"valueof" : 														{
-															"parameter_type" : 0,
-															"parameter_unitstyle" : 4,
 															"parameter_mmin" : -70.0,
 															"parameter_longname" : "live.gain~[4]",
 															"parameter_mmax" : 6.0,
 															"parameter_initial" : [ 0.0 ],
-															"parameter_shortname" : "live.gain~[4]"
+															"parameter_shortname" : "live.gain~[4]",
+															"parameter_type" : 0,
+															"parameter_unitstyle" : 4
 														}
 
 													}
@@ -24336,7 +24336,7 @@
 											"modernui" : 1
 										}
 ,
-										"rect" : [ 500.0, 104.0, 906.0, 742.0 ],
+										"rect" : [ -130.0, 89.0, 906.0, 742.0 ],
 										"bgcolor" : [ 0.9, 0.91, 0.91, 1.0 ],
 										"bglocked" : 0,
 										"openinpresentation" : 0,
@@ -24365,6 +24365,33 @@
 										"style" : "",
 										"subpatcher_template" : "WM-lib.HelpPatcher",
 										"boxes" : [ 											{
+												"box" : 												{
+													"id" : "obj-17",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 1,
+													"outlettype" : [ "" ],
+													"patching_rect" : [ 240.0, 286.0, 153.0, 22.0 ],
+													"presentation_rect" : [ 240.0, 286.0, 153.0, 22.0 ],
+													"style" : "",
+													"text" : "mp.TUI.GLparameters.GUI"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"id" : "obj-13",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 0,
+													"patching_rect" : [ 234.0, 325.0, 191.0, 22.0 ],
+													"presentation_rect" : [ 234.0, 325.0, 191.0, 22.0 ],
+													"style" : "",
+													"text" : "mp.TUI.group /WMglui @name g1"
+												}
+
+											}
+, 											{
 												"box" : 												{
 													"id" : "obj-22",
 													"maxclass" : "message",
@@ -29067,8 +29094,8 @@
  ]
 													}
 ,
-													"patching_rect" : [ 442.0, 402.0, 39.0, 22.0 ],
-													"presentation_rect" : [ 442.0, 402.0, 39.0, 22.0 ],
+													"patching_rect" : [ 390.0, 401.0, 39.0, 22.0 ],
+													"presentation_rect" : [ 390.0, 401.0, 39.0, 22.0 ],
 													"saved_object_attributes" : 													{
 														"description" : "",
 														"digest" : "",
@@ -29268,13 +29295,13 @@
 																					"presentation_rect" : [ 50.0, 362.0, 211.0, 24.0 ],
 																					"saved_attribute_attributes" : 																					{
 																						"valueof" : 																						{
-																							"parameter_type" : 0,
-																							"parameter_unitstyle" : 4,
 																							"parameter_mmin" : -70.0,
 																							"parameter_longname" : "live.gain~[5]",
 																							"parameter_mmax" : 6.0,
 																							"parameter_initial" : [ 0.0 ],
-																							"parameter_shortname" : "live.gain~[5]"
+																							"parameter_shortname" : "live.gain~[5]",
+																							"parameter_type" : 0,
+																							"parameter_unitstyle" : 4
 																						}
 
 																					}
@@ -31522,6 +31549,13 @@
 											}
 , 											{
 												"patchline" : 												{
+													"destination" : [ "obj-13", 0 ],
+													"source" : [ "obj-17", 0 ]
+												}
+
+											}
+, 											{
+												"patchline" : 												{
 													"destination" : [ "obj-9", 0 ],
 													"order" : 1,
 													"source" : [ "obj-18", 0 ]
@@ -32899,13 +32933,13 @@
 																	"presentation_rect" : [ 50.0, 395.0, 136.0, 24.0 ],
 																	"saved_attribute_attributes" : 																	{
 																		"valueof" : 																		{
-																			"parameter_type" : 0,
-																			"parameter_unitstyle" : 4,
 																			"parameter_mmin" : -70.0,
 																			"parameter_longname" : "live.gain~[6]",
 																			"parameter_mmax" : 6.0,
 																			"parameter_initial" : [ 0.0 ],
-																			"parameter_shortname" : "live.gain~"
+																			"parameter_shortname" : "live.gain~",
+																			"parameter_type" : 0,
+																			"parameter_unitstyle" : 4
 																		}
 
 																	}
@@ -35311,13 +35345,13 @@
 																	"presentation_rect" : [ 50.0, 398.0, 136.0, 24.0 ],
 																	"saved_attribute_attributes" : 																	{
 																		"valueof" : 																		{
-																			"parameter_type" : 0,
-																			"parameter_unitstyle" : 4,
 																			"parameter_mmin" : -70.0,
 																			"parameter_longname" : "live.gain~[11]",
 																			"parameter_mmax" : 6.0,
 																			"parameter_initial" : [ 0.0 ],
-																			"parameter_shortname" : "live.gain~"
+																			"parameter_shortname" : "live.gain~",
+																			"parameter_type" : 0,
+																			"parameter_unitstyle" : 4
 																		}
 
 																	}
@@ -36840,55 +36874,55 @@
 			}
  ],
 		"parameters" : 		{
-			"obj-2::obj-21::obj-100::obj-30::obj-26" : [ "live.gain~[5]", "live.gain~[5]", 0 ],
-			"obj-2::obj-8::obj-8::obj-73.4::obj-23" : [ "number[8]", "number[2]", 0 ],
-			"obj-2::obj-8::obj-8::obj-73.5::obj-22" : [ "number[12]", "number[2]", 0 ],
-			"obj-2::obj-8::obj-8::obj-73.6::obj-22" : [ "number[15]", "number[2]", 0 ],
-			"obj-2::obj-8::obj-5::obj-13::obj-13" : [ "live.gain~[2]", "live.gain~", 0 ],
-			"obj-2::obj-8::obj-8::obj-73.1::obj-15" : [ "flonum[8]", "flonum", 0 ],
-			"obj-2::obj-8::obj-8::obj-73.7::obj-23" : [ "number[17]", "number[2]", 0 ],
-			"obj-2::obj-8::obj-8::obj-73.2::obj-23" : [ "number[2]", "number[2]", 0 ],
+			"obj-2::obj-8::obj-8::obj-73.6::obj-15" : [ "flonum[4]", "flonum", 0 ],
+			"obj-2::obj-8::obj-8::obj-73.7::obj-15" : [ "flonum[10]", "flonum", 0 ],
 			"obj-2::obj-8::obj-8::obj-73.8::obj-15" : [ "flonum[11]", "flonum", 0 ],
-			"obj-2::obj-8::obj-8::obj-73.3::obj-22" : [ "number[6]", "number[2]", 0 ],
-			"obj-2::obj-8::obj-8::obj-73.1::obj-23" : [ "number[23]", "number[2]", 0 ],
-			"obj-2::obj-8::obj-8::obj-73.9::obj-22" : [ "number[27]", "number[2]", 0 ],
-			"obj-2::obj-22::obj-87" : [ "live.gain~[8]", "live.gain~", 0 ],
-			"obj-2::obj-8::obj-8::obj-73.4::obj-22" : [ "number[9]", "number[2]", 0 ],
-			"obj-2::obj-8::obj-8::obj-73.1::obj-22" : [ "number[24]", "number[2]", 0 ],
-			"obj-2::obj-8::obj-8::obj-73.10::obj-24" : [ "number[28]", "number[2]", 0 ],
-			"obj-2::obj-8::obj-8::obj-73.5::obj-23" : [ "number[11]", "number[2]", 0 ],
+			"obj-2::obj-8::obj-8::obj-73.2::obj-15" : [ "flonum[1]", "flonum", 0 ],
+			"obj-2::obj-8::obj-8::obj-73.9::obj-15" : [ "flonum[12]", "flonum", 0 ],
+			"obj-2::obj-26::obj-9" : [ "live.gain~[10]", "live.gain~[9]", 0 ],
+			"obj-2::obj-8::obj-8::obj-73.3::obj-15" : [ "flonum[9]", "flonum", 0 ],
+			"obj-2::obj-18::obj-198::obj-260" : [ "live.gain~[11]", "live.gain~", 0 ],
+			"obj-2::obj-8::obj-8::obj-73.10::obj-23" : [ "number[29]", "number[2]", 0 ],
+			"obj-2::obj-8::obj-8::obj-73.4::obj-23" : [ "number[8]", "number[2]", 0 ],
+			"obj-2::obj-3::obj-23" : [ "live.gain~[4]", "live.gain~[4]", 0 ],
+			"obj-2::obj-8::obj-8::obj-73.5::obj-15" : [ "flonum[3]", "flonum", 0 ],
 			"obj-2::obj-8::obj-8::obj-73.6::obj-23" : [ "number[14]", "number[2]", 0 ],
-			"obj-2::obj-1::obj-10::obj-13::obj-13" : [ "live.gain~[18]", "live.gain~", 0 ],
-			"obj-2::obj-8::obj-8::obj-73.7::obj-22" : [ "number[25]", "number[2]", 0 ],
+			"obj-2::obj-8::obj-8::obj-73.7::obj-23" : [ "number[17]", "number[2]", 0 ],
 			"obj-2::obj-8::obj-8::obj-73.8::obj-23" : [ "number[19]", "number[2]", 0 ],
+			"obj-2::obj-8::obj-8::obj-73.3::obj-23" : [ "number[5]", "number[2]", 0 ],
+			"obj-2::obj-8::obj-8::obj-73.2::obj-23" : [ "number[2]", "number[2]", 0 ],
 			"obj-2::obj-8::obj-8::obj-73.9::obj-23" : [ "number[21]", "number[2]", 0 ],
 			"obj-2::obj-5::obj-61" : [ "live.gain~[7]", "live.gain~", 0 ],
+			"obj-2::obj-21::obj-100::obj-30::obj-26" : [ "live.gain~[5]", "live.gain~[5]", 0 ],
+			"obj-2::obj-8::obj-8::obj-73.4::obj-22" : [ "number[9]", "number[2]", 0 ],
+			"obj-2::obj-8::obj-5::obj-13::obj-13" : [ "live.gain~[2]", "live.gain~", 0 ],
+			"obj-2::obj-8::obj-8::obj-73.10::obj-24" : [ "number[28]", "number[2]", 0 ],
+			"obj-2::obj-8::obj-8::obj-73.5::obj-23" : [ "number[11]", "number[2]", 0 ],
+			"obj-2::obj-8::obj-8::obj-73.6::obj-22" : [ "number[15]", "number[2]", 0 ],
+			"obj-2::obj-22::obj-87" : [ "live.gain~[8]", "live.gain~", 0 ],
+			"obj-2::obj-8::obj-8::obj-73.7::obj-22" : [ "number[25]", "number[2]", 0 ],
+			"obj-2::obj-8::obj-8::obj-73.8::obj-22" : [ "number[26]", "number[2]", 0 ],
+			"obj-2::obj-8::obj-8::obj-73.9::obj-24" : [ "number[20]", "number[2]", 0 ],
 			"obj-2::obj-8::obj-8::obj-73.10::obj-15" : [ "flonum[13]", "flonum", 0 ],
-			"obj-2::obj-20::obj-198::obj-260" : [ "live.gain~[6]", "live.gain~", 0 ],
-			"obj-2::obj-3::obj-23" : [ "live.gain~[4]", "live.gain~[4]", 0 ],
-			"obj-2::obj-18::obj-198::obj-260" : [ "live.gain~[11]", "live.gain~", 0 ],
-			"obj-2::obj-8::obj-8::obj-73.1::obj-24" : [ "number[22]", "number[2]", 0 ],
-			"obj-2::obj-8::obj-8::obj-73.3::obj-24" : [ "number[4]", "number[2]", 0 ],
+			"obj-2::obj-8::obj-8::obj-73.2::obj-22" : [ "number[3]", "number[2]", 0 ],
+			"obj-2::obj-8::obj-8::obj-73.3::obj-22" : [ "number[6]", "number[2]", 0 ],
+			"obj-2::obj-1::obj-10::obj-13::obj-13" : [ "live.gain~[18]", "live.gain~", 0 ],
 			"obj-2::obj-8::obj-8::obj-73.4::obj-24" : [ "number[7]", "number[2]", 0 ],
-			"obj-2::obj-8::obj-8::obj-73.5::obj-15" : [ "flonum[3]", "flonum", 0 ],
-			"obj-2::obj-8::obj-8::obj-73.6::obj-15" : [ "flonum[4]", "flonum", 0 ],
+			"obj-2::obj-8::obj-8::obj-73.2::obj-24" : [ "number[1]", "number[2]", 0 ],
+			"obj-2::obj-8::obj-8::obj-73.5::obj-22" : [ "number[12]", "number[2]", 0 ],
+			"obj-2::obj-8::obj-8::obj-73.6::obj-24" : [ "number[13]", "number[2]", 0 ],
 			"obj-2::obj-8::obj-8::obj-73.7::obj-24" : [ "number[16]", "number[2]", 0 ],
-			"obj-2::obj-26::obj-9" : [ "live.gain~[10]", "live.gain~[9]", 0 ],
+			"obj-2::obj-8::obj-8::obj-73.1::obj-15" : [ "flonum[8]", "flonum", 0 ],
 			"obj-2::obj-8::obj-8::obj-73.8::obj-24" : [ "number[18]", "number[2]", 0 ],
-			"obj-2::obj-8::obj-8::obj-73.3::obj-15" : [ "flonum[9]", "flonum", 0 ],
-			"obj-2::obj-8::obj-8::obj-73.9::obj-15" : [ "flonum[12]", "flonum", 0 ],
+			"obj-2::obj-20::obj-198::obj-260" : [ "live.gain~[6]", "live.gain~", 0 ],
+			"obj-2::obj-8::obj-8::obj-73.3::obj-24" : [ "number[4]", "number[2]", 0 ],
+			"obj-2::obj-8::obj-8::obj-73.1::obj-24" : [ "number[22]", "number[2]", 0 ],
+			"obj-2::obj-8::obj-8::obj-73.9::obj-22" : [ "number[27]", "number[2]", 0 ],
 			"obj-2::obj-8::obj-8::obj-73.4::obj-15" : [ "flonum[2]", "flonum", 0 ],
+			"obj-2::obj-8::obj-8::obj-73.1::obj-23" : [ "number[23]", "number[2]", 0 ],
 			"obj-2::obj-8::obj-8::obj-73.10::obj-22" : [ "number[30]", "number[2]", 0 ],
 			"obj-2::obj-8::obj-8::obj-73.5::obj-24" : [ "number[10]", "number[2]", 0 ],
-			"obj-2::obj-8::obj-8::obj-73.6::obj-24" : [ "number[13]", "number[2]", 0 ],
-			"obj-2::obj-8::obj-8::obj-73.7::obj-15" : [ "flonum[10]", "flonum", 0 ],
-			"obj-2::obj-8::obj-8::obj-73.2::obj-22" : [ "number[3]", "number[2]", 0 ],
-			"obj-2::obj-8::obj-8::obj-73.8::obj-22" : [ "number[26]", "number[2]", 0 ],
-			"obj-2::obj-8::obj-8::obj-73.2::obj-15" : [ "flonum[1]", "flonum", 0 ],
-			"obj-2::obj-8::obj-8::obj-73.9::obj-24" : [ "number[20]", "number[2]", 0 ],
-			"obj-2::obj-8::obj-8::obj-73.3::obj-23" : [ "number[5]", "number[2]", 0 ],
-			"obj-2::obj-8::obj-8::obj-73.2::obj-24" : [ "number[1]", "number[2]", 0 ],
-			"obj-2::obj-8::obj-8::obj-73.10::obj-23" : [ "number[29]", "number[2]", 0 ],
+			"obj-2::obj-8::obj-8::obj-73.1::obj-22" : [ "number[24]", "number[2]", 0 ],
 			"parameterbanks" : 			{
 
 			}
@@ -37363,6 +37397,20 @@
 			}
 , 			{
 				"name" : "mp.TUI.2Dslider.maxpat",
+				"bootpath" : "~/Documents/Max 7/Packages/ModularPolyphony-TUI/patchers",
+				"patcherrelativepath" : "../patchers",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "mp.TUI.group.maxpat",
+				"bootpath" : "~/Documents/Max 7/Packages/ModularPolyphony-TUI/patchers",
+				"patcherrelativepath" : "../patchers",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "mp.TUI.GLparameters.GUI.maxpat",
 				"bootpath" : "~/Documents/Max 7/Packages/ModularPolyphony-TUI/patchers",
 				"patcherrelativepath" : "../patchers",
 				"type" : "JSON",
