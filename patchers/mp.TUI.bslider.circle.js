@@ -1,4 +1,4 @@
-outlets = 2;
+outlets = 1;
 
 function Circle() { 
     
@@ -13,12 +13,9 @@ function Circle() {
     var Denom = 2*((x2-x1)*(y3-y2) - (y2-y1)*(x3-x2));
     var Num1 = (x2*x2-x1*x1+y2*y2-y1*y1);
     var Num2 = (x3*x3-x2*x2+y3*y3-y2*y2);
-	var ArcCircleBar = (Num2==1)+(Denom==0)+1;
     //outlet(1, "Denom", Denom);
     //outlet(1, "Num1", Num1);
     //outlet(1, "Num2", Num2);
-
-	outlet(1, ArcCircleBar);
 	
     var Xc = ((y3-y2)*Num1 - (y2-y1)*Num2) / Denom;
     var Yc = ((x2-x1)*Num2 - (x3-x2)*Num1) / Denom;
