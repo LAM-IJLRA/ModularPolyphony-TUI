@@ -1311,7 +1311,7 @@
 					"patching_rect" : [ 178.333328, 197.783539, 199.0, 22.0 ],
 					"presentation_rect" : [ 178.333328, 197.783539, 199.0, 22.0 ],
 					"style" : "",
-					"text" : "mp.TUI.InvWorldTransform #0"
+					"text" : "mp.TUI.InvWorldTransform 7442"
 				}
 
 			}
@@ -1361,19 +1361,6 @@
 						"style" : "",
 						"subpatcher_template" : "",
 						"boxes" : [ 							{
-								"box" : 								{
-									"id" : "obj-1",
-									"maxclass" : "newobj",
-									"numinlets" : 1,
-									"numoutlets" : 0,
-									"patching_rect" : [ 219.666672, 168.0, 144.0, 22.0 ],
-									"presentation_rect" : [ 219.666672, 168.0, 144.0, 22.0 ],
-									"style" : "",
-									"text" : "s #0.getworldtransform"
-								}
-
-							}
-, 							{
 								"box" : 								{
 									"id" : "obj-8",
 									"maxclass" : "newobj",
@@ -1452,7 +1439,7 @@
 							}
 , 							{
 								"patchline" : 								{
-									"destination" : [ "obj-1", 0 ],
+									"destination" : [ "obj-12", 0 ],
 									"order" : 0,
 									"source" : [ "obj-17", 0 ]
 								}
@@ -1460,16 +1447,8 @@
 							}
 , 							{
 								"patchline" : 								{
-									"destination" : [ "obj-12", 0 ],
-									"order" : 1,
-									"source" : [ "obj-17", 0 ]
-								}
-
-							}
-, 							{
-								"patchline" : 								{
 									"destination" : [ "obj-14", 0 ],
-									"order" : 2,
+									"order" : 1,
 									"source" : [ "obj-17", 0 ]
 								}
 
