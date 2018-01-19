@@ -773,7 +773,7 @@
 									"presentation_linecount" : 3,
 									"presentation_rect" : [ 126.0, 218.0, 50.0, 49.0 ],
 									"style" : "",
-									"text" : "send 31106.slider"
+									"text" : "send 34309.slider"
 								}
 
 							}
@@ -895,7 +895,7 @@
 									"patching_rect" : [ 267.666718, 201.0, 142.0, 22.0 ],
 									"presentation_rect" : [ 267.666718, 201.0, 142.0, 22.0 ],
 									"style" : "",
-									"text" : "31106.slider"
+									"text" : "34309.slider"
 								}
 
 							}
@@ -1242,7 +1242,6 @@
 						"tags" : "",
 						"style" : "",
 						"subpatcher_template" : "WM-lib.HelpPatcher",
-						"visible" : 1,
 						"boxes" : [ 							{
 								"box" : 								{
 									"id" : "obj-23",
@@ -24392,7 +24391,6 @@
 										"tags" : "",
 										"style" : "",
 										"subpatcher_template" : "WM-lib.HelpPatcher",
-										"visible" : 1,
 										"boxes" : [ 											{
 												"box" : 												{
 													"id" : "obj-105",
@@ -24410,7 +24408,7 @@
 															"modernui" : 1
 														}
 ,
-														"rect" : [ 0.0, 0.0, 640.0, 480.0 ],
+														"rect" : [ 59.0, 103.0, 640.0, 480.0 ],
 														"bgcolor" : [ 0.9, 0.91, 0.91, 1.0 ],
 														"bglocked" : 0,
 														"openinpresentation" : 0,
@@ -24876,7 +24874,7 @@
 															"modernui" : 1
 														}
 ,
-														"rect" : [ 59.0, 103.0, 640.0, 480.0 ],
+														"rect" : [ 59.0, 103.0, 852.0, 480.0 ],
 														"bgcolor" : [ 0.9, 0.91, 0.91, 1.0 ],
 														"bglocked" : 0,
 														"openinpresentation" : 0,
@@ -24921,7 +24919,7 @@
 																			"modernui" : 1
 																		}
 ,
-																		"rect" : [ 23.0, 155.0, 550.0, 258.0 ],
+																		"rect" : [ 34.0, 155.0, 550.0, 258.0 ],
 																		"bgcolor" : [ 0.9, 0.91, 0.91, 1.0 ],
 																		"bglocked" : 0,
 																		"openinpresentation" : 0,
@@ -24950,6 +24948,34 @@
 																		"style" : "",
 																		"subpatcher_template" : "WM-lib.HelpPatcher",
 																		"boxes" : [ 																			{
+																				"box" : 																				{
+																					"id" : "obj-9",
+																					"maxclass" : "number",
+																					"numinlets" : 1,
+																					"numoutlets" : 2,
+																					"outlettype" : [ "", "bang" ],
+																					"parameter_enable" : 0,
+																					"patching_rect" : [ 97.5, 194.0, 50.0, 22.0 ],
+																					"presentation_rect" : [ 97.5, 194.0, 50.0, 22.0 ],
+																					"style" : ""
+																				}
+
+																			}
+, 																			{
+																				"box" : 																				{
+																					"id" : "obj-3",
+																					"maxclass" : "message",
+																					"numinlets" : 2,
+																					"numoutlets" : 1,
+																					"outlettype" : [ "" ],
+																					"patching_rect" : [ 102.5, 221.0, 45.0, 22.0 ],
+																					"presentation_rect" : [ 102.5, 221.0, 45.0, 22.0 ],
+																					"style" : "",
+																					"text" : "dim $1"
+																				}
+
+																			}
+, 																			{
 																				"box" : 																				{
 																					"format" : 6,
 																					"id" : "obj-6",
@@ -25253,6 +25279,13 @@
 																			}
 , 																			{
 																				"patchline" : 																				{
+																					"destination" : [ "obj-72", 0 ],
+																					"source" : [ "obj-3", 0 ]
+																				}
+
+																			}
+, 																			{
+																				"patchline" : 																				{
 																					"destination" : [ "obj-29", 2 ],
 																					"source" : [ "obj-30", 0 ]
 																				}
@@ -25283,6 +25316,13 @@
 																				"patchline" : 																				{
 																					"destination" : [ "obj-72", 0 ],
 																					"source" : [ "obj-7", 0 ]
+																				}
+
+																			}
+, 																			{
+																				"patchline" : 																				{
+																					"destination" : [ "obj-3", 0 ],
+																					"source" : [ "obj-9", 0 ]
 																				}
 
 																			}
@@ -27309,7 +27349,7 @@
 													"patching_rect" : [ 248.0, 401.0, 51.0, 22.0 ],
 													"presentation_rect" : [ 248.0, 401.0, 51.0, 22.0 ],
 													"style" : "",
-													"text" : "anim"
+													"text" : "anim g1"
 												}
 
 											}
@@ -34000,7 +34040,7 @@
 , 											{
 												"patchline" : 												{
 													"destination" : [ "obj-100", 0 ],
-													"order" : 4,
+													"order" : 5,
 													"source" : [ "obj-22", 0 ]
 												}
 
@@ -34015,23 +34055,15 @@
 											}
 , 											{
 												"patchline" : 												{
+													"destination" : [ "obj-105", 1 ],
+													"order" : 1,
+													"source" : [ "obj-22", 0 ]
+												}
+
+											}
+, 											{
+												"patchline" : 												{
 													"destination" : [ "obj-64", 1 ],
-													"order" : 2,
-													"source" : [ "obj-22", 0 ]
-												}
-
-											}
-, 											{
-												"patchline" : 												{
-													"destination" : [ "obj-67", 0 ],
-													"order" : 5,
-													"source" : [ "obj-22", 0 ]
-												}
-
-											}
-, 											{
-												"patchline" : 												{
-													"destination" : [ "obj-81", 1 ],
 													"order" : 3,
 													"source" : [ "obj-22", 0 ]
 												}
@@ -34039,8 +34071,24 @@
 											}
 , 											{
 												"patchline" : 												{
+													"destination" : [ "obj-67", 0 ],
+													"order" : 6,
+													"source" : [ "obj-22", 0 ]
+												}
+
+											}
+, 											{
+												"patchline" : 												{
+													"destination" : [ "obj-81", 1 ],
+													"order" : 4,
+													"source" : [ "obj-22", 0 ]
+												}
+
+											}
+, 											{
+												"patchline" : 												{
 													"destination" : [ "obj-85", 1 ],
-													"order" : 1,
+													"order" : 2,
 													"source" : [ "obj-22", 0 ]
 												}
 
