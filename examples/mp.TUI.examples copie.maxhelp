@@ -773,7 +773,7 @@
 									"presentation_linecount" : 3,
 									"presentation_rect" : [ 126.0, 218.0, 50.0, 49.0 ],
 									"style" : "",
-									"text" : "send 34309.slider"
+									"text" : "send 32672.slider"
 								}
 
 							}
@@ -895,7 +895,7 @@
 									"patching_rect" : [ 267.666718, 201.0, 142.0, 22.0 ],
 									"presentation_rect" : [ 267.666718, 201.0, 142.0, 22.0 ],
 									"style" : "",
-									"text" : "34309.slider"
+									"text" : "32672.slider"
 								}
 
 							}
@@ -24363,7 +24363,7 @@
 											"modernui" : 1
 										}
 ,
-										"rect" : [ 500.0, 46.0, 906.0, 742.0 ],
+										"rect" : [ 34.0, 78.0, 759.0, 754.0 ],
 										"bgcolor" : [ 0.9, 0.91, 0.91, 1.0 ],
 										"bglocked" : 0,
 										"openinpresentation" : 0,
@@ -25349,8 +25349,8 @@
 																	"id" : "obj-28",
 																	"maxclass" : "newobj",
 																	"numinlets" : 2,
-																	"numoutlets" : 1,
-																	"outlettype" : [ "" ],
+																	"numoutlets" : 2,
+																	"outlettype" : [ "", "" ],
 																	"patching_rect" : [ 50.0, 136.0, 664.0, 22.0 ],
 																	"presentation_rect" : [ 50.0, 136.0, 664.0, 22.0 ],
 																	"style" : "",
@@ -25522,7 +25522,7 @@
 															"modernui" : 1
 														}
 ,
-														"rect" : [ 39.0, 428.0, 550.0, 258.0 ],
+														"rect" : [ -96.0, 488.0, 550.0, 258.0 ],
 														"bgcolor" : [ 0.9, 0.91, 0.91, 1.0 ],
 														"bglocked" : 0,
 														"openinpresentation" : 0,
@@ -27346,10 +27346,10 @@
 													"numinlets" : 2,
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
-													"patching_rect" : [ 248.0, 401.0, 51.0, 22.0 ],
-													"presentation_rect" : [ 248.0, 401.0, 51.0, 22.0 ],
+													"patching_rect" : [ 248.0, 401.0, 35.0, 22.0 ],
+													"presentation_rect" : [ 248.0, 401.0, 35.0, 22.0 ],
 													"style" : "",
-													"text" : "anim g1"
+													"text" : "anim"
 												}
 
 											}
