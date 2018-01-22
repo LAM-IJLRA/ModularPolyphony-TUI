@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 28.0, 152.0, 1345.0, 719.0 ],
+		"rect" : [ 34.0, 152.0, 1345.0, 719.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -37,6 +37,20 @@
 		"style" : "",
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
+				"box" : 				{
+					"id" : "obj-3",
+					"maxclass" : "newobj",
+					"numinlets" : 0,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 921.0, 470.0, 82.0, 22.0 ],
+					"presentation_rect" : [ 921.0, 470.0, 82.0, 22.0 ],
+					"style" : "",
+					"text" : "r #0.enable"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"id" : "obj-12",
 					"maxclass" : "newobj",
@@ -2107,6 +2121,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "jit_matrix", "" ],
 									"patching_rect" : [ 393.5, 383.5, 478.0, 35.0 ],
+									"presentation_linecount" : 2,
 									"presentation_rect" : [ 393.5, 383.5, 478.0, 35.0 ],
 									"style" : "",
 									"text" : "jit.gl.text #1 @mode 3d @align 0 @color 1 1 1 1 @scale 0.2 0.2 0 @position -0.95 0.8 0"
@@ -2625,6 +2640,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 322.5, 86.108948, 500.0, 35.0 ],
+					"presentation_linecount" : 2,
 					"presentation_rect" : [ 322.5, 86.108948, 500.0, 35.0 ],
 					"style" : "",
 					"text" : "patcherargs @position 0 0 @scale 1 1 1 @rotatexyz 0 0 0 @name #0.slider @labelsize 0.03"
@@ -2730,6 +2746,22 @@
 				"patchline" : 				{
 					"destination" : [ "obj-70", 0 ],
 					"source" : [ "obj-21", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-31", 0 ],
+					"order" : 0,
+					"source" : [ "obj-3", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-85", 0 ],
+					"order" : 1,
+					"source" : [ "obj-3", 0 ]
 				}
 
 			}
