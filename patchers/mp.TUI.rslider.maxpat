@@ -500,8 +500,8 @@
  ]
 					}
 ,
-					"patching_rect" : [ 543.75, 154.878784, 40.0, 22.0 ],
-					"presentation_rect" : [ 543.75, 154.878784, 40.0, 22.0 ],
+					"patching_rect" : [ 581.75, 165.365082, 40.0, 22.0 ],
+					"presentation_rect" : [ 581.75, 165.365082, 40.0, 22.0 ],
 					"saved_object_attributes" : 					{
 						"description" : "",
 						"digest" : "",
@@ -1485,8 +1485,8 @@
  ]
 					}
 ,
-					"patching_rect" : [ 464.458313, 203.365082, 83.0, 22.0 ],
-					"presentation_rect" : [ 464.458313, 203.365082, 83.0, 22.0 ],
+					"patching_rect" : [ 457.5, 165.365082, 83.0, 22.0 ],
+					"presentation_rect" : [ 457.5, 165.365082, 83.0, 22.0 ],
 					"saved_object_attributes" : 					{
 						"description" : "",
 						"digest" : "",
@@ -1505,8 +1505,8 @@
 					"id" : "obj-4",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
-					"numoutlets" : 3,
-					"outlettype" : [ "", "", "" ],
+					"numoutlets" : 2,
+					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 228.0, 165.365082, 213.0, 22.0 ],
 					"presentation_rect" : [ 228.0, 165.365082, 213.0, 22.0 ],
 					"style" : "",
@@ -3711,14 +3711,6 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-24", 1 ],
-					"order" : 1,
-					"source" : [ "obj-4", 2 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"destination" : [ "obj-24", 0 ],
 					"order" : 0,
 					"source" : [ "obj-4", 0 ]
@@ -3727,16 +3719,8 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-36", 0 ],
-					"order" : 0,
-					"source" : [ "obj-4", 2 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"destination" : [ "obj-6", 0 ],
-					"midpoints" : [ 334.5, 242.67569, 237.5, 242.67569 ],
+					"midpoints" : [ 431.5, 242.67569, 237.5, 242.67569 ],
 					"source" : [ "obj-4", 1 ]
 				}
 
@@ -3765,8 +3749,16 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-4", 0 ],
+					"destination" : [ "obj-36", 0 ],
 					"order" : 1,
+					"source" : [ "obj-5", 2 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-4", 0 ],
+					"order" : 2,
 					"source" : [ "obj-5", 2 ]
 				}
 

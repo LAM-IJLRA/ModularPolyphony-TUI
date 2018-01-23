@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 163.0, 153.0, 1199.0, 591.0 ],
+		"rect" : [ 56.0, 130.0, 807.0, 424.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -55,8 +55,8 @@
 					"id" : "obj-35",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
-					"numoutlets" : 3,
-					"outlettype" : [ "", "", "" ],
+					"numoutlets" : 2,
+					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 119.333328, 131.365082, 209.0, 22.0 ],
 					"presentation_rect" : [ 119.333328, 131.365082, 209.0, 22.0 ],
 					"style" : "",
@@ -317,6 +317,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 0,
 									"patching_rect" : [ 104.0, 88.0, 150.0, 60.0 ],
+									"presentation_linecount" : 4,
 									"presentation_rect" : [ 104.0, 88.0, 150.0, 60.0 ],
 									"style" : "",
 									"text" : "get global scaling et mettre les anim.node des paths en inherit_scale 0.\nPuis compenser"
@@ -551,7 +552,6 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 158.399994, 54.0, 72.0, 22.0 ],
-									"presentation_linecount" : 2,
 									"presentation_rect" : [ 158.399994, 54.0, 72.0, 22.0 ],
 									"style" : "",
 									"text" : "r #0.dim"
@@ -650,7 +650,6 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "jit_matrix", "" ],
 									"patching_rect" : [ 21.75, 176.0, 148.0, 22.0 ],
-									"presentation_linecount" : 2,
 									"presentation_rect" : [ 21.75, 176.0, 148.0, 22.0 ],
 									"style" : "",
 									"text" : "jit.matrix #0.theRibbon"
@@ -909,9 +908,8 @@
 									"maxclass" : "newobj",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 191.958313, 139.0, 94.0, 35.0 ],
-									"presentation_linecount" : 2,
-									"presentation_rect" : [ 191.958313, 139.0, 94.0, 35.0 ],
+									"patching_rect" : [ 191.958313, 139.0, 86.0, 35.0 ],
+									"presentation_rect" : [ 191.958313, 139.0, 86.0, 35.0 ],
 									"style" : "",
 									"text" : "s #0.path.bg"
 								}
@@ -924,9 +922,8 @@
 									"maxclass" : "newobj",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 297.458313, 139.0, 77.0, 35.0 ],
-									"presentation_linecount" : 2,
-									"presentation_rect" : [ 297.458313, 139.0, 77.0, 35.0 ],
+									"patching_rect" : [ 297.458313, 139.0, 69.0, 35.0 ],
+									"presentation_rect" : [ 297.458313, 139.0, 69.0, 35.0 ],
 									"style" : "",
 									"text" : "s #0.path"
 								}
@@ -996,9 +993,8 @@
 									"maxclass" : "newobj",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 108.458313, 143.0, 82.0, 35.0 ],
-									"presentation_linecount" : 2,
-									"presentation_rect" : [ 108.458313, 143.0, 82.0, 35.0 ],
+									"patching_rect" : [ 108.458313, 143.0, 74.0, 35.0 ],
+									"presentation_rect" : [ 108.458313, 143.0, 74.0, 35.0 ],
 									"style" : "",
 									"text" : "s #0.width"
 								}
@@ -1011,9 +1007,8 @@
 									"maxclass" : "newobj",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 383.958313, 143.0, 73.0, 35.0 ],
-									"presentation_linecount" : 2,
-									"presentation_rect" : [ 383.958313, 143.0, 73.0, 35.0 ],
+									"patching_rect" : [ 383.958313, 143.0, 65.0, 35.0 ],
+									"presentation_rect" : [ 383.958313, 143.0, 65.0, 35.0 ],
 									"style" : "",
 									"text" : "s #0.dim"
 								}
@@ -1456,7 +1451,7 @@
 							"modernui" : 1
 						}
 ,
-						"rect" : [ 436.0, 236.0, 970.0, 590.0 ],
+						"rect" : [ 541.0, 448.0, 970.0, 590.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -1484,6 +1479,21 @@
 						"style" : "",
 						"subpatcher_template" : "",
 						"boxes" : [ 							{
+								"box" : 								{
+									"id" : "obj-15",
+									"linecount" : 3,
+									"maxclass" : "message",
+									"numinlets" : 2,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 90.0, 171.0, 50.0, 49.0 ],
+									"presentation_rect" : [ 90.0, 171.0, 50.0, 49.0 ],
+									"style" : "",
+									"text" : "scale 0.2 0.08 1"
+								}
+
+							}
+, 							{
 								"box" : 								{
 									"id" : "obj-28",
 									"maxclass" : "button",
@@ -1714,9 +1724,8 @@
 													"numinlets" : 0,
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
-													"patching_rect" : [ 155.0, 99.0, 80.0, 22.0 ],
-													"presentation_linecount" : 2,
-													"presentation_rect" : [ 155.0, 99.0, 80.0, 22.0 ],
+													"patching_rect" : [ 155.0, 99.0, 72.0, 35.0 ],
+													"presentation_rect" : [ 155.0, 99.0, 72.0, 35.0 ],
 													"style" : "",
 													"text" : "r #0.width"
 												}
@@ -1903,7 +1912,6 @@
 									"numinlets" : 1,
 									"numoutlets" : 0,
 									"patching_rect" : [ 239.0, 134.986298, 91.0, 22.0 ],
-									"presentation_linecount" : 2,
 									"presentation_rect" : [ 239.0, 134.986298, 91.0, 22.0 ],
 									"style" : "",
 									"text" : "s #0.enable"
@@ -1961,7 +1969,6 @@
 													"numoutlets" : 2,
 													"outlettype" : [ "jit_matrix", "" ],
 													"patching_rect" : [ 50.0, 262.0, 242.0, 22.0 ],
-													"presentation_linecount" : 2,
 													"presentation_rect" : [ 50.0, 262.0, 242.0, 22.0 ],
 													"style" : "",
 													"text" : "jit.matrix #0.worldtransform 1 float32 4 4"
@@ -1990,7 +1997,6 @@
 													"numoutlets" : 2,
 													"outlettype" : [ "jit_matrix", "" ],
 													"patching_rect" : [ 50.0, 336.0, 188.0, 22.0 ],
-													"presentation_linecount" : 2,
 													"presentation_rect" : [ 50.0, 336.0, 188.0, 22.0 ],
 													"style" : "",
 													"text" : "jit.matrix #0.invworldtransform"
@@ -2033,7 +2039,6 @@
 													"numoutlets" : 2,
 													"outlettype" : [ "", "" ],
 													"patching_rect" : [ 50.0, 161.0, 214.0, 22.0 ],
-													"presentation_linecount" : 2,
 													"presentation_rect" : [ 50.0, 161.0, 214.0, 22.0 ],
 													"style" : "",
 													"text" : "jit.fill #0.worldtransformTransposed"
@@ -2048,7 +2053,6 @@
 													"numoutlets" : 2,
 													"outlettype" : [ "jit_matrix", "" ],
 													"patching_rect" : [ 50.0, 195.0, 305.0, 22.0 ],
-													"presentation_linecount" : 2,
 													"presentation_rect" : [ 50.0, 195.0, 305.0, 22.0 ],
 													"style" : "",
 													"text" : "jit.matrix #0.worldtransformTransposed 1 float32 4 4"
@@ -2167,7 +2171,6 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 146.5, 269.0, 149.0, 22.0 ],
-									"presentation_linecount" : 2,
 									"presentation_rect" : [ 146.5, 269.0, 149.0, 22.0 ],
 									"style" : "",
 									"text" : "r #0.getworldtransform"
@@ -2209,7 +2212,6 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
 									"patching_rect" : [ 127.0, 337.095245, 215.0, 22.0 ],
-									"presentation_linecount" : 2,
 									"presentation_rect" : [ 127.0, 337.095245, 215.0, 22.0 ],
 									"style" : "",
 									"text" : "jit.anim.node @name #0.animnode"
@@ -2346,6 +2348,14 @@
 							}
 , 							{
 								"patchline" : 								{
+									"destination" : [ "obj-15", 1 ],
+									"order" : 0,
+									"source" : [ "obj-20", 1 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
 									"destination" : [ "obj-19", 0 ],
 									"order" : 2,
 									"source" : [ "obj-20", 4 ]
@@ -2362,6 +2372,7 @@
 , 							{
 								"patchline" : 								{
 									"destination" : [ "obj-21", 0 ],
+									"order" : 1,
 									"source" : [ "obj-20", 1 ]
 								}
 
@@ -2584,6 +2595,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 151.333328, 29.365082, 367.666687, 35.0 ],
+					"presentation_linecount" : 2,
 					"presentation_rect" : [ 151.333328, 29.365082, 367.666687, 35.0 ],
 					"style" : "",
 					"text" : "patcherargs @position 0 0 @scale 1 0.1 @color 1 0 0 1 @bgcolor 0.5 0.5 0.5 1. @width 0.01 @freq 5 @name #0.slider @dim 200"
@@ -2945,7 +2957,6 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "jit_matrix", "" ],
 									"patching_rect" : [ 50.0, 141.0, 148.0, 22.0 ],
-									"presentation_linecount" : 2,
 									"presentation_rect" : [ 50.0, 141.0, 148.0, 22.0 ],
 									"style" : "",
 									"text" : "jit.matrix #0.theRibbon"
@@ -3410,15 +3421,8 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-37", 0 ],
-					"source" : [ "obj-35", 1 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"destination" : [ "obj-78", 0 ],
-					"source" : [ "obj-35", 2 ]
+					"source" : [ "obj-35", 1 ]
 				}
 
 			}
