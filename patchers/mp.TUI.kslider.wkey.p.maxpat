@@ -132,7 +132,6 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "jit_matrix", "" ],
 					"patching_rect" : [ 101.0, 290.0, 745.0, 23.0 ],
-					"presentation_linecount" : 2,
 					"presentation_rect" : [ 101.0, 290.0, 745.0, 23.0 ],
 					"style" : "",
 					"text" : "jit.gl.gridshape #2 @name #0.C @shape plane @dim 2 2 @color 1 0 0 1 @layer 1 @scale 0.142857 1 1 @enable 0"
@@ -262,10 +261,6 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 431.0, 22.0, 30.0, 22.0 ],
 					"presentation_rect" : [ 431.0, 22.0, 30.0, 22.0 ],
-					"saved_object_attributes" : 					{
-						"attr_comment" : ""
-					}
-,
 					"style" : "",
 					"text" : "in 2"
 				}
@@ -281,6 +276,10 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 26.0, 314.0, 37.0, 22.0 ],
 					"presentation_rect" : [ 26.0, 314.0, 37.0, 22.0 ],
+					"saved_object_attributes" : 					{
+						"attr_comment" : ""
+					}
+,
 					"style" : "",
 					"text" : "out 1"
 				}
@@ -297,6 +296,10 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 26.0, 22.0, 30.0, 22.0 ],
 					"presentation_rect" : [ 26.0, 22.0, 30.0, 22.0 ],
+					"saved_object_attributes" : 					{
+						"attr_comment" : ""
+					}
+,
 					"style" : "",
 					"text" : "in 1"
 				}
@@ -333,13 +336,6 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-7", 0 ],
-					"source" : [ "obj-16", 2 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"destination" : [ "obj-27", 0 ],
 					"order" : 1,
 					"source" : [ "obj-17", 0 ]
@@ -357,6 +353,15 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-13", 0 ],
+					"order" : 1,
+					"source" : [ "obj-19", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-7", 0 ],
+					"order" : 0,
 					"source" : [ "obj-19", 0 ]
 				}
 
