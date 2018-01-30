@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 845.0, 309.0, 765.0, 555.0 ],
+		"rect" : [ 424.0, 281.0, 765.0, 555.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -202,7 +202,7 @@
 									"patching_rect" : [ 152.0, 228.0, 52.0, 22.0 ],
 									"presentation_rect" : [ 152.0, 228.0, 52.0, 22.0 ],
 									"style" : "",
-									"text" : "gate 1 0"
+									"text" : "gate 1 1"
 								}
 
 							}
@@ -1070,7 +1070,7 @@
 							"modernui" : 1
 						}
 ,
-						"rect" : [ 465.0, 273.0, 943.0, 590.0 ],
+						"rect" : [ 465.0, 273.0, 746.0, 254.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -1130,8 +1130,8 @@
 									"numinlets" : 0,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 385.5, 210.013702, 90.0, 22.0 ],
-									"presentation_rect" : [ 385.5, 210.013702, 90.0, 22.0 ],
+									"patching_rect" : [ 51.5, 144.013702, 90.0, 22.0 ],
+									"presentation_rect" : [ 51.5, 144.013702, 90.0, 22.0 ],
 									"style" : "",
 									"text" : "r #0.enable"
 								}
@@ -1306,9 +1306,9 @@
 									"numinlets" : 1,
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
-									"patching_rect" : [ 385.5, 242.986298, 540.0, 35.0 ],
+									"patching_rect" : [ 76.5, 176.986298, 540.0, 35.0 ],
 									"presentation_linecount" : 2,
-									"presentation_rect" : [ 385.5, 242.986298, 540.0, 35.0 ],
+									"presentation_rect" : [ 76.5, 176.986298, 540.0, 35.0 ],
 									"style" : "",
 									"text" : "jit.phys.body @shape cube @kinematic 1 @damping 1 1 @name #0.slider  @collisions 0 @filters #1/picker @worldname #1.phys @anim #0.slider.animnode"
 								}
@@ -1321,8 +1321,8 @@
 									"numinlets" : 1,
 									"numoutlets" : 2,
 									"outlettype" : [ "jit_matrix", "" ],
-									"patching_rect" : [ 26.5, 318.986328, 650.0, 22.0 ],
-									"presentation_rect" : [ 26.5, 318.986328, 650.0, 22.0 ],
+									"patching_rect" : [ 51.5, 214.986328, 650.0, 22.0 ],
+									"presentation_rect" : [ 51.5, 214.986328, 650.0, 22.0 ],
 									"style" : "",
 									"text" : "jit.gl.gridshape #0.slider.node @shape plane @dim 2 2 @poly_mode 1 1 @name #0.slider/background @layer -3"
 								}
@@ -1381,7 +1381,16 @@
 							}
 , 							{
 								"patchline" : 								{
+									"destination" : [ "obj-12", 0 ],
+									"order" : 1,
+									"source" : [ "obj-28", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
 									"destination" : [ "obj-19", 0 ],
+									"order" : 0,
 									"source" : [ "obj-28", 0 ]
 								}
 
