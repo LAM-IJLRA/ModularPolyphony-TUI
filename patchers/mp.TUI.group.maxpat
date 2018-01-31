@@ -53,7 +53,7 @@
 							"modernui" : 1
 						}
 ,
-						"rect" : [ 59.0, 103.0, 640.0, 480.0 ],
+						"rect" : [ 59.0, 103.0, 621.0, 242.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -87,8 +87,8 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 353.5, 550.0, 124.5, 22.0 ],
-									"presentation_rect" : [ 353.5, 550.0, 124.5, 22.0 ],
+									"patching_rect" : [ 259.0, 185.0, 124.5, 22.0 ],
+									"presentation_rect" : [ 259.0, 185.0, 124.5, 22.0 ],
 									"style" : "",
 									"text" : "send g1.update"
 								}
@@ -101,8 +101,8 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 142.0, 100.0, 54.0, 22.0 ],
-									"presentation_rect" : [ 142.0, 100.0, 54.0, 22.0 ],
+									"patching_rect" : [ 205.0, 73.0, 54.0, 22.0 ],
+									"presentation_rect" : [ 205.0, 73.0, 54.0, 22.0 ],
 									"style" : "",
 									"text" : "deferlow"
 								}
@@ -115,8 +115,8 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "free" ],
-									"patching_rect" : [ 330.0, 402.0, 36.0, 22.0 ],
-									"presentation_rect" : [ 330.0, 402.0, 36.0, 22.0 ],
+									"patching_rect" : [ 300.0, 102.0, 36.0, 22.0 ],
+									"presentation_rect" : [ 300.0, 102.0, 36.0, 22.0 ],
 									"style" : "",
 									"text" : "t free"
 								}
@@ -129,8 +129,8 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "bang" ],
-									"patching_rect" : [ 330.0, 373.0, 56.0, 22.0 ],
-									"presentation_rect" : [ 330.0, 373.0, 56.0, 22.0 ],
+									"patching_rect" : [ 300.0, 73.0, 56.0, 22.0 ],
+									"presentation_rect" : [ 300.0, 73.0, 56.0, 22.0 ],
 									"style" : "",
 									"text" : "freebang"
 								}
@@ -304,8 +304,8 @@
  ]
 									}
 ,
-									"patching_rect" : [ 50.0, 373.0, 170.0, 22.0 ],
-									"presentation_rect" : [ 50.0, 373.0, 170.0, 22.0 ],
+									"patching_rect" : [ 20.0, 73.0, 170.0, 22.0 ],
+									"presentation_rect" : [ 20.0, 73.0, 170.0, 22.0 ],
 									"saved_object_attributes" : 									{
 										"description" : "",
 										"digest" : "",
@@ -326,8 +326,8 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "anim" ],
-									"patching_rect" : [ 50.0, 435.0, 41.0, 22.0 ],
-									"presentation_rect" : [ 50.0, 435.0, 41.0, 22.0 ],
+									"patching_rect" : [ 20.0, 135.0, 41.0, 22.0 ],
+									"presentation_rect" : [ 20.0, 135.0, 41.0, 22.0 ],
 									"style" : "",
 									"text" : "t anim"
 								}
@@ -340,8 +340,8 @@
 									"numinlets" : 2,
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
-									"patching_rect" : [ 50.0, 404.0, 60.0, 22.0 ],
-									"presentation_rect" : [ 50.0, 404.0, 60.0, 22.0 ],
+									"patching_rect" : [ 20.0, 104.0, 60.0, 22.0 ],
+									"presentation_rect" : [ 20.0, 104.0, 60.0, 22.0 ],
 									"style" : "",
 									"text" : "route free"
 								}
@@ -354,9 +354,9 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 132.0, 414.5, 150.0, 33.0 ],
+									"patching_rect" : [ 102.0, 114.5, 150.0, 33.0 ],
 									"presentation_linecount" : 2,
-									"presentation_rect" : [ 132.0, 414.5, 150.0, 33.0 ],
+									"presentation_rect" : [ 102.0, 114.5, 150.0, 33.0 ],
 									"style" : "",
 									"text" : "notification from parent node"
 								}
@@ -369,9 +369,9 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 486.0, 491.0, 150.0, 33.0 ],
+									"patching_rect" : [ 456.0, 120.0, 150.0, 33.0 ],
 									"presentation_linecount" : 2,
-									"presentation_rect" : [ 486.0, 491.0, 150.0, 33.0 ],
+									"presentation_rect" : [ 456.0, 120.0, 150.0, 33.0 ],
 									"style" : "",
 									"text" : "notify client anim.node from updates"
 								}
@@ -384,8 +384,8 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 396.0, 444.0, 143.0, 22.0 ],
-									"presentation_rect" : [ 396.0, 444.0, 143.0, 22.0 ],
+									"patching_rect" : [ 366.0, 73.0, 143.0, 22.0 ],
+									"presentation_rect" : [ 366.0, 73.0, 143.0, 22.0 ],
 									"style" : "",
 									"text" : "sprintf symout %s.update"
 								}
@@ -398,8 +398,8 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 396.0, 476.0, 82.0, 22.0 ],
-									"presentation_rect" : [ 396.0, 476.0, 82.0, 22.0 ],
+									"patching_rect" : [ 366.0, 105.0, 82.0, 22.0 ],
+									"presentation_rect" : [ 366.0, 105.0, 82.0, 22.0 ],
 									"style" : "",
 									"text" : "prepend send"
 								}
@@ -411,8 +411,8 @@
 									"maxclass" : "newobj",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 353.5, 511.0, 49.0, 22.0 ],
-									"presentation_rect" : [ 353.5, 511.0, 49.0, 22.0 ],
+									"patching_rect" : [ 300.0, 154.0, 49.0, 22.0 ],
+									"presentation_rect" : [ 300.0, 154.0, 49.0, 22.0 ],
 									"style" : "",
 									"text" : "forward"
 								}
@@ -427,8 +427,8 @@
 									"numinlets" : 0,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 50.0, 40.0, 30.0, 30.0 ],
-									"presentation_rect" : [ 50.0, 40.0, 30.0, 30.0 ],
+									"patching_rect" : [ 20.0, 32.0, 30.0, 30.0 ],
+									"presentation_rect" : [ 20.0, 32.0, 30.0, 30.0 ],
 									"style" : ""
 								}
 
@@ -442,8 +442,8 @@
 									"numinlets" : 0,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 142.0, 40.0, 30.0, 30.0 ],
-									"presentation_rect" : [ 142.0, 40.0, 30.0, 30.0 ],
+									"patching_rect" : [ 205.0, 32.0, 30.0, 30.0 ],
+									"presentation_rect" : [ 205.0, 32.0, 30.0, 30.0 ],
 									"style" : ""
 								}
 
@@ -457,8 +457,8 @@
 									"numinlets" : 0,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 396.0, 40.0, 30.0, 30.0 ],
-									"presentation_rect" : [ 396.0, 40.0, 30.0, 30.0 ],
+									"patching_rect" : [ 366.0, 32.0, 30.0, 30.0 ],
+									"presentation_rect" : [ 366.0, 32.0, 30.0, 30.0 ],
 									"style" : ""
 								}
 
@@ -471,8 +471,8 @@
 									"maxclass" : "outlet",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 50.0, 593.0, 30.0, 30.0 ],
-									"presentation_rect" : [ 50.0, 593.0, 30.0, 30.0 ],
+									"patching_rect" : [ 20.0, 185.0, 30.0, 30.0 ],
+									"presentation_rect" : [ 20.0, 185.0, 30.0, 30.0 ],
 									"style" : ""
 								}
 

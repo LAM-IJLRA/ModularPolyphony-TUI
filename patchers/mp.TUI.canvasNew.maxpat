@@ -70,8 +70,9 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 408.458313, 236.365082, 186.0, 22.0 ],
-					"presentation_rect" : [ 408.458313, 236.365082, 186.0, 22.0 ],
+					"patching_rect" : [ 408.458313, 236.365082, 192.0, 22.0 ],
+					"presentation_linecount" : 2,
+					"presentation_rect" : [ 408.458313, 236.365082, 192.0, 22.0 ],
 					"style" : "",
 					"text" : "mp.TUI.worldtolocal #0.canvas"
 				}
@@ -112,10 +113,10 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 145.041656, 116.365112, 236.0, 22.0 ],
-					"presentation_rect" : [ 145.041656, 116.365112, 236.0, 22.0 ],
+					"patching_rect" : [ 145.041656, 116.365112, 242.0, 22.0 ],
+					"presentation_rect" : [ 145.041656, 116.365112, 242.0, 22.0 ],
 					"style" : "",
-					"text" : "mp.TUI.receiverNew #1 #0.canvas"
+					"text" : "mp.TUI.receiver #1 #0.canvas"
 				}
 
 			}
@@ -163,7 +164,6 @@
 						"tags" : "",
 						"style" : "",
 						"subpatcher_template" : "",
-						"visible" : 1,
 						"boxes" : [ 							{
 								"box" : 								{
 									"id" : "obj-4",
@@ -458,8 +458,9 @@
 									"numinlets" : 1,
 									"numoutlets" : 2,
 									"outlettype" : [ "jit_matrix", "" ],
-									"patching_rect" : [ 18.5, 233.986328, 656.0, 22.0 ],
-									"presentation_rect" : [ 18.5, 233.986328, 656.0, 22.0 ],
+									"patching_rect" : [ 18.5, 233.986328, 668.0, 22.0 ],
+									"presentation_linecount" : 2,
+									"presentation_rect" : [ 18.5, 233.986328, 668.0, 22.0 ],
 									"style" : "",
 									"text" : "jit.gl.gridshape #0.canvas.node @shape plane @dim 2 2 @poly_mode 1 1 @name #0.canvas/background @layer -3"
 								}

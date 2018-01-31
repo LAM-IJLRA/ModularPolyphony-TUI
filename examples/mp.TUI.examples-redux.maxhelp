@@ -39,6 +39,47 @@
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-22",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 199.0, 272.0, 61.0, 22.0 ],
+					"presentation_rect" : [ 199.0, 272.0, 61.0, 22.0 ],
+					"style" : "",
+					"text" : "enable $1"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-16",
+					"maxclass" : "toggle",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "int" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 199.0, 245.0, 24.0, 24.0 ],
+					"presentation_rect" : [ 199.0, 245.0, 24.0, 24.0 ],
+					"style" : ""
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-21",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 199.0, 296.0, 116.0, 22.0 ],
+					"presentation_rect" : [ 199.0, 296.0, 116.0, 22.0 ],
+					"style" : "",
+					"text" : "s /WMglui.physdraw"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-9",
 					"maxclass" : "newobj",
 					"numinlets" : 0,
@@ -257,8 +298,8 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 199.0, 217.0, 50.0, 22.0 ],
-					"presentation_rect" : [ 199.0, 217.0, 50.0, 22.0 ],
+					"patching_rect" : [ 199.0, 188.0, 50.0, 22.0 ],
+					"presentation_rect" : [ 199.0, 188.0, 50.0, 22.0 ],
 					"style" : ""
 				}
 
@@ -269,8 +310,8 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 199.0, 248.055542, 119.0, 22.0 ],
-					"presentation_rect" : [ 199.0, 248.055542, 119.0, 22.0 ],
+					"patching_rect" : [ 199.0, 219.055542, 119.0, 22.0 ],
+					"presentation_rect" : [ 199.0, 219.055542, 119.0, 22.0 ],
 					"style" : "",
 					"text" : "s /WMglui/global/edit"
 				}
@@ -985,7 +1026,7 @@
 									"presentation_linecount" : 3,
 									"presentation_rect" : [ 126.0, 218.0, 50.0, 49.0 ],
 									"style" : "",
-									"text" : "send 1329.slider"
+									"text" : "send 13537.slider"
 								}
 
 							}
@@ -1107,7 +1148,7 @@
 									"patching_rect" : [ 267.666718, 201.0, 142.0, 22.0 ],
 									"presentation_rect" : [ 267.666718, 201.0, 142.0, 22.0 ],
 									"style" : "",
-									"text" : "1329.slider"
+									"text" : "13537.slider"
 								}
 
 							}
@@ -1191,7 +1232,7 @@
 									"presentation_linecount" : 3,
 									"presentation_rect" : [ 594.875122, 51.0, 55.0, 49.0 ],
 									"style" : "",
-									"text" : "/tuio/2Dcur fseq 20740"
+									"text" : "/tuio/2Dcur fseq 38997"
 								}
 
 							}
@@ -1314,7 +1355,6 @@
 , 							{
 								"patchline" : 								{
 									"destination" : [ "obj-11", 0 ],
-									"order" : 1,
 									"source" : [ "obj-49", 0 ]
 								}
 
@@ -1339,14 +1379,6 @@
 									"destination" : [ "obj-3", 0 ],
 									"order" : 1,
 									"source" : [ "obj-49", 1 ]
-								}
-
-							}
-, 							{
-								"patchline" : 								{
-									"destination" : [ "obj-36", 0 ],
-									"order" : 0,
-									"source" : [ "obj-49", 0 ]
 								}
 
 							}
@@ -1426,7 +1458,7 @@
 							"modernui" : 1
 						}
 ,
-						"rect" : [ 49.0, 44.0, 862.0, 695.0 ],
+						"rect" : [ 49.0, 43.0, 862.0, 695.0 ],
 						"bgcolor" : [ 0.9, 0.91, 0.91, 1.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
@@ -1454,25 +1486,17 @@
 						"tags" : "",
 						"style" : "",
 						"subpatcher_template" : "WM-lib.HelpPatcher",
-						"visible" : 1,
 						"boxes" : [ 							{
 								"box" : 								{
-									"bgmode" : 0,
-									"border" : 1,
-									"clickthrough" : 0,
-									"enablehscroll" : 0,
-									"enablevscroll" : 0,
-									"id" : "obj-8",
-									"lockeddragscroll" : 0,
-									"maxclass" : "bpatcher",
-									"name" : "mp.TUI.GLparameters.GUI.maxpat",
-									"numinlets" : 1,
-									"numoutlets" : 1,
-									"offset" : [ 0.0, 0.0 ],
-									"outlettype" : [ "" ],
-									"patching_rect" : [ 481.5, 533.191895, 136.0, 62.0 ],
-									"presentation_rect" : [ 481.5, 533.191895, 136.0, 62.0 ],
-									"viewvisibility" : 1
+									"id" : "obj-1",
+									"maxclass" : "newobj",
+									"numinlets" : 2,
+									"numoutlets" : 3,
+									"outlettype" : [ "", "", "" ],
+									"patching_rect" : [ 50.5, 552.5, 577.0, 22.0 ],
+									"presentation_rect" : [ 50.5, 552.5, 577.0, 22.0 ],
+									"style" : "",
+									"text" : "mp.TUI.slider /WMglui @position 0. -0.2 @scale 0.2 0.03 @color 1 0 1 1 @caption \"simple slider\" @layer 1"
 								}
 
 							}
@@ -1735,88 +1759,6 @@
 							}
 , 							{
 								"box" : 								{
-									"id" : "obj-15",
-									"maxclass" : "button",
-									"numinlets" : 1,
-									"numoutlets" : 1,
-									"outlettype" : [ "bang" ],
-									"patching_rect" : [ 582.75, 631.191895, 24.0, 24.0 ],
-									"presentation_rect" : [ 582.75, 631.191895, 24.0, 24.0 ],
-									"style" : ""
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"id" : "obj-11",
-									"maxclass" : "newobj",
-									"numinlets" : 1,
-									"numoutlets" : 0,
-									"patching_rect" : [ 627.25, 631.191895, 138.0, 22.0 ],
-									"presentation_rect" : [ 627.25, 631.191895, 138.0, 22.0 ],
-									"style" : "",
-									"text" : "print canvas-normalized"
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"id" : "obj-1",
-									"maxclass" : "newobj",
-									"numinlets" : 1,
-									"numoutlets" : 1,
-									"outlettype" : [ "" ],
-									"patching_rect" : [ 624.75, 492.191895, 72.0, 22.0 ],
-									"presentation_rect" : [ 624.75, 492.191895, 72.0, 22.0 ],
-									"style" : "",
-									"text" : "loadmess 0"
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"id" : "obj-5",
-									"maxclass" : "toggle",
-									"numinlets" : 1,
-									"numoutlets" : 1,
-									"outlettype" : [ "int" ],
-									"parameter_enable" : 0,
-									"patching_rect" : [ 624.75, 533.191895, 24.0, 24.0 ],
-									"presentation_rect" : [ 624.75, 533.191895, 24.0, 24.0 ],
-									"style" : ""
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"id" : "obj-3",
-									"maxclass" : "message",
-									"numinlets" : 2,
-									"numoutlets" : 1,
-									"outlettype" : [ "" ],
-									"patching_rect" : [ 624.75, 564.191895, 63.0, 22.0 ],
-									"presentation_rect" : [ 624.75, 564.191895, 63.0, 22.0 ],
-									"style" : "",
-									"text" : "enable $1"
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"id" : "obj-7",
-									"maxclass" : "newobj",
-									"numinlets" : 2,
-									"numoutlets" : 2,
-									"outlettype" : [ "", "" ],
-									"patching_rect" : [ 50.25, 600.191895, 595.0, 22.0 ],
-									"presentation_rect" : [ 50.25, 600.191895, 595.0, 22.0 ],
-									"style" : "",
-									"text" : "mp.TUI.canvasNew /WMglui @name myCanvas @position -0.2 0.68 -1. @scale 0.3 0.1 @color 0.2 0.4 0.2 0.2"
-								}
-
-							}
-, 							{
-								"box" : 								{
 									"id" : "obj-12",
 									"maxclass" : "message",
 									"numinlets" : 2,
@@ -2028,13 +1970,6 @@
  ],
 						"lines" : [ 							{
 								"patchline" : 								{
-									"destination" : [ "obj-5", 0 ],
-									"source" : [ "obj-1", 0 ]
-								}
-
-							}
-, 							{
-								"patchline" : 								{
 									"destination" : [ "obj-86", 0 ],
 									"source" : [ "obj-12", 0 ]
 								}
@@ -2112,13 +2047,6 @@
 							}
 , 							{
 								"patchline" : 								{
-									"destination" : [ "obj-7", 1 ],
-									"source" : [ "obj-3", 0 ]
-								}
-
-							}
-, 							{
-								"patchline" : 								{
 									"destination" : [ "obj-31", 1 ],
 									"source" : [ "obj-30", 0 ]
 								}
@@ -2135,36 +2063,6 @@
 								"patchline" : 								{
 									"destination" : [ "obj-19", 0 ],
 									"source" : [ "obj-48", 0 ]
-								}
-
-							}
-, 							{
-								"patchline" : 								{
-									"destination" : [ "obj-3", 0 ],
-									"source" : [ "obj-5", 0 ]
-								}
-
-							}
-, 							{
-								"patchline" : 								{
-									"destination" : [ "obj-11", 0 ],
-									"order" : 0,
-									"source" : [ "obj-7", 1 ]
-								}
-
-							}
-, 							{
-								"patchline" : 								{
-									"destination" : [ "obj-15", 0 ],
-									"order" : 1,
-									"source" : [ "obj-7", 1 ]
-								}
-
-							}
-, 							{
-								"patchline" : 								{
-									"destination" : [ "obj-7", 1 ],
-									"source" : [ "obj-8", 0 ]
 								}
 
 							}
@@ -2382,6 +2280,13 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-22", 0 ],
+					"source" : [ "obj-16", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-15", 0 ],
 					"source" : [ "obj-18", 0 ]
 				}
@@ -2391,6 +2296,13 @@
 				"patchline" : 				{
 					"destination" : [ "obj-11", 0 ],
 					"source" : [ "obj-19", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-21", 0 ],
+					"source" : [ "obj-22", 0 ]
 				}
 
 			}
@@ -2595,48 +2507,6 @@
 				"name" : "LAM.f.dio.maxpat",
 				"bootpath" : "~/Documents/Max/Packages/lam-lib/patchers",
 				"patcherrelativepath" : "../../../../Max/Packages/lam-lib/patchers",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "mp.TUI.canvasNew.maxpat",
-				"bootpath" : "~/Documents/Max 7/Packages/ModularPolyphony-TUI/patchers",
-				"patcherrelativepath" : "../patchers",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "mp.TUI.receiverNew.maxpat",
-				"bootpath" : "~/Documents/Max 7/Packages/ModularPolyphony-TUI/patchers",
-				"patcherrelativepath" : "../patchers",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "mp.ratio.maxpat",
-				"bootpath" : "~/Documents/Max 7/Packages/ModularPolyphony/patchers",
-				"patcherrelativepath" : "../../ModularPolyphony/patchers",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "mp.ratio.p.maxpat",
-				"bootpath" : "~/Documents/Max 7/Packages/ModularPolyphony/patchers",
-				"patcherrelativepath" : "../../ModularPolyphony/patchers",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "mp.*.maxpat",
-				"bootpath" : "~/Documents/Max 7/Packages/ModularPolyphony/patchers",
-				"patcherrelativepath" : "../../ModularPolyphony/patchers",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "mp.*.p.maxpat",
-				"bootpath" : "~/Documents/Max 7/Packages/ModularPolyphony/patchers",
-				"patcherrelativepath" : "../../ModularPolyphony/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}

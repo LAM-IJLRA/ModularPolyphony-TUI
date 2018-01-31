@@ -976,16 +976,16 @@
 						"boxes" : [ 							{
 								"box" : 								{
 									"id" : "obj-8",
-									"linecount" : 3,
+									"linecount" : 4,
 									"maxclass" : "message",
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 126.0, 218.0, 50.0, 49.0 ],
-									"presentation_linecount" : 3,
-									"presentation_rect" : [ 126.0, 218.0, 50.0, 49.0 ],
+									"patching_rect" : [ 126.0, 218.0, 50.0, 62.0 ],
+									"presentation_linecount" : 4,
+									"presentation_rect" : [ 126.0, 218.0, 50.0, 62.0 ],
 									"style" : "",
-									"text" : "send 8299.slider"
+									"text" : "send /WMglui/TUI/none"
 								}
 
 							}
@@ -1107,7 +1107,7 @@
 									"patching_rect" : [ 267.666718, 201.0, 142.0, 22.0 ],
 									"presentation_rect" : [ 267.666718, 201.0, 142.0, 22.0 ],
 									"style" : "",
-									"text" : "8299.slider"
+									"text" : "/WMglui/TUI/none"
 								}
 
 							}
@@ -1454,6 +1454,7 @@
 						"tags" : "",
 						"style" : "",
 						"subpatcher_template" : "WM-lib.HelpPatcher",
+						"visible" : 1,
 						"boxes" : [ 							{
 								"box" : 								{
 									"id" : "obj-29",
@@ -31189,6 +31190,7 @@
 										"tags" : "",
 										"style" : "",
 										"subpatcher_template" : "WM-lib.HelpPatcher",
+										"visible" : 1,
 										"boxes" : [ 											{
 												"box" : 												{
 													"id" : "obj-28",
@@ -41128,11 +41130,12 @@
 									"id" : "obj-7",
 									"maxclass" : "newobj",
 									"numinlets" : 1,
-									"numoutlets" : 0,
+									"numoutlets" : 1,
+									"outlettype" : [ "jit_matrix" ],
 									"patching_rect" : [ 486.75, 150.0, 195.0, 24.0 ],
 									"presentation_rect" : [ 486.75, 150.0, 195.0, 24.0 ],
 									"style" : "",
-									"text" : "mp.TUI.multiraycast /WMglui"
+									"text" : "mp.TUI.multiraycast2 /WMglui"
 								}
 
 							}
@@ -45791,14 +45794,14 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "mp.TUI.multiraycast.maxpat",
+				"name" : "mp.TUI.multiraycast2.maxpat",
 				"bootpath" : "~/Documents/Max 7/Packages/ModularPolyphony-TUI/patchers",
 				"patcherrelativepath" : "../patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "mp.jit.distance.maxpat",
+				"name" : "mp.jit.distance2.maxpat",
 				"bootpath" : "~/Documents/Max 7/Packages/ModularPolyphony-TUI/patchers",
 				"patcherrelativepath" : "../patchers",
 				"type" : "JSON",

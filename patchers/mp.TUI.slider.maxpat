@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 500.0, 78.0, 926.0, 580.0 ],
+		"rect" : [ 111.0, 177.0, 926.0, 580.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -82,12 +82,14 @@
 						"boxes" : [ 							{
 								"box" : 								{
 									"id" : "obj-30",
+									"linecount" : 2,
 									"maxclass" : "newobj",
 									"numinlets" : 0,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 7.0, 196.0, 74.0, 22.0 ],
-									"presentation_rect" : [ 7.0, 196.0, 74.0, 22.0 ],
+									"patching_rect" : [ 7.0, 196.0, 74.0, 35.0 ],
+									"presentation_linecount" : 2,
+									"presentation_rect" : [ 7.0, 196.0, 74.0, 35.0 ],
 									"style" : "",
 									"text" : "r #0.scale"
 								}
@@ -184,10 +186,10 @@
 									"numinlets" : 1,
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
-									"patching_rect" : [ 7.0, 281.0, 405.0, 22.0 ],
-									"presentation_rect" : [ 7.0, 281.0, 405.0, 22.0 ],
+									"patching_rect" : [ 7.0, 281.0, 437.0, 22.0 ],
+									"presentation_rect" : [ 7.0, 281.0, 437.0, 22.0 ],
 									"style" : "",
-									"text" : "jit.anim.node @anim #0.animnode @inherit_scale 0 @position 0 -0.3 0 "
+									"text" : "jit.anim.node @anim #0.slider.animnode @inherit_scale 0 @position 0 -0.3 0 "
 								}
 
 							}
@@ -498,8 +500,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 408.458313, 273.0, 177.0, 22.0 ],
-					"presentation_rect" : [ 408.458313, 273.0, 177.0, 22.0 ],
+					"patching_rect" : [ 408.458313, 273.0, 183.0, 22.0 ],
+					"presentation_rect" : [ 408.458313, 273.0, 183.0, 22.0 ],
 					"style" : "",
 					"text" : "mp.TUI.worldtolocal #0.slider"
 				}
@@ -512,10 +514,10 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 408.458313, 451.0, 427.0, 22.0 ],
-					"presentation_rect" : [ 408.458313, 451.0, 427.0, 22.0 ],
+					"patching_rect" : [ 408.458313, 451.0, 458.0, 22.0 ],
+					"presentation_rect" : [ 408.458313, 451.0, 458.0, 22.0 ],
 					"style" : "",
-					"text" : "jit.anim.node @name #0.sliderBody @anim #0.animnode @scale 0 1 1"
+					"text" : "jit.anim.node @name #0.sliderBody @anim #0.slider.animnode @scale 0 1 1"
 				}
 
 			}
@@ -536,7 +538,7 @@
 							"modernui" : 1
 						}
 ,
-						"rect" : [ 81.0, 242.0, 970.0, 590.0 ],
+						"rect" : [ 312.0, 108.0, 738.0, 335.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -569,8 +571,8 @@
 									"maxclass" : "newobj",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 104.199997, 138.0, 84.0, 22.0 ],
-									"presentation_rect" : [ 104.199997, 138.0, 84.0, 22.0 ],
+									"patching_rect" : [ 98.199997, 110.0, 84.0, 22.0 ],
+									"presentation_rect" : [ 98.199997, 110.0, 84.0, 22.0 ],
 									"style" : "",
 									"text" : "s #0.scale"
 								}
@@ -582,8 +584,8 @@
 									"maxclass" : "newobj",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 289.0, 118.0, 82.0, 22.0 ],
-									"presentation_rect" : [ 289.0, 118.0, 82.0, 22.0 ],
+									"patching_rect" : [ 288.0, 139.0, 82.0, 22.0 ],
+									"presentation_rect" : [ 288.0, 139.0, 82.0, 22.0 ],
 									"style" : "",
 									"text" : "s #0.color"
 								}
@@ -596,8 +598,8 @@
 									"numinlets" : 0,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 289.0, 252.0, 90.0, 22.0 ],
-									"presentation_rect" : [ 289.0, 252.0, 90.0, 22.0 ],
+									"patching_rect" : [ 50.0, 182.0, 90.0, 22.0 ],
+									"presentation_rect" : [ 50.0, 182.0, 90.0, 22.0 ],
 									"style" : "",
 									"text" : "r #0.enable"
 								}
@@ -611,8 +613,8 @@
 									"maxclass" : "outlet",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 374.0, 118.0, 30.0, 30.0 ],
-									"presentation_rect" : [ 374.0, 118.0, 30.0, 30.0 ],
+									"patching_rect" : [ 337.0, 106.0, 30.0, 30.0 ],
+									"presentation_rect" : [ 337.0, 106.0, 30.0, 30.0 ],
 									"style" : ""
 								}
 
@@ -623,8 +625,8 @@
 									"maxclass" : "newobj",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 241.199997, 158.0, 92.0, 22.0 ],
-									"presentation_rect" : [ 241.199997, 158.0, 92.0, 22.0 ],
+									"patching_rect" : [ 241.199997, 110.0, 92.0, 22.0 ],
+									"presentation_rect" : [ 241.199997, 110.0, 92.0, 22.0 ],
 									"style" : "",
 									"text" : "s #0.enable"
 								}
@@ -652,11 +654,10 @@
 									"numinlets" : 1,
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
-									"patching_rect" : [ 323.5, 284.986298, 547.0, 35.0 ],
-									"presentation_linecount" : 2,
-									"presentation_rect" : [ 323.5, 284.986298, 547.0, 35.0 ],
+									"patching_rect" : [ 84.5, 214.986298, 629.0, 35.0 ],
+									"presentation_rect" : [ 84.5, 214.986298, 629.0, 35.0 ],
 									"style" : "",
-									"text" : "jit.phys.body @shape cube @kinematic 1 @damping 1 1 @name #0.slider  @collisions 0 @filters #1/picker @worldname #1.phys @anim #0.animnode"
+									"text" : "jit.phys.body @shape cube @kinematic 1 @damping 1 1 @name #0.slider  @collisions 0 @filters #1/picker @worldname #1.phys @anim #0.slider.animnode"
 								}
 
 							}
@@ -667,8 +668,8 @@
 									"numinlets" : 1,
 									"numoutlets" : 2,
 									"outlettype" : [ "jit_matrix", "" ],
-									"patching_rect" : [ 289.0, 324.986298, 616.0, 22.0 ],
-									"presentation_rect" : [ 289.0, 324.986298, 616.0, 22.0 ],
+									"patching_rect" : [ 50.0, 254.986298, 616.0, 22.0 ],
+									"presentation_rect" : [ 50.0, 254.986298, 616.0, 22.0 ],
 									"style" : "",
 									"text" : "jit.gl.gridshape #1 @shape plane @dim 2 2 @scale 0 0 0  @poly_mode 1 1 @name #0.slider/background"
 								}
