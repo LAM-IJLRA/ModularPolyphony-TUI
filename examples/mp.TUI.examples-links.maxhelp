@@ -1246,7 +1246,7 @@
 									"patching_rect" : [ 213.000031, 237.0, 224.0, 22.0 ],
 									"presentation_rect" : [ 213.000031, 237.0, 224.0, 22.0 ],
 									"style" : "",
-									"text" : "269 state 0"
+									"text" : "-99 state 0"
 								}
 
 							}
@@ -1566,6 +1566,7 @@
 						"tags" : "",
 						"style" : "",
 						"subpatcher_template" : "WM-lib.HelpPatcher",
+						"visible" : 1,
 						"boxes" : [ 							{
 								"box" : 								{
 									"id" : "obj-1",
@@ -1611,7 +1612,22 @@
 										"tags" : "",
 										"style" : "",
 										"subpatcher_template" : "WM-lib.HelpPatcher",
+										"visible" : 1,
 										"boxes" : [ 											{
+												"box" : 												{
+													"id" : "obj-10",
+													"maxclass" : "message",
+													"numinlets" : 2,
+													"numoutlets" : 1,
+													"outlettype" : [ "" ],
+													"patching_rect" : [ 389.0, 355.0, 35.0, 22.0 ],
+													"presentation_rect" : [ 389.0, 355.0, 35.0, 22.0 ],
+													"style" : "",
+													"text" : "clear"
+												}
+
+											}
+, 											{
 												"box" : 												{
 													"id" : "obj-9",
 													"maxclass" : "number",
@@ -1856,6 +1872,13 @@
 											}
  ],
 										"lines" : [ 											{
+												"patchline" : 												{
+													"destination" : [ "obj-1", 0 ],
+													"source" : [ "obj-10", 0 ]
+												}
+
+											}
+, 											{
 												"patchline" : 												{
 													"destination" : [ "obj-3", 0 ],
 													"order" : 2,
