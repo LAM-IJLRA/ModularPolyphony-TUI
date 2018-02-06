@@ -2,14 +2,14 @@
 	"patcher" : 	{
 		"fileversion" : 1,
 		"appversion" : 		{
-			"major" : 7,
-			"minor" : 3,
-			"revision" : 5,
+			"major" : 8,
+			"minor" : 0,
+			"revision" : 0,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 481.0, 330.0, 803.0, 525.0 ],
+		"rect" : [ 304.0, 291.0, 803.0, 438.0 ],
 		"bgcolor" : [ 0.9, 0.91, 0.91, 1.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
@@ -45,6 +45,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 430.333374, 370.0, 172.0, 24.0 ],
+					"presentation_rect" : [ 430.333374, 370.0, 172.0, 24.0 ],
 					"style" : "",
 					"text" : "example UI component"
 				}
@@ -59,9 +60,9 @@
 					"patcher" : 					{
 						"fileversion" : 1,
 						"appversion" : 						{
-							"major" : 7,
-							"minor" : 3,
-							"revision" : 5,
+							"major" : 8,
+							"minor" : 0,
+							"revision" : 0,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -101,6 +102,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 60.0, 79.0, 223.0, 22.0 ],
+									"presentation_rect" : [ 60.0, 79.0, 223.0, 22.0 ],
 									"style" : "",
 									"text" : "-99 state 0"
 								}
@@ -116,6 +118,7 @@
 									"outlettype" : [ "", "bang" ],
 									"parameter_enable" : 0,
 									"patching_rect" : [ 174.666687, 191.0, 50.0, 22.0 ],
+									"presentation_rect" : [ 174.666687, 191.0, 50.0, 22.0 ],
 									"style" : ""
 								}
 
@@ -130,6 +133,7 @@
 									"outlettype" : [ "", "bang" ],
 									"parameter_enable" : 0,
 									"patching_rect" : [ 117.666687, 191.0, 50.0, 22.0 ],
+									"presentation_rect" : [ 117.666687, 191.0, 50.0, 22.0 ],
 									"style" : ""
 								}
 
@@ -142,6 +146,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "float", "float" ],
 									"patching_rect" : [ 117.666687, 164.0, 76.0, 22.0 ],
+									"presentation_rect" : [ 117.666687, 164.0, 76.0, 22.0 ],
 									"style" : "",
 									"text" : "unpack 0. 0."
 								}
@@ -156,6 +161,7 @@
 									"outlettype" : [ "", "bang" ],
 									"parameter_enable" : 0,
 									"patching_rect" : [ 40.666687, 191.0, 50.0, 22.0 ],
+									"presentation_rect" : [ 40.666687, 191.0, 50.0, 22.0 ],
 									"style" : ""
 								}
 
@@ -169,6 +175,7 @@
 									"outlettype" : [ "", "bang" ],
 									"parameter_enable" : 0,
 									"patching_rect" : [ 252.166687, 191.0, 50.0, 22.0 ],
+									"presentation_rect" : [ 252.166687, 191.0, 50.0, 22.0 ],
 									"style" : ""
 								}
 
@@ -181,6 +188,7 @@
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "" ],
 									"patching_rect" : [ 117.666687, 140.0, 288.0, 22.0 ],
+									"presentation_rect" : [ 117.666687, 140.0, 288.0, 22.0 ],
 									"style" : "",
 									"text" : "route xy state"
 								}
@@ -194,6 +202,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
 									"patching_rect" : [ 40.666687, 116.0, 96.0, 22.0 ],
+									"presentation_rect" : [ 40.666687, 116.0, 96.0, 22.0 ],
 									"style" : "",
 									"text" : "zl slice 1"
 								}
@@ -209,6 +218,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 40.666687, 24.0, 30.0, 30.0 ],
+									"presentation_rect" : [ 40.666687, 24.0, 30.0, 30.0 ],
 									"style" : ""
 								}
 
@@ -277,6 +287,7 @@
 					}
 ,
 					"patching_rect" : [ 458.333344, 217.0, 77.0, 22.0 ],
+					"presentation_rect" : [ 458.333344, 217.0, 77.0, 22.0 ],
 					"saved_object_attributes" : 					{
 						"description" : "",
 						"digest" : "",
@@ -298,6 +309,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 546.875, 215.0, 202.0, 24.0 ],
+					"presentation_rect" : [ 546.875, 215.0, 202.0, 24.0 ],
 					"style" : "",
 					"text" : "raw cursor info as MP-messages"
 				}
@@ -311,6 +323,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 1096.0, 530.0, 136.0, 24.0 ],
+					"presentation_rect" : [ 1096.0, 530.0, 136.0, 24.0 ],
 					"style" : "",
 					"text" : "example component"
 				}
@@ -326,6 +339,7 @@
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
 					"patching_rect" : [ 118.125, 370.0, 50.0, 22.0 ],
+					"presentation_rect" : [ 118.125, 370.0, 50.0, 22.0 ],
 					"style" : ""
 				}
 
@@ -335,9 +349,10 @@
 					"id" : "obj-2",
 					"maxclass" : "newobj",
 					"numinlets" : 2,
-					"numoutlets" : 2,
-					"outlettype" : [ "", "" ],
+					"numoutlets" : 3,
+					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 180.125, 370.0, 210.0, 22.0 ],
+					"presentation_rect" : [ 180.125, 370.0, 210.0, 22.0 ],
 					"style" : "",
 					"text" : "mp.TUI.slider /WMglui @color 1 0 1 1"
 				}
@@ -354,11 +369,12 @@
 					"id" : "obj-5",
 					"lockeddragscroll" : 0,
 					"maxclass" : "bpatcher",
-					"name" : "LAM.helpheader.maxpat",
+					"name" : "mp.TUI.helpheader.maxpat",
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"offset" : [ 0.0, 0.0 ],
 					"patching_rect" : [ -0.5, 0.060059, 802.0, 57.0 ],
+					"presentation_rect" : [ -0.5, 0.060059, 802.0, 57.0 ],
 					"viewvisibility" : 1
 				}
 
@@ -373,6 +389,7 @@
 					"numinlets" : 4,
 					"numoutlets" : 0,
 					"patching_rect" : [ 377.0, 27.0, 95.0, 19.0 ],
+					"presentation_rect" : [ 377.0, 27.0, 95.0, 19.0 ],
 					"style" : "",
 					"text" : "bgcolor 0.9 0.91 0.91"
 				}
@@ -388,9 +405,9 @@
 					"patcher" : 					{
 						"fileversion" : 1,
 						"appversion" : 						{
-							"major" : 7,
-							"minor" : 3,
-							"revision" : 5,
+							"major" : 8,
+							"minor" : 0,
+							"revision" : 0,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -432,6 +449,7 @@
 									"outlettype" : [ "int" ],
 									"parameter_enable" : 0,
 									"patching_rect" : [ 252.875, 104.056641, 24.0, 24.0 ],
+									"presentation_rect" : [ 252.875, 104.056641, 24.0, 24.0 ],
 									"style" : ""
 								}
 
@@ -446,6 +464,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 252.875, 131.056641, 78.0, 21.0 ],
+									"presentation_rect" : [ 252.875, 131.056641, 78.0, 21.0 ],
 									"style" : "",
 									"text" : "fsmenubar $1"
 								}
@@ -460,6 +479,7 @@
 									"outlettype" : [ "int" ],
 									"parameter_enable" : 0,
 									"patching_rect" : [ 202.875, 104.056641, 24.0, 24.0 ],
+									"presentation_rect" : [ 202.875, 104.056641, 24.0, 24.0 ],
 									"style" : ""
 								}
 
@@ -474,6 +494,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 202.875, 131.056641, 48.0, 21.0 ],
+									"presentation_rect" : [ 202.875, 131.056641, 48.0, 21.0 ],
 									"style" : "",
 									"text" : "fsaa $1"
 								}
@@ -489,6 +510,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 50.0, 131.056641, 115.0, 21.0 ],
+									"presentation_rect" : [ 50.0, 131.056641, 115.0, 21.0 ],
 									"style" : "",
 									"text" : "fullscreen $1, getsize"
 								}
@@ -503,6 +525,7 @@
 									"outlettype" : [ "int" ],
 									"parameter_enable" : 0,
 									"patching_rect" : [ 50.0, 104.056641, 20.0, 20.0 ],
+									"presentation_rect" : [ 50.0, 104.056641, 20.0, 20.0 ],
 									"style" : ""
 								}
 
@@ -519,9 +542,9 @@
 									"patcher" : 									{
 										"fileversion" : 1,
 										"appversion" : 										{
-											"major" : 7,
-											"minor" : 3,
-											"revision" : 5,
+											"major" : 8,
+											"minor" : 0,
+											"revision" : 0,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -561,6 +584,7 @@
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 316.0, 187.0, 72.0, 22.0 ],
+													"presentation_rect" : [ 316.0, 187.0, 72.0, 22.0 ],
 													"style" : "",
 													"text" : "loadmess 0"
 												}
@@ -575,6 +599,7 @@
 													"numinlets" : 1,
 													"numoutlets" : 0,
 													"patching_rect" : [ 284.0, 224.0, 25.0, 25.0 ],
+													"presentation_rect" : [ 284.0, 224.0, 25.0, 25.0 ],
 													"style" : ""
 												}
 
@@ -589,6 +614,7 @@
 													"numoutlets" : 2,
 													"outlettype" : [ "bang", "" ],
 													"patching_rect" : [ 284.0, 137.0, 43.0, 22.0 ],
+													"presentation_rect" : [ 284.0, 137.0, 43.0, 22.0 ],
 													"style" : "",
 													"text" : "sel 27"
 												}
@@ -604,6 +630,7 @@
 													"numoutlets" : 4,
 													"outlettype" : [ "int", "int", "int", "int" ],
 													"patching_rect" : [ 284.0, 110.0, 59.5, 22.0 ],
+													"presentation_rect" : [ 284.0, 110.0, 59.5, 22.0 ],
 													"style" : "",
 													"text" : "key"
 												}
@@ -641,6 +668,7 @@
 									}
 ,
 									"patching_rect" : [ 72.5, 104.056641, 38.0, 21.0 ],
+									"presentation_rect" : [ 72.5, 104.056641, 38.0, 21.0 ],
 									"saved_object_attributes" : 									{
 										"description" : "",
 										"digest" : "",
@@ -663,6 +691,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 0,
 									"patching_rect" : [ 162.583344, 212.056641, 30.0, 30.0 ],
+									"presentation_rect" : [ 162.583344, 212.056641, 30.0, 30.0 ],
 									"style" : ""
 								}
 
@@ -721,6 +750,7 @@
 					}
 ,
 					"patching_rect" : [ 213.0, 74.0, 59.0, 22.0 ],
+					"presentation_rect" : [ 213.0, 74.0, 59.0, 22.0 ],
 					"saved_object_attributes" : 					{
 						"description" : "",
 						"digest" : "",
@@ -743,6 +773,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 32.0, 215.0, 74.0, 21.0 ],
+					"presentation_rect" : [ 32.0, 215.0, 74.0, 21.0 ],
 					"style" : "",
 					"text" : "s /WMglui/ck"
 				}
@@ -758,6 +789,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
 					"patching_rect" : [ 22.0, 158.0, 57.0, 21.0 ],
+					"presentation_rect" : [ 22.0, 158.0, 57.0, 21.0 ],
 					"style" : "",
 					"text" : "loadbang"
 				}
@@ -775,6 +807,7 @@
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
 					"patching_rect" : [ 9.0, 71.0, 71.0, 43.0 ],
+					"presentation_rect" : [ 9.0, 71.0, 71.0, 43.0 ],
 					"style" : "",
 					"text" : "OFF",
 					"texton" : "ON",
@@ -793,8 +826,9 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "bang", "" ],
 					"patching_rect" : [ 213.0, 102.0, 337.0, 21.0 ],
+					"presentation_rect" : [ 213.0, 102.0, 337.0, 21.0 ],
 					"style" : "",
-					"text" : "jit.window /WMglui @mousewheel 1 @idlemouse 1 @size 640 480"
+					"text" : "jit.window /WMglui @mousewheel 1 @idlemouse 1"
 				}
 
 			}
@@ -808,6 +842,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "bang", "" ],
 					"patching_rect" : [ 9.0, 253.0, 157.0, 21.0 ],
+					"presentation_rect" : [ 9.0, 253.0, 157.0, 21.0 ],
 					"style" : "",
 					"text" : "jit.gl.render /WMglui @ortho 1"
 				}
@@ -823,6 +858,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "bang", "bang", "erase" ],
 					"patching_rect" : [ 9.0, 188.0, 64.0, 21.0 ],
+					"presentation_rect" : [ 9.0, 188.0, 64.0, 21.0 ],
 					"style" : "",
 					"text" : "t b b erase"
 				}
@@ -838,6 +874,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
 					"patching_rect" : [ 9.0, 128.0, 63.0, 21.0 ],
+					"presentation_rect" : [ 9.0, 128.0, 63.0, 21.0 ],
 					"style" : "",
 					"text" : "qmetro 30"
 				}
@@ -851,6 +888,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 537.333374, 251.0, 172.0, 24.0 ],
+					"presentation_rect" : [ 537.333374, 251.0, 172.0, 24.0 ],
 					"style" : "",
 					"text" : "name of picked component"
 				}
@@ -864,6 +902,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 688.875, 100.0, 106.0, 24.0 ],
+					"presentation_rect" : [ 688.875, 100.0, 106.0, 24.0 ],
 					"style" : "",
 					"text" : "for TUIO input"
 				}
@@ -877,6 +916,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 635.875, 185.0, 124.0, 24.0 ],
+					"presentation_rect" : [ 635.875, 185.0, 124.0, 24.0 ],
 					"style" : "",
 					"text" : "current polyphony"
 				}
@@ -891,6 +931,7 @@
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
 					"patching_rect" : [ 581.0, 185.0, 50.0, 22.0 ],
+					"presentation_rect" : [ 581.0, 185.0, 50.0, 22.0 ],
 					"style" : ""
 				}
 
@@ -903,6 +944,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 335.666656, 221.0, 74.0, 22.0 ],
+					"presentation_rect" : [ 335.666656, 221.0, 74.0, 22.0 ],
 					"style" : "",
 					"text" : "prepend set"
 				}
@@ -916,8 +958,9 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 390.333405, 252.0, 142.0, 22.0 ],
+					"presentation_rect" : [ 390.333405, 252.0, 142.0, 22.0 ],
 					"style" : "",
-					"text" : "1003.slider"
+					"text" : "10220.slider"
 				}
 
 			}
@@ -929,6 +972,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 335.666656, 288.0, 224.0, 22.0 ],
+					"presentation_rect" : [ 335.666656, 288.0, 224.0, 22.0 ],
 					"style" : "",
 					"text" : "-99 state 0"
 				}
@@ -942,6 +986,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 335.666656, 252.0, 49.0, 22.0 ],
+					"presentation_rect" : [ 335.666656, 252.0, 49.0, 22.0 ],
 					"style" : "",
 					"text" : "receive"
 				}
@@ -955,6 +1000,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 232.666687, 190.0, 84.0, 22.0 ],
+					"presentation_rect" : [ 232.666687, 190.0, 84.0, 22.0 ],
 					"style" : "",
 					"text" : "prepend send"
 				}
@@ -967,6 +1013,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 213.0, 224.0, 51.0, 22.0 ],
+					"presentation_rect" : [ 213.0, 224.0, 51.0, 22.0 ],
 					"style" : "",
 					"text" : "forward"
 				}
@@ -980,6 +1027,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 611.875, 152.0, 125.0, 22.0 ],
+					"presentation_rect" : [ 611.875, 152.0, 125.0, 22.0 ],
 					"style" : "",
 					"text" : "/tuio/2Dcur fseq 7625"
 				}
@@ -995,6 +1043,7 @@
 					"numoutlets" : 4,
 					"outlettype" : [ "", "", "", "" ],
 					"patching_rect" : [ 213.0, 150.0, 387.0, 29.0 ],
+					"presentation_rect" : [ 213.0, 150.0, 387.0, 29.0 ],
 					"style" : "",
 					"text" : "mp.TUI.hub /WMglui"
 				}
@@ -1008,6 +1057,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 581.0, 102.0, 99.0, 22.0 ],
+					"presentation_rect" : [ 581.0, 102.0, 99.0, 22.0 ],
 					"style" : "",
 					"text" : "udpreceive 3333"
 				}
@@ -1180,16 +1230,30 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "LAM.helpheader.maxpat",
-				"bootpath" : "~/Documents/Max/Packages/lam-lib/patchers",
-				"patcherrelativepath" : "../../../../Max/Packages/lam-lib/patchers",
+				"name" : "mp.uID.maker.maxpat",
+				"bootpath" : "~/Documents/Max 7/Packages/ModularPolyphony/patchers",
+				"patcherrelativepath" : "../../ModularPolyphony/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "lamlib-helper.coll",
-				"bootpath" : "~/Documents/Max/Packages/lam-lib/extras",
-				"patcherrelativepath" : "../../../../Max/Packages/lam-lib/extras",
+				"name" : "mp.TUI.helpheader.maxpat",
+				"bootpath" : "~/Documents/Max 7/Packages/ModularPolyphony-TUI/patchers",
+				"patcherrelativepath" : "../patchers",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "mp.TUI-icon.png",
+				"bootpath" : "~/Documents/Max 7/Packages/ModularPolyphony-TUI/media",
+				"patcherrelativepath" : "../media",
+				"type" : "PNG ",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "mp.TUI-helper.coll",
+				"bootpath" : "~/Documents/Max 7/Packages/ModularPolyphony-TUI/help",
+				"patcherrelativepath" : ".",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
@@ -1202,27 +1266,20 @@
 			}
 , 			{
 				"name" : "sw.maxpat",
-				"bootpath" : "/Users/Shared/Max 7/Examples/max-tricks/send-receive-tricks/lib",
-				"patcherrelativepath" : "../../../../../../Shared/Max 7/Examples/max-tricks/send-receive-tricks/lib",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "mp.TUI.world2object.maxpat",
-				"bootpath" : "~/Documents/Max 7/Packages/ModularPolyphony-TUI/patchers",
-				"patcherrelativepath" : "../patchers",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "LAM.d2r.maxpat",
-				"bootpath" : "~/Documents/Max/Packages/lam-lib/patchers",
-				"patcherrelativepath" : "../../../../Max/Packages/lam-lib/patchers",
+				"bootpath" : "/Users/Shared/Max 8/Examples/max-tricks/send-receive-tricks/lib",
+				"patcherrelativepath" : "../../../../../../Shared/Max 8/Examples/max-tricks/send-receive-tricks/lib",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "mp.LAOS.maxpat",
+				"bootpath" : "~/Documents/Max 7/Packages/ModularPolyphony/patchers",
+				"patcherrelativepath" : "../../ModularPolyphony/patchers",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "mp.uID.maxpat",
 				"bootpath" : "~/Documents/Max 7/Packages/ModularPolyphony/patchers",
 				"patcherrelativepath" : "../../ModularPolyphony/patchers",
 				"type" : "JSON",
@@ -1236,9 +1293,135 @@
 				"implicit" : 1
 			}
 , 			{
+				"name" : "mp.oo2ouo.maxpat",
+				"bootpath" : "~/Documents/Max 7/Packages/ModularPolyphony/patchers",
+				"patcherrelativepath" : "../../ModularPolyphony/patchers",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "mp.TUI.worldtolocal.maxpat",
+				"bootpath" : "~/Documents/Max 7/Packages/ModularPolyphony-TUI/patchers",
+				"patcherrelativepath" : "../patchers",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "LAM.f.call.maxpat",
+				"bootpath" : "~/Documents/Max/Packages/lam-lib/patchers",
+				"patcherrelativepath" : "../../../../Max/Packages/lam-lib/patchers",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "mp.TUI.receiver.maxpat",
+				"bootpath" : "~/Documents/Max 7/Packages/ModularPolyphony-TUI/patchers",
+				"patcherrelativepath" : "../patchers",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
 				"name" : "mp.polycount.maxpat",
 				"bootpath" : "~/Documents/Max 7/Packages/ModularPolyphony/patchers",
 				"patcherrelativepath" : "../../ModularPolyphony/patchers",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "LAM.f.io.maxpat",
+				"bootpath" : "~/Documents/Max/Packages/lam-lib/patchers",
+				"patcherrelativepath" : "../../../../Max/Packages/lam-lib/patchers",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "LAM.rect2poscale.maxpat",
+				"bootpath" : "~/Documents/Max/Packages/lam-lib/patchers",
+				"patcherrelativepath" : "../../../../Max/Packages/lam-lib/patchers",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "LAM.poscale2rect.maxpat",
+				"bootpath" : "~/Documents/Max/Packages/lam-lib/patchers",
+				"patcherrelativepath" : "../../../../Max/Packages/lam-lib/patchers",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "mp.deltabsolute.maxpat",
+				"bootpath" : "~/Documents/Max 7/Packages/ModularPolyphony/patchers",
+				"patcherrelativepath" : "../../ModularPolyphony/patchers",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "mp.deltabsolute.p.maxpat",
+				"bootpath" : "~/Documents/Max 7/Packages/ModularPolyphony/patchers",
+				"patcherrelativepath" : "../../ModularPolyphony/patchers",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "mp.muter.maxpat",
+				"bootpath" : "~/Documents/Max 7/Packages/ModularPolyphony/patchers",
+				"patcherrelativepath" : "../../ModularPolyphony/patchers",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "mp.router.maxpat",
+				"bootpath" : "~/Documents/Max 7/Packages/ModularPolyphony/patchers",
+				"patcherrelativepath" : "../../ModularPolyphony/patchers",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "mp.block.init.maxpat",
+				"bootpath" : "~/Documents/Max 7/Packages/ModularPolyphony/patchers",
+				"patcherrelativepath" : "../../ModularPolyphony/patchers",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "LAM.r2d.maxpat",
+				"bootpath" : "~/Documents/Max/Packages/lam-lib/patchers",
+				"patcherrelativepath" : "../../../../Max/Packages/lam-lib/patchers",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "mp.delta.maxpat",
+				"bootpath" : "~/Documents/Max 7/Packages/ModularPolyphony/patchers",
+				"patcherrelativepath" : "../../ModularPolyphony/patchers",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "mp.delta.p.maxpat",
+				"bootpath" : "~/Documents/Max 7/Packages/ModularPolyphony/patchers",
+				"patcherrelativepath" : "../../ModularPolyphony/patchers",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "mp.+.maxpat",
+				"bootpath" : "~/Documents/Max 7/Packages/ModularPolyphony/patchers",
+				"patcherrelativepath" : "../../ModularPolyphony/patchers",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "mp.+.p.maxpat",
+				"bootpath" : "~/Documents/Max 7/Packages/ModularPolyphony/patchers",
+				"patcherrelativepath" : "../../ModularPolyphony/patchers",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "LAM.f.dcall.maxpat",
+				"bootpath" : "~/Documents/Max/Packages/lam-lib/patchers",
+				"patcherrelativepath" : "../../../../Max/Packages/lam-lib/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}

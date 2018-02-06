@@ -67,20 +67,6 @@
 			}
 , 			{
 				"box" : 				{
-					"fontsize" : 18.0,
-					"id" : "obj-17",
-					"maxclass" : "newobj",
-					"numinlets" : 0,
-					"numoutlets" : 0,
-					"patching_rect" : [ 325.125, 126.0, 223.0, 29.0 ],
-					"presentation_rect" : [ 325.125, 126.0, 223.0, 29.0 ],
-					"style" : "",
-					"text" : "mp.uID.maker @min 9000"
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"id" : "obj-3",
 					"maxclass" : "ezdac~",
 					"numinlets" : 2,
@@ -102,7 +88,7 @@
 					"id" : "obj-5",
 					"lockeddragscroll" : 0,
 					"maxclass" : "bpatcher",
-					"name" : "LAM.helpheader.maxpat",
+					"name" : "mp.TUI.helpheader.maxpat",
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"offset" : [ 0.0, 0.0 ],
@@ -843,7 +829,7 @@
 					"patching_rect" : [ 209.125, 101.0, 476.0, 21.0 ],
 					"presentation_rect" : [ 209.125, 101.0, 476.0, 21.0 ],
 					"style" : "",
-					"text" : "jit.window /balls_helper @mousewheel 1 @idlemouse 1 @size 640 480 @fsmenubar 0 @fsaa 1"
+					"text" : "jit.window /balls_helper @mousewheel 1 @idlemouse 1 @fsmenubar 0 @fsaa 1"
 				}
 
 			}
@@ -1250,24 +1236,31 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "LAM.helpheader.maxpat",
-				"bootpath" : "~/Documents/Max/Packages/lam-lib/patchers",
-				"patcherrelativepath" : "../../../../Max/Packages/lam-lib/patchers",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "lamlib-helper.coll",
-				"bootpath" : "~/Documents/Max/Packages/lam-lib/extras",
-				"patcherrelativepath" : "../../../../Max/Packages/lam-lib/extras",
-				"type" : "TEXT",
-				"implicit" : 1
-			}
-, 			{
 				"name" : "mp.uID.maker.maxpat",
 				"bootpath" : "~/Documents/Max 7/Packages/ModularPolyphony/patchers",
 				"patcherrelativepath" : "../../ModularPolyphony/patchers",
 				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "mp.TUI.helpheader.maxpat",
+				"bootpath" : "~/Documents/Max 7/Packages/ModularPolyphony-TUI/patchers",
+				"patcherrelativepath" : "../patchers",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "icon.png",
+				"bootpath" : "~/Documents/Max 7/Packages/ModularPolyphony-TUI",
+				"patcherrelativepath" : "..",
+				"type" : "PNG ",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "mp.TUI-helper.coll",
+				"bootpath" : "~/Documents/Max 7/Packages/ModularPolyphony-TUI/help",
+				"patcherrelativepath" : ".",
+				"type" : "TEXT",
 				"implicit" : 1
 			}
  ],
