@@ -79,7 +79,7 @@
 			}
 , 			{
 				"box" : 				{
-					"args" : [ "@obj-name", "mp.TUI.kslider", "@obj-desc", "A key-slider." ],
+					"args" : [ "mp.TUI.kslider", "@description", "A key-slider.", "@categories", "component" ],
 					"bgmode" : 0,
 					"border" : 0,
 					"clickthrough" : 0,
@@ -1260,13 +1260,6 @@
 				"bootpath" : "~/Documents/Max 7/Packages/ModularPolyphony-TUI/media",
 				"patcherrelativepath" : "../media",
 				"type" : "PNG ",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "mp.TUI-helper.coll",
-				"bootpath" : "~/Documents/Max 7/Packages/ModularPolyphony-TUI/help",
-				"patcherrelativepath" : ".",
-				"type" : "TEXT",
 				"implicit" : 1
 			}
  ],

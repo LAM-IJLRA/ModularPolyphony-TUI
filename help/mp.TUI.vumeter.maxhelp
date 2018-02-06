@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 34.0, 401.0, 804.0, 376.0 ],
+		"rect" : [ 100.0, 100.0, 804.0, 376.0 ],
 		"bgcolor" : [ 0.9, 0.91, 0.91, 1.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
@@ -158,7 +158,7 @@
 			}
 , 			{
 				"box" : 				{
-					"args" : [ "@obj-name", "mp.TUI.vumeter", "@obj-desc", "A simple VU-meter." ],
+					"args" : [ "mp.TUI.vumeter", "@description", "A simple VU-meter.", "@categories", "component" ],
 					"bgmode" : 0,
 					"border" : 0,
 					"clickthrough" : 0,
@@ -1341,13 +1341,6 @@
 				"bootpath" : "~/Documents/Max 7/Packages/ModularPolyphony-TUI/media",
 				"patcherrelativepath" : "../media",
 				"type" : "PNG ",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "mp.TUI-helper.coll",
-				"bootpath" : "~/Documents/Max 7/Packages/ModularPolyphony-TUI/help",
-				"patcherrelativepath" : ".",
-				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{

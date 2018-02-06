@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 112.0, 376.0, 821.0, 300.0 ],
+		"rect" : [ 100.0, 100.0, 821.0, 300.0 ],
 		"bgcolor" : [ 0.9, 0.91, 0.91, 1.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
@@ -106,7 +106,7 @@
 			}
 , 			{
 				"box" : 				{
-					"args" : [ "@obj-name", "mp.TUI.patchbay", "@obj-desc", "A simple patch example." ],
+					"args" : [ "mp.TUI.patchbay", "@description", "A simple patchbay example.", "@categories", "component" ],
 					"bgmode" : 0,
 					"border" : 0,
 					"clickthrough" : 0,
@@ -1287,13 +1287,6 @@
 				"bootpath" : "~/Documents/Max 7/Packages/ModularPolyphony-TUI/media",
 				"patcherrelativepath" : "../media",
 				"type" : "PNG ",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "mp.TUI-helper.coll",
-				"bootpath" : "~/Documents/Max 7/Packages/ModularPolyphony-TUI/help",
-				"patcherrelativepath" : ".",
-				"type" : "TEXT",
 				"implicit" : 1
 			}
  ],

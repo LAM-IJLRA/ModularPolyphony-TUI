@@ -1,0 +1,57 @@
+{
+	"mp.TUI.patchbay" : 	{
+		"categories" : "component",
+		"description" : "A simple patchbay example."
+	}
+,
+	"mp.TUI.grid" : 	{
+		"description" : "A simple TUI-enabled checkbox/radiobutton.",
+		"categories" : "component"
+	}
+,
+	"mp.TUI.hub" : 	{
+		"categories" : "system",
+		"description" : "Hub for the modular multitouch GUI system"
+	}
+,
+	"mp.TUI.multislider" : 	{
+		"categories" : "component",
+		"description" : "A simple TUI-enabled multislider."
+	}
+,
+	"mp.TUI.rslider" : 	{
+		"categories" : "component",
+		"description" : "A simple range-slider."
+	}
+,
+	"mp.TUI.vumeter" : 	{
+		"categories" : "component",
+		"description" : "A simple VU-meter."
+	}
+,
+	"mp.TUI.kslider" : 	{
+		"categories" : "component",
+		"description" : "A key-slider."
+	}
+,
+	"mp.TUI.bslider" : 	{
+		"categories" : "component",
+		"description" : "A simple bend-able slider."
+	}
+,
+	"mp.TUI.2Dslider" : 	{
+		"categories" : "component",
+		"description" : "A 2D slider."
+	}
+,
+	"mp.TUI.balls" : 	{
+		"categories" : "component",
+		"description" : "Bucephalus boucing balls."
+	}
+,
+	"mp.TUI.slider" : 	{
+		"description" : "A simple slider.",
+		"categories" : [ "alpha", "beta", "gamma" ]
+	}
+
+}

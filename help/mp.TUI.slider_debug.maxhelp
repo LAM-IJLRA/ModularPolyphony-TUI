@@ -79,7 +79,7 @@
 			}
 , 			{
 				"box" : 				{
-					"args" : [ "mp.TUI.slider", "@description", "A simple slider.", "@category", "component" ],
+					"args" : [ "@obj-name", "mp.TUI.slider", "@obj-desc", "A simple slider." ],
 					"bgmode" : 0,
 					"border" : 0,
 					"clickthrough" : 0,
@@ -88,7 +88,7 @@
 					"id" : "obj-5",
 					"lockeddragscroll" : 0,
 					"maxclass" : "bpatcher",
-					"name" : "mp.TUI.helpheader.maxpat",
+					"name" : "LAM.helpheader.maxpat",
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"offset" : [ 0.0, 0.0 ],
@@ -257,7 +257,7 @@
 									"maxclass" : "newobj",
 									"numinlets" : 0,
 									"numoutlets" : 1,
-									"outlettype" : [ "" ],
+									"outlettype" : [ "bang" ],
 									"patcher" : 									{
 										"fileversion" : 1,
 										"appversion" : 										{
@@ -814,7 +814,7 @@
 					"patching_rect" : [ 209.125, 101.0, 486.0, 21.0 ],
 					"presentation_rect" : [ 209.125, 101.0, 486.0, 21.0 ],
 					"style" : "",
-					"text" : "jit.window /slider_helper @mousewheel 1 @idlemouse 1 @fsmenubar 0 @fsaa 1"
+					"text" : "jit.window /slider_helper @mousewheel 1 @idlemouse 1 @size 320 240 @fsmenubar 0 @fsaa 1"
 				}
 
 			}
@@ -1207,17 +1207,17 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "mp.TUI.helpheader.maxpat",
-				"bootpath" : "~/Documents/Max 7/Packages/ModularPolyphony-TUI/patchers",
-				"patcherrelativepath" : "../patchers",
+				"name" : "LAM.helpheader.maxpat",
+				"bootpath" : "~/Documents/Max/Packages/lam-lib/patchers",
+				"patcherrelativepath" : "../../../../Max/Packages/lam-lib/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "mp.TUI-icon.png",
-				"bootpath" : "~/Documents/Max 7/Packages/ModularPolyphony-TUI/media",
-				"patcherrelativepath" : "../media",
-				"type" : "PNG ",
+				"name" : "lamlib-helper.coll",
+				"bootpath" : "~/Documents/Max/Packages/lam-lib/extras",
+				"patcherrelativepath" : "../../../../Max/Packages/lam-lib/extras",
+				"type" : "TEXT",
 				"implicit" : 1
 			}
  ],
