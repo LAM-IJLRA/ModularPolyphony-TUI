@@ -53,5 +53,20 @@
 		"description" : "A simple slider.",
 		"categories" : [ "alpha", "beta", "gamma" ]
 	}
+,
+	"mp.TUI.scope~" : 	{
+		"description" : "A scope~ as TUI.",
+		"categories" : [ "alpha", "beta", "gamma" ]
+	}
+,
+	"mp.TUI.button" : 	{
+		"description" : "A TUI bang.",
+		"categories" : [ "alpha", "beta", "gamma" ]
+	}
+,
+	"mp.TUI.canvas" : 	{
+		"description" : "A TUI canvas reporting x/y coords.",
+		"categories" : [ "alpha", "beta", "gamma" ]
+	}
 
 }
