@@ -50,7 +50,7 @@
 	}
 ,
 	"mp.TUI.slider" : 	{
-		"description" : "A simple TUI slider",
+		"description" : "A simple slider.",
 		"categories" : [ "alpha", "beta", "gamma" ]
 	}
 ,
@@ -71,6 +71,11 @@
 ,
 	"mp.TUI.filtergraph" : 	{
 		"description" : "A TUI filtergraph",
+		"categories" : [ "alpha", "beta", "gamma" ]
+	}
+,
+	"mp.TUI.hexagrid" : 	{
+		"description" : "A TUI hexagonal keyboard",
 		"categories" : [ "alpha", "beta", "gamma" ]
 	}
 
