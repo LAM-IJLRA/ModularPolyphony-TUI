@@ -78,5 +78,15 @@
 		"description" : "A TUI hexagonal keyboard",
 		"categories" : [ "alpha", "beta", "gamma" ]
 	}
+,
+	"mp.TUI.menu" : 	{
+		"description" : "A TUI drop-down menu.",
+		"categories" : [ "alpha", "beta", "gamma" ]
+	}
+,
+	"mp.TUI.bpf" : 	{
+		"description" : "A TUI break point function.",
+		"categories" : [ "alpha", "beta", "gamma" ]
+	}
 
 }

@@ -58,8 +58,9 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "jit_matrix", "" ],
-					"patching_rect" : [ 528.770325, 229.454895, 342.0, 49.0 ],
-					"presentation_rect" : [ 528.770325, 229.454895, 342.0, 49.0 ],
+					"patching_rect" : [ 528.770325, 229.454895, 343.0, 49.0 ],
+					"presentation_linecount" : 3,
+					"presentation_rect" : [ 528.770325, 229.454895, 343.0, 49.0 ],
 					"style" : "",
 					"text" : "jit.gl.gridshape #0.filtergraph.node @shape plane @dim 2 2 @poly_mode 1 1 @name #0.filtergraph/background @layer -1"
 				}
@@ -1884,6 +1885,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-1", 0 ],
+					"order" : 0,
 					"source" : [ "obj-7", 1 ]
 				}
 
@@ -1892,6 +1894,14 @@
 				"patchline" : 				{
 					"destination" : [ "obj-5", 0 ],
 					"source" : [ "obj-7", 2 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-5", 0 ],
+					"order" : 1,
+					"source" : [ "obj-7", 1 ]
 				}
 
 			}
