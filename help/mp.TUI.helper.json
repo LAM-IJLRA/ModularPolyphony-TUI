@@ -88,5 +88,10 @@
 		"description" : "A TUI break point function.",
 		"categories" : [ "alpha", "beta", "gamma" ]
 	}
+,
+	"mp.TUI.toes" : 	{
+		"categories" : "component",
+		"description" : "Toes-looking cursors."
+	}
 
 }
