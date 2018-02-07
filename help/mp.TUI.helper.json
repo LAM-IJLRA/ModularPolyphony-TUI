@@ -93,5 +93,10 @@
 		"categories" : "component",
 		"description" : "Toes-looking cursors."
 	}
+,
+	"mp.TUI.spectroscope~" : 	{
+		"description" : "A spectroscope~ as TUI.",
+		"categories" : [ "alpha", "beta", "gamma" ]
+	}
 
 }
