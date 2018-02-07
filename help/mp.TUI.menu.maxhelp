@@ -39,6 +39,21 @@
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-8",
+					"linecount" : 2,
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 247.0, 130.0, 443.0, 35.0 ],
+					"presentation_rect" : [ 247.0, 130.0, 443.0, 35.0 ],
+					"style" : "",
+					"text" : "items orange banana kiwi pomelos apple pear litchi mangoo cherry peach apricot strawberry raspberry blackberry"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-1",
 					"maxclass" : "toggle",
 					"numinlets" : 1,
@@ -531,15 +546,16 @@
 						"boxes" : [ 							{
 								"box" : 								{
 									"id" : "obj-4",
-									"linecount" : 2,
+									"linecount" : 3,
 									"maxclass" : "message",
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 295.0, 112.0, 50.0, 35.0 ],
-									"presentation_rect" : [ 295.0, 112.0, 50.0, 35.0 ],
+									"patching_rect" : [ 295.0, 112.0, 50.0, 49.0 ],
+									"presentation_linecount" : 3,
+									"presentation_rect" : [ 295.0, 112.0, 50.0, 49.0 ],
 									"style" : "",
-									"text" : "1877.canvas"
+									"text" : "12817.myMenu"
 								}
 
 							}
@@ -945,10 +961,10 @@
 					"maxclass" : "newobj",
 					"numinlets" : 2,
 					"numoutlets" : 0,
-					"patching_rect" : [ 266.625, 253.184082, 280.0, 22.0 ],
-					"presentation_rect" : [ 266.625, 253.184082, 280.0, 22.0 ],
+					"patching_rect" : [ 266.625, 253.184082, 502.0, 22.0 ],
+					"presentation_rect" : [ 266.625, 253.184082, 502.0, 22.0 ],
 					"style" : "",
-					"text" : "mp.TUI.menuNode /menu_helper @scale 0.8 0.1 0"
+					"text" : "mp.TUI.menu /menu_helper @position 0 0.6 0 @scale 0.5 0.05 0 @items alpha beta gamma"
 				}
 
 			}
@@ -998,7 +1014,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-30", 1 ],
-					"midpoints" : [ 572.625, 246.092041, 537.125, 246.092041 ],
+					"midpoints" : [ 572.625, 246.092041, 759.125, 246.092041 ],
 					"source" : [ "obj-2", 0 ]
 				}
 
@@ -1020,7 +1036,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-30", 1 ],
-					"midpoints" : [ 620.625, 245.592041, 537.125, 245.592041 ],
+					"midpoints" : [ 620.625, 245.592041, 759.125, 245.592041 ],
 					"source" : [ "obj-28", 0 ]
 				}
 
@@ -1039,9 +1055,16 @@
 				}
 
 			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-30", 1 ],
+					"source" : [ "obj-8", 0 ]
+				}
+
+			}
  ],
 		"dependency_cache" : [ 			{
-				"name" : "mp.TUI.menuNode.maxpat",
+				"name" : "mp.TUI.menu.maxpat",
 				"bootpath" : "~/Documents/Max 7/Packages/ModularPolyphony-TUI/patchers",
 				"patcherrelativepath" : "../patchers",
 				"type" : "JSON",
