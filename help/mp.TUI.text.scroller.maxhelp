@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 38.0, 242.0, 831.0, 374.0 ],
+		"rect" : [ 84.0, 268.0, 831.0, 374.0 ],
 		"bgcolor" : [ 0.9, 0.91, 0.91, 1.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
@@ -38,6 +38,21 @@
 		"style" : "",
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 11.0,
+					"id" : "obj-12",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 135.0, 175.0, 28.0, 21.0 ],
+					"presentation_rect" : [ 135.0, 175.0, 28.0, 21.0 ],
+					"style" : "",
+					"text" : "s ck"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"id" : "obj-10",
 					"maxclass" : "newobj",
@@ -132,6 +147,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 123.0, 125.0, 492.0, 49.0 ],
+									"presentation_linecount" : 3,
 									"presentation_rect" : [ 123.0, 125.0, 492.0, 49.0 ],
 									"style" : "",
 									"text" : "Well as far as I can tell the sensitivity attribute is only for the Z dimension. Right now with a timer hooked up to [sensel] I'm seeing mostly 50ms intervals come out of it with a few 16s thrown in."
@@ -707,7 +723,7 @@
 									"patching_rect" : [ 295.0, 112.0, 91.0, 22.0 ],
 									"presentation_rect" : [ 295.0, 112.0, 91.0, 22.0 ],
 									"style" : "",
-									"text" : "19891.canvas"
+									"text" : "1015.canvas"
 								}
 
 							}
@@ -1136,6 +1152,14 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-12", 0 ],
+					"order" : 0,
+					"source" : [ "obj-15", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-13", 0 ],
 					"source" : [ "obj-15", 1 ]
 				}
@@ -1144,6 +1168,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-13", 0 ],
+					"order" : 1,
 					"source" : [ "obj-15", 0 ]
 				}
 
@@ -1219,13 +1244,6 @@
 
 			}
  ],
-		"parameters" : 		{
-			"parameterbanks" : 			{
-
-			}
-
-		}
-,
 		"dependency_cache" : [ 			{
 				"name" : "mp.TUI.text.scroller.maxpat",
 				"bootpath" : "~/Documents/Max 7/Packages/ModularPolyphony-TUI/patchers",
@@ -1402,16 +1420,16 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "mp.TUI.GLparameters.GUI.maxpat",
-				"bootpath" : "~/Documents/Max 7/Packages/ModularPolyphony-TUI/patchers",
-				"patcherrelativepath" : "../patchers",
+				"name" : "sw.maxpat",
+				"bootpath" : "/Users/Shared/Max 8/Examples/max-tricks/send-receive-tricks/lib",
+				"patcherrelativepath" : "../../../../../../Shared/Max 8/Examples/max-tricks/send-receive-tricks/lib",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "sw.maxpat",
-				"bootpath" : "/Users/Shared/Max 8/Examples/max-tricks/send-receive-tricks/lib",
-				"patcherrelativepath" : "../../../../../../Shared/Max 8/Examples/max-tricks/send-receive-tricks/lib",
+				"name" : "mp.TUI.GLparameters.GUI.maxpat",
+				"bootpath" : "~/Documents/Max 7/Packages/ModularPolyphony-TUI/patchers",
+				"patcherrelativepath" : "../patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
