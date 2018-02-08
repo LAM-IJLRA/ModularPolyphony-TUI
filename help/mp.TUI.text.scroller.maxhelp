@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 109.0, 456.0, 831.0, 374.0 ],
+		"rect" : [ 38.0, 242.0, 831.0, 374.0 ],
 		"bgcolor" : [ 0.9, 0.91, 0.91, 1.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
@@ -83,6 +83,20 @@
 						"subpatcher_template" : "",
 						"boxes" : [ 							{
 								"box" : 								{
+									"id" : "obj-5",
+									"maxclass" : "message",
+									"numinlets" : 2,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 123.0, 38.0, 81.0, 22.0 ],
+									"presentation_rect" : [ 123.0, 38.0, 81.0, 22.0 ],
+									"style" : "",
+									"text" : "a b c d e f g h"
+								}
+
+							}
+, 							{
+								"box" : 								{
 									"comment" : "",
 									"id" : "obj-4",
 									"index" : 1,
@@ -139,6 +153,13 @@
 								}
 
 							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-3", 0 ],
+									"source" : [ "obj-5", 0 ]
+								}
+
+							}
  ]
 					}
 ,
@@ -182,22 +203,6 @@
 					"presentation_rect" : [ 68.0, 332.0, 176.0, 22.0 ],
 					"style" : "",
 					"text" : "mp.TUI.toes 10 /scroller_helper"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-8",
-					"linecount" : 2,
-					"maxclass" : "message",
-					"numinlets" : 2,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 247.0, 130.0, 443.0, 35.0 ],
-					"presentation_linecount" : 2,
-					"presentation_rect" : [ 247.0, 130.0, 443.0, 35.0 ],
-					"style" : "",
-					"text" : "items orange banana kiwi pomelos apple pear litchi mangoo cherry peach apricot strawberry raspberry blackberry"
 				}
 
 			}
@@ -1214,6 +1219,13 @@
 
 			}
  ],
+		"parameters" : 		{
+			"parameterbanks" : 			{
+
+			}
+
+		}
+,
 		"dependency_cache" : [ 			{
 				"name" : "mp.TUI.text.scroller.maxpat",
 				"bootpath" : "~/Documents/Max 7/Packages/ModularPolyphony-TUI/patchers",
