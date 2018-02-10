@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 112.0, 239.0, 912.0, 366.0 ],
+		"rect" : [ 544.0, 208.0, 909.0, 386.0 ],
 		"bgcolor" : [ 0.9, 0.91, 0.91, 1.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
@@ -38,6 +38,20 @@
 		"style" : "",
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
+				"box" : 				{
+					"id" : "obj-8",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 216.0, 303.0, 50.0, 22.0 ],
+					"presentation_rect" : [ 216.0, 303.0, 50.0, 22.0 ],
+					"style" : "",
+					"text" : "12"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"format" : 6,
 					"id" : "obj-53",
@@ -83,7 +97,7 @@
 							"modernui" : 1
 						}
 ,
-						"rect" : [ 0.0, 0.0, 640.0, 480.0 ],
+						"rect" : [ 59.0, 103.0, 640.0, 480.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -1664,8 +1678,10 @@
 					"linecount" : 2,
 					"maxclass" : "newobj",
 					"numinlets" : 2,
-					"numoutlets" : 0,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
 					"patching_rect" : [ 209.125, 253.184082, 399.0, 35.0 ],
+					"presentation_linecount" : 2,
 					"presentation_rect" : [ 209.125, 253.184082, 399.0, 35.0 ],
 					"style" : "",
 					"text" : "mp.TUI.text.scroller /scroller_helper @position 0 0 0 @scale 0.4 0.6 0 @items 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 @color 1 1 1"
@@ -1761,6 +1777,13 @@
 				"patchline" : 				{
 					"destination" : [ "obj-18", 0 ],
 					"source" : [ "obj-29", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-8", 1 ],
+					"source" : [ "obj-30", 0 ]
 				}
 
 			}
@@ -1976,6 +1999,13 @@
 				"implicit" : 1
 			}
 , 			{
+				"name" : "ease.chooser.maxpat",
+				"bootpath" : "~/Documents/Max 8/Packages/ease/patchers",
+				"patcherrelativepath" : "../../ease/patchers",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
 				"name" : "mp.thru.maxpat",
 				"bootpath" : "~/Documents/Max 7/Packages/ModularPolyphony/patchers",
 				"patcherrelativepath" : "../../ModularPolyphony/patchers",
@@ -2044,6 +2074,10 @@
 				"patcherrelativepath" : "../patchers",
 				"type" : "JSON",
 				"implicit" : 1
+			}
+, 			{
+				"name" : "ease.mxo",
+				"type" : "iLaX"
 			}
  ],
 		"autosave" : 0,
