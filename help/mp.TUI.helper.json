@@ -98,5 +98,10 @@
 		"description" : "A spectroscope~ as TUI.",
 		"categories" : [ "alpha", "beta", "gamma" ]
 	}
+,
+	"mp.TUI.voronoi" : 	{
+		"description" : "A tangible voronoi mesh",
+		"categories" : [ "alpha", "beta", "gamma" ]
+	}
 
 }
