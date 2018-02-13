@@ -103,5 +103,9 @@
 		"description" : "A tangible voronoi mesh",
 		"categories" : [ "alpha", "beta", "gamma" ]
 	}
+,
+	"Polyphony" : 	{
+		"Modular" : [ "alpha", "beta", "gamma" ]
+	}
 
 }

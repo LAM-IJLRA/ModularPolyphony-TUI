@@ -39,6 +39,48 @@
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-21",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "signal" ],
+					"patching_rect" : [ 244.0, 395.0, 325.0, 22.0 ],
+					"presentation_rect" : [ 244.0, 395.0, 325.0, 22.0 ],
+					"style" : "",
+					"text" : "mp.TUI.voronoi.cellViz 10 /voronoi_helper @scale 0.8 0.6 1"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-7",
+					"maxclass" : "newobj",
+					"numinlets" : 0,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 237.0, 157.0, 164.0, 22.0 ],
+					"presentation_rect" : [ 237.0, 157.0, 164.0, 22.0 ],
+					"style" : "",
+					"text" : "r /voronoi_helper/TUI/cursors"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-4",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 2,
+					"outlettype" : [ "", "" ],
+					"patching_rect" : [ 237.0, 189.0, 177.0, 22.0 ],
+					"presentation_rect" : [ 237.0, 189.0, 177.0, 22.0 ],
+					"style" : "",
+					"text" : "mp.TUI.toes 10 /voronoi_helper"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-46",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
@@ -814,20 +856,6 @@
 			}
 , 			{
 				"box" : 				{
-					"id" : "obj-21",
-					"maxclass" : "newobj",
-					"numinlets" : 2,
-					"numoutlets" : 1,
-					"outlettype" : [ "signal" ],
-					"patching_rect" : [ 244.0, 395.0, 325.0, 22.0 ],
-					"presentation_rect" : [ 244.0, 395.0, 325.0, 22.0 ],
-					"style" : "",
-					"text" : "mp.TUI.voronoi.cellViz 10 /voronoi_helper @scale 0.8 0.6 1"
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"id" : "obj-17",
 					"maxclass" : "toggle",
 					"numinlets" : 1,
@@ -1319,34 +1347,6 @@
 ,
 					"style" : "",
 					"text" : "p siteMatrix"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-7",
-					"maxclass" : "newobj",
-					"numinlets" : 0,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 237.0, 157.0, 164.0, 22.0 ],
-					"presentation_rect" : [ 237.0, 157.0, 164.0, 22.0 ],
-					"style" : "",
-					"text" : "r /voronoi_helper/TUI/cursors"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-4",
-					"maxclass" : "newobj",
-					"numinlets" : 2,
-					"numoutlets" : 2,
-					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 237.0, 189.0, 177.0, 22.0 ],
-					"presentation_rect" : [ 237.0, 189.0, 177.0, 22.0 ],
-					"style" : "",
-					"text" : "mp.TUI.toes 10 /voronoi_helper"
 				}
 
 			}
@@ -2315,24 +2315,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-41", 0 ],
-					"order" : 2,
-					"source" : [ "obj-21", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"destination" : [ "obj-8", 0 ],
-					"order" : 1,
-					"source" : [ "obj-21", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-9", 0 ],
-					"order" : 0,
 					"source" : [ "obj-21", 0 ]
 				}
 
@@ -2806,6 +2789,13 @@
 				"implicit" : 1
 			}
 , 			{
+				"name" : "yafr2.maxpat",
+				"bootpath" : "/Users/Shared/Max 8/Examples/effects/reverb/lib",
+				"patcherrelativepath" : "../../../../../../Shared/Max 8/Examples/effects/reverb/lib",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
 				"name" : "mp.TUI.toes.maxpat",
 				"bootpath" : "~/Documents/Max 7/Packages/ModularPolyphony-TUI/patchers",
 				"patcherrelativepath" : "../patchers",
@@ -2857,13 +2847,6 @@
 				"name" : "LAM.scalarProduct.maxpat",
 				"bootpath" : "~/Documents/Max/Packages/lam-lib/patchers",
 				"patcherrelativepath" : "../../../../Max/Packages/lam-lib/patchers",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "yafr2.maxpat",
-				"bootpath" : "/Users/Shared/Max 8/Examples/effects/reverb/lib",
-				"patcherrelativepath" : "../../../../../../Shared/Max 8/Examples/effects/reverb/lib",
 				"type" : "JSON",
 				"implicit" : 1
 			}
