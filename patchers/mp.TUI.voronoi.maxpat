@@ -3125,7 +3125,7 @@
 									"patching_rect" : [ 50.0, 78.0, 356.399994, 22.0 ],
 									"presentation_rect" : [ 50.0, 78.0, 356.399994, 22.0 ],
 									"style" : "",
-									"text" : "routepass position scale rotatexyz anim enable color dim"
+									"text" : "routepass name scale rotatexyz anim enable color dim"
 								}
 
 							}
@@ -3193,6 +3193,13 @@
 								"patchline" : 								{
 									"destination" : [ "obj-17", 0 ],
 									"source" : [ "obj-20", 7 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-19", 0 ],
+									"source" : [ "obj-20", 0 ]
 								}
 
 							}
