@@ -253,8 +253,8 @@
  ]
 					}
 ,
-					"patching_rect" : [ 376.0, 101.0, 61.0, 22.0 ],
-					"presentation_rect" : [ 376.0, 101.0, 61.0, 22.0 ],
+					"patching_rect" : [ 376.0, 108.0, 61.0, 22.0 ],
+					"presentation_rect" : [ 376.0, 108.0, 61.0, 22.0 ],
 					"saved_object_attributes" : 					{
 						"description" : "",
 						"digest" : "",
@@ -291,6 +291,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 149.0, 229.0, 374.0, 35.0 ],
+					"presentation_linecount" : 2,
 					"presentation_rect" : [ 149.0, 229.0, 374.0, 35.0 ],
 					"style" : "",
 					"text" : "jit.gl.sketch #2 @scale 0.02 0.02 0.02 @depth_enable 0 @blend_enable 1 @layer 999999 @enable 0  @displaylist 1"
@@ -355,20 +356,6 @@
 			}
 , 			{
 				"box" : 				{
-					"id" : "obj-24",
-					"maxclass" : "message",
-					"numinlets" : 2,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 12.0, 101.0, 29.5, 22.0 ],
-					"presentation_rect" : [ 12.0, 101.0, 29.5, 22.0 ],
-					"style" : "",
-					"text" : "$3"
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 13.0,
 					"id" : "obj-14",
@@ -377,6 +364,10 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 317.5, 275.0, 39.0, 23.0 ],
 					"presentation_rect" : [ 317.5, 275.0, 39.0, 23.0 ],
+					"saved_object_attributes" : 					{
+						"attr_comment" : ""
+					}
+,
 					"style" : "",
 					"text" : "out 2"
 				}
@@ -410,6 +401,10 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 481.5, 30.0, 30.0, 22.0 ],
 					"presentation_rect" : [ 481.5, 30.0, 30.0, 22.0 ],
+					"saved_object_attributes" : 					{
+						"attr_comment" : ""
+					}
+,
 					"style" : "",
 					"text" : "in 2"
 				}
@@ -425,6 +420,10 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 12.0, 272.0, 39.0, 23.0 ],
 					"presentation_rect" : [ 12.0, 272.0, 39.0, 23.0 ],
+					"saved_object_attributes" : 					{
+						"attr_comment" : ""
+					}
+,
 					"style" : "",
 					"text" : "out 1"
 				}
@@ -441,10 +440,6 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 12.0, 22.0, 30.0, 22.0 ],
 					"presentation_rect" : [ 12.0, 22.0, 30.0, 22.0 ],
-					"saved_object_attributes" : 					{
-						"attr_comment" : ""
-					}
-,
 					"style" : "",
 					"text" : "in 1"
 				}
@@ -483,15 +478,9 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-21", 0 ],
+					"midpoints" : [ 295.5, 96.5, 385.5, 96.5 ],
 					"order" : 0,
 					"source" : [ "obj-15", 2 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-24", 0 ],
-					"source" : [ "obj-15", 0 ]
 				}
 
 			}

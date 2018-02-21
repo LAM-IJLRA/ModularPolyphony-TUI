@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 99.0, 416.0, 823.0, 340.0 ],
+		"rect" : [ 220.0, 403.0, 801.0, 292.0 ],
 		"bgcolor" : [ 0.9, 0.91, 0.91, 1.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
@@ -39,19 +39,77 @@
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
 				"box" : 				{
-					"id" : "obj-3",
-					"maxclass" : "ezdac~",
-					"numinlets" : 2,
-					"numoutlets" : 0,
-					"patching_rect" : [ 92.0, 101.0, 45.0, 45.0 ],
-					"presentation_rect" : [ 92.0, 101.0, 45.0, 45.0 ],
+					"id" : "obj-23",
+					"maxclass" : "number",
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "", "bang" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 323.625, 142.0, 50.0, 22.0 ],
+					"presentation_rect" : [ 323.625, 142.0, 50.0, 22.0 ],
 					"style" : ""
 				}
 
 			}
 , 			{
 				"box" : 				{
-					"args" : [ "mp.TUI.balls", "@description", "Bucephalus boucing balls.", "@categories", "component" ],
+					"id" : "obj-16",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 323.625, 167.101746, 93.0, 22.0 ],
+					"presentation_rect" : [ 323.625, 167.101746, 93.0, 22.0 ],
+					"style" : "",
+					"text" : "caption align $1"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-12",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 338.625, 192.203506, 127.0, 22.0 ],
+					"presentation_rect" : [ 338.625, 192.203506, 127.0, 22.0 ],
+					"style" : "",
+					"text" : "caption color 1 0.5 0 1"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-10",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 238.625, 218.0, 85.0, 22.0 ],
+					"presentation_rect" : [ 238.625, 218.0, 85.0, 22.0 ],
+					"style" : "",
+					"text" : "color 0 0 1 0.2"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-4",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 353.625, 218.0, 128.0, 22.0 ],
+					"presentation_rect" : [ 353.625, 218.0, 128.0, 22.0 ],
+					"style" : "",
+					"text" : "caption text awesome!"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"args" : [ "mp.TUI.slider", "@description", "A simple slider.", "@category", "component" ],
 					"bgmode" : 0,
 					"border" : 0,
 					"clickthrough" : 0,
@@ -472,7 +530,7 @@
 							"modernui" : 1
 						}
 ,
-						"rect" : [ 168.0, 275.0, 688.0, 259.0 ],
+						"rect" : [ 550.0, 275.0, 688.0, 259.0 ],
 						"bgcolor" : [ 0.9, 0.91, 0.91, 1.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
@@ -502,28 +560,112 @@
 						"subpatcher_template" : "WM-lib.HelpPatcher",
 						"boxes" : [ 							{
 								"box" : 								{
-									"id" : "obj-1",
-									"maxclass" : "number",
-									"numinlets" : 1,
+									"id" : "obj-7",
+									"maxclass" : "newobj",
+									"numinlets" : 2,
 									"numoutlets" : 2,
-									"outlettype" : [ "", "bang" ],
+									"outlettype" : [ "", "" ],
+									"patching_rect" : [ 450.0, 155.0, 166.0, 22.0 ],
+									"presentation_rect" : [ 450.0, 155.0, 166.0, 22.0 ],
+									"style" : "",
+									"text" : "mp.TUI.toes 10 /slider_helper"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-1",
+									"maxclass" : "toggle",
+									"numinlets" : 1,
+									"numoutlets" : 1,
+									"outlettype" : [ "int" ],
 									"parameter_enable" : 0,
-									"patching_rect" : [ 224.125, 156.944458, 50.0, 22.0 ],
-									"presentation_rect" : [ 224.125, 156.944458, 50.0, 22.0 ],
+									"patching_rect" : [ 343.000061, 96.5, 24.0, 24.0 ],
+									"presentation_rect" : [ 343.000061, 96.5, 24.0, 24.0 ],
 									"style" : ""
 								}
 
 							}
 , 							{
 								"box" : 								{
-									"id" : "obj-7",
+									"id" : "obj-3",
+									"maxclass" : "newobj",
+									"numinlets" : 2,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 343.000061, 127.5, 52.0, 22.0 ],
+									"presentation_rect" : [ 343.000061, 127.5, 52.0, 22.0 ],
+									"style" : "",
+									"text" : "gate 1 0"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-4",
 									"maxclass" : "newobj",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 224.125, 188.0, 144.0, 22.0 ],
-									"presentation_rect" : [ 224.125, 188.0, 144.0, 22.0 ],
+									"patching_rect" : [ 343.000061, 155.0, 101.0, 22.0 ],
+									"presentation_rect" : [ 343.000061, 155.0, 101.0, 22.0 ],
 									"style" : "",
-									"text" : "s /balls_helper/global/edit"
+									"text" : "print raw-pointers"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-13",
+									"maxclass" : "toggle",
+									"numinlets" : 1,
+									"numoutlets" : 1,
+									"outlettype" : [ "int" ],
+									"parameter_enable" : 0,
+									"patching_rect" : [ 17.0, 96.5, 24.0, 24.0 ],
+									"presentation_rect" : [ 17.0, 96.5, 24.0, 24.0 ],
+									"style" : ""
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-9",
+									"maxclass" : "newobj",
+									"numinlets" : 2,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 17.0, 127.5, 52.0, 22.0 ],
+									"presentation_rect" : [ 17.0, 127.5, 52.0, 22.0 ],
+									"style" : "",
+									"text" : "gate 1 0"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-8",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 17.0, 155.0, 114.0, 22.0 ],
+									"presentation_rect" : [ 17.0, 155.0, 114.0, 22.0 ],
+									"style" : "",
+									"text" : "print object-pointers"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-5",
+									"maxclass" : "message",
+									"numinlets" : 2,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 244.0, 108.5, 75.0, 22.0 ],
+									"presentation_linecount" : 2,
+									"presentation_rect" : [ 244.0, 108.5, 75.0, 22.0 ],
+									"style" : "",
+									"text" : "12783.slider"
 								}
 
 							}
@@ -534,8 +676,8 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "bang" ],
-									"patching_rect" : [ 50.0, 102.0, 24.0, 24.0 ],
-									"presentation_rect" : [ 50.0, 102.0, 24.0, 24.0 ],
+									"patching_rect" : [ 71.0, 125.5, 24.0, 24.0 ],
+									"presentation_rect" : [ 71.0, 125.5, 24.0, 24.0 ],
 									"style" : ""
 								}
 
@@ -592,7 +734,7 @@
 									"presentation_linecount" : 3,
 									"presentation_rect" : [ 594.875122, 51.0, 55.0, 49.0 ],
 									"style" : "",
-									"text" : "/tuio/2Dcur fseq 504"
+									"text" : "/tuio/2Dcur fseq 11985"
 								}
 
 							}
@@ -607,7 +749,7 @@
 									"patching_rect" : [ 50.0, 62.0, 508.000092, 29.0 ],
 									"presentation_rect" : [ 50.0, 62.0, 508.000092, 29.0 ],
 									"style" : "",
-									"text" : "mp.TUI.hub /balls_helper"
+									"text" : "mp.TUI.hub /slider_helper"
 								}
 
 							}
@@ -643,7 +785,7 @@
  ],
 						"lines" : [ 							{
 								"patchline" : 								{
-									"destination" : [ "obj-7", 0 ],
+									"destination" : [ "obj-3", 0 ],
 									"source" : [ "obj-1", 0 ]
 								}
 
@@ -652,6 +794,13 @@
 								"patchline" : 								{
 									"destination" : [ "obj-49", 0 ],
 									"source" : [ "obj-10", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-9", 0 ],
+									"source" : [ "obj-13", 0 ]
 								}
 
 							}
@@ -681,7 +830,15 @@
 							}
 , 							{
 								"patchline" : 								{
+									"destination" : [ "obj-4", 0 ],
+									"source" : [ "obj-3", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
 									"destination" : [ "obj-11", 0 ],
+									"order" : 0,
 									"source" : [ "obj-49", 0 ]
 								}
 
@@ -689,6 +846,23 @@
 , 							{
 								"patchline" : 								{
 									"destination" : [ "obj-2", 0 ],
+									"order" : 1,
+									"source" : [ "obj-49", 1 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-3", 1 ],
+									"order" : 1,
+									"source" : [ "obj-49", 2 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-5", 1 ],
+									"order" : 0,
 									"source" : [ "obj-49", 1 ]
 								}
 
@@ -697,6 +871,29 @@
 								"patchline" : 								{
 									"destination" : [ "obj-6", 0 ],
 									"source" : [ "obj-49", 3 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-7", 0 ],
+									"order" : 0,
+									"source" : [ "obj-49", 2 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-9", 1 ],
+									"order" : 1,
+									"source" : [ "obj-49", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-8", 0 ],
+									"source" : [ "obj-9", 0 ]
 								}
 
 							}
@@ -722,8 +919,8 @@
  ]
 					}
 ,
-					"patching_rect" : [ 665.625, 126.0, 76.0, 24.0 ],
-					"presentation_rect" : [ 665.625, 126.0, 76.0, 24.0 ],
+					"patching_rect" : [ 465.625, 133.0, 76.0, 24.0 ],
+					"presentation_rect" : [ 465.625, 133.0, 76.0, 24.0 ],
 					"saved_object_attributes" : 					{
 						"description" : "",
 						"digest" : "",
@@ -734,21 +931,6 @@
 ,
 					"style" : "",
 					"text" : "p TUI-Hub"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"fontname" : "Arial",
-					"fontsize" : 11.0,
-					"id" : "obj-4",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 32.0, 245.0, 79.0, 21.0 ],
-					"presentation_rect" : [ 32.0, 245.0, 79.0, 21.0 ],
-					"style" : "",
-					"text" : "s /balls_helper"
 				}
 
 			}
@@ -798,10 +980,10 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "bang", "" ],
-					"patching_rect" : [ 209.125, 101.0, 476.0, 21.0 ],
-					"presentation_rect" : [ 209.125, 101.0, 476.0, 21.0 ],
+					"patching_rect" : [ 209.125, 101.0, 275.5, 21.0 ],
+					"presentation_rect" : [ 209.125, 101.0, 275.5, 21.0 ],
 					"style" : "",
-					"text" : "jit.window /balls_helper @mousewheel 1 @idlemouse 1 @fsmenubar 0 @fsaa 1"
+					"text" : "jit.window /slider_helper @fsmenubar 0"
 				}
 
 			}
@@ -814,10 +996,10 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "bang", "" ],
-					"patching_rect" : [ 9.0, 278.0, 177.0, 21.0 ],
-					"presentation_rect" : [ 9.0, 278.0, 177.0, 21.0 ],
+					"patching_rect" : [ 9.0, 253.184082, 186.0, 21.0 ],
+					"presentation_rect" : [ 9.0, 253.184082, 186.0, 21.0 ],
 					"style" : "",
-					"text" : "jit.gl.render /balls_helper @ortho 1"
+					"text" : "jit.gl.render /slider_helper @ortho 1"
 				}
 
 			}
@@ -828,12 +1010,12 @@
 					"id" : "obj-15",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
-					"numoutlets" : 3,
-					"outlettype" : [ "bang", "bang", "erase" ],
+					"numoutlets" : 2,
+					"outlettype" : [ "bang", "erase" ],
 					"patching_rect" : [ 9.0, 218.0, 64.0, 21.0 ],
 					"presentation_rect" : [ 9.0, 218.0, 64.0, 21.0 ],
 					"style" : "",
-					"text" : "t b b erase"
+					"text" : "t b erase"
 				}
 
 			}
@@ -861,8 +1043,8 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 645.125, 199.5, 24.0, 24.0 ],
-					"presentation_rect" : [ 645.125, 199.5, 24.0, 24.0 ],
+					"patching_rect" : [ 486.125, 189.0, 24.0, 24.0 ],
+					"presentation_rect" : [ 486.125, 189.0, 24.0, 24.0 ],
 					"style" : ""
 				}
 
@@ -874,8 +1056,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 645.125, 234.5, 61.0, 22.0 ],
-					"presentation_rect" : [ 645.125, 234.5, 61.0, 22.0 ],
+					"patching_rect" : [ 486.125, 218.0, 61.0, 22.0 ],
+					"presentation_rect" : [ 486.125, 218.0, 61.0, 22.0 ],
 					"style" : "",
 					"text" : "enable $1"
 				}
@@ -896,8 +1078,8 @@
 					"numoutlets" : 1,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 489.125, 196.5, 141.5, 64.0 ],
-					"presentation_rect" : [ 489.125, 196.5, 141.5, 64.0 ],
+					"patching_rect" : [ 568.125, 177.0, 135.5, 63.0 ],
+					"presentation_rect" : [ 568.125, 177.0, 135.5, 63.0 ],
 					"viewvisibility" : 1
 				}
 
@@ -906,18 +1088,34 @@
 				"box" : 				{
 					"id" : "obj-30",
 					"maxclass" : "newobj",
-					"numinlets" : 3,
-					"numoutlets" : 2,
-					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 226.125, 278.184082, 282.0, 22.0 ],
-					"presentation_rect" : [ 226.125, 278.184082, 282.0, 22.0 ],
+					"numinlets" : 2,
+					"numoutlets" : 3,
+					"outlettype" : [ "", "", "" ],
+					"patching_rect" : [ 266.625, 253.184082, 320.0, 22.0 ],
+					"presentation_rect" : [ 266.625, 253.184082, 320.0, 22.0 ],
 					"style" : "",
-					"text" : "mp.TUI.balls /balls_helper @scale 1 0.3 0 @layer 1"
+					"text" : "mp.TUI.slider /slider_helper @scale 1 0.2 0"
 				}
 
 			}
  ],
 		"lines" : [ 			{
+				"patchline" : 				{
+					"destination" : [ "obj-30", 1 ],
+					"midpoints" : [ 248.125, 246.092041, 577.125, 246.092041 ],
+					"source" : [ "obj-10", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-30", 1 ],
+					"midpoints" : [ 348.125, 245.092041, 577.125, 245.092041 ],
+					"source" : [ "obj-12", 0 ]
+				}
+
+			}
+, 			{
 				"patchline" : 				{
 					"destination" : [ "obj-19", 0 ],
 					"source" : [ "obj-14", 0 ]
@@ -927,8 +1125,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-13", 0 ],
-					"midpoints" : [ 63.5, 270.5, 18.5, 270.5 ],
-					"source" : [ "obj-15", 2 ]
+					"source" : [ "obj-15", 1 ]
 				}
 
 			}
@@ -941,8 +1138,9 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-4", 0 ],
-					"source" : [ "obj-15", 1 ]
+					"destination" : [ "obj-30", 1 ],
+					"midpoints" : [ 333.125, 245.592041, 577.125, 245.592041 ],
+					"source" : [ "obj-16", 0 ]
 				}
 
 			}
@@ -962,6 +1160,13 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-16", 0 ],
+					"source" : [ "obj-23", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-25", 0 ],
 					"source" : [ "obj-24", 0 ]
 				}
@@ -969,14 +1174,16 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-30", 2 ],
+					"destination" : [ "obj-30", 1 ],
+					"midpoints" : [ 495.625, 246.092041, 577.125, 246.092041 ],
 					"source" : [ "obj-25", 0 ]
 				}
 
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-30", 2 ],
+					"destination" : [ "obj-30", 1 ],
+					"midpoints" : [ 577.625, 245.592041, 577.125, 245.592041 ],
 					"source" : [ "obj-28", 0 ]
 				}
 
@@ -991,8 +1198,16 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-28", 0 ],
-					"midpoints" : [ 498.625, 310.184082, 479.625, 310.184082, 479.625, 185.5, 498.625, 185.5 ],
-					"source" : [ "obj-30", 1 ]
+					"midpoints" : [ 577.125, 285.184082, 561.375, 285.184082, 561.375, 166.0, 577.625, 166.0 ],
+					"source" : [ "obj-30", 2 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-30", 1 ],
+					"midpoints" : [ 363.125, 246.092041, 577.125, 246.092041 ],
+					"source" : [ "obj-4", 0 ]
 				}
 
 			}
@@ -1004,18 +1219,59 @@
 
 			}
  ],
-		"parameters" : 		{
-			"obj-30::obj-11::obj-35" : [ "live.gain~", "live.gain~", 0 ],
-			"parameterbanks" : 			{
-
-			}
-
-		}
-,
 		"dependency_cache" : [ 			{
-				"name" : "mp.TUI.balls.maxpat",
+				"name" : "mp.TUI.slider.maxpat",
 				"bootpath" : "~/Documents/Max 7/Packages/ModularPolyphony-TUI/patchers",
 				"patcherrelativepath" : "../patchers",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "sw.maxpat",
+				"bootpath" : "/Users/Shared/Max 8/Examples/max-tricks/send-receive-tricks/lib",
+				"patcherrelativepath" : "../../../../../../Shared/Max 8/Examples/max-tricks/send-receive-tricks/lib",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "mp.LAOS.maxpat",
+				"bootpath" : "~/Documents/Max 7/Packages/ModularPolyphony/patchers",
+				"patcherrelativepath" : "../../ModularPolyphony/patchers",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "mp.uID.maxpat",
+				"bootpath" : "~/Documents/Max 7/Packages/ModularPolyphony/patchers",
+				"patcherrelativepath" : "../../ModularPolyphony/patchers",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "LAM.LAOS.maxpat",
+				"bootpath" : "~/Documents/Max/Packages/lam-lib/patchers",
+				"patcherrelativepath" : "../../../../Max/Packages/lam-lib/patchers",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "mp.oo2ouo.maxpat",
+				"bootpath" : "~/Documents/Max 7/Packages/ModularPolyphony/patchers",
+				"patcherrelativepath" : "../../ModularPolyphony/patchers",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "mp.TUI.worldtolocal.maxpat",
+				"bootpath" : "~/Documents/Max 7/Packages/ModularPolyphony-TUI/patchers",
+				"patcherrelativepath" : "../patchers",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "LAM.f.call.maxpat",
+				"bootpath" : "~/Documents/Max/Packages/lam-lib/patchers",
+				"patcherrelativepath" : "../../../../Max/Packages/lam-lib/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
@@ -1037,20 +1293,6 @@
 				"name" : "LAM.f.io.maxpat",
 				"bootpath" : "~/Documents/Max/Packages/lam-lib/patchers",
 				"patcherrelativepath" : "../../../../Max/Packages/lam-lib/patchers",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "LAM.f.call.maxpat",
-				"bootpath" : "~/Documents/Max/Packages/lam-lib/patchers",
-				"patcherrelativepath" : "../../../../Max/Packages/lam-lib/patchers",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "mp.TUI.worldtolocal.maxpat",
-				"bootpath" : "~/Documents/Max 7/Packages/ModularPolyphony-TUI/patchers",
-				"patcherrelativepath" : "../patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
@@ -1139,34 +1381,6 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "mp.LAOS.maxpat",
-				"bootpath" : "~/Documents/Max 7/Packages/ModularPolyphony/patchers",
-				"patcherrelativepath" : "../../ModularPolyphony/patchers",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "mp.uID.maxpat",
-				"bootpath" : "~/Documents/Max 7/Packages/ModularPolyphony/patchers",
-				"patcherrelativepath" : "../../ModularPolyphony/patchers",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "LAM.LAOS.maxpat",
-				"bootpath" : "~/Documents/Max/Packages/lam-lib/patchers",
-				"patcherrelativepath" : "../../../../Max/Packages/lam-lib/patchers",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "mp.oo2ouo.maxpat",
-				"bootpath" : "~/Documents/Max 7/Packages/ModularPolyphony/patchers",
-				"patcherrelativepath" : "../../ModularPolyphony/patchers",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
 				"name" : "LAM.f.dcall.maxpat",
 				"bootpath" : "~/Documents/Max/Packages/lam-lib/patchers",
 				"patcherrelativepath" : "../../../../Max/Packages/lam-lib/patchers",
@@ -1174,23 +1388,9 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "mp.TUI.balls.demosynth.p.maxpat",
-				"bootpath" : "~/Documents/Max 7/Packages/ModularPolyphony-TUI/patchers",
-				"patcherrelativepath" : "../patchers",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
 				"name" : "mp.TUI.GLparameters.GUI.maxpat",
 				"bootpath" : "~/Documents/Max 7/Packages/ModularPolyphony-TUI/patchers",
 				"patcherrelativepath" : "../patchers",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "sw.maxpat",
-				"bootpath" : "/Users/Shared/Max 8/Examples/max-tricks/send-receive-tricks/lib",
-				"patcherrelativepath" : "../../../../../../Shared/Max 8/Examples/max-tricks/send-receive-tricks/lib",
 				"type" : "JSON",
 				"implicit" : 1
 			}
@@ -1205,6 +1405,20 @@
 				"name" : "mp.uID.maker.maxpat",
 				"bootpath" : "~/Documents/Max 7/Packages/ModularPolyphony/patchers",
 				"patcherrelativepath" : "../../ModularPolyphony/patchers",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "mp.TUI.toes.maxpat",
+				"bootpath" : "~/Documents/Max 7/Packages/ModularPolyphony-TUI/patchers",
+				"patcherrelativepath" : "../patchers",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "mp.TUI.toes.p.maxpat",
+				"bootpath" : "~/Documents/Max 7/Packages/ModularPolyphony-TUI/patchers",
+				"patcherrelativepath" : "../patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}

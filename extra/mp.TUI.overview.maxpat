@@ -540,7 +540,7 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 18.9375, 199.0, 548.0, 396.0 ],
 					"readonly" : 1,
-					"rows" : 17,
+					"rows" : 20,
 					"selmode" : 3
 				}
 
@@ -1214,7 +1214,7 @@
 			}
 , 			{
 				"box" : 				{
-					"args" : [ "name", "mp.TUI", "@description", "A library for multitouch UI." ],
+					"args" : [ "mp.TUI", "@description", "A library for multitouch UI." ],
 					"bgmode" : 0,
 					"border" : 0,
 					"clickthrough" : 0,

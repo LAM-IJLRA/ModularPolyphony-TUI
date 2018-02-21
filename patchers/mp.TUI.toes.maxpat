@@ -43,8 +43,8 @@
 					"numinlets" : 3,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 171.5, 92.0, 217.5, 22.0 ],
-					"presentation_rect" : [ 171.5, 92.0, 217.5, 22.0 ],
+					"patching_rect" : [ 171.5, 92.0, 254.5, 22.0 ],
+					"presentation_rect" : [ 171.5, 92.0, 254.5, 22.0 ],
 					"style" : "",
 					"text" : "mp.block.init"
 				}
@@ -70,8 +70,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 171.5, 63.608704, 118.25, 22.0 ],
-					"presentation_rect" : [ 171.5, 63.608704, 118.25, 22.0 ],
+					"patching_rect" : [ 171.5, 63.608704, 136.75, 22.0 ],
+					"presentation_rect" : [ 171.5, 63.608704, 136.75, 22.0 ],
 					"style" : "",
 					"text" : "patcherargs"
 				}
@@ -356,8 +356,8 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 370.0, 55.608704, 30.0, 30.0 ],
-					"presentation_rect" : [ 370.0, 55.608704, 30.0, 30.0 ],
+					"patching_rect" : [ 407.0, 55.608704, 30.0, 30.0 ],
+					"presentation_rect" : [ 407.0, 55.608704, 30.0, 30.0 ],
 					"style" : ""
 				}
 
@@ -430,6 +430,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-49", 0 ],
+					"midpoints" : [ 298.75, 157.794739, 51.5, 157.794739 ],
 					"source" : [ "obj-33", 1 ]
 				}
 

@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 109.0, 456.0, 807.0, 288.0 ],
+		"rect" : [ 100.0, 199.0, 807.0, 288.0 ],
 		"bgcolor" : [ 0.9, 0.91, 0.91, 1.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
@@ -39,44 +39,30 @@
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-2",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 20.0, 66.0, 150.0, 20.0 ],
+					"presentation_rect" : [ 20.0, 66.0, 150.0, 20.0 ],
+					"style" : "",
+					"text" : "WORK IN PROGRESS"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-8",
 					"linecount" : 2,
 					"maxclass" : "message",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 247.0, 130.0, 443.0, 35.0 ],
-					"presentation_rect" : [ 247.0, 130.0, 443.0, 35.0 ],
+					"patching_rect" : [ 219.0, 130.0, 443.0, 35.0 ],
+					"presentation_linecount" : 2,
+					"presentation_rect" : [ 219.0, 130.0, 443.0, 35.0 ],
 					"style" : "",
 					"text" : "items orange banana kiwi pomelos apple pear litchi mangoo cherry peach apricot strawberry raspberry blackberry"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-1",
-					"maxclass" : "toggle",
-					"numinlets" : 1,
-					"numoutlets" : 1,
-					"outlettype" : [ "int" ],
-					"parameter_enable" : 0,
-					"patching_rect" : [ 563.125, 183.0, 24.0, 24.0 ],
-					"presentation_rect" : [ 563.125, 183.0, 24.0, 24.0 ],
-					"style" : ""
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-2",
-					"maxclass" : "message",
-					"numinlets" : 2,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 563.125, 218.0, 45.0, 22.0 ],
-					"presentation_rect" : [ 563.125, 218.0, 45.0, 22.0 ],
-					"style" : "",
-					"text" : "edit $1"
 				}
 
 			}
@@ -545,6 +531,20 @@
 						"subpatcher_template" : "WM-lib.HelpPatcher",
 						"boxes" : [ 							{
 								"box" : 								{
+									"id" : "obj-3",
+									"maxclass" : "newobj",
+									"numinlets" : 2,
+									"numoutlets" : 2,
+									"outlettype" : [ "", "" ],
+									"patching_rect" : [ 376.000092, 143.0, 167.0, 22.0 ],
+									"presentation_rect" : [ 376.000092, 143.0, 167.0, 22.0 ],
+									"style" : "",
+									"text" : "mp.TUI.toes 10 /menu_helper"
+								}
+
+							}
+, 							{
+								"box" : 								{
 									"id" : "obj-4",
 									"linecount" : 3,
 									"maxclass" : "message",
@@ -755,6 +755,13 @@
 							}
 , 							{
 								"patchline" : 								{
+									"destination" : [ "obj-3", 0 ],
+									"source" : [ "obj-49", 2 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
 									"destination" : [ "obj-4", 1 ],
 									"order" : 0,
 									"source" : [ "obj-49", 1 ]
@@ -854,7 +861,7 @@
 					"patching_rect" : [ 209.125, 101.0, 486.0, 21.0 ],
 					"presentation_rect" : [ 209.125, 101.0, 486.0, 21.0 ],
 					"style" : "",
-					"text" : "jit.window /menu_helper @mousewheel 1 @idlemouse 1 @fsmenubar 0 @fsaa 1"
+					"text" : "jit.window /menu_helper @fsmenubar 0 @fsaa 1"
 				}
 
 			}
@@ -960,7 +967,8 @@
 					"id" : "obj-30",
 					"maxclass" : "newobj",
 					"numinlets" : 2,
-					"numoutlets" : 0,
+					"numoutlets" : 2,
+					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 266.625, 253.184082, 502.0, 22.0 ],
 					"presentation_rect" : [ 266.625, 253.184082, 502.0, 22.0 ],
 					"style" : "",
@@ -970,13 +978,6 @@
 			}
  ],
 		"lines" : [ 			{
-				"patchline" : 				{
-					"destination" : [ "obj-2", 0 ],
-					"source" : [ "obj-1", 0 ]
-				}
-
-			}
-, 			{
 				"patchline" : 				{
 					"destination" : [ "obj-19", 0 ],
 					"source" : [ "obj-14", 0 ]
@@ -1008,14 +1009,6 @@
 				"patchline" : 				{
 					"destination" : [ "obj-11", 0 ],
 					"source" : [ "obj-19", 1 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-30", 1 ],
-					"midpoints" : [ 572.625, 246.092041, 759.125, 246.092041 ],
-					"source" : [ "obj-2", 0 ]
 				}
 
 			}
@@ -1256,6 +1249,20 @@
 				"name" : "mp.uID.maker.maxpat",
 				"bootpath" : "~/Documents/Max 7/Packages/ModularPolyphony/patchers",
 				"patcherrelativepath" : "../../ModularPolyphony/patchers",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "mp.TUI.toes.maxpat",
+				"bootpath" : "~/Documents/Max 7/Packages/ModularPolyphony-TUI/patchers",
+				"patcherrelativepath" : "../patchers",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "mp.TUI.toes.p.maxpat",
+				"bootpath" : "~/Documents/Max 7/Packages/ModularPolyphony-TUI/patchers",
+				"patcherrelativepath" : "../patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}

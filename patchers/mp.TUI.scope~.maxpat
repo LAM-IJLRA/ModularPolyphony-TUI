@@ -38,6 +38,20 @@
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
 				"box" : 				{
+					"comment" : "slider value",
+					"id" : "obj-2",
+					"index" : 2,
+					"maxclass" : "outlet",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 564.041626, 436.0, 30.0, 30.0 ],
+					"presentation_rect" : [ 564.041626, 436.0, 30.0, 30.0 ],
+					"style" : ""
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-15",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
@@ -2638,9 +2652,9 @@
 									"numinlets" : 1,
 									"numoutlets" : 2,
 									"outlettype" : [ "jit_matrix", "" ],
-									"patching_rect" : [ 51.5, 214.986328, 602.0, 22.0 ],
+									"patching_rect" : [ 51.5, 214.986328, 602.0, 35.0 ],
 									"presentation_linecount" : 2,
-									"presentation_rect" : [ 51.5, 214.986328, 602.0, 22.0 ],
+									"presentation_rect" : [ 51.5, 214.986328, 602.0, 35.0 ],
 									"style" : "",
 									"text" : "jit.gl.gridshape #1 @shape plane @dim 2 2 @poly_mode 1 1 @name #0.scope/background @layer -3"
 								}
@@ -2680,6 +2694,13 @@
 								"patchline" : 								{
 									"destination" : [ "obj-17", 0 ],
 									"source" : [ "obj-20", 4 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-19", 0 ],
+									"source" : [ "obj-20", 3 ]
 								}
 
 							}
@@ -2749,8 +2770,8 @@
  ]
 					}
 ,
-					"patching_rect" : [ 563.958313, 143.269836, 83.0, 22.0 ],
-					"presentation_rect" : [ 563.958313, 143.269836, 83.0, 22.0 ],
+					"patching_rect" : [ 591.958313, 151.269836, 83.0, 22.0 ],
+					"presentation_rect" : [ 591.958313, 151.269836, 83.0, 22.0 ],
 					"saved_object_attributes" : 					{
 						"description" : "",
 						"digest" : "",
@@ -2942,7 +2963,16 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-2", 0 ],
+					"order" : 1,
+					"source" : [ "obj-14", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-36", 0 ],
+					"order" : 0,
 					"source" : [ "obj-14", 1 ]
 				}
 
