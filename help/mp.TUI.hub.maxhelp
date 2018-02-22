@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 420.0, 404.0, 836.0, 372.0 ],
+		"rect" : [ 107.0, 458.0, 836.0, 372.0 ],
 		"bgcolor" : [ 0.9, 0.91, 0.91, 1.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
@@ -44,8 +44,8 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 410.5, 100.0, 91.0, 24.0 ],
-					"presentation_rect" : [ 410.5, 100.0, 91.0, 24.0 ],
+					"patching_rect" : [ 431.5, 102.0, 91.0, 24.0 ],
+					"presentation_rect" : [ 431.5, 102.0, 91.0, 24.0 ],
 					"style" : "",
 					"text" : "mouse input"
 				}
@@ -240,7 +240,7 @@
 									"patching_rect" : [ 60.0, 79.0, 223.0, 22.0 ],
 									"presentation_rect" : [ 60.0, 79.0, 223.0, 22.0 ],
 									"style" : "",
-									"text" : "154 state 0"
+									"text" : "-99 state 0"
 								}
 
 							}
@@ -1039,7 +1039,7 @@
 					"patching_rect" : [ 399.833374, 179.0, 97.0, 22.0 ],
 					"presentation_rect" : [ 399.833374, 179.0, 97.0, 22.0 ],
 					"style" : "",
-					"text" : "2242.slider"
+					"text" : "1108.slider"
 				}
 
 			}

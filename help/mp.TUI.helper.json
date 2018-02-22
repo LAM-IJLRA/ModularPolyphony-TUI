@@ -118,5 +118,10 @@
 		"categories" : "utilities",
 		"description" : "Receive pointer data when object was selected."
 	}
+,
+	"mp.TUI.nodes" : 	{
+		"description" : "Node data-interpolation.",
+		"categories" : "component"
+	}
 
 }
