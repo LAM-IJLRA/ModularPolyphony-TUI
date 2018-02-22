@@ -38,6 +38,20 @@
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
 				"box" : 				{
+					"comment" : "filter coeffs",
+					"id" : "obj-8",
+					"index" : 3,
+					"maxclass" : "outlet",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 417.0, 343.0, 30.0, 30.0 ],
+					"presentation_rect" : [ 417.0, 343.0, 30.0, 30.0 ],
+					"style" : ""
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-16",
 					"maxclass" : "newobj",
 					"numinlets" : 5,
@@ -301,7 +315,6 @@
 																	"numoutlets" : 2,
 																	"outlettype" : [ "", "" ],
 																	"patching_rect" : [ 50.0, 330.272552, 241.0, 22.0 ],
-																	"presentation_linecount" : 2,
 																	"presentation_rect" : [ 50.0, 330.272552, 241.0, 22.0 ],
 																	"style" : "",
 																	"text" : "jit.gl.sketch #0.filtergraph.node @layer -1"
@@ -1368,7 +1381,7 @@
 																					"patching_rect" : [ 261.0, 46.0, 50.0, 22.0 ],
 																					"presentation_rect" : [ 261.0, 46.0, 50.0, 22.0 ],
 																					"style" : "",
-																					"text" : "1"
+																					"text" : "2"
 																				}
 
 																			}
@@ -1871,6 +1884,7 @@
 																	"numoutlets" : 2,
 																	"outlettype" : [ "jit_matrix", "" ],
 																	"patching_rect" : [ 93.0, 575.0, 578.0, 35.0 ],
+																	"presentation_linecount" : 2,
 																	"presentation_rect" : [ 93.0, 575.0, 578.0, 35.0 ],
 																	"style" : "",
 																	"text" : "jit.gl.mesh #0.filtergraph.node @draw_mode tri_fan @color 0.5 1 1 0.2 @blend_enable 1 @depth_enable 0"
@@ -2342,7 +2356,6 @@
 													"numoutlets" : 2,
 													"outlettype" : [ "jit_matrix", "" ],
 													"patching_rect" : [ 99.75, 338.999939, 457.0, 22.0 ],
-													"presentation_linecount" : 2,
 													"presentation_rect" : [ 99.75, 338.999939, 457.0, 22.0 ],
 													"style" : "",
 													"text" : "jit.gl.mesh #0.filtergraph.node @draw_mode line_strip @color 0.5 1 1 1 @layer -2"
@@ -2387,7 +2400,6 @@
 													"numoutlets" : 2,
 													"outlettype" : [ "jit_matrix", "" ],
 													"patching_rect" : [ 99.75, 374.999939, 644.0, 22.0 ],
-													"presentation_linecount" : 2,
 													"presentation_rect" : [ 99.75, 374.999939, 644.0, 22.0 ],
 													"style" : "",
 													"text" : "jit.gl.gridshape #0.filtergraph.node @shape plane @dim 2 2 @scale 1 1 0 @poly_mode 1 1 @color 1 1 1 1 @layer -1"
@@ -2402,7 +2414,6 @@
 													"numoutlets" : 2,
 													"outlettype" : [ "jit_matrix", "" ],
 													"patching_rect" : [ 99.75, 409.999939, 507.0, 22.0 ],
-													"presentation_linecount" : 2,
 													"presentation_rect" : [ 99.75, 409.999939, 507.0, 22.0 ],
 													"style" : "",
 													"text" : "jit.gl.gridshape #0.filtergraph.node @shape plane @dim 2 9 @scale 1 1 0 @poly_mode 1 1"
@@ -2962,7 +2973,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "jit_matrix", "" ],
 					"patching_rect" : [ 528.770325, 229.454895, 353.0, 35.0 ],
-					"presentation_linecount" : 3,
+					"presentation_linecount" : 2,
 					"presentation_rect" : [ 528.770325, 229.454895, 353.0, 35.0 ],
 					"style" : "",
 					"text" : "jit.gl.gridshape #0.filtergraph.node @shape plane @dim 2 2 @poly_mode 1 1 @name #0.filtergraph/background @layer -1"
@@ -2976,8 +2987,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 131.0, 84.0, 281.0, 22.0 ],
-					"presentation_rect" : [ 131.0, 84.0, 281.0, 22.0 ],
+					"patching_rect" : [ 131.0, 78.0, 281.0, 22.0 ],
+					"presentation_rect" : [ 131.0, 78.0, 281.0, 22.0 ],
 					"style" : "",
 					"text" : "mp.TUI.receiver #1 #0.filtergraph"
 				}
@@ -4327,8 +4338,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 180.0, 6.0, 24.0, 24.0 ],
-					"presentation_rect" : [ 180.0, 6.0, 24.0, 24.0 ],
+					"patching_rect" : [ 180.0, 0.0, 24.0, 24.0 ],
+					"presentation_rect" : [ 180.0, 0.0, 24.0, 24.0 ],
 					"style" : ""
 				}
 
@@ -4356,8 +4367,8 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 131.0, 45.0, 30.0, 30.0 ],
-					"presentation_rect" : [ 131.0, 45.0, 30.0, 30.0 ],
+					"patching_rect" : [ 131.0, 39.0, 30.0, 30.0 ],
+					"presentation_rect" : [ 131.0, 39.0, 30.0, 30.0 ],
 					"style" : ""
 				}
 
@@ -4369,8 +4380,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 180.0, 45.0, 327.0, 22.0 ],
-					"presentation_rect" : [ 180.0, 45.0, 327.0, 22.0 ],
+					"patching_rect" : [ 180.0, 39.0, 327.0, 22.0 ],
+					"presentation_rect" : [ 180.0, 39.0, 327.0, 22.0 ],
 					"style" : "",
 					"text" : "patcherargs @position 0 0 0 @scale 1 1 1 @rotatexyz 0 0 0"
 				}
@@ -4385,8 +4396,8 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 16.770325, 89.0, 30.0, 30.0 ],
-					"presentation_rect" : [ 16.770325, 89.0, 30.0, 30.0 ],
+					"patching_rect" : [ 16.770325, 83.0, 30.0, 30.0 ],
+					"presentation_rect" : [ 16.770325, 83.0, 30.0, 30.0 ],
 					"style" : ""
 				}
 
@@ -4675,6 +4686,15 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-7", 0 ],
+					"order" : 1,
+					"source" : [ "obj-15", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-8", 0 ],
+					"order" : 0,
 					"source" : [ "obj-15", 1 ]
 				}
 
@@ -4695,7 +4715,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-9", 0 ],
+					"destination" : [ "obj-8", 0 ],
 					"source" : [ "obj-24", 0 ]
 				}
 

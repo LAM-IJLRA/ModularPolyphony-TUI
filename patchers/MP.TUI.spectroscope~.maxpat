@@ -58,8 +58,8 @@
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 419.0, 526.0, 30.0, 30.0 ],
-					"presentation_rect" : [ 419.0, 526.0, 30.0, 30.0 ],
+					"patching_rect" : [ 468.0, 526.0, 30.0, 30.0 ],
+					"presentation_rect" : [ 468.0, 526.0, 30.0, 30.0 ],
 					"style" : ""
 				}
 
@@ -1589,14 +1589,15 @@
 					"fontname" : "Arial",
 					"fontsize" : 11.595187,
 					"id" : "obj-4",
+					"linecount" : 2,
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 133.0, 518.0, 203.0, 21.0 ],
-					"presentation_rect" : [ 133.0, 518.0, 203.0, 21.0 ],
+					"patching_rect" : [ 133.0, 518.0, 290.0, 34.0 ],
+					"presentation_rect" : [ 133.0, 518.0, 290.0, 34.0 ],
 					"style" : "",
-					"text" : "jit.gl.sketch #0.spectroscope.node"
+					"text" : "jit.gl.sketch #0.spectroscope.node @blend_enable 1"
 				}
 
 			}

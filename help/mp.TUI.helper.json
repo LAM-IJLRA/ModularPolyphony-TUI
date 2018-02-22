@@ -103,5 +103,20 @@
 		"description" : "A tangible voronoi mesh",
 		"categories" : [ "alpha", "beta", "gamma" ]
 	}
+,
+	"mp.TUI.graphslider" : 	{
+		"description" : "A slider outputting nearest graph value.",
+		"categories" : [ "alpha", "beta", "gamma" ]
+	}
+,
+	"mp.TUI.worldtolocal" : 	{
+		"categories" : "utilities",
+		"description" : "World to object transform."
+	}
+,
+	"mp.TUI.receiver" : 	{
+		"categories" : "utilities",
+		"description" : "Receive pointer data when object was selected."
+	}
 
 }

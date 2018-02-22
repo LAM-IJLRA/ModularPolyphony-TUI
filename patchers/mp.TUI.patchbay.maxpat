@@ -1102,11 +1102,13 @@
 , 											{
 												"box" : 												{
 													"id" : "obj-7",
+													"linecount" : 2,
 													"maxclass" : "newobj",
 													"numinlets" : 1,
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 494.5, 136.133423, 199.0, 22.0 ],
+													"presentation_linecount" : 2,
 													"presentation_rect" : [ 494.5, 136.133423, 199.0, 22.0 ],
 													"style" : "",
 													"text" : "LAM.f.call #0.patchbay/animnode "
@@ -2854,8 +2856,8 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 714.0, 697.0, 174.0, 24.0 ],
-					"presentation_rect" : [ 714.0, 697.0, 174.0, 24.0 ],
+					"patching_rect" : [ 728.0, 543.0, 174.0, 24.0 ],
+					"presentation_rect" : [ 728.0, 543.0, 174.0, 24.0 ],
 					"style" : "",
 					"text" : "the connector sockets items"
 				}
@@ -3409,11 +3411,13 @@
 , 							{
 								"box" : 								{
 									"id" : "obj-34",
+									"linecount" : 2,
 									"maxclass" : "newobj",
 									"numinlets" : 1,
 									"numoutlets" : 4,
 									"outlettype" : [ "", "", "", "" ],
 									"patching_rect" : [ 175.0, 265.0, 140.0, 22.0 ],
+									"presentation_linecount" : 2,
 									"presentation_rect" : [ 175.0, 265.0, 140.0, 22.0 ],
 									"saved_object_attributes" : 									{
 										"embed" : 0
@@ -3427,11 +3431,13 @@
 , 							{
 								"box" : 								{
 									"id" : "obj-33",
+									"linecount" : 2,
 									"maxclass" : "newobj",
 									"numinlets" : 1,
 									"numoutlets" : 4,
 									"outlettype" : [ "", "", "", "" ],
 									"patching_rect" : [ 129.0, 294.0, 140.0, 22.0 ],
+									"presentation_linecount" : 2,
 									"presentation_rect" : [ 129.0, 294.0, 140.0, 22.0 ],
 									"saved_object_attributes" : 									{
 										"embed" : 0
@@ -3777,7 +3783,7 @@
 									"presentation_linecount" : 2,
 									"presentation_rect" : [ 278.0, 297.0, 51.0, 35.0 ],
 									"style" : "",
-									"text" : "replace 4::3 4"
+									"text" : "replace 8::1 8"
 								}
 
 							}
@@ -4098,8 +4104,9 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 145.0, 336.0, 346.0, 24.0 ],
-					"presentation_rect" : [ 145.0, 336.0, 346.0, 24.0 ],
+					"patching_rect" : [ 145.0, 336.0, 354.0, 24.0 ],
+					"presentation_linecount" : 2,
+					"presentation_rect" : [ 145.0, 336.0, 354.0, 24.0 ],
 					"style" : "",
 					"text" : "mp.TUI.connector 10 #1 #0.patchbay ",
 					"varname" : "mp.TUI.connector"
@@ -4679,7 +4686,16 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-12", 0 ],
+					"order" : 1,
+					"source" : [ "obj-14", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-36", 0 ],
+					"order" : 0,
 					"source" : [ "obj-14", 1 ]
 				}
 
