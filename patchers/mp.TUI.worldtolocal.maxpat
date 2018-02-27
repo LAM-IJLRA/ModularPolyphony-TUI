@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 589.0, 437.0, 640.0, 480.0 ],
+		"rect" : [ 469.0, 230.0, 236.0, 219.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -38,29 +38,29 @@
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
 				"box" : 				{
-					"comment" : "",
+					"comment" : "world xy-coords input",
 					"id" : "obj-3",
-					"index" : 0,
+					"index" : 1,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 35.0, 56.0, 30.0, 30.0 ],
-					"presentation_rect" : [ 35.0, 56.0, 30.0, 30.0 ],
+					"patching_rect" : [ 12.0, 21.0, 30.0, 30.0 ],
+					"presentation_rect" : [ 12.0, 21.0, 30.0, 30.0 ],
 					"style" : ""
 				}
 
 			}
 , 			{
 				"box" : 				{
-					"comment" : "",
+					"comment" : "local xy-coords input",
 					"id" : "obj-2",
-					"index" : 0,
+					"index" : 1,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 35.0, 231.0, 30.0, 30.0 ],
-					"presentation_rect" : [ 35.0, 231.0, 30.0, 30.0 ],
+					"patching_rect" : [ 12.0, 162.707321, 30.0, 30.0 ],
+					"presentation_rect" : [ 12.0, 162.707321, 30.0, 30.0 ],
 					"style" : ""
 				}
 
@@ -72,8 +72,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 35.0, 197.0, 103.0, 22.0 ],
-					"presentation_rect" : [ 35.0, 197.0, 103.0, 22.0 ],
+					"patching_rect" : [ 12.0, 135.661469, 103.0, 22.0 ],
+					"presentation_rect" : [ 12.0, 135.661469, 103.0, 22.0 ],
 					"style" : "",
 					"text" : "route worldtolocal"
 				}
@@ -86,8 +86,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 35.0, 96.0, 49.0, 22.0 ],
-					"presentation_rect" : [ 35.0, 96.0, 49.0, 22.0 ],
+					"patching_rect" : [ 12.0, 54.523903, 49.0, 22.0 ],
+					"presentation_rect" : [ 12.0, 54.523903, 49.0, 22.0 ],
 					"style" : "",
 					"text" : "$1 $2 0"
 				}
@@ -100,8 +100,9 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 35.0, 156.0, 134.0, 22.0 ],
-					"presentation_rect" : [ 35.0, 156.0, 134.0, 22.0 ],
+					"patching_rect" : [ 12.0, 108.615601, 200.0, 22.0 ],
+					"presentation_linecount" : 3,
+					"presentation_rect" : [ 12.0, 108.615601, 200.0, 22.0 ],
 					"style" : "",
 					"text" : "LAM.f.call #1/animnode"
 				}
@@ -114,8 +115,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 35.0, 124.0, 119.0, 22.0 ],
-					"presentation_rect" : [ 35.0, 124.0, 119.0, 22.0 ],
+					"patching_rect" : [ 12.0, 81.569756, 119.0, 22.0 ],
+					"presentation_rect" : [ 12.0, 81.569756, 119.0, 22.0 ],
 					"style" : "",
 					"text" : "prepend worldtolocal"
 				}
@@ -157,16 +158,7 @@
 				}
 
 			}
- ],
-		"dependency_cache" : [ 			{
-				"name" : "LAM.f.call.maxpat",
-				"bootpath" : "~/Documents/Max/Packages/lam-lib/patchers",
-				"patcherrelativepath" : "../../../../Max/Packages/lam-lib/patchers",
-				"type" : "JSON",
-				"implicit" : 1
-			}
- ],
-		"autosave" : 0
+ ]
 	}
 
 }
