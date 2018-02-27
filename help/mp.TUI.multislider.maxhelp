@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 112.0, 376.0, 807.0, 431.0 ],
+		"rect" : [ 262.0, 397.0, 807.0, 431.0 ],
 		"bgcolor" : [ 0.9, 0.91, 0.91, 1.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
@@ -100,34 +100,6 @@
 					"spacing" : 1,
 					"style" : "",
 					"thickness" : 1
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-1",
-					"maxclass" : "toggle",
-					"numinlets" : 1,
-					"numoutlets" : 1,
-					"outlettype" : [ "int" ],
-					"parameter_enable" : 0,
-					"patching_rect" : [ 538.625, 169.0, 24.0, 24.0 ],
-					"presentation_rect" : [ 538.625, 169.0, 24.0, 24.0 ],
-					"style" : ""
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-2",
-					"maxclass" : "message",
-					"numinlets" : 2,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 538.625, 204.0, 45.0, 22.0 ],
-					"presentation_rect" : [ 538.625, 204.0, 45.0, 22.0 ],
-					"style" : "",
-					"text" : "edit $1"
 				}
 
 			}
@@ -584,6 +556,20 @@
 						"subpatcher_template" : "WM-lib.HelpPatcher",
 						"boxes" : [ 							{
 								"box" : 								{
+									"id" : "obj-3",
+									"maxclass" : "newobj",
+									"numinlets" : 2,
+									"numoutlets" : 2,
+									"outlettype" : [ "", "" ],
+									"patching_rect" : [ 431.0, 147.0, 191.0, 22.0 ],
+									"presentation_rect" : [ 431.0, 147.0, 191.0, 22.0 ],
+									"style" : "",
+									"text" : "mp.TUI.toes 10 /multislider_helper"
+								}
+
+							}
+, 							{
+								"box" : 								{
 									"id" : "obj-9",
 									"maxclass" : "message",
 									"numinlets" : 2,
@@ -606,7 +592,7 @@
 									"patching_rect" : [ 153.000031, 102.0, 107.0, 22.0 ],
 									"presentation_rect" : [ 153.000031, 102.0, 107.0, 22.0 ],
 									"style" : "",
-									"text" : "1010.multislider"
+									"text" : "2350.rotator"
 								}
 
 							}
@@ -798,7 +784,16 @@
 							}
 , 							{
 								"patchline" : 								{
+									"destination" : [ "obj-3", 0 ],
+									"order" : 0,
+									"source" : [ "obj-49", 2 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
 									"destination" : [ "obj-4", 1 ],
+									"order" : 1,
 									"source" : [ "obj-49", 2 ]
 								}
 
@@ -848,8 +843,8 @@
  ]
 					}
 ,
-					"patching_rect" : [ 676.625, 130.0, 76.0, 24.0 ],
-					"presentation_rect" : [ 676.625, 130.0, 76.0, 24.0 ],
+					"patching_rect" : [ 693.125, 127.0, 76.0, 24.0 ],
+					"presentation_rect" : [ 693.125, 127.0, 76.0, 24.0 ],
 					"saved_object_attributes" : 					{
 						"description" : "",
 						"digest" : "",
@@ -1002,8 +997,8 @@
 					"id" : "obj-30",
 					"maxclass" : "newobj",
 					"numinlets" : 2,
-					"numoutlets" : 2,
-					"outlettype" : [ "", "" ],
+					"numoutlets" : 3,
+					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 238.0, 239.184082, 471.0, 22.0 ],
 					"presentation_rect" : [ 238.0, 239.184082, 471.0, 22.0 ],
 					"style" : "",
@@ -1013,13 +1008,6 @@
 			}
  ],
 		"lines" : [ 			{
-				"patchline" : 				{
-					"destination" : [ "obj-2", 0 ],
-					"source" : [ "obj-1", 0 ]
-				}
-
-			}
-, 			{
 				"patchline" : 				{
 					"destination" : [ "obj-19", 0 ],
 					"source" : [ "obj-14", 0 ]
@@ -1056,14 +1044,6 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-30", 1 ],
-					"midpoints" : [ 548.125, 232.092041, 699.5, 232.092041 ],
-					"source" : [ "obj-2", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"destination" : [ "obj-25", 0 ],
 					"source" : [ "obj-24", 0 ]
 				}
@@ -1095,6 +1075,14 @@
 				"patchline" : 				{
 					"destination" : [ "obj-15", 0 ],
 					"source" : [ "obj-3", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-28", 0 ],
+					"midpoints" : [ 699.5, 271.184082, 739.8125, 271.184082, 739.8125, 150.0, 596.125, 150.0 ],
+					"source" : [ "obj-30", 2 ]
 				}
 
 			}
@@ -1320,6 +1308,20 @@
 				"name" : "mp.uID.maker.maxpat",
 				"bootpath" : "~/Documents/Max 7/Packages/ModularPolyphony/patchers",
 				"patcherrelativepath" : "../../ModularPolyphony/patchers",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "mp.TUI.toes.maxpat",
+				"bootpath" : "~/Documents/Max 7/Packages/ModularPolyphony-TUI/patchers",
+				"patcherrelativepath" : "../patchers",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "mp.TUI.toes.p.maxpat",
+				"bootpath" : "~/Documents/Max 7/Packages/ModularPolyphony-TUI/patchers",
+				"patcherrelativepath" : "../patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}

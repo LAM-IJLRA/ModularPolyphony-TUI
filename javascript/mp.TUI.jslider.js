@@ -123,15 +123,3 @@ function notifydeleted()
 {
 	myslider.free();
 }
-
-
-
-// create a jit.anim.node object
-var myjitanimnode = new JitterObject("jit.anim.node");
-
-myjitanimnode.position = 10,20,30;
-myjitanimnode.scale = 0.1, 0.2, 0.3;
-myjitanimnode.rotatexyz = 10, 22, 30;
-
-var test = myjitanimnode.localtoworld(2,1,3);
-post("localtoworld", test, "\n");
