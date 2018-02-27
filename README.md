@@ -14,6 +14,12 @@ Open file /examples/mp.TUI.example.maxpat to get an overview.
 
 Video tutorials here for the ModularPolyphony : https://vimeo.com/album/4387798
 
+## Dependencies
+
+The [Modular Polyphony](https://github.com/LAM-IJLRA/ModularPolyphony) library is required.
+
+The [lam-lib](https://github.com/LAM-IJLRA/lam-lib) library is not required but may be used in some examples.
+
 ## Credits
 
 This library is developped by [Vincent Goudard](http://vincentgoudard.com).
