@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 82.0, 286.0, 1177.0, 545.0 ],
+		"rect" : [ 143.0, 345.0, 1177.0, 545.0 ],
 		"bgcolor" : [ 0.9, 0.91, 0.91, 1.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
@@ -189,13 +189,13 @@
 					"presentation_rect" : [ 553.0, 475.0, 123.0, 36.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_shortname" : "live.gain~",
-							"parameter_type" : 0,
-							"parameter_unitstyle" : 4,
 							"parameter_mmin" : -70.0,
 							"parameter_longname" : "live.gain~",
 							"parameter_mmax" : 6.0,
-							"parameter_initial" : [ 0.0 ]
+							"parameter_initial" : [ 0.0 ],
+							"parameter_shortname" : "live.gain~",
+							"parameter_type" : 0,
+							"parameter_unitstyle" : 4
 						}
 
 					}
@@ -232,8 +232,8 @@
 						"basictuning" : 440,
 						"followglobaltempo" : 0,
 						"formantcorrection" : 0,
-						"loopend" : [ 2056.664824, "ms" ],
-						"loopstart" : [ 1012.154473, "ms" ],
+						"loopend" : [ 3478.45805, "ms" ],
+						"loopstart" : [ 0.0, "ms" ],
 						"mode" : "basic",
 						"originallength" : [ 3339.319667, "ticks" ],
 						"originaltempo" : 120.0,
@@ -448,7 +448,7 @@
 							"modernui" : 1
 						}
 ,
-						"rect" : [ 59.0, 103.0, 949.0, 405.0 ],
+						"rect" : [ 369.0, 398.0, 949.0, 405.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -475,7 +475,6 @@
 						"tags" : "",
 						"style" : "",
 						"subpatcher_template" : "",
-						"visible" : 1,
 						"boxes" : [ 							{
 								"box" : 								{
 									"id" : "obj-6",
@@ -511,10 +510,10 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 297.0, 297.0, 55.0, 22.0 ],
-									"presentation_rect" : [ 297.0, 297.0, 55.0, 22.0 ],
+									"patching_rect" : [ 297.0, 297.0, 59.0, 22.0 ],
+									"presentation_rect" : [ 297.0, 297.0, 59.0, 22.0 ],
 									"style" : "",
-									"text" : "pak 0. 0."
+									"text" : "pak -1. 0."
 								}
 
 							}
@@ -1824,7 +1823,7 @@
 									"patching_rect" : [ 244.0, 108.5, 75.0, 22.0 ],
 									"presentation_rect" : [ 244.0, 108.5, 75.0, 22.0 ],
 									"style" : "",
-									"text" : "6979.rslider"
+									"text" : "9903.rslider"
 								}
 
 							}
