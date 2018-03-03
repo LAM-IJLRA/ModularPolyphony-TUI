@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 503.0, 327.0, 626.0, 357.0 ],
+		"rect" : [ 34.0, 155.0, 626.0, 357.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -81,7 +81,7 @@
 							"modernui" : 1
 						}
 ,
-						"rect" : [ 59.0, 103.0, 640.0, 480.0 ],
+						"rect" : [ 35.0, 78.0, 293.0, 369.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -311,11 +311,10 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 149.0, 229.0, 378.0, 35.0 ],
-					"presentation_linecount" : 2,
-					"presentation_rect" : [ 149.0, 229.0, 378.0, 35.0 ],
+					"patching_rect" : [ 149.0, 229.0, 468.0, 35.0 ],
+					"presentation_rect" : [ 149.0, 229.0, 468.0, 35.0 ],
 					"style" : "",
-					"text" : "jit.gl.sketch #2 @scale 0.02 0.02 0.02 @depth_enable 0 @blend_enable 1 @layer 999999 @enable 0  @displaylist 1"
+					"text" : "jit.gl.sketch #2 @scale 0.02 0.02 0.02 @depth_enable 0 @blend_enable 1 @layer 999999 @enable 0  "
 				}
 
 			}
@@ -385,6 +384,10 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 317.5, 275.0, 39.0, 23.0 ],
 					"presentation_rect" : [ 317.5, 275.0, 39.0, 23.0 ],
+					"saved_object_attributes" : 					{
+						"attr_comment" : ""
+					}
+,
 					"style" : "",
 					"text" : "out 2"
 				}
@@ -418,6 +421,10 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 481.5, 30.0, 30.0, 22.0 ],
 					"presentation_rect" : [ 481.5, 30.0, 30.0, 22.0 ],
+					"saved_object_attributes" : 					{
+						"attr_comment" : ""
+					}
+,
 					"style" : "",
 					"text" : "in 2"
 				}
@@ -433,6 +440,10 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 12.0, 272.0, 39.0, 23.0 ],
 					"presentation_rect" : [ 12.0, 272.0, 39.0, 23.0 ],
+					"saved_object_attributes" : 					{
+						"attr_comment" : ""
+					}
+,
 					"style" : "",
 					"text" : "out 1"
 				}
@@ -449,10 +460,6 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 12.0, 22.0, 30.0, 22.0 ],
 					"presentation_rect" : [ 12.0, 22.0, 30.0, 22.0 ],
-					"saved_object_attributes" : 					{
-						"attr_comment" : ""
-					}
-,
 					"style" : "",
 					"text" : "in 1"
 				}
