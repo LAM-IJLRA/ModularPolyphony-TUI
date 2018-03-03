@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 360.0, 156.0, 1046.0, 589.0 ],
+		"rect" : [ 360.0, 182.0, 1046.0, 563.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -38,15 +38,93 @@
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-9",
+					"maxclass" : "newobj",
+					"numinlets" : 0,
+					"numoutlets" : 0,
+					"patcher" : 					{
+						"fileversion" : 1,
+						"appversion" : 						{
+							"major" : 8,
+							"minor" : 0,
+							"revision" : 0,
+							"architecture" : "x64",
+							"modernui" : 1
+						}
+,
+						"rect" : [ 59.0, 103.0, 290.0, 198.0 ],
+						"bglocked" : 0,
+						"openinpresentation" : 0,
+						"default_fontsize" : 12.0,
+						"default_fontface" : 0,
+						"default_fontname" : "Arial",
+						"gridonopen" : 1,
+						"gridsize" : [ 15.0, 15.0 ],
+						"gridsnaponopen" : 1,
+						"objectsnaponopen" : 1,
+						"statusbarvisible" : 2,
+						"toolbarvisible" : 1,
+						"lefttoolbarpinned" : 0,
+						"toptoolbarpinned" : 0,
+						"righttoolbarpinned" : 0,
+						"bottomtoolbarpinned" : 0,
+						"toolbars_unpinned_last_save" : 0,
+						"tallnewobj" : 0,
+						"boxanimatetime" : 200,
+						"enablehscroll" : 1,
+						"enablevscroll" : 1,
+						"devicewidth" : 0.0,
+						"description" : "",
+						"digest" : "",
+						"tags" : "",
+						"style" : "",
+						"subpatcher_template" : "",
+						"boxes" : [ 							{
+								"box" : 								{
+									"id" : "obj-2",
+									"linecount" : 3,
+									"maxclass" : "comment",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 42.0, 32.0, 150.0, 47.0 ],
+									"presentation_rect" : [ 42.0, 32.0, 150.0, 47.0 ],
+									"style" : "",
+									"text" : "put a range slider rather than a slider for side-gutter"
+								}
+
+							}
+ ],
+						"lines" : [  ]
+					}
+,
+					"patching_rect" : [ 610.0, 20.0, 53.0, 22.0 ],
+					"presentation_rect" : [ 610.0, 20.0, 53.0, 22.0 ],
+					"saved_object_attributes" : 					{
+						"description" : "",
+						"digest" : "",
+						"globalpatchername" : "",
+						"style" : "",
+						"tags" : ""
+					}
+,
+					"style" : "",
+					"text" : "p TODO"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-11",
+					"linecount" : 2,
 					"maxclass" : "message",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 33.0, 356.0, 120.0, 22.0 ],
-					"presentation_rect" : [ 33.0, 356.0, 120.0, 22.0 ],
+					"patching_rect" : [ 33.0, 356.0, 120.0, 35.0 ],
+					"presentation_linecount" : 2,
+					"presentation_rect" : [ 33.0, 356.0, 120.0, 35.0 ],
 					"style" : "",
-					"text" : "symbol drumLoop.aif"
+					"text" : "symbol \"24 Short Chord (01 - 18).aiff\""
 				}
 
 			}
@@ -432,10 +510,9 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "jit_matrix", "" ],
 									"patching_rect" : [ 314.5, 407.0, 588.0, 35.0 ],
-									"presentation_linecount" : 2,
 									"presentation_rect" : [ 314.5, 407.0, 588.0, 35.0 ],
 									"style" : "",
-									"text" : "jit.gl.gridshape /scroller_helper @shape plane @dim 2 2 @color 1 1 0 0.1 @blend_enable 1 @depth_enable 0"
+									"text" : "jit.gl.gridshape #1 @shape plane @dim 2 2 @color 1 1 0 0.1 @blend_enable 1 @depth_enable 0"
 								}
 
 							}
@@ -574,10 +651,10 @@
 									"numinlets" : 1,
 									"numoutlets" : 2,
 									"outlettype" : [ "jit_matrix", "" ],
-									"patching_rect" : [ 314.5, 376.0, 483.0, 22.0 ],
-									"presentation_rect" : [ 314.5, 376.0, 483.0, 22.0 ],
+									"patching_rect" : [ 314.5, 376.0, 502.0, 22.0 ],
+									"presentation_rect" : [ 314.5, 376.0, 502.0, 22.0 ],
 									"style" : "",
-									"text" : "jit.gl.gridshape /scroller_helper @shape plane @dim 2 2 @poly_mode 1 1 @color 1 1 0 1"
+									"text" : "jit.gl.gridshape #1 @shape plane @dim 2 2 @poly_mode 1 1 @color 1 1 0 1"
 								}
 
 							}
@@ -1208,7 +1285,7 @@
 													"patching_rect" : [ 50.0, 187.5, 52.0, 22.0 ],
 													"presentation_rect" : [ 50.0, 187.5, 52.0, 22.0 ],
 													"style" : "",
-													"text" : "gate 1 0"
+													"text" : "gate 1 1"
 												}
 
 											}
@@ -3314,7 +3391,7 @@
 																	"presentation_linecount" : 2,
 																	"presentation_rect" : [ 352.0, 173.0, 50.0, 35.0 ],
 																	"style" : "",
-																	"text" : "9007 state 0"
+																	"text" : "9003 state 0"
 																}
 
 															}
@@ -3405,14 +3482,15 @@
 , 															{
 																"box" : 																{
 																	"id" : "obj-44",
+																	"linecount" : 2,
 																	"maxclass" : "newobj",
 																	"numinlets" : 2,
 																	"numoutlets" : 3,
 																	"outlettype" : [ "", "", "" ],
-																	"patching_rect" : [ 50.0, 135.095215, 584.0, 22.0 ],
-																	"presentation_rect" : [ 50.0, 135.095215, 584.0, 22.0 ],
+																	"patching_rect" : [ 50.0, 135.095215, 584.0, 35.0 ],
+																	"presentation_rect" : [ 50.0, 135.095215, 584.0, 35.0 ],
 																	"style" : "",
-																	"text" : "mp.TUI.orientslider /scroller_helper @position 0 0 0 @scale 1 1 1 @orientation 1 @anim #0.scrollerGutter"
+																	"text" : "mp.TUI.orientslider #1 @position 0 0 0 @scale 1 1 1 @orientation 1 @anim #0.scrollerGutter"
 																}
 
 															}
@@ -7202,12 +7280,14 @@
 , 							{
 								"box" : 								{
 									"id" : "obj-14",
+									"linecount" : 2,
 									"maxclass" : "newobj",
 									"numinlets" : 1,
 									"numoutlets" : 2,
 									"outlettype" : [ "jit_matrix", "" ],
-									"patching_rect" : [ 28.0, 576.595215, 584.0, 22.0 ],
-									"presentation_rect" : [ 28.0, 576.595215, 584.0, 22.0 ],
+									"patching_rect" : [ 28.0, 576.595215, 587.0, 35.0 ],
+									"presentation_linecount" : 2,
+									"presentation_rect" : [ 28.0, 576.595215, 587.0, 35.0 ],
 									"style" : "",
 									"text" : "jit.gl.gridshape  #1 @name #0.canvas/background @shape plane @dim 2 2 @poly_mode 1 1"
 								}
@@ -7216,12 +7296,14 @@
 , 							{
 								"box" : 								{
 									"id" : "obj-8",
+									"linecount" : 2,
 									"maxclass" : "newobj",
 									"numinlets" : 1,
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
-									"patching_rect" : [ 91.0, 473.095245, 608.0, 22.0 ],
-									"presentation_rect" : [ 91.0, 473.095245, 608.0, 22.0 ],
+									"patching_rect" : [ 91.0, 473.095245, 608.0, 35.0 ],
+									"presentation_linecount" : 2,
+									"presentation_rect" : [ 91.0, 473.095245, 608.0, 35.0 ],
 									"style" : "",
 									"text" : "jit.phys.body @worldname #1.phys @shape cube @kinematic 1 @collisions 0 @name #0.canvas "
 								}
@@ -7759,11 +7841,13 @@
 													"fontname" : "Verdana",
 													"fontsize" : 10.0,
 													"id" : "obj-9",
+													"linecount" : 3,
 													"maxclass" : "newobj",
 													"numinlets" : 0,
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 50.0, 54.0, 111.0, 21.0 ],
+													"presentation_linecount" : 3,
 													"presentation_rect" : [ 50.0, 54.0, 111.0, 21.0 ],
 													"style" : "",
 													"text" : "r #1/ck"
@@ -7789,11 +7873,13 @@
 													"fontname" : "Verdana",
 													"fontsize" : 10.0,
 													"id" : "obj-1",
+													"linecount" : 2,
 													"maxclass" : "newobj",
 													"numinlets" : 1,
 													"numoutlets" : 2,
 													"outlettype" : [ "jit_gl_texture", "" ],
 													"patching_rect" : [ 50.0, 292.0, 347.0, 21.0 ],
+													"presentation_linecount" : 2,
 													"presentation_rect" : [ 50.0, 292.0, 347.0, 21.0 ],
 													"style" : "",
 													"text" : "jit.gl.texture #1 @name #0.transTex @rectangle 1"
@@ -7850,11 +7936,13 @@
 													"fontname" : "Verdana",
 													"fontsize" : 10.0,
 													"id" : "obj-92",
+													"linecount" : 2,
 													"maxclass" : "newobj",
 													"numinlets" : 2,
 													"numoutlets" : 2,
 													"outlettype" : [ "jit_gl_texture", "" ],
 													"patching_rect" : [ 50.0, 242.0, 436.0, 21.0 ],
+													"presentation_linecount" : 2,
 													"presentation_rect" : [ 50.0, 242.0, 436.0, 21.0 ],
 													"style" : "",
 													"text" : "jit.gl.slab #1 @file cc.alphaglue.jxs @param thresh 0.5 @param fade 0."
@@ -8584,11 +8672,13 @@
 , 							{
 								"box" : 								{
 									"id" : "obj-91",
+									"linecount" : 2,
 									"maxclass" : "newobj",
 									"numinlets" : 1,
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
 									"patching_rect" : [ 96.5, 315.5, 292.0, 22.0 ],
+									"presentation_linecount" : 2,
 									"presentation_rect" : [ 96.5, 315.5, 292.0, 22.0 ],
 									"style" : "",
 									"text" : "jit.gl.sketch #1 @automatic 0 @enable 0"
@@ -9720,11 +9810,13 @@
 , 							{
 								"box" : 								{
 									"id" : "obj-218",
+									"linecount" : 2,
 									"maxclass" : "newobj",
 									"numinlets" : 1,
 									"numoutlets" : 3,
 									"outlettype" : [ "jit_gl_texture", "", "" ],
 									"patching_rect" : [ 50.0, 100.0, 282.0, 22.0 ],
+									"presentation_linecount" : 2,
 									"presentation_rect" : [ 50.0, 100.0, 282.0, 22.0 ],
 									"style" : "",
 									"text" : "jit.gl.node #1 @capture 1 @layer 9999"
@@ -9955,8 +10047,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "jit_matrix", "" ],
-					"patching_rect" : [ 534.0, 532.5, 410.0, 22.0 ],
-					"presentation_rect" : [ 534.0, 532.5, 410.0, 22.0 ],
+					"patching_rect" : [ 534.0, 532.5, 430.0, 22.0 ],
+					"presentation_rect" : [ 534.0, 532.5, 430.0, 22.0 ],
 					"style" : "",
 					"text" : "jit.gl.text #1 @mode 3d @color 1 1 1 1 @align 0 @automatic 0  "
 				}
