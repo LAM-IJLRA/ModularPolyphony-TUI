@@ -127,5 +127,14 @@
 	"Polyphony" : 	{
 		"Modular" : [ "alpha", "beta", "gamma" ]
 	}
+,
+	"mp.TUI.orientslider" : 	{
+		"description" : "Orientable slider.",
+		"categories" : [ "alpha", "beta", "gamma" ]
+	}
+,
+	"scroll" : 	{
+		"mp.TUI.menu" : [ "alpha", "beta", "gamma" ]
+	}
 
 }
