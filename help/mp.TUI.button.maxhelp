@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 119.0, 361.0, 830.0, 321.0 ],
+		"rect" : [ 117.0, 458.0, 830.0, 321.0 ],
 		"bgcolor" : [ 0.9, 0.91, 0.91, 1.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
@@ -90,11 +90,11 @@
 					"maxclass" : "newobj",
 					"numinlets" : 2,
 					"numoutlets" : 3,
-					"outlettype" : [ "bang", "", "" ],
-					"patching_rect" : [ 279.625, 252.184082, 440.0, 22.0 ],
-					"presentation_rect" : [ 279.625, 252.184082, 440.0, 22.0 ],
+					"outlettype" : [ "", "", "" ],
+					"patching_rect" : [ 279.625, 252.184082, 522.0, 22.0 ],
+					"presentation_rect" : [ 279.625, 252.184082, 522.0, 22.0 ],
 					"style" : "",
-					"text" : "mp.TUI.button /button_helper @scale 0.2 0.2 @position 0.3 0 0 @oncolor 1 1 0 1"
+					"text" : "mp.TUI.button /button_helper @scale 0.2 0.2 @position 0.3 0 0 @oncolor 1 1 0 1 @mode toggle"
 				}
 
 			}
@@ -942,7 +942,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 2,
 					"numoutlets" : 3,
-					"outlettype" : [ "bang", "", "" ],
+					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 222.625, 223.184082, 349.0, 22.0 ],
 					"presentation_rect" : [ 222.625, 223.184082, 349.0, 22.0 ],
 					"style" : "",
