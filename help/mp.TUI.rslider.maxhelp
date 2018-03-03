@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 77.0, 376.0, 807.0, 288.0 ],
+		"rect" : [ 107.0, 515.0, 807.0, 288.0 ],
 		"bgcolor" : [ 0.9, 0.91, 0.91, 1.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
@@ -38,6 +38,34 @@
 		"style" : "",
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
+				"box" : 				{
+					"id" : "obj-4",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 229.125, 173.0, 49.0, 22.0 ],
+					"presentation_rect" : [ 229.125, 173.0, 49.0, 22.0 ],
+					"style" : "",
+					"text" : "-1 1"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-2",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 227.0, 243.0, 116.0, 22.0 ],
+					"presentation_rect" : [ 227.0, 243.0, 116.0, 22.0 ],
+					"style" : "",
+					"text" : "-0.138502 0.343542"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"id" : "obj-3",
 					"maxclass" : "ezdac~",
@@ -899,10 +927,10 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 229.125, 208.184082, 437.0, 22.0 ],
-					"presentation_rect" : [ 229.125, 208.184082, 437.0, 22.0 ],
+					"patching_rect" : [ 229.125, 208.184082, 444.0, 22.0 ],
+					"presentation_rect" : [ 229.125, 208.184082, 444.0, 22.0 ],
 					"style" : "",
-					"text" : "mp.TUI.rslider /rslider_helper @scale 1 0.3 0 @caption \"range slider\" @enable 1"
+					"text" : "mp.TUI.rhslider /rslider_helper @scale 1 0.3 0 @caption \"range slider\" @enable 1"
 				}
 
 			}
@@ -959,7 +987,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-30", 1 ],
-					"midpoints" : [ 655.625, 201.592041, 656.625, 201.592041 ],
+					"midpoints" : [ 655.625, 201.592041, 663.625, 201.592041 ],
 					"source" : [ "obj-28", 0 ]
 				}
 
@@ -973,15 +1001,30 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-2", 1 ],
+					"midpoints" : [ 238.625, 236.092041, 333.5, 236.092041 ],
+					"source" : [ "obj-30", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-28", 0 ],
-					"midpoints" : [ 656.625, 240.184082, 641.125, 240.184082, 641.125, 115.0, 655.625, 115.0 ],
+					"midpoints" : [ 663.625, 240.184082, 641.125, 240.184082, 641.125, 115.0, 655.625, 115.0 ],
 					"source" : [ "obj-30", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-30", 0 ],
+					"source" : [ "obj-4", 0 ]
 				}
 
 			}
  ],
 		"dependency_cache" : [ 			{
-				"name" : "mp.TUI.rslider.maxpat",
+				"name" : "mp.TUI.rhslider.maxpat",
 				"bootpath" : "~/Documents/Max 7/Packages/ModularPolyphony-TUI/patchers",
 				"patcherrelativepath" : "../patchers",
 				"type" : "JSON",
@@ -1005,6 +1048,41 @@
 				"name" : "LAM.f.call.maxpat",
 				"bootpath" : "~/Documents/Max/Packages/lam-lib/patchers",
 				"patcherrelativepath" : "../../../../Max/Packages/lam-lib/patchers",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "mp.delta.maxpat",
+				"bootpath" : "~/Documents/Max 7/Packages/ModularPolyphony/patchers",
+				"patcherrelativepath" : "../../ModularPolyphony/patchers",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "mp.delta.p.maxpat",
+				"bootpath" : "~/Documents/Max 7/Packages/ModularPolyphony/patchers",
+				"patcherrelativepath" : "../../ModularPolyphony/patchers",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "mp.muter.maxpat",
+				"bootpath" : "~/Documents/Max 7/Packages/ModularPolyphony/patchers",
+				"patcherrelativepath" : "../../ModularPolyphony/patchers",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "mp.router.maxpat",
+				"bootpath" : "~/Documents/Max 7/Packages/ModularPolyphony/patchers",
+				"patcherrelativepath" : "../../ModularPolyphony/patchers",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "mp.block.init.maxpat",
+				"bootpath" : "~/Documents/Max 7/Packages/ModularPolyphony/patchers",
+				"patcherrelativepath" : "../../ModularPolyphony/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
@@ -1058,44 +1136,9 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "mp.muter.maxpat",
-				"bootpath" : "~/Documents/Max 7/Packages/ModularPolyphony/patchers",
-				"patcherrelativepath" : "../../ModularPolyphony/patchers",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "mp.router.maxpat",
-				"bootpath" : "~/Documents/Max 7/Packages/ModularPolyphony/patchers",
-				"patcherrelativepath" : "../../ModularPolyphony/patchers",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "mp.block.init.maxpat",
-				"bootpath" : "~/Documents/Max 7/Packages/ModularPolyphony/patchers",
-				"patcherrelativepath" : "../../ModularPolyphony/patchers",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
 				"name" : "LAM.r2d.maxpat",
 				"bootpath" : "~/Documents/Max/Packages/lam-lib/patchers",
 				"patcherrelativepath" : "../../../../Max/Packages/lam-lib/patchers",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "mp.delta.maxpat",
-				"bootpath" : "~/Documents/Max 7/Packages/ModularPolyphony/patchers",
-				"patcherrelativepath" : "../../ModularPolyphony/patchers",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "mp.delta.p.maxpat",
-				"bootpath" : "~/Documents/Max 7/Packages/ModularPolyphony/patchers",
-				"patcherrelativepath" : "../../ModularPolyphony/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}

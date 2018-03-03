@@ -207,11 +207,13 @@
 , 							{
 								"box" : 								{
 									"id" : "obj-37",
+									"linecount" : 2,
 									"maxclass" : "newobj",
 									"numinlets" : 1,
 									"numoutlets" : 2,
 									"outlettype" : [ "jit_matrix", "" ],
 									"patching_rect" : [ 50.0, 246.0, 574.0, 22.0 ],
+									"presentation_linecount" : 2,
 									"presentation_rect" : [ 50.0, 246.0, 574.0, 22.0 ],
 									"style" : "",
 									"text" : "jit.gl.gridshape #1 @shape plane @dim 2 2 @scale 0. 0. 0. @layer -1 @anim #0.sliderBody"
@@ -1429,6 +1431,20 @@
 						"subpatcher_template" : "",
 						"boxes" : [ 							{
 								"box" : 								{
+									"id" : "obj-2",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 2,
+									"outlettype" : [ "", "" ],
+									"patching_rect" : [ 214.0, 179.0, 235.0, 22.0 ],
+									"presentation_rect" : [ 214.0, 179.0, 235.0, 22.0 ],
+									"style" : "",
+									"text" : "jit.anim.node @anim #0.slider.animnode"
+								}
+
+							}
+, 							{
+								"box" : 								{
 									"id" : "obj-30",
 									"maxclass" : "newobj",
 									"numinlets" : 1,
@@ -1516,11 +1532,10 @@
 									"numinlets" : 1,
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
-									"patching_rect" : [ 84.5, 214.986298, 629.0, 35.0 ],
-									"presentation_linecount" : 2,
-									"presentation_rect" : [ 84.5, 214.986298, 629.0, 35.0 ],
+									"patching_rect" : [ 84.5, 214.986298, 540.0, 35.0 ],
+									"presentation_rect" : [ 84.5, 214.986298, 540.0, 35.0 ],
 									"style" : "",
-									"text" : "jit.phys.body @shape cube @kinematic 1 @damping 1 1 @name #0.slider  @collisions 0 @filters #1/picker @worldname #1.phys @anim #0.slider.animnode"
+									"text" : "jit.phys.body @shape cube @kinematic 1 @damping 1 1 @name #0.slider  @collisions 0 @filters #1/picker @worldname #1.phys "
 								}
 
 							}
@@ -1560,6 +1575,13 @@
 								"patchline" : 								{
 									"destination" : [ "obj-12", 0 ],
 									"source" : [ "obj-19", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-19", 0 ],
+									"source" : [ "obj-2", 0 ]
 								}
 
 							}

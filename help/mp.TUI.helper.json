@@ -123,5 +123,9 @@
 		"description" : "Node data-interpolation.",
 		"categories" : "component"
 	}
+,
+	"Polyphony" : 	{
+		"Modular" : [ "alpha", "beta", "gamma" ]
+	}
 
 }

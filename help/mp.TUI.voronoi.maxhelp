@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 144.0, 210.0, 811.0, 371.0 ],
+		"rect" : [ 190.0, 472.0, 811.0, 371.0 ],
 		"bgcolor" : [ 0.9, 0.91, 0.91, 1.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
@@ -1330,7 +1330,6 @@
 						"tags" : "",
 						"style" : "",
 						"subpatcher_template" : "",
-						"visible" : 1,
 						"boxes" : [ 							{
 								"box" : 								{
 									"format" : 6,
@@ -1444,6 +1443,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 330.0, 269.0, 92.0, 35.0 ],
+									"presentation_linecount" : 2,
 									"presentation_rect" : [ 330.0, 269.0, 92.0, 35.0 ],
 									"style" : "",
 									"text" : "slide_down $1, slide_up $1"
