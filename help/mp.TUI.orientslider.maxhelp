@@ -39,6 +39,35 @@
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-1",
+					"maxclass" : "toggle",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "int" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 546.625, 93.0, 24.0, 24.0 ],
+					"presentation_rect" : [ 546.625, 93.0, 24.0, 24.0 ],
+					"style" : ""
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-2",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 546.625, 122.0, 81.0, 22.0 ],
+					"presentation_linecount" : 2,
+					"presentation_rect" : [ 546.625, 122.0, 81.0, 22.0 ],
+					"style" : "",
+					"text" : "orientation $1"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-23",
 					"maxclass" : "number",
 					"numinlets" : 1,
@@ -109,7 +138,7 @@
 			}
 , 			{
 				"box" : 				{
-					"args" : [ "mp.TUI.slider", "@description", "A simple slider.", "@category", "component" ],
+					"args" : [ "mp.TUI.orientslider", "@description", "Orientable slider.", "@category", "component" ],
 					"bgmode" : 0,
 					"border" : 0,
 					"clickthrough" : 0,
@@ -565,10 +594,10 @@
 									"numinlets" : 2,
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
-									"patching_rect" : [ 450.0, 155.0, 166.0, 22.0 ],
-									"presentation_rect" : [ 450.0, 155.0, 166.0, 22.0 ],
+									"patching_rect" : [ 450.0, 155.0, 196.0, 22.0 ],
+									"presentation_rect" : [ 450.0, 155.0, 196.0, 22.0 ],
 									"style" : "",
-									"text" : "mp.TUI.toes 10 /slider_helper"
+									"text" : "mp.TUI.toes 10 /orientslider_helper"
 								}
 
 							}
@@ -662,10 +691,9 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 244.0, 108.5, 75.0, 22.0 ],
-									"presentation_linecount" : 2,
 									"presentation_rect" : [ 244.0, 108.5, 75.0, 22.0 ],
 									"style" : "",
-									"text" : "12783.slider"
+									"text" : "8400.slider"
 								}
 
 							}
@@ -749,7 +777,7 @@
 									"patching_rect" : [ 50.0, 62.0, 508.000092, 29.0 ],
 									"presentation_rect" : [ 50.0, 62.0, 508.000092, 29.0 ],
 									"style" : "",
-									"text" : "mp.TUI.hub /slider_helper"
+									"text" : "mp.TUI.hub /orientslider_helper"
 								}
 
 							}
@@ -919,8 +947,8 @@
  ]
 					}
 ,
-					"patching_rect" : [ 465.625, 133.0, 76.0, 24.0 ],
-					"presentation_rect" : [ 465.625, 133.0, 76.0, 24.0 ],
+					"patching_rect" : [ 418.125, 128.0, 76.0, 24.0 ],
+					"presentation_rect" : [ 418.125, 128.0, 76.0, 24.0 ],
 					"saved_object_attributes" : 					{
 						"description" : "",
 						"digest" : "",
@@ -980,10 +1008,10 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "bang", "" ],
-					"patching_rect" : [ 209.125, 101.0, 275.5, 21.0 ],
-					"presentation_rect" : [ 209.125, 101.0, 275.5, 21.0 ],
+					"patching_rect" : [ 209.125, 101.0, 228.0, 21.0 ],
+					"presentation_rect" : [ 209.125, 101.0, 228.0, 21.0 ],
 					"style" : "",
-					"text" : "jit.window /slider_helper @fsmenubar 0"
+					"text" : "jit.window /orientslider_helper @fsmenubar 0"
 				}
 
 			}
@@ -996,10 +1024,10 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "bang", "" ],
-					"patching_rect" : [ 9.0, 253.184082, 186.0, 21.0 ],
-					"presentation_rect" : [ 9.0, 253.184082, 186.0, 21.0 ],
+					"patching_rect" : [ 9.0, 253.184082, 208.0, 21.0 ],
+					"presentation_rect" : [ 9.0, 253.184082, 208.0, 21.0 ],
 					"style" : "",
-					"text" : "jit.gl.render /slider_helper @ortho 1"
+					"text" : "jit.gl.render /orientslider_helper @ortho 1"
 				}
 
 			}
@@ -1091,18 +1119,25 @@
 					"numinlets" : 2,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 266.625, 253.184082, 320.0, 22.0 ],
-					"presentation_rect" : [ 266.625, 253.184082, 320.0, 22.0 ],
+					"patching_rect" : [ 266.625, 253.184082, 299.0, 22.0 ],
+					"presentation_rect" : [ 266.625, 253.184082, 299.0, 22.0 ],
 					"style" : "",
-					"text" : "mp.TUI.slider /slider_helper @scale 1 0.2 0"
+					"text" : "mp.TUI.orientslider /orientslider_helper @scale 1 0.2 0"
 				}
 
 			}
  ],
 		"lines" : [ 			{
 				"patchline" : 				{
+					"destination" : [ "obj-2", 0 ],
+					"source" : [ "obj-1", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-30", 1 ],
-					"midpoints" : [ 248.125, 246.092041, 577.125, 246.092041 ],
+					"midpoints" : [ 248.125, 246.092041, 556.125, 246.092041 ],
 					"source" : [ "obj-10", 0 ]
 				}
 
@@ -1110,7 +1145,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-30", 1 ],
-					"midpoints" : [ 348.125, 245.092041, 577.125, 245.092041 ],
+					"midpoints" : [ 348.125, 245.092041, 556.125, 245.092041 ],
 					"source" : [ "obj-12", 0 ]
 				}
 
@@ -1139,7 +1174,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-30", 1 ],
-					"midpoints" : [ 333.125, 245.592041, 577.125, 245.592041 ],
+					"midpoints" : [ 333.125, 245.592041, 556.125, 245.592041 ],
 					"source" : [ "obj-16", 0 ]
 				}
 
@@ -1160,6 +1195,13 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-30", 1 ],
+					"source" : [ "obj-2", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-16", 0 ],
 					"source" : [ "obj-23", 0 ]
 				}
@@ -1175,7 +1217,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-30", 1 ],
-					"midpoints" : [ 495.625, 246.092041, 577.125, 246.092041 ],
+					"midpoints" : [ 495.625, 246.092041, 556.125, 246.092041 ],
 					"source" : [ "obj-25", 0 ]
 				}
 
@@ -1183,7 +1225,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-30", 1 ],
-					"midpoints" : [ 577.625, 245.592041, 577.125, 245.592041 ],
+					"midpoints" : [ 577.625, 245.592041, 556.125, 245.592041 ],
 					"source" : [ "obj-28", 0 ]
 				}
 
@@ -1198,7 +1240,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-28", 0 ],
-					"midpoints" : [ 577.125, 285.184082, 561.375, 285.184082, 561.375, 166.0, 577.625, 166.0 ],
+					"midpoints" : [ 556.125, 285.184082, 561.375, 285.184082, 561.375, 166.0, 577.625, 166.0 ],
 					"source" : [ "obj-30", 2 ]
 				}
 
@@ -1206,7 +1248,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-30", 1 ],
-					"midpoints" : [ 363.125, 246.092041, 577.125, 246.092041 ],
+					"midpoints" : [ 363.125, 246.092041, 556.125, 246.092041 ],
 					"source" : [ "obj-4", 0 ]
 				}
 
@@ -1220,7 +1262,7 @@
 			}
  ],
 		"dependency_cache" : [ 			{
-				"name" : "mp.TUI.slider.maxpat",
+				"name" : "mp.TUI.orientslider.maxpat",
 				"bootpath" : "~/Documents/Max 7/Packages/ModularPolyphony-TUI/patchers",
 				"patcherrelativepath" : "../patchers",
 				"type" : "JSON",
