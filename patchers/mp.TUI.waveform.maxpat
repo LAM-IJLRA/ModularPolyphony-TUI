@@ -77,10 +77,10 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 54.0, 466.333313, 103.0, 22.0 ],
-					"presentation_rect" : [ 54.0, 466.333313, 103.0, 22.0 ],
+					"patching_rect" : [ 54.0, 466.333313, 127.0, 22.0 ],
+					"presentation_rect" : [ 54.0, 466.333313, 127.0, 22.0 ],
 					"style" : "",
-					"text" : "r #0/node/bang"
+					"text" : "r #1/ck"
 				}
 
 			}
@@ -1010,10 +1010,10 @@
 									"numinlets" : 0,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 476.0, 302.0, 117.0, 22.0 ],
-									"presentation_rect" : [ 476.0, 302.0, 117.0, 22.0 ],
+									"patching_rect" : [ 476.0, 302.0, 127.0, 22.0 ],
+									"presentation_rect" : [ 476.0, 302.0, 127.0, 22.0 ],
 									"style" : "",
-									"text" : "r #0/node/bang"
+									"text" : "r #1/ck"
 								}
 
 							}
@@ -2739,33 +2739,6 @@
 							}
 , 							{
 								"box" : 								{
-									"id" : "obj-7",
-									"maxclass" : "button",
-									"numinlets" : 1,
-									"numoutlets" : 1,
-									"outlettype" : [ "bang" ],
-									"patching_rect" : [ 39.0, 405.333313, 24.0, 24.0 ],
-									"presentation_rect" : [ 39.0, 405.333313, 24.0, 24.0 ],
-									"style" : ""
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"id" : "obj-4",
-									"maxclass" : "newobj",
-									"numinlets" : 1,
-									"numoutlets" : 2,
-									"outlettype" : [ "jit_matrix", "" ],
-									"patching_rect" : [ 44.0, 368.0, 313.0, 22.0 ],
-									"presentation_rect" : [ 44.0, 368.0, 313.0, 22.0 ],
-									"style" : "",
-									"text" : "jit.gl.gridshape @shape plane @dim 2 2 @matrixoutput 1"
-								}
-
-							}
-, 							{
-								"box" : 								{
 									"comment" : "",
 									"id" : "obj-3",
 									"index" : 1,
@@ -3272,21 +3245,6 @@
 									"presentation_rect" : [ 573.0, 229.0, 107.0, 22.0 ],
 									"style" : "",
 									"text" : "prepend rotatexyz"
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"fontname" : "Arial",
-									"fontsize" : 12.0,
-									"id" : "obj-61",
-									"maxclass" : "newobj",
-									"numinlets" : 1,
-									"numoutlets" : 0,
-									"patching_rect" : [ 39.0, 431.333313, 119.0, 22.0 ],
-									"presentation_rect" : [ 39.0, 431.333313, 119.0, 22.0 ],
-									"style" : "",
-									"text" : "s #0/node/bang"
 								}
 
 							}
@@ -4803,13 +4761,6 @@
 							}
 , 							{
 								"patchline" : 								{
-									"destination" : [ "obj-7", 0 ],
-									"source" : [ "obj-4", 0 ]
-								}
-
-							}
-, 							{
-								"patchline" : 								{
 									"destination" : [ "obj-48", 0 ],
 									"source" : [ "obj-47", 0 ]
 								}
@@ -4847,13 +4798,6 @@
 								"patchline" : 								{
 									"destination" : [ "obj-16", 0 ],
 									"source" : [ "obj-66", 0 ]
-								}
-
-							}
-, 							{
-								"patchline" : 								{
-									"destination" : [ "obj-61", 0 ],
-									"source" : [ "obj-7", 0 ]
 								}
 
 							}
