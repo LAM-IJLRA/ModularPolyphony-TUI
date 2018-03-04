@@ -124,17 +124,19 @@
 		"categories" : "component"
 	}
 ,
-	"Polyphony" : 	{
-		"Modular" : [ "alpha", "beta", "gamma" ]
-	}
-,
 	"mp.TUI.orientslider" : 	{
 		"description" : "Orientable slider.",
 		"categories" : [ "alpha", "beta", "gamma" ]
 	}
 ,
-	"scroll" : 	{
-		"mp.TUI.menu" : [ "alpha", "beta", "gamma" ]
+	"mp.TUI.number" : 	{
+		"description" : "Number box.",
+		"categories" : [ "alpha", "beta", "gamma" ]
+	}
+,
+	"mp.TUI.menuscroll" : 	{
+		"description" : "A scrollable drop-down menu.",
+		"categories" : [ "alpha", "beta", "gamma" ]
 	}
 
 }
