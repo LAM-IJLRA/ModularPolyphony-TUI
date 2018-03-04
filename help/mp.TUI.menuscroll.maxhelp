@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 303.0, 328.0, 835.0, 479.0 ],
+		"rect" : [ 100.0, 100.0, 835.0, 479.0 ],
 		"bgcolor" : [ 0.9, 0.91, 0.91, 1.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
@@ -44,7 +44,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 13.0, 64.0, 136.0, 20.0 ],
-					"presentation_linecount" : 2,
 					"presentation_rect" : [ 13.0, 64.0, 136.0, 20.0 ],
 					"style" : "",
 					"text" : "WORK IN PROGRESS!"
@@ -465,7 +464,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 251.625, 288.0, 258.0, 22.0 ],
-					"presentation_linecount" : 3,
 					"presentation_rect" : [ 251.625, 288.0, 258.0, 22.0 ],
 					"style" : "",
 					"text" : "symbol \"24 Short Chord (01 - 18).aiff\""
@@ -1426,7 +1424,7 @@
 			}
 , 			{
 				"box" : 				{
-					"args" : [ "mp.TUI.menu", "scroll", "@description", "A scrollable drop-down menu.", "@category", "component" ],
+					"args" : [ "mp.TUI.menuscroll", "@description", "A scrollable drop-down menu.", "@category", "component" ],
 					"bgmode" : 0,
 					"border" : 0,
 					"clickthrough" : 0,
