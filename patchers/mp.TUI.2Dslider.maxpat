@@ -304,7 +304,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 440.0, 288.0, 90.0, 22.0 ],
-					"presentation_linecount" : 2,
 					"presentation_rect" : [ 440.0, 288.0, 90.0, 22.0 ],
 					"style" : "",
 					"text" : "r #0.enable"
@@ -755,13 +754,11 @@
 						"boxes" : [ 							{
 								"box" : 								{
 									"id" : "obj-3",
-									"linecount" : 2,
 									"maxclass" : "newobj",
 									"numinlets" : 0,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 40.0, 39.0, 82.0, 22.0 ],
-									"presentation_linecount" : 2,
 									"presentation_rect" : [ 40.0, 39.0, 82.0, 22.0 ],
 									"style" : "",
 									"text" : "r #0.enable"
@@ -787,13 +784,11 @@
 , 							{
 								"box" : 								{
 									"id" : "obj-12",
-									"linecount" : 2,
 									"maxclass" : "newobj",
 									"numinlets" : 1,
 									"numoutlets" : 2,
 									"outlettype" : [ "jit_matrix", "" ],
 									"patching_rect" : [ 40.0, 126.986298, 654.0, 22.0 ],
-									"presentation_linecount" : 2,
 									"presentation_rect" : [ 40.0, 126.986298, 654.0, 22.0 ],
 									"style" : "",
 									"text" : "jit.gl.gridshape #0.slider.node @shape plane @dim 2 2 @scale 1 1 0  @poly_mode 1 1 @name #0.slider/background"
@@ -1617,13 +1612,11 @@
 , 							{
 								"box" : 								{
 									"id" : "obj-1",
-									"linecount" : 2,
 									"maxclass" : "newobj",
 									"numinlets" : 1,
 									"numoutlets" : 2,
 									"outlettype" : [ "jit_matrix", "" ],
 									"patching_rect" : [ 2.0, 652.0, 519.0, 22.0 ],
-									"presentation_linecount" : 2,
 									"presentation_rect" : [ 2.0, 652.0, 519.0, 22.0 ],
 									"style" : "",
 									"text" : "jit.gl.text #0.slider.node  @mode 3d @align 1 @color 1 1 1 1 @scale 0.3 0.3 0 @position 0 0 0"
@@ -1677,13 +1670,11 @@
 , 							{
 								"box" : 								{
 									"id" : "obj-30",
-									"linecount" : 2,
 									"maxclass" : "newobj",
 									"numinlets" : 1,
 									"numoutlets" : 2,
 									"outlettype" : [ "jit_matrix", "" ],
 									"patching_rect" : [ 231.0, 459.0, 556.0, 22.0 ],
-									"presentation_linecount" : 2,
 									"presentation_rect" : [ 231.0, 459.0, 556.0, 22.0 ],
 									"style" : "",
 									"text" : "jit.gl.text #0.slider.node  @mode 3d @align 2 @color 1 1 1 1 @scale 0.2 0.2 0 @position 0.95 -0.95 0"
@@ -2177,9 +2168,9 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 293.5, 54.108948, 585.0, 35.0 ],
+					"patching_rect" : [ 293.5, 54.108948, 588.0, 35.0 ],
 					"presentation_linecount" : 2,
-					"presentation_rect" : [ 293.5, 54.108948, 585.0, 35.0 ],
+					"presentation_rect" : [ 293.5, 54.108948, 588.0, 35.0 ],
 					"style" : "",
 					"text" : "patcherargs @position 0 0 @scale 1 1 1 @rotatexyz 0 0 0 @name #0.slider @labelsize 0.03 @color 1 1 1 1"
 				}
@@ -2394,7 +2385,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-89", 0 ],
-					"midpoints" : [ 869.0, 98.108948, 255.5, 98.108948 ],
+					"midpoints" : [ 872.0, 98.108948, 255.5, 98.108948 ],
 					"source" : [ "obj-91", 1 ]
 				}
 
