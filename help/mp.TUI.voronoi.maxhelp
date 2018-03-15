@@ -5,11 +5,11 @@
 			"major" : 8,
 			"minor" : 0,
 			"revision" : 0,
-			"architecture" : "x64",
+			"architecture" : "x86",
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 190.0, 472.0, 811.0, 371.0 ],
+		"rect" : [ 100.0, 100.0, 811.0, 371.0 ],
 		"bgcolor" : [ 0.9, 0.91, 0.91, 1.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
@@ -64,7 +64,7 @@
 							"major" : 8,
 							"minor" : 0,
 							"revision" : 0,
-							"architecture" : "x64",
+							"architecture" : "x86",
 							"modernui" : 1
 						}
 ,
@@ -211,7 +211,7 @@
 							"major" : 8,
 							"minor" : 0,
 							"revision" : 0,
-							"architecture" : "x64",
+							"architecture" : "x86",
 							"modernui" : 1
 						}
 ,
@@ -302,13 +302,13 @@
 									"presentation_rect" : [ 50.0, 258.0, 179.0, 36.0 ],
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
-											"parameter_mmax" : 6.0,
+											"parameter_longname" : "live.gain~[2]",
 											"parameter_initial" : [ 0.0 ],
 											"parameter_shortname" : "live.gain~[1]",
 											"parameter_type" : 0,
 											"parameter_unitstyle" : 4,
 											"parameter_mmin" : -70.0,
-											"parameter_longname" : "live.gain~[2]"
+											"parameter_mmax" : 6.0
 										}
 
 									}
@@ -333,7 +333,7 @@
 											"major" : 8,
 											"minor" : 0,
 											"revision" : 0,
-											"architecture" : "x64",
+											"architecture" : "x86",
 											"modernui" : 1
 										}
 ,
@@ -1122,11 +1122,11 @@
 							"major" : 8,
 							"minor" : 0,
 							"revision" : 0,
-							"architecture" : "x64",
+							"architecture" : "x86",
 							"modernui" : 1
 						}
 ,
-						"rect" : [ 59.0, 103.0, 125.0, 186.0 ],
+						"rect" : [ 59.0, 103.0, 335.0, 322.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -1155,13 +1155,27 @@
 						"subpatcher_template" : "",
 						"boxes" : [ 							{
 								"box" : 								{
+									"id" : "obj-1",
+									"maxclass" : "newobj",
+									"numinlets" : 2,
+									"numoutlets" : 2,
+									"outlettype" : [ "", "" ],
+									"patching_rect" : [ 35.0, 61.0, 69.0, 22.0 ],
+									"presentation_rect" : [ 35.0, 61.0, 69.0, 22.0 ],
+									"style" : "",
+									"text" : "route name"
+								}
+
+							}
+, 							{
+								"box" : 								{
 									"id" : "obj-36",
 									"maxclass" : "message",
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 54.0, 99.0, 49.0, 22.0 ],
-									"presentation_rect" : [ 54.0, 99.0, 49.0, 22.0 ],
+									"patching_rect" : [ 103.0, 130.0, 49.0, 22.0 ],
+									"presentation_rect" : [ 103.0, 130.0, 49.0, 22.0 ],
 									"style" : "",
 									"text" : "target 0"
 								}
@@ -1174,8 +1188,8 @@
 									"numinlets" : 1,
 									"numoutlets" : 2,
 									"outlettype" : [ "", "bang" ],
-									"patching_rect" : [ 36.0, 65.0, 37.0, 22.0 ],
-									"presentation_rect" : [ 36.0, 65.0, 37.0, 22.0 ],
+									"patching_rect" : [ 85.0, 96.0, 37.0, 22.0 ],
+									"presentation_rect" : [ 85.0, 96.0, 37.0, 22.0 ],
 									"style" : "",
 									"text" : "t l b"
 								}
@@ -1204,14 +1218,21 @@
 									"maxclass" : "outlet",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 36.0, 130.0, 30.0, 30.0 ],
-									"presentation_rect" : [ 36.0, 130.0, 30.0, 30.0 ],
+									"patching_rect" : [ 85.0, 161.0, 30.0, 30.0 ],
+									"presentation_rect" : [ 85.0, 161.0, 30.0, 30.0 ],
 									"style" : ""
 								}
 
 							}
  ],
 						"lines" : [ 							{
+								"patchline" : 								{
+									"destination" : [ "obj-33", 0 ],
+									"source" : [ "obj-1", 1 ]
+								}
+
+							}
+, 							{
 								"patchline" : 								{
 									"destination" : [ "obj-36", 0 ],
 									"source" : [ "obj-33", 1 ]
@@ -1234,7 +1255,7 @@
 							}
 , 							{
 								"patchline" : 								{
-									"destination" : [ "obj-33", 0 ],
+									"destination" : [ "obj-1", 0 ],
 									"source" : [ "obj-43", 0 ]
 								}
 
@@ -1299,7 +1320,7 @@
 							"major" : 8,
 							"minor" : 0,
 							"revision" : 0,
-							"architecture" : "x64",
+							"architecture" : "x86",
 							"modernui" : 1
 						}
 ,
@@ -2054,7 +2075,7 @@
 							"major" : 8,
 							"minor" : 0,
 							"revision" : 0,
-							"architecture" : "x64",
+							"architecture" : "x86",
 							"modernui" : 1
 						}
 ,
@@ -2191,7 +2212,7 @@
 											"major" : 8,
 											"minor" : 0,
 											"revision" : 0,
-											"architecture" : "x64",
+											"architecture" : "x86",
 											"modernui" : 1
 										}
 ,
@@ -2423,7 +2444,7 @@
 							"major" : 8,
 							"minor" : 0,
 							"revision" : 0,
-							"architecture" : "x64",
+							"architecture" : "x86",
 							"modernui" : 1
 						}
 ,
