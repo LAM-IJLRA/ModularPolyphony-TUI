@@ -138,5 +138,10 @@
 		"description" : "A scrollable drop-down menu.",
 		"categories" : [ "alpha", "beta", "gamma" ]
 	}
+,
+	"sagrada.super_module" : 	{
+		"categories" : [ "alpha", "beta", "gamma" ],
+		"description" : "A sample-accurate granular toolkit"
+	}
 
 }
