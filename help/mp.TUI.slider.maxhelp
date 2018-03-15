@@ -5,11 +5,11 @@
 			"major" : 8,
 			"minor" : 0,
 			"revision" : 0,
-			"architecture" : "x64",
+			"architecture" : "x86",
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 432.0, 422.0, 812.0, 379.0 ],
+		"rect" : [ 129.0, 451.0, 812.0, 379.0 ],
 		"bgcolor" : [ 0.9, 0.91, 0.91, 1.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
@@ -172,7 +172,7 @@
 							"major" : 8,
 							"minor" : 0,
 							"revision" : 0,
-							"architecture" : "x64",
+							"architecture" : "x86",
 							"modernui" : 1
 						}
 ,
@@ -309,7 +309,7 @@
 											"major" : 8,
 											"minor" : 0,
 											"revision" : 0,
-											"architecture" : "x64",
+											"architecture" : "x86",
 											"modernui" : 1
 										}
 ,
@@ -541,7 +541,7 @@
 							"major" : 8,
 							"minor" : 0,
 							"revision" : 0,
-							"architecture" : "x64",
+							"architecture" : "x86",
 							"modernui" : 1
 						}
 ,
@@ -671,20 +671,6 @@
 							}
 , 							{
 								"box" : 								{
-									"id" : "obj-5",
-									"maxclass" : "message",
-									"numinlets" : 2,
-									"numoutlets" : 1,
-									"outlettype" : [ "" ],
-									"patching_rect" : [ 244.0, 108.5, 75.0, 22.0 ],
-									"presentation_rect" : [ 244.0, 108.5, 75.0, 22.0 ],
-									"style" : "",
-									"text" : "2507.slider"
-								}
-
-							}
-, 							{
-								"box" : 								{
 									"id" : "obj-11",
 									"maxclass" : "button",
 									"numinlets" : 1,
@@ -733,22 +719,6 @@
 									"patching_rect" : [ 213.000031, 102.0, 24.0, 24.0 ],
 									"presentation_rect" : [ 213.000031, 102.0, 24.0, 24.0 ],
 									"style" : ""
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"id" : "obj-28",
-									"linecount" : 3,
-									"maxclass" : "message",
-									"numinlets" : 2,
-									"numoutlets" : 1,
-									"outlettype" : [ "" ],
-									"patching_rect" : [ 594.875122, 51.0, 55.0, 49.0 ],
-									"presentation_linecount" : 3,
-									"presentation_rect" : [ 594.875122, 51.0, 55.0, 49.0 ],
-									"style" : "",
-									"text" : "/tuio/2Dcur fseq 67327"
 								}
 
 							}
@@ -821,15 +791,7 @@
 , 							{
 								"patchline" : 								{
 									"destination" : [ "obj-14", 0 ],
-									"order" : 2,
-									"source" : [ "obj-16", 0 ]
-								}
-
-							}
-, 							{
-								"patchline" : 								{
-									"destination" : [ "obj-28", 1 ],
-									"order" : 0,
+									"order" : 1,
 									"source" : [ "obj-16", 0 ]
 								}
 
@@ -837,7 +799,7 @@
 , 							{
 								"patchline" : 								{
 									"destination" : [ "obj-49", 1 ],
-									"order" : 1,
+									"order" : 0,
 									"source" : [ "obj-16", 0 ]
 								}
 
@@ -860,7 +822,6 @@
 , 							{
 								"patchline" : 								{
 									"destination" : [ "obj-2", 0 ],
-									"order" : 1,
 									"source" : [ "obj-49", 1 ]
 								}
 
@@ -870,14 +831,6 @@
 									"destination" : [ "obj-3", 1 ],
 									"order" : 1,
 									"source" : [ "obj-49", 2 ]
-								}
-
-							}
-, 							{
-								"patchline" : 								{
-									"destination" : [ "obj-5", 1 ],
-									"order" : 0,
-									"source" : [ "obj-49", 1 ]
 								}
 
 							}
@@ -1227,7 +1180,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-28", 0 ],
-					"midpoints" : [ 577.125, 285.184082, 561.375, 285.184082, 561.375, 166.0, 577.625, 166.0 ],
+					"midpoints" : [ 577.125, 285.184082, 711.375, 285.184082, 711.375, 166.0, 577.625, 166.0 ],
 					"source" : [ "obj-30", 2 ]
 				}
 
