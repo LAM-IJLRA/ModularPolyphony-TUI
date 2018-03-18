@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 228.0, 350.0, 1046.0, 629.0 ],
+		"rect" : [ 160.0, 203.0, 1046.0, 629.0 ],
 		"bgcolor" : [ 1.0, 1.0, 1.0, 0.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
@@ -2237,9 +2237,9 @@
 					"numinlets" : 1,
 					"numoutlets" : 4,
 					"outlettype" : [ "bang", "bang", "", "int" ],
-					"patching_rect" : [ 5.0, 5.5, 52.84375, 37.0 ],
+					"patching_rect" : [ 5.0, 2.0, 50.0, 50.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 386.0625, 124.75, 92.470032, 20.274523 ]
+					"presentation_rect" : [ 5.0, 5.0, 50.0, 50.0 ]
 				}
 
 			}
@@ -2270,9 +2270,9 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "jit_matrix" ],
-					"patching_rect" : [ 5.0, 5.5, 52.84375, 37.0 ],
+					"patching_rect" : [ 5.0, 2.0, 50.0, 50.0 ],
 					"pic" : "mp.TUI-icon.png",
-					"presentation_rect" : [ 5.0, 5.5, 52.84375, 37.0 ]
+					"presentation_rect" : [ 5.0, 2.0, 50.0, 50.0 ]
 				}
 
 			}
