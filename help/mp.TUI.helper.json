@@ -143,5 +143,15 @@
 		"categories" : [ "alpha", "beta", "gamma" ],
 		"description" : "A sample-accurate granular toolkit"
 	}
+,
+	"mp.TUI.3Dslider" : 	{
+		"categories" : "component",
+		"description" : "A 3D slider."
+	}
+,
+	"mp.TUI.lightgrid" : 	{
+		"categories" : "component",
+		"description" : "A light-weight version of mp.TUI.grid."
+	}
 
 }
