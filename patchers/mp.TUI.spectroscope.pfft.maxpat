@@ -47,6 +47,10 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 17.0, 36.0, 30.0, 22.0 ],
 					"presentation_rect" : [ 17.0, 36.0, 30.0, 22.0 ],
+					"saved_object_attributes" : 					{
+						"attr_comment" : ""
+					}
+,
 					"style" : "",
 					"text" : "in 1"
 				}
@@ -62,6 +66,10 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 109.0, 146.0, 37.0, 22.0 ],
 					"presentation_rect" : [ 109.0, 146.0, 37.0, 22.0 ],
+					"saved_object_attributes" : 					{
+						"attr_comment" : ""
+					}
+,
 					"style" : "",
 					"text" : "out 1"
 				}
@@ -95,7 +103,7 @@
 					"patching_rect" : [ 109.0, 109.0, 219.0, 22.0 ],
 					"presentation_rect" : [ 109.0, 109.0, 219.0, 22.0 ],
 					"style" : "",
-					"text" : "jit.catch~ 1 @mode 2 @framesize 1024"
+					"text" : "jit.catch~ 1 @mode 2 @framesize 2048"
 				}
 
 			}

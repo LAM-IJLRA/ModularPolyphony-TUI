@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 204.0, 378.0, 808.0, 431.0 ],
+		"rect" : [ 82.0, 425.0, 808.0, 431.0 ],
 		"bgcolor" : [ 0.9, 0.91, 0.91, 1.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
@@ -75,7 +75,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 589.125, 372.0, 85.0, 22.0 ],
-					"presentation_linecount" : 2,
 					"presentation_rect" : [ 589.125, 372.0, 85.0, 22.0 ],
 					"style" : "",
 					"text" : "slide_down $1"
@@ -140,7 +139,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 589.125, 313.0, 79.0, 22.0 ],
-					"presentation_linecount" : 2,
 					"presentation_rect" : [ 589.125, 313.0, 79.0, 22.0 ],
 					"style" : "",
 					"text" : "ampmode $1"
@@ -189,13 +187,13 @@
 					"presentation_rect" : [ 246.0, 321.184082, 136.0, 20.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
+							"parameter_shortname" : "live.gain~",
+							"parameter_type" : 0,
+							"parameter_unitstyle" : 4,
 							"parameter_mmin" : -70.0,
 							"parameter_longname" : "live.gain~",
 							"parameter_mmax" : 6.0,
-							"parameter_initial" : [ 0.0 ],
-							"parameter_shortname" : "live.gain~",
-							"parameter_type" : 0,
-							"parameter_unitstyle" : 4
+							"parameter_initial" : [ 0.0 ]
 						}
 
 					}
@@ -231,6 +229,7 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-3",
+					"local" : 1,
 					"maxclass" : "ezdac~",
 					"numinlets" : 2,
 					"numoutlets" : 0,
@@ -1247,9 +1246,9 @@
 			}
  ],
 		"parameters" : 		{
+			"obj-4" : [ "live.gain~", "live.gain~", 0 ],
 			"obj-8::obj-21::obj-6" : [ "live.tab[3]", "live.tab[1]", 0 ],
 			"obj-8::obj-35" : [ "[5]", "Level", 0 ],
-			"obj-4" : [ "live.gain~", "live.gain~", 0 ],
 			"parameterbanks" : 			{
 
 			}
@@ -1264,9 +1263,9 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "LAM.jit.gl.spectroscope.pfft.maxpat",
-				"bootpath" : "~/Documents/Max/Packages/lam-lib/patchers",
-				"patcherrelativepath" : "../../../../Max/Packages/lam-lib/patchers",
+				"name" : "mp.TUI.spectroscope.pfft.maxpat",
+				"bootpath" : "~/Documents/Max 7/Packages/ModularPolyphony-TUI/patchers",
+				"patcherrelativepath" : "../patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
