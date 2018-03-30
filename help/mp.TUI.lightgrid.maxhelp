@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 64.0, 435.0, 837.0, 362.0 ],
+		"rect" : [ 100.0, 366.0, 890.0, 495.0 ],
 		"bgcolor" : [ 0.9, 0.91, 0.91, 1.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
@@ -39,13 +39,45 @@
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-3",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 2,
+					"outlettype" : [ "", "" ],
+					"patching_rect" : [ 455.625, 279.0, 95.0, 22.0 ],
+					"presentation_rect" : [ 455.625, 279.0, 95.0, 22.0 ],
+					"style" : "",
+					"text" : "route datamatrix"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"cols" : 5,
+					"fontface" : 0,
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"id" : "obj-2",
+					"maxclass" : "jit.cellblock",
+					"numinlets" : 2,
+					"numoutlets" : 4,
+					"outlettype" : [ "list", "", "", "" ],
+					"patching_rect" : [ 455.625, 311.184082, 262.0, 111.0 ],
+					"presentation_rect" : [ 455.625, 311.184082, 262.0, 111.0 ],
+					"rows" : 9
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-4",
 					"linecount" : 4,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 539.0, 74.0, 150.0, 60.0 ],
-					"presentation_rect" : [ 539.0, 74.0, 150.0, 60.0 ],
+					"patching_rect" : [ 528.0, 74.0, 150.0, 60.0 ],
+					"presentation_linecount" : 4,
+					"presentation_rect" : [ 528.0, 74.0, 150.0, 60.0 ],
 					"style" : "",
 					"text" : "no text at the moment...should be possible with pre-rendering to a texture"
 				}
@@ -161,7 +193,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 203.0, 279.0, 135.0, 62.0 ],
 					"presentation_rect" : [ 203.0, 279.0, 135.0, 62.0 ],
-					"size" : 10,
+					"size" : 45,
 					"style" : ""
 				}
 
@@ -1110,8 +1142,24 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-2", 0 ],
+					"source" : [ "obj-3", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-28", 0 ],
-					"midpoints" : [ 787.5, 284.184082, 670.375, 284.184082, 670.375, 150.0, 683.125, 150.0 ],
+					"midpoints" : [ 787.5, 284.184082, 831.375, 284.184082, 831.375, 150.0, 683.125, 150.0 ],
+					"order" : 1,
+					"source" : [ "obj-30", 2 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-3", 0 ],
+					"order" : 0,
 					"source" : [ "obj-30", 2 ]
 				}
 
