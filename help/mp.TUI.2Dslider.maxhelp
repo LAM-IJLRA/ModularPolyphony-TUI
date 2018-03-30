@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 99.0, 171.0, 872.0, 383.0 ],
+		"rect" : [ 153.0, 363.0, 872.0, 383.0 ],
 		"bgcolor" : [ 0.9, 0.91, 0.91, 1.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
@@ -39,6 +39,35 @@
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-1",
+					"items" : [ "absolute", ",", "relative" ],
+					"maxclass" : "umenu",
+					"numinlets" : 1,
+					"numoutlets" : 3,
+					"outlettype" : [ "int", "", "" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 561.0, 88.101746, 100.0, 22.0 ],
+					"presentation_rect" : [ 561.0, 88.101746, 100.0, 22.0 ],
+					"style" : ""
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-9",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 561.0, 113.203506, 55.0, 22.0 ],
+					"presentation_rect" : [ 561.0, 113.203506, 55.0, 22.0 ],
+					"style" : "",
+					"text" : "mode $1"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-43",
 					"maxclass" : "message",
 					"numinlets" : 2,
@@ -47,7 +76,7 @@
 					"patching_rect" : [ 477.0, 264.315918, 205.0, 22.0 ],
 					"presentation_rect" : [ 477.0, 264.315918, 205.0, 22.0 ],
 					"style" : "",
-					"text" : "0.045656 0.49727"
+					"text" : "0.379696 0.738681"
 				}
 
 			}
@@ -385,13 +414,13 @@
 					"presentation_rect" : [ 218.0, 292.815918, 136.0, 20.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
+							"parameter_longname" : "live.gain~",
+							"parameter_mmax" : 6.0,
+							"parameter_initial" : [ 0.0 ],
 							"parameter_shortname" : "live.gain~",
 							"parameter_type" : 0,
 							"parameter_unitstyle" : 4,
-							"parameter_mmin" : -70.0,
-							"parameter_longname" : "live.gain~",
-							"parameter_mmax" : 6.0,
-							"parameter_initial" : [ 0.0 ]
+							"parameter_mmin" : -70.0
 						}
 
 					}
@@ -1324,6 +1353,13 @@
  ],
 		"lines" : [ 			{
 				"patchline" : 				{
+					"destination" : [ "obj-9", 0 ],
+					"source" : [ "obj-1", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-17", 1 ],
 					"order" : 0,
 					"source" : [ "obj-12", 0 ]
@@ -1449,10 +1485,17 @@
 				}
 
 			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-30", 1 ],
+					"source" : [ "obj-9", 0 ]
+				}
+
+			}
  ],
 		"parameters" : 		{
-			"obj-16::obj-35" : [ "[5]", "Level", 0 ],
 			"obj-12" : [ "live.gain~", "live.gain~", 0 ],
+			"obj-16::obj-35" : [ "[5]", "Level", 0 ],
 			"obj-16::obj-21::obj-6" : [ "live.tab[3]", "live.tab[1]", 0 ],
 			"parameterbanks" : 			{
 
