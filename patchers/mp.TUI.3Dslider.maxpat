@@ -5,11 +5,11 @@
 			"major" : 8,
 			"minor" : 0,
 			"revision" : 0,
-			"architecture" : "x64",
+			"architecture" : "x86",
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 93.0, 78.0, 781.0, 717.0 ],
+		"rect" : [ 93.0, 78.0, 1148.0, 719.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -39,14 +39,16 @@
 		"boxes" : [ 			{
 				"box" : 				{
 					"id" : "obj-10",
+					"linecount" : 2,
 					"maxclass" : "message",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 595.0, 411.0, 50.0, 22.0 ],
-					"presentation_rect" : [ 595.0, 411.0, 50.0, 22.0 ],
+					"patching_rect" : [ 595.0, 411.0, 126.0, 35.0 ],
+					"presentation_linecount" : 6,
+					"presentation_rect" : [ 595.0, 411.0, 126.0, 35.0 ],
 					"style" : "",
-					"text" : "1. 0. 0."
+					"text" : "0.352068 0.373846 0.274086"
 				}
 
 			}
@@ -218,7 +220,7 @@
 							"major" : 8,
 							"minor" : 0,
 							"revision" : 0,
-							"architecture" : "x64",
+							"architecture" : "x86",
 							"modernui" : 1
 						}
 ,
@@ -289,7 +291,7 @@
 											"major" : 8,
 											"minor" : 0,
 											"revision" : 0,
-											"architecture" : "x64",
+											"architecture" : "x86",
 											"modernui" : 1
 										}
 ,
@@ -321,6 +323,49 @@
 										"style" : "",
 										"subpatcher_template" : "",
 										"boxes" : [ 											{
+												"box" : 												{
+													"id" : "obj-27",
+													"maxclass" : "message",
+													"numinlets" : 2,
+													"numoutlets" : 1,
+													"outlettype" : [ "" ],
+													"patching_rect" : [ 308.0, 415.0, 135.0, 22.0 ],
+													"presentation_linecount" : 2,
+													"presentation_rect" : [ 308.0, 415.0, 135.0, 22.0 ],
+													"style" : "",
+													"text" : "color 0.15 0.55 0.82 0.5"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"id" : "obj-26",
+													"maxclass" : "message",
+													"numinlets" : 2,
+													"numoutlets" : 1,
+													"outlettype" : [ "" ],
+													"patching_rect" : [ 308.0, 383.5, 105.0, 22.0 ],
+													"presentation_rect" : [ 308.0, 383.5, 105.0, 22.0 ],
+													"style" : "",
+													"text" : "color 0.52 0.6 0. 1"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"id" : "obj-25",
+													"maxclass" : "message",
+													"numinlets" : 2,
+													"numoutlets" : 1,
+													"outlettype" : [ "" ],
+													"patching_rect" : [ 308.0, 350.0, 118.0, 22.0 ],
+													"presentation_rect" : [ 308.0, 350.0, 118.0, 22.0 ],
+													"style" : "",
+													"text" : "color 0.86 0.2 0.18 1"
+												}
+
+											}
+, 											{
 												"box" : 												{
 													"comment" : "",
 													"id" : "obj-1",
@@ -508,11 +553,10 @@
 													"numinlets" : 9,
 													"numoutlets" : 2,
 													"outlettype" : [ "jit_matrix", "" ],
-													"patching_rect" : [ 121.5, 285.0, 479.0, 38.0 ],
-													"presentation_linecount" : 2,
-													"presentation_rect" : [ 121.5, 285.0, 479.0, 38.0 ],
+													"patching_rect" : [ 121.5, 285.0, 493.0, 38.0 ],
+													"presentation_rect" : [ 121.5, 285.0, 493.0, 38.0 ],
 													"style" : "",
-													"text" : "jit.gl.mesh  #0.slider.node @scale 1 1 0  @draw_mode polygon  @color 0 0 1 0.5 @blend_enable 1 @blend_mode 8 9 @depth_enable 0"
+													"text" : "jit.gl.mesh  #0.slider.node @scale 1 1 0  @draw_mode polygon  @color 0.15 0.55 0.82 0.5 @blend_enable 1 @blend_mode 8 9 @depth_enable 0"
 												}
 
 											}
@@ -691,6 +735,36 @@
 												}
 
 											}
+ ],
+										"styles" : [ 											{
+												"name" : "AudioStatus_Menu",
+												"default" : 												{
+													"bgfillcolor" : 													{
+														"type" : "color",
+														"color" : [ 0.294118, 0.313726, 0.337255, 1 ],
+														"color1" : [ 0.454902, 0.462745, 0.482353, 0.0 ],
+														"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
+														"angle" : 270.0,
+														"proportion" : 0.39,
+														"autogradient" : 0
+													}
+
+												}
+,
+												"parentstyle" : "",
+												"multi" : 0
+											}
+, 											{
+												"name" : "helpfile_label-1",
+												"default" : 												{
+													"textcolor" : [ 0.501961, 0.501961, 0.501961, 1.0 ],
+													"fontsize" : [ 13.0 ],
+													"fontname" : [ "Arial" ]
+												}
+,
+												"parentstyle" : "",
+												"multi" : 0
+											}
  ]
 									}
 ,
@@ -721,7 +795,7 @@
 											"major" : 8,
 											"minor" : 0,
 											"revision" : 0,
-											"architecture" : "x64",
+											"architecture" : "x86",
 											"modernui" : 1
 										}
 ,
@@ -912,11 +986,10 @@
 													"numinlets" : 9,
 													"numoutlets" : 2,
 													"outlettype" : [ "jit_matrix", "" ],
-													"patching_rect" : [ 121.5, 285.0, 479.0, 38.0 ],
-													"presentation_linecount" : 2,
-													"presentation_rect" : [ 121.5, 285.0, 479.0, 38.0 ],
+													"patching_rect" : [ 121.5, 285.0, 500.0, 38.0 ],
+													"presentation_rect" : [ 121.5, 285.0, 500.0, 38.0 ],
 													"style" : "",
-													"text" : "jit.gl.mesh  #0.slider.node @scale 1 1 0  @draw_mode polygon  @color 0 1 0 0.5 @blend_enable 1 @blend_mode 8 9 @depth_enable 0"
+													"text" : "jit.gl.mesh  #0.slider.node @scale 1 1 0  @draw_mode polygon  @color 0.52 0.6 0. 0.5 @blend_enable 1 @blend_mode 8 9 @depth_enable 0"
 												}
 
 											}
@@ -1060,6 +1133,36 @@
 												}
 
 											}
+ ],
+										"styles" : [ 											{
+												"name" : "AudioStatus_Menu",
+												"default" : 												{
+													"bgfillcolor" : 													{
+														"type" : "color",
+														"color" : [ 0.294118, 0.313726, 0.337255, 1 ],
+														"color1" : [ 0.454902, 0.462745, 0.482353, 0.0 ],
+														"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
+														"angle" : 270.0,
+														"proportion" : 0.39,
+														"autogradient" : 0
+													}
+
+												}
+,
+												"parentstyle" : "",
+												"multi" : 0
+											}
+, 											{
+												"name" : "helpfile_label-1",
+												"default" : 												{
+													"textcolor" : [ 0.501961, 0.501961, 0.501961, 1.0 ],
+													"fontsize" : [ 13.0 ],
+													"fontname" : [ "Arial" ]
+												}
+,
+												"parentstyle" : "",
+												"multi" : 0
+											}
  ]
 									}
 ,
@@ -1090,11 +1193,11 @@
 											"major" : 8,
 											"minor" : 0,
 											"revision" : 0,
-											"architecture" : "x64",
+											"architecture" : "x86",
 											"modernui" : 1
 										}
 ,
-										"rect" : [ 84.0, 106.0, 640.0, 480.0 ],
+										"rect" : [ 84.0, 106.0, 982.0, 525.0 ],
 										"bglocked" : 0,
 										"openinpresentation" : 0,
 										"default_fontsize" : 12.0,
@@ -1276,16 +1379,14 @@
 													"fontname" : "Arial",
 													"fontsize" : 13.0,
 													"id" : "obj-119",
-													"linecount" : 2,
 													"maxclass" : "newobj",
 													"numinlets" : 9,
 													"numoutlets" : 2,
 													"outlettype" : [ "jit_matrix", "" ],
-													"patching_rect" : [ 110.75, 271.027405, 595.0, 38.0 ],
-													"presentation_linecount" : 2,
-													"presentation_rect" : [ 110.75, 271.027405, 595.0, 38.0 ],
+													"patching_rect" : [ 110.75, 271.027405, 855.0, 23.0 ],
+													"presentation_rect" : [ 110.75, 271.027405, 855.0, 23.0 ],
 													"style" : "",
-													"text" : "jit.gl.mesh  #0.slider.node @scale 1 1 0  @draw_mode polygon  @color 1 0 0 0.5 @blend_enable 1 @blend_mode 8 9 @depth_enable 0"
+													"text" : "jit.gl.mesh  #0.slider.node @scale 1 1 0  @draw_mode polygon  @color 0.86 0.2 0.18 0.5 @blend_enable 1 @blend_mode 8 9 @depth_enable 0"
 												}
 
 											}
@@ -1428,6 +1529,36 @@
 													"source" : [ "obj-32", 0 ]
 												}
 
+											}
+ ],
+										"styles" : [ 											{
+												"name" : "AudioStatus_Menu",
+												"default" : 												{
+													"bgfillcolor" : 													{
+														"type" : "color",
+														"color" : [ 0.294118, 0.313726, 0.337255, 1 ],
+														"color1" : [ 0.454902, 0.462745, 0.482353, 0.0 ],
+														"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
+														"angle" : 270.0,
+														"proportion" : 0.39,
+														"autogradient" : 0
+													}
+
+												}
+,
+												"parentstyle" : "",
+												"multi" : 0
+											}
+, 											{
+												"name" : "helpfile_label-1",
+												"default" : 												{
+													"textcolor" : [ 0.501961, 0.501961, 0.501961, 1.0 ],
+													"fontsize" : [ 13.0 ],
+													"fontname" : [ "Arial" ]
+												}
+,
+												"parentstyle" : "",
+												"multi" : 0
 											}
  ]
 									}
@@ -1692,7 +1823,7 @@
 							"major" : 8,
 							"minor" : 0,
 							"revision" : 0,
-							"architecture" : "x64",
+							"architecture" : "x86",
 							"modernui" : 1
 						}
 ,
@@ -1906,7 +2037,7 @@
 							"major" : 8,
 							"minor" : 0,
 							"revision" : 0,
-							"architecture" : "x64",
+							"architecture" : "x86",
 							"modernui" : 1
 						}
 ,
@@ -2228,7 +2359,7 @@
 											"major" : 8,
 											"minor" : 0,
 											"revision" : 0,
-											"architecture" : "x64",
+											"architecture" : "x86",
 											"modernui" : 1
 										}
 ,
@@ -2431,7 +2562,7 @@
 											"major" : 8,
 											"minor" : 0,
 											"revision" : 0,
-											"architecture" : "x64",
+											"architecture" : "x86",
 											"modernui" : 1
 										}
 ,
@@ -2635,7 +2766,7 @@
 											"major" : 8,
 											"minor" : 0,
 											"revision" : 0,
-											"architecture" : "x64",
+											"architecture" : "x86",
 											"modernui" : 1
 										}
 ,
@@ -2883,7 +3014,7 @@
 											"major" : 8,
 											"minor" : 0,
 											"revision" : 0,
-											"architecture" : "x64",
+											"architecture" : "x86",
 											"modernui" : 1
 										}
 ,
@@ -3692,7 +3823,7 @@
 							"major" : 8,
 							"minor" : 0,
 							"revision" : 0,
-							"architecture" : "x64",
+							"architecture" : "x86",
 							"modernui" : 1
 						}
 ,
@@ -3884,7 +4015,7 @@
 							"major" : 8,
 							"minor" : 0,
 							"revision" : 0,
-							"architecture" : "x64",
+							"architecture" : "x86",
 							"modernui" : 1
 						}
 ,
@@ -4097,7 +4228,7 @@
 				"box" : 				{
 					"id" : "obj-2",
 					"maxclass" : "newobj",
-					"numinlets" : 1,
+					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 360.75, 160.918457, 63.0, 22.0 ],
@@ -4134,7 +4265,7 @@
 							"major" : 8,
 							"minor" : 0,
 							"revision" : 0,
-							"architecture" : "x64",
+							"architecture" : "x86",
 							"modernui" : 1
 						}
 ,
@@ -4394,7 +4525,7 @@
 							"major" : 8,
 							"minor" : 0,
 							"revision" : 0,
-							"architecture" : "x64",
+							"architecture" : "x86",
 							"modernui" : 1
 						}
 ,
@@ -4929,7 +5060,7 @@
 							"major" : 8,
 							"minor" : 0,
 							"revision" : 0,
-							"architecture" : "x64",
+							"architecture" : "x86",
 							"modernui" : 1
 						}
 ,
@@ -4963,11 +5094,13 @@
 						"boxes" : [ 							{
 								"box" : 								{
 									"id" : "obj-3",
+									"linecount" : 2,
 									"maxclass" : "newobj",
 									"numinlets" : 0,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 274.200012, 617.0, 82.0, 22.0 ],
+									"presentation_linecount" : 2,
 									"presentation_rect" : [ 274.200012, 617.0, 82.0, 22.0 ],
 									"style" : "",
 									"text" : "r #0.enable"
@@ -5032,11 +5165,13 @@
 , 							{
 								"box" : 								{
 									"id" : "obj-6",
+									"linecount" : 2,
 									"maxclass" : "newobj",
 									"numinlets" : 0,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 647.200012, 299.0, 106.0, 22.0 ],
+									"presentation_linecount" : 2,
 									"presentation_rect" : [ 647.200012, 299.0, 106.0, 22.0 ],
 									"style" : "",
 									"text" : "r #0.enableXXX"
@@ -5056,7 +5191,7 @@
 											"major" : 8,
 											"minor" : 0,
 											"revision" : 0,
-											"architecture" : "x64",
+											"architecture" : "x86",
 											"modernui" : 1
 										}
 ,
@@ -5267,7 +5402,7 @@
 											"major" : 8,
 											"minor" : 0,
 											"revision" : 0,
-											"architecture" : "x64",
+											"architecture" : "x86",
 											"modernui" : 1
 										}
 ,
@@ -5443,7 +5578,7 @@
 											"major" : 8,
 											"minor" : 0,
 											"revision" : 0,
-											"architecture" : "x64",
+											"architecture" : "x86",
 											"modernui" : 1
 										}
 ,
@@ -5694,11 +5829,13 @@
 , 							{
 								"box" : 								{
 									"id" : "obj-1",
+									"linecount" : 2,
 									"maxclass" : "newobj",
 									"numinlets" : 1,
 									"numoutlets" : 2,
 									"outlettype" : [ "jit_matrix", "" ],
 									"patching_rect" : [ 2.0, 652.0, 577.0, 22.0 ],
+									"presentation_linecount" : 2,
 									"presentation_rect" : [ 2.0, 652.0, 577.0, 22.0 ],
 									"style" : "",
 									"text" : "jit.gl.text #0.slider.node  @mode 3d @align 1 @color 0 0 0 1 @scale 0.3 0.3 0 @position 0 0 0 @layer 10"
@@ -5736,11 +5873,13 @@
 , 							{
 								"box" : 								{
 									"id" : "obj-13",
+									"linecount" : 2,
 									"maxclass" : "newobj",
 									"numinlets" : 1,
 									"numoutlets" : 2,
 									"outlettype" : [ "jit_matrix", "" ],
 									"patching_rect" : [ 393.5, 383.5, 550.0, 22.0 ],
+									"presentation_linecount" : 2,
 									"presentation_rect" : [ 393.5, 383.5, 550.0, 22.0 ],
 									"style" : "",
 									"text" : "jit.gl.text #0.slider.node @mode 3d @align 1 @color 1 1 1 1 @scale 0.2 0.2 0 @position -0.95 0.8 0"
