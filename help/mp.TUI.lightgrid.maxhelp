@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 180.0, 328.0, 890.0, 495.0 ],
+		"rect" : [ 135.0, 397.0, 890.0, 495.0 ],
 		"bgcolor" : [ 0.9, 0.91, 0.91, 1.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
@@ -1194,7 +1194,7 @@
 					"patching_rect" : [ 203.0, 239.184082, 594.0, 22.0 ],
 					"presentation_rect" : [ 203.0, 239.184082, 594.0, 22.0 ],
 					"style" : "",
-					"text" : "mp.TUI.lightgrid /grid_helper @mode 2 @name myGrid @dim 5 2 @scale 1 0.5 1"
+					"text" : "mp.TUI.lightgrid /grid_helper @mode 2 @name myGrid @dim 5 2 @scale 1 0.5 1 @caption r a d i o \" \" g a g a"
 				}
 
 			}
