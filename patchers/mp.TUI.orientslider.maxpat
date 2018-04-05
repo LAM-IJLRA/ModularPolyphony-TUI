@@ -38,6 +38,20 @@
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-9",
+					"maxclass" : "newobj",
+					"numinlets" : 0,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 273.0, 119.0, 78.0, 22.0 ],
+					"presentation_rect" : [ 273.0, 119.0, 78.0, 22.0 ],
+					"style" : "",
+					"text" : "r #0.flush"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-52",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
@@ -2112,10 +2126,12 @@
 						"boxes" : [ 							{
 								"box" : 								{
 									"id" : "obj-13",
+									"linecount" : 2,
 									"maxclass" : "newobj",
 									"numinlets" : 1,
 									"numoutlets" : 0,
 									"patching_rect" : [ 585.5, 190.0, 77.0, 22.0 ],
+									"presentation_linecount" : 2,
 									"presentation_rect" : [ 585.5, 190.0, 77.0, 22.0 ],
 									"style" : "",
 									"text" : "s #0.value"
@@ -2166,10 +2182,12 @@
 , 							{
 								"box" : 								{
 									"id" : "obj-7",
+									"linecount" : 2,
 									"maxclass" : "newobj",
 									"numinlets" : 1,
 									"numoutlets" : 0,
 									"patching_rect" : [ 405.5, 130.0, 78.0, 22.0 ],
+									"presentation_linecount" : 2,
 									"presentation_rect" : [ 405.5, 130.0, 78.0, 22.0 ],
 									"style" : "",
 									"text" : "s #0.mode"
@@ -2710,6 +2728,19 @@
 						"subpatcher_template" : "",
 						"boxes" : [ 							{
 								"box" : 								{
+									"id" : "obj-2",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 399.0, 99.0, 80.0, 22.0 ],
+									"presentation_rect" : [ 399.0, 99.0, 80.0, 22.0 ],
+									"style" : "",
+									"text" : "s #0.flush"
+								}
+
+							}
+, 							{
+								"box" : 								{
 									"id" : "obj-30",
 									"maxclass" : "newobj",
 									"numinlets" : 1,
@@ -2756,8 +2787,8 @@
 									"maxclass" : "outlet",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 350.0, 95.0, 30.0, 30.0 ],
-									"presentation_rect" : [ 350.0, 95.0, 30.0, 30.0 ],
+									"patching_rect" : [ 521.0, 99.0, 30.0, 30.0 ],
+									"presentation_rect" : [ 521.0, 99.0, 30.0, 30.0 ],
 									"style" : ""
 								}
 
@@ -2779,13 +2810,13 @@
 								"box" : 								{
 									"id" : "obj-20",
 									"maxclass" : "newobj",
-									"numinlets" : 4,
-									"numoutlets" : 4,
-									"outlettype" : [ "", "", "", "" ],
-									"patching_rect" : [ 23.0, 68.0, 346.0, 22.0 ],
-									"presentation_rect" : [ 23.0, 68.0, 346.0, 22.0 ],
+									"numinlets" : 5,
+									"numoutlets" : 5,
+									"outlettype" : [ "", "", "", "", "" ],
+									"patching_rect" : [ 23.0, 68.0, 517.0, 22.0 ],
+									"presentation_rect" : [ 23.0, 68.0, 517.0, 22.0 ],
 									"style" : "",
-									"text" : "routepass scale enable color"
+									"text" : "routepass scale enable color flush"
 								}
 
 							}
@@ -2813,9 +2844,9 @@
 									"numinlets" : 1,
 									"numoutlets" : 2,
 									"outlettype" : [ "jit_matrix", "" ],
-									"patching_rect" : [ 23.0, 214.986298, 648.0, 35.0 ],
+									"patching_rect" : [ 23.0, 214.986298, 651.0, 35.0 ],
 									"presentation_linecount" : 2,
-									"presentation_rect" : [ 23.0, 214.986298, 648.0, 35.0 ],
+									"presentation_rect" : [ 23.0, 214.986298, 651.0, 35.0 ],
 									"style" : "",
 									"text" : "jit.gl.gridshape #1 @shape plane @dim 2 2 @scale 0 0 0  @poly_mode 1 1 @name #0.slider/background @layer -1"
 								}
@@ -2854,6 +2885,13 @@
 , 							{
 								"patchline" : 								{
 									"destination" : [ "obj-17", 0 ],
+									"source" : [ "obj-20", 4 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-2", 0 ],
 									"source" : [ "obj-20", 3 ]
 								}
 
@@ -3322,6 +3360,13 @@
 				"patchline" : 				{
 					"destination" : [ "obj-52", 0 ],
 					"source" : [ "obj-7", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-30", 1 ],
+					"source" : [ "obj-9", 0 ]
 				}
 
 			}
