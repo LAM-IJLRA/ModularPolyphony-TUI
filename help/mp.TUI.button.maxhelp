@@ -5,11 +5,11 @@
 			"major" : 8,
 			"minor" : 0,
 			"revision" : 0,
-			"architecture" : "x64",
+			"architecture" : "x86",
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 117.0, 458.0, 830.0, 321.0 ],
+		"rect" : [ 84.0, 442.0, 830.0, 321.0 ],
 		"bgcolor" : [ 0.9, 0.91, 0.91, 1.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
@@ -39,11 +39,12 @@
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
 				"box" : 				{
-					"id" : "obj-3",
-					"maxclass" : "button",
+					"id" : "obj-8",
+					"maxclass" : "toggle",
 					"numinlets" : 1,
 					"numoutlets" : 1,
-					"outlettype" : [ "bang" ],
+					"outlettype" : [ "int" ],
+					"parameter_enable" : 0,
 					"patching_rect" : [ 222.625, 252.184082, 24.0, 24.0 ],
 					"presentation_rect" : [ 222.625, 252.184082, 24.0, 24.0 ],
 					"style" : ""
@@ -53,12 +54,13 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-2",
-					"maxclass" : "button",
+					"maxclass" : "toggle",
 					"numinlets" : 1,
 					"numoutlets" : 1,
-					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 279.625, 282.0, 24.0, 24.0 ],
-					"presentation_rect" : [ 279.625, 282.0, 24.0, 24.0 ],
+					"outlettype" : [ "int" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 279.625, 280.0, 24.0, 24.0 ],
+					"presentation_rect" : [ 279.625, 280.0, 24.0, 24.0 ],
 					"style" : ""
 				}
 
@@ -148,7 +150,7 @@
 							"major" : 8,
 							"minor" : 0,
 							"revision" : 0,
-							"architecture" : "x64",
+							"architecture" : "x86",
 							"modernui" : 1
 						}
 ,
@@ -285,7 +287,7 @@
 											"major" : 8,
 											"minor" : 0,
 											"revision" : 0,
-											"architecture" : "x64",
+											"architecture" : "x86",
 											"modernui" : 1
 										}
 ,
@@ -517,7 +519,7 @@
 							"major" : 8,
 							"minor" : 0,
 							"revision" : 0,
-							"architecture" : "x64",
+							"architecture" : "x86",
 							"modernui" : 1
 						}
 ,
@@ -1025,7 +1027,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-3", 0 ],
+					"destination" : [ "obj-8", 0 ],
 					"source" : [ "obj-30", 0 ]
 				}
 
