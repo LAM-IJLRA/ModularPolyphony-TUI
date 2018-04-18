@@ -5,7 +5,7 @@
 			"major" : 8,
 			"minor" : 0,
 			"revision" : 0,
-			"architecture" : "x64",
+			"architecture" : "x86",
 			"modernui" : 1
 		}
 ,
@@ -70,13 +70,12 @@
 					"linecount" : 2,
 					"maxclass" : "newobj",
 					"numinlets" : 1,
-					"numoutlets" : 2,
-					"outlettype" : [ "jit_matrix", "" ],
-					"patching_rect" : [ 210.5, 123.0, 447.0, 35.0 ],
-					"presentation_linecount" : 2,
-					"presentation_rect" : [ 210.5, 123.0, 447.0, 35.0 ],
+					"numoutlets" : 19,
+					"outlettype" : [ "jit.gl.gridshape", "1774.multislider.node", "@shape", "plane", "@dim", "int", "int", "@poly_mode", "int", "int", "@color", "int", "int", "int", "int", "@scale", "int", "int", "int" ],
+					"patching_rect" : [ 210.5, 123.0, 443.0, 35.0 ],
+					"presentation_rect" : [ 210.5, 123.0, 443.0, 35.0 ],
 					"style" : "",
-					"text" : "jit.gl.gridshape #1 @shape plane @dim 2 2 @poly_mode 1 1  @color 1 1 1 1 @scale 0 0 0 "
+					"text" : "t jit.gl.gridshape #1 @shape plane @dim 2 2 @poly_mode 1 1  @color 1 1 1 1 @scale 0 0 0 "
 				}
 
 			}
@@ -90,6 +89,10 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 43.0, 268.0, 37.0, 22.0 ],
 					"presentation_rect" : [ 43.0, 268.0, 37.0, 22.0 ],
+					"saved_object_attributes" : 					{
+						"attr_comment" : ""
+					}
+,
 					"style" : "",
 					"text" : "out 1"
 				}
@@ -105,10 +108,6 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 274.0, 268.0, 37.0, 22.0 ],
 					"presentation_rect" : [ 274.0, 268.0, 37.0, 22.0 ],
-					"saved_object_attributes" : 					{
-						"attr_comment" : ""
-					}
-,
 					"style" : "",
 					"text" : "out 2"
 				}
@@ -155,6 +154,10 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 35.0, 24.0, 30.0, 22.0 ],
 					"presentation_rect" : [ 35.0, 24.0, 30.0, 22.0 ],
+					"saved_object_attributes" : 					{
+						"attr_comment" : ""
+					}
+,
 					"style" : "",
 					"text" : "in 1"
 				}
@@ -167,9 +170,9 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "jit_matrix", "" ],
-					"patching_rect" : [ 35.0, 164.0, 592.0, 22.0 ],
+					"patching_rect" : [ 35.0, 164.0, 608.0, 22.0 ],
 					"presentation_linecount" : 2,
-					"presentation_rect" : [ 35.0, 164.0, 592.0, 22.0 ],
+					"presentation_rect" : [ 35.0, 164.0, 608.0, 22.0 ],
 					"style" : "",
 					"text" : "jit.gl.gridshape #1 @shape plane @dim 2 2 @blend_enable 1 @depth_enable 0 @scale 0 0 0"
 				}

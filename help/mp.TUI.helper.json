@@ -56,7 +56,7 @@
 ,
 	"mp.TUI.scope~" : 	{
 		"description" : "A scope~ as TUI.",
-		"categories" : [ "alpha", "beta", "gamma" ]
+		"categories" : "component"
 	}
 ,
 	"mp.TUI.button" : 	{
@@ -106,7 +106,7 @@
 ,
 	"mp.TUI.graphslider" : 	{
 		"description" : "A slider outputting nearest graph value.",
-		"categories" : [ "alpha", "beta", "gamma" ]
+		"categories" : "component"
 	}
 ,
 	"mp.TUI.worldtolocal" : 	{
@@ -139,11 +139,6 @@
 		"categories" : [ "alpha", "beta", "gamma" ]
 	}
 ,
-	"sagrada.super_module" : 	{
-		"categories" : [ "alpha", "beta", "gamma" ],
-		"description" : "A sample-accurate granular toolkit"
-	}
-,
 	"mp.TUI.3Dslider" : 	{
 		"categories" : "component",
 		"description" : "A 3D slider."
@@ -152,6 +147,11 @@
 	"mp.TUI.lightgrid" : 	{
 		"categories" : "component",
 		"description" : "A light-weight version of mp.TUI.grid."
+	}
+,
+	"mp.TUI.group" : 	{
+		"description" : "Create groups of UI components.",
+		"categories" : "utilities"
 	}
 
 }
