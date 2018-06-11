@@ -5,11 +5,11 @@
 			"major" : 8,
 			"minor" : 0,
 			"revision" : 0,
-			"architecture" : "x64",
+			"architecture" : "x86",
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 391.0, 238.0, 972.0, 486.0 ],
+		"rect" : [ 372.0, 311.0, 686.0, 486.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -75,7 +75,7 @@
 							"major" : 8,
 							"minor" : 0,
 							"revision" : 0,
-							"architecture" : "x64",
+							"architecture" : "x86",
 							"modernui" : 1
 						}
 ,
@@ -320,13 +320,11 @@
 , 							{
 								"box" : 								{
 									"id" : "obj-25",
-									"linecount" : 2,
 									"maxclass" : "newobj",
 									"numinlets" : 1,
 									"numoutlets" : 2,
 									"outlettype" : [ "jit_matrix", "" ],
 									"patching_rect" : [ 95.0, 330.0, 471.0, 22.0 ],
-									"presentation_linecount" : 2,
 									"presentation_rect" : [ 95.0, 330.0, 471.0, 22.0 ],
 									"style" : "",
 									"text" : "jit.gl.text #1 @mode 3d @align 1 @color 0.9 0.9 0.9 1  @enable 0 @layer 3"
@@ -491,7 +489,7 @@
 							"major" : 8,
 							"minor" : 0,
 							"revision" : 0,
-							"architecture" : "x64",
+							"architecture" : "x86",
 							"modernui" : 1
 						}
 ,
@@ -524,6 +522,20 @@
 						"subpatcher_template" : "",
 						"boxes" : [ 							{
 								"box" : 								{
+									"id" : "obj-4",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 2,
+									"outlettype" : [ "", "" ],
+									"patching_rect" : [ 447.0, 98.0, 239.0, 22.0 ],
+									"presentation_rect" : [ 447.0, 98.0, 239.0, 22.0 ],
+									"style" : "",
+									"text" : "jit.anim.node @anim #0.rslider.animnode"
+								}
+
+							}
+, 							{
+								"box" : 								{
 									"id" : "obj-25",
 									"maxclass" : "newobj",
 									"numinlets" : 2,
@@ -535,7 +547,7 @@
 											"major" : 8,
 											"minor" : 0,
 											"revision" : 0,
-											"architecture" : "x64",
+											"architecture" : "x86",
 											"modernui" : 1
 										}
 ,
@@ -774,7 +786,7 @@
 											"major" : 8,
 											"minor" : 0,
 											"revision" : 0,
-											"architecture" : "x64",
+											"architecture" : "x86",
 											"modernui" : 1
 										}
 ,
@@ -920,7 +932,7 @@
 									"presentation_linecount" : 2,
 									"presentation_rect" : [ 425.0, 155.0, 544.0, 35.0 ],
 									"style" : "",
-									"text" : "jit.phys.body @shape cube @kinematic 1 @damping 1 1 @name #0.rslider  @collisions 0 @filters #1/picker @worldname #1.phys @anim #0.rslider.animnode"
+									"text" : "jit.phys.body @shape cube @kinematic 1 @damping 1 1 @name #0.rslider  @collisions 0 @filters #1/picker @worldname #1.phys "
 								}
 
 							}
@@ -932,9 +944,9 @@
 									"numinlets" : 1,
 									"numoutlets" : 2,
 									"outlettype" : [ "jit_matrix", "" ],
-									"patching_rect" : [ 346.0, 227.5, 534.0, 35.0 ],
+									"patching_rect" : [ 400.0, 251.5, 534.0, 35.0 ],
 									"presentation_linecount" : 2,
-									"presentation_rect" : [ 346.0, 227.5, 534.0, 35.0 ],
+									"presentation_rect" : [ 400.0, 251.5, 534.0, 35.0 ],
 									"style" : "",
 									"text" : "jit.gl.gridshape #0.rslider.node @shape plane @dim 2 2 @scale 1 1 1 @poly_mode 1 1 @name #0.rslider/background @layer 2"
 								}
@@ -1022,6 +1034,13 @@
 								}
 
 							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-19", 0 ],
+									"source" : [ "obj-4", 0 ]
+								}
+
+							}
  ],
 						"styles" : [ 							{
 								"name" : "AudioStatus_Menu",
@@ -1100,7 +1119,7 @@
 							"major" : 8,
 							"minor" : 0,
 							"revision" : 0,
-							"architecture" : "x64",
+							"architecture" : "x86",
 							"modernui" : 1
 						}
 ,
@@ -1297,7 +1316,7 @@
 							"major" : 8,
 							"minor" : 0,
 							"revision" : 0,
-							"architecture" : "x64",
+							"architecture" : "x86",
 							"modernui" : 1
 						}
 ,
@@ -1341,7 +1360,7 @@
 											"major" : 8,
 											"minor" : 0,
 											"revision" : 0,
-											"architecture" : "x64",
+											"architecture" : "x86",
 											"modernui" : 1
 										}
 ,
@@ -1856,7 +1875,7 @@
 											"major" : 8,
 											"minor" : 0,
 											"revision" : 0,
-											"architecture" : "x64",
+											"architecture" : "x86",
 											"modernui" : 1
 										}
 ,
@@ -1928,7 +1947,7 @@
 															"major" : 8,
 															"minor" : 0,
 															"revision" : 0,
-															"architecture" : "x64",
+															"architecture" : "x86",
 															"modernui" : 1
 														}
 ,
@@ -2135,7 +2154,7 @@
 															"major" : 8,
 															"minor" : 0,
 															"revision" : 0,
-															"architecture" : "x64",
+															"architecture" : "x86",
 															"modernui" : 1
 														}
 ,
@@ -2999,7 +3018,7 @@
 							"major" : 8,
 							"minor" : 0,
 							"revision" : 0,
-							"architecture" : "x64",
+							"architecture" : "x86",
 							"modernui" : 1
 						}
 ,

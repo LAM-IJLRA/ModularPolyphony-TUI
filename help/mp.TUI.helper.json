@@ -51,7 +51,7 @@
 ,
 	"mp.TUI.slider" : 	{
 		"description" : "A simple slider.",
-		"categories" : [ "alpha", "beta", "gamma" ]
+		"categories" : "component"
 	}
 ,
 	"mp.TUI.scope~" : 	{
@@ -61,12 +61,12 @@
 ,
 	"mp.TUI.button" : 	{
 		"description" : "A TUI bang.",
-		"categories" : [ "alpha", "beta", "gamma" ]
+		"categories" : "component"
 	}
 ,
 	"mp.TUI.canvas" : 	{
 		"description" : "A TUI canvas reporting x/y coords.",
-		"categories" : [ "alpha", "beta", "gamma" ]
+		"categories" : "component"
 	}
 ,
 	"mp.TUI.filtergraph" : 	{
@@ -126,12 +126,12 @@
 ,
 	"mp.TUI.orientslider" : 	{
 		"description" : "Orientable slider.",
-		"categories" : [ "alpha", "beta", "gamma" ]
+		"categories" : "component"
 	}
 ,
 	"mp.TUI.number" : 	{
 		"description" : "Number box.",
-		"categories" : [ "alpha", "beta", "gamma" ]
+		"categories" : "component"
 	}
 ,
 	"mp.TUI.menuscroll" : 	{
@@ -152,6 +152,16 @@
 	"mp.TUI.group" : 	{
 		"description" : "Create groups of UI components.",
 		"categories" : "utilities"
+	}
+,
+	"mp.TUI.textbutton" : 	{
+		"description" : "A TUI text-button.",
+		"categories" : [ "alpha", "beta", "gamma" ]
+	}
+,
+	"mp.TUI.sslider" : 	{
+		"description" : "A signed slider.",
+		"categories" : "component"
 	}
 
 }

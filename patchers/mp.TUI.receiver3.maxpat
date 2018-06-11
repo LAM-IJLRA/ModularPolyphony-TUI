@@ -38,6 +38,21 @@
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
 				"box" : 				{
+					"comment" : "connect to input arguments",
+					"id" : "obj-7",
+					"index" : 1,
+					"maxclass" : "inlet",
+					"numinlets" : 0,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 148.0, 61.055542, 30.0, 30.0 ],
+					"presentation_rect" : [ 148.0, 61.055542, 30.0, 30.0 ],
+					"style" : ""
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-23",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
@@ -57,8 +72,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 344.5, 66.055542, 72.0, 22.0 ],
-					"presentation_rect" : [ 344.5, 66.055542, 72.0, 22.0 ],
+					"patching_rect" : [ 385.25, 58.055542, 72.0, 22.0 ],
+					"presentation_rect" : [ 385.25, 58.055542, 72.0, 22.0 ],
 					"style" : "",
 					"text" : "prepend set"
 				}
@@ -71,8 +86,8 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 344.5, 37.055542, 83.0, 22.0 ],
-					"presentation_rect" : [ 344.5, 37.055542, 83.0, 22.0 ],
+					"patching_rect" : [ 385.25, 29.055542, 83.0, 22.0 ],
+					"presentation_rect" : [ 385.25, 29.055542, 83.0, 22.0 ],
 					"style" : "",
 					"text" : "r #0/name"
 				}
@@ -3355,13 +3370,11 @@
 , 															{
 																"box" : 																{
 																	"id" : "obj-39",
-																	"linecount" : 2,
 																	"maxclass" : "newobj",
 																	"numinlets" : 1,
 																	"numoutlets" : 1,
 																	"outlettype" : [ "" ],
 																	"patching_rect" : [ 101.0, 127.0, 179.0, 22.0 ],
-																	"presentation_linecount" : 2,
 																	"presentation_rect" : [ 101.0, 127.0, 179.0, 22.0 ],
 																	"style" : "",
 																	"text" : "LAM.f.call #2/animnode"
@@ -4267,13 +4280,11 @@
 , 															{
 																"box" : 																{
 																	"id" : "obj-39",
-																	"linecount" : 2,
 																	"maxclass" : "newobj",
 																	"numinlets" : 1,
 																	"numoutlets" : 1,
 																	"outlettype" : [ "" ],
 																	"patching_rect" : [ 101.0, 127.0, 179.0, 22.0 ],
-																	"presentation_linecount" : 2,
 																	"presentation_rect" : [ 101.0, 127.0, 179.0, 22.0 ],
 																	"style" : "",
 																	"text" : "LAM.f.call #2/animnode"
@@ -4449,13 +4460,11 @@
 , 											{
 												"box" : 												{
 													"id" : "obj-41",
-													"linecount" : 2,
 													"maxclass" : "newobj",
 													"numinlets" : 1,
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 88.0, 133.904755, 177.0, 22.0 ],
-													"presentation_linecount" : 2,
 													"presentation_rect" : [ 88.0, 133.904755, 177.0, 22.0 ],
 													"style" : "",
 													"text" : "mp.TUI.worldtolocal #2"
@@ -5993,7 +6002,6 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
 									"patching_rect" : [ 422.0, 171.013702, 283.0, 22.0 ],
-									"presentation_linecount" : 2,
 									"presentation_rect" : [ 422.0, 171.013702, 283.0, 22.0 ],
 									"style" : "",
 									"text" : "jit.anim.node @anim #2.animnode"
@@ -6065,7 +6073,6 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
 									"patching_rect" : [ 313.0, 290.136871, 287.0, 22.0 ],
-									"presentation_linecount" : 2,
 									"presentation_rect" : [ 313.0, 290.136871, 287.0, 22.0 ],
 									"style" : "",
 									"text" : "jit.anim.node @name #2.animnode"
@@ -6080,7 +6087,6 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 495.200012, 256.123169, 217.0, 22.0 ],
-									"presentation_linecount" : 2,
 									"presentation_rect" : [ 495.200012, 256.123169, 217.0, 22.0 ],
 									"style" : "",
 									"text" : "LAM.f.io #2/animnode"
@@ -6388,13 +6394,11 @@
 , 							{
 								"box" : 								{
 									"id" : "obj-18",
-									"linecount" : 2,
 									"maxclass" : "newobj",
 									"numinlets" : 1,
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
 									"patching_rect" : [ 20.0, 159.547485, 239.0, 22.0 ],
-									"presentation_linecount" : 2,
 									"presentation_rect" : [ 20.0, 159.547485, 239.0, 22.0 ],
 									"style" : "",
 									"text" : "jit.proxy @name #2/background"
@@ -6558,7 +6562,7 @@
 				"box" : 				{
 					"comment" : "connect to input arguments",
 					"id" : "obj-8",
-					"index" : 1,
+					"index" : 2,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -6745,6 +6749,22 @@
 				"patchline" : 				{
 					"destination" : [ "obj-14", 0 ],
 					"source" : [ "obj-6", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-1", 1 ],
+					"order" : 1,
+					"source" : [ "obj-7", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-21", 0 ],
+					"order" : 0,
+					"source" : [ "obj-7", 0 ]
 				}
 
 			}

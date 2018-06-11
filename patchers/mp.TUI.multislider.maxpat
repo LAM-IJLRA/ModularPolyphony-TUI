@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 200.0, 80.0, 1147.0, 754.0 ],
+		"rect" : [ 259.0, 362.0, 1147.0, 754.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -1467,7 +1467,7 @@
 					"fontsize" : 14.0,
 					"id" : "obj-35",
 					"maxclass" : "newobj",
-					"numinlets" : 0,
+					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patcher" : 					{
 						"fileversion" : 1,
@@ -1479,7 +1479,7 @@
 							"modernui" : 1
 						}
 ,
-						"rect" : [ 386.0, 324.0, 970.0, 590.0 ],
+						"rect" : [ 395.0, 78.0, 684.0, 590.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -1508,31 +1508,30 @@
 						"subpatcher_template" : "",
 						"boxes" : [ 							{
 								"box" : 								{
-									"id" : "obj-1",
+									"id" : "obj-5",
 									"maxclass" : "newobj",
 									"numinlets" : 1,
-									"numoutlets" : 1,
-									"outlettype" : [ "" ],
-									"patching_rect" : [ 164.5, 66.0, 86.0, 22.0 ],
-									"presentation_rect" : [ 164.5, 66.0, 86.0, 22.0 ],
+									"numoutlets" : 2,
+									"outlettype" : [ "", "" ],
+									"patching_rect" : [ 292.0, 120.0, 267.0, 22.0 ],
+									"presentation_rect" : [ 292.0, 120.0, 267.0, 22.0 ],
 									"style" : "",
-									"text" : "prepend name"
+									"text" : "jit.anim.node @anim #0.multislider.animnode"
 								}
 
 							}
 , 							{
 								"box" : 								{
-									"id" : "obj-39",
-									"linecount" : 2,
-									"maxclass" : "newobj",
+									"comment" : "",
+									"id" : "obj-2",
+									"index" : 1,
+									"maxclass" : "inlet",
 									"numinlets" : 0,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 164.5, 42.0, 76.0, 22.0 ],
-									"presentation_linecount" : 2,
-									"presentation_rect" : [ 164.5, 42.0, 76.0, 22.0 ],
-									"style" : "",
-									"text" : "r #0.name"
+									"patching_rect" : [ 195.0, 288.0, 30.0, 30.0 ],
+									"presentation_rect" : [ 195.0, 288.0, 30.0, 30.0 ],
+									"style" : ""
 								}
 
 							}
@@ -1572,9 +1571,9 @@
 									"numinlets" : 1,
 									"numoutlets" : 2,
 									"outlettype" : [ "jit_matrix", "" ],
-									"patching_rect" : [ 22.0, 145.0, 488.0, 35.0 ],
+									"patching_rect" : [ 22.0, 212.0, 488.0, 35.0 ],
 									"presentation_linecount" : 2,
-									"presentation_rect" : [ 22.0, 145.0, 488.0, 35.0 ],
+									"presentation_rect" : [ 22.0, 212.0, 488.0, 35.0 ],
 									"style" : "",
 									"text" : "jit.gl.gridshape #0.multislider.node @shape plane @dim 2 2 @poly_mode 1 1 @name #0.multislider/background"
 								}
@@ -1583,28 +1582,19 @@
 , 							{
 								"box" : 								{
 									"id" : "obj-8",
-									"linecount" : 2,
 									"maxclass" : "newobj",
 									"numinlets" : 1,
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
-									"patching_rect" : [ 22.0, 98.0, 603.0, 35.0 ],
-									"presentation_linecount" : 2,
-									"presentation_rect" : [ 22.0, 98.0, 603.0, 35.0 ],
+									"patching_rect" : [ 22.0, 165.0, 793.0, 22.0 ],
+									"presentation_rect" : [ 22.0, 165.0, 793.0, 22.0 ],
 									"style" : "",
-									"text" : "jit.phys.body @worldname #1.phys @shape cube @kinematic 1 @collisions 0 @name #0.multislider @filters #1/picker @anim #0.multislider.animnode"
+									"text" : "jit.phys.body @worldname #1.phys @shape cube @kinematic 1 @collisions 0 @name #0.multislider @filters #1/picker"
 								}
 
 							}
  ],
 						"lines" : [ 							{
-								"patchline" : 								{
-									"destination" : [ "obj-8", 0 ],
-									"source" : [ "obj-1", 0 ]
-								}
-
-							}
-, 							{
 								"patchline" : 								{
 									"destination" : [ "obj-4", 0 ],
 									"source" : [ "obj-3", 0 ]
@@ -1613,15 +1603,15 @@
 							}
 , 							{
 								"patchline" : 								{
-									"destination" : [ "obj-1", 0 ],
-									"source" : [ "obj-39", 0 ]
+									"destination" : [ "obj-8", 0 ],
+									"source" : [ "obj-4", 0 ]
 								}
 
 							}
 , 							{
 								"patchline" : 								{
 									"destination" : [ "obj-8", 0 ],
-									"source" : [ "obj-4", 0 ]
+									"source" : [ "obj-5", 0 ]
 								}
 
 							}
@@ -3607,7 +3597,7 @@
 					"patching_rect" : [ 167.0, 229.0, 112.0, 50.0 ],
 					"presentation_rect" : [ 167.0, 229.0, 112.0, 50.0 ],
 					"signed" : 1,
-					"size" : 11,
+					"size" : 12,
 					"style" : ""
 				}
 
@@ -3737,7 +3727,7 @@
 					"patching_rect" : [ 224.5, 49.0, 551.0, 22.0 ],
 					"presentation_rect" : [ 224.5, 49.0, 551.0, 22.0 ],
 					"style" : "",
-					"text" : "patcherargs @name #0.multislider @position 0 0 0 @scale 1 1 1 @rotatexyz 0 0 0 @numsliders 2"
+					"text" : "patcherargs @position 0 0 0 @scale 1 1 1 @rotatexyz 0 0 0 @numsliders 2"
 				}
 
 			}

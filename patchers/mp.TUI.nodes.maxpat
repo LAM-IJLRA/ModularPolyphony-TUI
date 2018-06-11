@@ -5,7 +5,7 @@
 			"major" : 8,
 			"minor" : 0,
 			"revision" : 0,
-			"architecture" : "x64",
+			"architecture" : "x86",
 			"modernui" : 1
 		}
 ,
@@ -49,11 +49,11 @@
 							"major" : 8,
 							"minor" : 0,
 							"revision" : 0,
-							"architecture" : "x64",
+							"architecture" : "x86",
 							"modernui" : 1
 						}
 ,
-						"rect" : [ 0.0, 0.0, 640.0, 480.0 ],
+						"rect" : [ 364.0, 284.0, 640.0, 480.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -166,10 +166,10 @@
 									"numinlets" : 6,
 									"numoutlets" : 6,
 									"outlettype" : [ "", "", "", "", "", "" ],
-									"patching_rect" : [ 62.799988, 100.0, 375.000061, 22.0 ],
-									"presentation_rect" : [ 62.799988, 100.0, 375.000061, 22.0 ],
+									"patching_rect" : [ 62.799988, 100.0, 401.5, 22.0 ],
+									"presentation_rect" : [ 62.799988, 100.0, 401.5, 22.0 ],
 									"style" : "",
-									"text" : "route done dim name enable edit"
+									"text" : "route done dim name enable nodesedit"
 								}
 
 							}
@@ -317,7 +317,7 @@
 							"major" : 8,
 							"minor" : 0,
 							"revision" : 0,
-							"architecture" : "x64",
+							"architecture" : "x86",
 							"modernui" : 1
 						}
 ,
@@ -459,7 +459,7 @@
 											"major" : 8,
 											"minor" : 0,
 											"revision" : 0,
-											"architecture" : "x64",
+											"architecture" : "x86",
 											"modernui" : 1
 										}
 ,
@@ -617,7 +617,7 @@
 															"major" : 8,
 															"minor" : 0,
 															"revision" : 0,
-															"architecture" : "x64",
+															"architecture" : "x86",
 															"modernui" : 1
 														}
 ,
@@ -1113,7 +1113,7 @@
 							"major" : 8,
 							"minor" : 0,
 							"revision" : 0,
-							"architecture" : "x64",
+							"architecture" : "x86",
 							"modernui" : 1
 						}
 ,
@@ -1161,13 +1161,11 @@
 , 							{
 								"box" : 								{
 									"id" : "obj-42",
-									"linecount" : 2,
 									"maxclass" : "newobj",
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 50.0, 106.0, 69.0, 35.0 ],
-									"presentation_linecount" : 2,
 									"presentation_rect" : [ 50.0, 106.0, 69.0, 35.0 ],
 									"style" : "",
 									"text" : "v #0.uID"
@@ -1478,7 +1476,7 @@
 							"major" : 8,
 							"minor" : 0,
 							"revision" : 0,
-							"architecture" : "x64",
+							"architecture" : "x86",
 							"modernui" : 1
 						}
 ,
@@ -1581,13 +1579,11 @@
 , 							{
 								"box" : 								{
 									"id" : "obj-77",
-									"linecount" : 2,
 									"maxclass" : "newobj",
 									"numinlets" : 0,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 294.0, 41.0, 67.0, 22.0 ],
-									"presentation_linecount" : 2,
 									"presentation_rect" : [ 294.0, 41.0, 67.0, 22.0 ],
 									"style" : "",
 									"text" : "r #0.dim"
@@ -1663,7 +1659,7 @@
 											"major" : 8,
 											"minor" : 0,
 											"revision" : 0,
-											"architecture" : "x64",
+											"architecture" : "x86",
 											"modernui" : 1
 										}
 ,
@@ -2137,7 +2133,7 @@
 							"major" : 8,
 							"minor" : 0,
 							"revision" : 0,
-							"architecture" : "x64",
+							"architecture" : "x86",
 							"modernui" : 1
 						}
 ,
@@ -2590,7 +2586,7 @@
 							"major" : 8,
 							"minor" : 0,
 							"revision" : 0,
-							"architecture" : "x64",
+							"architecture" : "x86",
 							"modernui" : 1
 						}
 ,
@@ -3032,7 +3028,7 @@
 							"major" : 8,
 							"minor" : 0,
 							"revision" : 0,
-							"architecture" : "x64",
+							"architecture" : "x86",
 							"modernui" : 1
 						}
 ,
@@ -3166,7 +3162,7 @@
 							"major" : 8,
 							"minor" : 0,
 							"revision" : 0,
-							"architecture" : "x64",
+							"architecture" : "x86",
 							"modernui" : 1
 						}
 ,
@@ -3305,7 +3301,7 @@
 							"major" : 8,
 							"minor" : 0,
 							"revision" : 0,
-							"architecture" : "x64",
+							"architecture" : "x86",
 							"modernui" : 1
 						}
 ,
@@ -3443,7 +3439,7 @@
 											"major" : 8,
 											"minor" : 0,
 											"revision" : 0,
-											"architecture" : "x64",
+											"architecture" : "x86",
 											"modernui" : 1
 										}
 ,
@@ -3477,13 +3473,11 @@
 										"boxes" : [ 											{
 												"box" : 												{
 													"id" : "obj-63",
-													"linecount" : 2,
 													"maxclass" : "newobj",
 													"numinlets" : 0,
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 50.0, 100.0, 84.0, 22.0 ],
-													"presentation_linecount" : 2,
 													"presentation_rect" : [ 50.0, 100.0, 84.0, 22.0 ],
 													"style" : "",
 													"text" : "r #0.enable"
@@ -3564,7 +3558,7 @@
 											"major" : 8,
 											"minor" : 0,
 											"revision" : 0,
-											"architecture" : "x64",
+											"architecture" : "x86",
 											"modernui" : 1
 										}
 ,
@@ -3612,13 +3606,11 @@
 , 											{
 												"box" : 												{
 													"id" : "obj-34",
-													"linecount" : 2,
 													"maxclass" : "newobj",
 													"numinlets" : 0,
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 50.0, 100.0, 84.0, 22.0 ],
-													"presentation_linecount" : 2,
 													"presentation_rect" : [ 50.0, 100.0, 84.0, 22.0 ],
 													"style" : "",
 													"text" : "r #0.enable"
@@ -3706,7 +3698,7 @@
 											"major" : 8,
 											"minor" : 0,
 											"revision" : 0,
-											"architecture" : "x64",
+											"architecture" : "x86",
 											"modernui" : 1
 										}
 ,
@@ -3740,13 +3732,11 @@
 										"boxes" : [ 											{
 												"box" : 												{
 													"id" : "obj-45",
-													"linecount" : 2,
 													"maxclass" : "newobj",
 													"numinlets" : 0,
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 50.0, 100.0, 67.0, 22.0 ],
-													"presentation_linecount" : 2,
 													"presentation_rect" : [ 50.0, 100.0, 67.0, 22.0 ],
 													"style" : "",
 													"text" : "r #0.edit"
@@ -3878,7 +3868,7 @@
 											"major" : 8,
 											"minor" : 0,
 											"revision" : 0,
-											"architecture" : "x64",
+											"architecture" : "x86",
 											"modernui" : 1
 										}
 ,
@@ -4209,7 +4199,7 @@
 							"major" : 8,
 							"minor" : 0,
 							"revision" : 0,
-							"architecture" : "x64",
+							"architecture" : "x86",
 							"modernui" : 1
 						}
 ,
@@ -4313,13 +4303,11 @@
 , 							{
 								"box" : 								{
 									"id" : "obj-42",
-									"linecount" : 2,
 									"maxclass" : "newobj",
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 374.0, 399.0, 69.0, 35.0 ],
-									"presentation_linecount" : 2,
 									"presentation_rect" : [ 374.0, 399.0, 69.0, 35.0 ],
 									"style" : "",
 									"text" : "v #0.uID"
@@ -4419,7 +4407,6 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 437.0, 164.0, 72.0, 22.0 ],
-									"presentation_linecount" : 3,
 									"presentation_rect" : [ 437.0, 164.0, 72.0, 22.0 ],
 									"style" : "",
 									"text" : "r #0.dim"
@@ -4494,7 +4481,6 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "jit_matrix", "" ],
 									"patching_rect" : [ 339.0, 253.0, 154.0, 23.0 ],
-									"presentation_linecount" : 2,
 									"presentation_rect" : [ 339.0, 253.0, 154.0, 23.0 ],
 									"style" : "",
 									"text" : "jit.matrix #0.nodeSize"
@@ -4962,7 +4948,7 @@
 							"major" : 8,
 							"minor" : 0,
 							"revision" : 0,
-							"architecture" : "x64",
+							"architecture" : "x86",
 							"modernui" : 1
 						}
 ,
@@ -5020,7 +5006,7 @@
 											"major" : 8,
 											"minor" : 0,
 											"revision" : 0,
-											"architecture" : "x64",
+											"architecture" : "x86",
 											"modernui" : 1
 										}
 ,
@@ -5923,7 +5909,7 @@
 							"major" : 8,
 							"minor" : 0,
 							"revision" : 0,
-							"architecture" : "x64",
+							"architecture" : "x86",
 							"modernui" : 1
 						}
 ,
@@ -6031,13 +6017,11 @@
 , 							{
 								"box" : 								{
 									"id" : "obj-77",
-									"linecount" : 2,
 									"maxclass" : "newobj",
 									"numinlets" : 0,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 232.0, 44.0, 67.0, 35.0 ],
-									"presentation_linecount" : 2,
 									"presentation_rect" : [ 232.0, 44.0, 67.0, 35.0 ],
 									"style" : "",
 									"text" : "r #0.dim"
@@ -6049,13 +6033,11 @@
 									"fontname" : "Arial",
 									"fontsize" : 13.0,
 									"id" : "obj-3",
-									"linecount" : 2,
 									"maxclass" : "newobj",
 									"numinlets" : 1,
 									"numoutlets" : 2,
 									"outlettype" : [ "jit_matrix", "" ],
 									"patching_rect" : [ 50.0, 309.0, 203.0, 38.0 ],
-									"presentation_linecount" : 2,
 									"presentation_rect" : [ 50.0, 309.0, 203.0, 38.0 ],
 									"style" : "",
 									"text" : "jit.matrix #0.nodeSize 3 float32 "
@@ -6286,7 +6268,7 @@
 							"major" : 8,
 							"minor" : 0,
 							"revision" : 0,
-							"architecture" : "x64",
+							"architecture" : "x86",
 							"modernui" : 1
 						}
 ,
@@ -6344,7 +6326,7 @@
 											"major" : 8,
 											"minor" : 0,
 											"revision" : 0,
-											"architecture" : "x64",
+											"architecture" : "x86",
 											"modernui" : 1
 										}
 ,
@@ -6392,13 +6374,11 @@
 , 											{
 												"box" : 												{
 													"id" : "obj-35",
-													"linecount" : 2,
 													"maxclass" : "newobj",
 													"numinlets" : 0,
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 50.0, 100.0, 84.0, 22.0 ],
-													"presentation_linecount" : 2,
 													"presentation_rect" : [ 50.0, 100.0, 84.0, 22.0 ],
 													"style" : "",
 													"text" : "r #0.enable"
@@ -6868,7 +6848,7 @@
 							"major" : 8,
 							"minor" : 0,
 							"revision" : 0,
-							"architecture" : "x64",
+							"architecture" : "x86",
 							"modernui" : 1
 						}
 ,
@@ -7001,13 +6981,11 @@
 , 							{
 								"box" : 								{
 									"id" : "obj-24",
-									"linecount" : 2,
 									"maxclass" : "newobj",
 									"numinlets" : 0,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 392.0, 372.0, 58.0, 20.0 ],
-									"presentation_linecount" : 2,
 									"presentation_rect" : [ 392.0, 372.0, 58.0, 20.0 ],
 									"style" : "",
 									"text" : "r #0.edit"

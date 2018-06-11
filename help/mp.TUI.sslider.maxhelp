@@ -153,7 +153,7 @@
 			}
 , 			{
 				"box" : 				{
-					"args" : [ "mp.TUI.slider", "@description", "A simple slider.", "@categories", "component" ],
+					"args" : [ "mp.TUI.sslider", "@description", "A signed slider.", "@categories", "component" ],
 					"bgmode" : 0,
 					"border" : 0,
 					"clickthrough" : 0,
@@ -1090,7 +1090,7 @@
 					"patching_rect" : [ 266.625, 253.184082, 320.0, 22.0 ],
 					"presentation_rect" : [ 266.625, 253.184082, 320.0, 22.0 ],
 					"style" : "",
-					"text" : "mp.TUI.slider /slider_helper @scale 1 0.2 0"
+					"text" : "mp.TUI.sslider /slider_helper @scale 1 0.2 0 @range -7 5"
 				}
 
 			}
@@ -1246,7 +1246,7 @@
 			}
  ],
 		"dependency_cache" : [ 			{
-				"name" : "mp.TUI.slider.maxpat",
+				"name" : "mp.TUI.sslider.maxpat",
 				"bootpath" : "~/Documents/Max 7/Packages/ModularPolyphony-TUI/patchers",
 				"patcherrelativepath" : "../patchers",
 				"type" : "JSON",
