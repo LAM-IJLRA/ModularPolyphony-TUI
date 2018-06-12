@@ -71,12 +71,12 @@
 ,
 	"mp.TUI.filtergraph" : 	{
 		"description" : "A TUI filtergraph",
-		"categories" : [ "alpha", "beta", "gamma" ]
+		"categories" : "component"
 	}
 ,
 	"mp.TUI.hexagrid" : 	{
 		"description" : "A TUI hexagonal keyboard",
-		"categories" : [ "alpha", "beta", "gamma" ]
+		"categories" : "component"
 	}
 ,
 	"mp.TUI.menu" : 	{
@@ -101,7 +101,7 @@
 ,
 	"mp.TUI.voronoi" : 	{
 		"description" : "A tangible voronoi mesh",
-		"categories" : [ "alpha", "beta", "gamma" ]
+		"categories" : "component"
 	}
 ,
 	"mp.TUI.graphslider" : 	{
