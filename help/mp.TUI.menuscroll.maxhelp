@@ -1424,7 +1424,7 @@
 			}
 , 			{
 				"box" : 				{
-					"args" : [ "mp.TUI.menuscroll", "@description", "A scrollable drop-down menu.", "@category", "component" ],
+					"args" : [ "mp.TUI.menuscroll", "@description", "A scrollable drop-down menu.", "@categories", "component" ],
 					"bgmode" : 0,
 					"border" : 0,
 					"clickthrough" : 0,

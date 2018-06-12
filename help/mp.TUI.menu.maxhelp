@@ -93,7 +93,7 @@
 			}
 , 			{
 				"box" : 				{
-					"args" : [ "mp.TUI.menu", "@description", "A TUI drop-down menu.", "@category", "component" ],
+					"args" : [ "mp.TUI.menu", "@description", "A TUI drop-down menu.", "@categories", "component" ],
 					"bgmode" : 0,
 					"border" : 0,
 					"clickthrough" : 0,

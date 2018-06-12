@@ -170,7 +170,7 @@
 			}
 , 			{
 				"box" : 				{
-					"args" : [ "mp.TUI.hexagrid", "@description", "A TUI hexagonal keyboard", "@category", "component" ],
+					"args" : [ "mp.TUI.hexagrid", "@description", "A TUI hexagonal keyboard", "@categories", "component" ],
 					"bgmode" : 0,
 					"border" : 0,
 					"clickthrough" : 0,

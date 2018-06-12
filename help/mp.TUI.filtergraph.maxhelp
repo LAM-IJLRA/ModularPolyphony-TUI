@@ -430,7 +430,7 @@
 			}
 , 			{
 				"box" : 				{
-					"args" : [ "mp.TUI.filtergraph", "@description", "A TUI filtergraph", "@category", "component" ],
+					"args" : [ "mp.TUI.filtergraph", "@description", "A TUI filtergraph", "@categories", "component" ],
 					"bgmode" : 0,
 					"border" : 0,
 					"clickthrough" : 0,

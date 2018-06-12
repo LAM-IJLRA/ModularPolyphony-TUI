@@ -1583,7 +1583,7 @@
 			}
 , 			{
 				"box" : 				{
-					"args" : [ "mp.TUI.bpf", "@description", "A TUI break point function.", "@category", "component" ],
+					"args" : [ "mp.TUI.bpf", "@description", "A TUI break point function.", "@categories", "component" ],
 					"bgmode" : 0,
 					"border" : 0,
 					"clickthrough" : 0,

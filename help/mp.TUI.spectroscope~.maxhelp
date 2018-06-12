@@ -241,7 +241,7 @@
 			}
 , 			{
 				"box" : 				{
-					"args" : [ "mp.TUI.spectroscope~", "@description", "A spectroscope~ as TUI.", "@category", "component" ],
+					"args" : [ "mp.TUI.spectroscope~", "@description", "A spectroscope~ as TUI.", "@categories", "component" ],
 					"bgmode" : 0,
 					"border" : 0,
 					"clickthrough" : 0,

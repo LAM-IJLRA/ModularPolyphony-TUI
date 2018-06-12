@@ -103,7 +103,7 @@
 			}
 , 			{
 				"box" : 				{
-					"args" : [ "mp.TUI.textbutton", "@description", "A TUI text-button.", "@category", "component" ],
+					"args" : [ "mp.TUI.textbutton", "@description", "A TUI text-button.", "@categories", "component" ],
 					"bgmode" : 0,
 					"border" : 0,
 					"clickthrough" : 0,

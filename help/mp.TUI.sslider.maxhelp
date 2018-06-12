@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 100.0, 100.0, 812.0, 379.0 ],
+		"rect" : [ 152.0, 463.0, 812.0, 379.0 ],
 		"bgcolor" : [ 0.9, 0.91, 0.91, 1.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
@@ -1090,7 +1090,7 @@
 					"patching_rect" : [ 266.625, 253.184082, 320.0, 22.0 ],
 					"presentation_rect" : [ 266.625, 253.184082, 320.0, 22.0 ],
 					"style" : "",
-					"text" : "mp.TUI.sslider /slider_helper @scale 1 0.2 0 @range -7 5"
+					"text" : "mp.TUI.sslider /slider_helper @scale 1 0.2 0 @range -7 2"
 				}
 
 			}

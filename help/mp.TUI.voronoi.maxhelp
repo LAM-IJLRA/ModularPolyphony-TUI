@@ -2027,7 +2027,7 @@
 			}
 , 			{
 				"box" : 				{
-					"args" : [ "mp.TUI.voronoi", "@description", "A tangible voronoi mesh", "@category", "component" ],
+					"args" : [ "mp.TUI.voronoi", "@description", "A tangible voronoi mesh", "@categories", "component" ],
 					"bgmode" : 0,
 					"border" : 0,
 					"clickthrough" : 0,

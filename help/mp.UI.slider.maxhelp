@@ -68,7 +68,7 @@
 			}
 , 			{
 				"box" : 				{
-					"args" : [ "mp.TUI.slider", "@description", "A simple slider.", "@category", "component" ],
+					"args" : [ "mp.TUI.slider", "@description", "A simple slider.", "@categories", "component" ],
 					"bgmode" : 0,
 					"border" : 0,
 					"clickthrough" : 0,
