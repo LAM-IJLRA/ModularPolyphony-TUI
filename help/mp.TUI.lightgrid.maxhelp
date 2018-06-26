@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 72.0, 159.0, 840.0, 455.0 ],
+		"rect" : [ 150.0, 217.0, 840.0, 455.0 ],
 		"bgcolor" : [ 0.9, 0.91, 0.91, 1.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
@@ -38,6 +38,39 @@
 		"style" : "",
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
+				"box" : 				{
+					"contdata" : 1,
+					"ghostbar" : 70,
+					"id" : "obj-32",
+					"maxclass" : "multislider",
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "", "" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 203.0, 171.0, 135.0, 62.0 ],
+					"presentation_rect" : [ 203.0, 171.0, 135.0, 62.0 ],
+					"setminmax" : [ 0.0, 1.0 ],
+					"settype" : 0,
+					"size" : 2508,
+					"style" : ""
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-8",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 693.0, 283.0, 47.0, 22.0 ],
+					"presentation_rect" : [ 693.0, 283.0, 47.0, 22.0 ],
+					"style" : "",
+					"text" : "caption"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"id" : "obj-26",
 					"maxclass" : "newobj",
@@ -192,7 +225,7 @@
 					"presentation_rect" : [ 216.0, 279.0, 135.0, 62.0 ],
 					"setminmax" : [ 0.0, 1.0 ],
 					"settype" : 0,
-					"size" : 10,
+					"size" : 2508,
 					"style" : ""
 				}
 
@@ -227,7 +260,7 @@
 			}
 , 			{
 				"box" : 				{
-					"cols" : 5,
+					"cols" : 76,
 					"fontface" : 0,
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
@@ -238,7 +271,7 @@
 					"outlettype" : [ "list", "", "", "" ],
 					"patching_rect" : [ 455.625, 311.184082, 262.0, 111.0 ],
 					"presentation_rect" : [ 455.625, 311.184082, 262.0, 111.0 ],
-					"rows" : 2
+					"rows" : 33
 				}
 
 			}
@@ -352,25 +385,6 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 89.0, 98.0, 45.0, 45.0 ],
 					"presentation_rect" : [ 89.0, 98.0, 45.0, 45.0 ],
-					"style" : ""
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"contdata" : 1,
-					"ghostbar" : 70,
-					"id" : "obj-37",
-					"maxclass" : "multislider",
-					"numinlets" : 1,
-					"numoutlets" : 2,
-					"outlettype" : [ "", "" ],
-					"parameter_enable" : 0,
-					"patching_rect" : [ 203.0, 169.0, 135.0, 62.0 ],
-					"presentation_rect" : [ 203.0, 169.0, 135.0, 62.0 ],
-					"setminmax" : [ 0.0, 1.0 ],
-					"settype" : 0,
-					"size" : 12,
 					"style" : ""
 				}
 
@@ -1194,7 +1208,7 @@
 					"patching_rect" : [ 203.0, 239.184082, 594.0, 22.0 ],
 					"presentation_rect" : [ 203.0, 239.184082, 594.0, 22.0 ],
 					"style" : "",
-					"text" : "mp.TUI.lightgrid /grid_helper @mode 2 @name myGrid @dim 5 2 @scale 1 0.5 1 @caption r a d i o \" \" g a g a"
+					"text" : "mp.TUI.lightgrid /grid_helper @mode 2 @dim 5 2 @scale 1 0.5 1 @caption r a d i o \" \" g a g a"
 				}
 
 			}
@@ -1350,7 +1364,14 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-30", 0 ],
-					"source" : [ "obj-37", 0 ]
+					"source" : [ "obj-32", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-30", 1 ],
+					"source" : [ "obj-8", 0 ]
 				}
 
 			}
@@ -1392,6 +1413,13 @@
 				"implicit" : 1
 			}
 , 			{
+				"name" : "LAM.intnogap.maxpat",
+				"bootpath" : "~/Documents/Max/Packages/lam-lib/patchers",
+				"patcherrelativepath" : "../../../../Max/Packages/lam-lib/patchers",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
 				"name" : "mp.TUI.receiver.maxpat",
 				"bootpath" : "~/Documents/Max 7/Packages/ModularPolyphony-TUI/patchers",
 				"patcherrelativepath" : "../patchers",
@@ -1407,20 +1435,6 @@
 			}
 , 			{
 				"name" : "LAM.f.io.maxpat",
-				"bootpath" : "~/Documents/Max/Packages/lam-lib/patchers",
-				"patcherrelativepath" : "../../../../Max/Packages/lam-lib/patchers",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "LAM.rect2poscale.maxpat",
-				"bootpath" : "~/Documents/Max/Packages/lam-lib/patchers",
-				"patcherrelativepath" : "../../../../Max/Packages/lam-lib/patchers",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "LAM.poscale2rect.maxpat",
 				"bootpath" : "~/Documents/Max/Packages/lam-lib/patchers",
 				"patcherrelativepath" : "../../../../Max/Packages/lam-lib/patchers",
 				"type" : "JSON",
@@ -1514,6 +1528,13 @@
 				"name" : "LAM.LAOS.maxpat",
 				"bootpath" : "~/Documents/Max/Packages/lam-lib/patchers",
 				"patcherrelativepath" : "../../../../Max/Packages/lam-lib/patchers",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "mp.state.change.maxpat",
+				"bootpath" : "~/Documents/Max 7/Packages/ModularPolyphony/patchers",
+				"patcherrelativepath" : "../../ModularPolyphony/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}

@@ -86,7 +86,7 @@
 ,
 	"mp.TUI.bpf" : 	{
 		"description" : "A TUI break point function.",
-		"categories" : [ "alpha", "beta", "gamma" ]
+		"categories" : "component"
 	}
 ,
 	"mp.TUI.toes" : 	{
@@ -136,7 +136,7 @@
 ,
 	"mp.TUI.menuscroll" : 	{
 		"description" : "A scrollable drop-down menu.",
-		"categories" : [ "alpha", "beta", "gamma" ]
+		"categories" : "component"
 	}
 ,
 	"mp.TUI.3Dslider" : 	{
@@ -162,6 +162,11 @@
 	"mp.TUI.sslider" : 	{
 		"description" : "A signed slider.",
 		"categories" : "component"
+	}
+,
+	"mp.TUI.rhslider" : 	{
+		"categories" : "component",
+		"description" : "A range-slider with draggable handles."
 	}
 
 }

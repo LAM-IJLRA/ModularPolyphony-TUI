@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 551.0, 169.0, 583.0, 611.0 ],
+		"rect" : [ 551.0, 169.0, 598.0, 611.0 ],
 		"bgcolor" : [ 0.93, 0.93, 0.92, 1.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
@@ -513,8 +513,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 171.0, 232.0, 105.0, 22.0 ],
-					"presentation_rect" : [ 171.0, 232.0, 105.0, 22.0 ],
+					"patching_rect" : [ 171.0, 232.0, 111.0, 22.0 ],
+					"presentation_rect" : [ 171.0, 232.0, 111.0, 22.0 ],
 					"style" : "",
 					"text" : "refer #0.system"
 				}
@@ -527,9 +527,9 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 54.0, 232.0, 132.0, 22.0 ],
+					"patching_rect" : [ 54.0, 232.0, 140.0, 22.0 ],
 					"presentation_linecount" : 2,
-					"presentation_rect" : [ 54.0, 232.0, 132.0, 22.0 ],
+					"presentation_rect" : [ 54.0, 232.0, 140.0, 22.0 ],
 					"style" : "",
 					"text" : "refer #0.components"
 				}
@@ -555,7 +555,7 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 18.9375, 199.0, 548.0, 396.0 ],
 					"readonly" : 1,
-					"rows" : 1,
+					"rows" : 29,
 					"selmode" : 3
 				}
 
@@ -781,11 +781,13 @@
 , 							{
 								"box" : 								{
 									"id" : "obj-38",
+									"linecount" : 2,
 									"maxclass" : "newobj",
 									"numinlets" : 1,
 									"numoutlets" : 4,
 									"outlettype" : [ "", "", "", "" ],
 									"patching_rect" : [ 207.5, 519.0, 125.0, 22.0 ],
+									"presentation_linecount" : 2,
 									"presentation_rect" : [ 207.5, 519.0, 125.0, 22.0 ],
 									"saved_object_attributes" : 									{
 										"embed" : 0
@@ -813,11 +815,13 @@
 , 							{
 								"box" : 								{
 									"id" : "obj-37",
+									"linecount" : 2,
 									"maxclass" : "newobj",
 									"numinlets" : 1,
 									"numoutlets" : 4,
 									"outlettype" : [ "", "", "", "" ],
 									"patching_rect" : [ 341.25, 519.0, 98.0, 22.0 ],
+									"presentation_linecount" : 2,
 									"presentation_rect" : [ 341.25, 519.0, 98.0, 22.0 ],
 									"saved_object_attributes" : 									{
 										"embed" : 0
@@ -1484,14 +1488,16 @@
 					"fontname" : "Arial",
 					"fontsize" : 11.595187,
 					"id" : "obj-19",
+					"linecount" : 2,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 316.5625, 9.25, 268.5, 19.0 ],
+					"patching_rect" : [ 316.5625, 9.25, 268.5, 32.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 316.5625, 9.25, 268.5, 19.0 ],
+					"presentation_linecount" : 2,
+					"presentation_rect" : [ 316.5625, 9.25, 268.5, 32.0 ],
 					"style" : "",
-					"text" : "© 2017-18 LAM-IJLRA / Universite Paris 6",
+					"text" : "© 2017-18 Vincent Goudard\nLAM-IJLRA / Sorbonne Université",
 					"textcolor" : [ 0.317518, 0.317518, 0.317518, 1.0 ]
 				}
 

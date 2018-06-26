@@ -5,11 +5,11 @@
 			"major" : 8,
 			"minor" : 0,
 			"revision" : 0,
-			"architecture" : "x64",
+			"architecture" : "x86",
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 121.0, 507.0, 837.0, 362.0 ],
+		"rect" : [ 129.0, 407.0, 837.0, 362.0 ],
 		"bgcolor" : [ 0.9, 0.91, 0.91, 1.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
@@ -153,6 +153,7 @@
 , 			{
 				"box" : 				{
 					"contdata" : 1,
+					"ghostbar" : 70,
 					"id" : "obj-32",
 					"maxclass" : "multislider",
 					"numinlets" : 1,
@@ -161,7 +162,10 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 203.0, 279.0, 135.0, 62.0 ],
 					"presentation_rect" : [ 203.0, 279.0, 135.0, 62.0 ],
+					"setminmax" : [ 0.0, 1.0 ],
+					"settype" : 0,
 					"size" : 10,
+					"spacing" : 1,
 					"style" : ""
 				}
 
@@ -169,6 +173,7 @@
 , 			{
 				"box" : 				{
 					"contdata" : 1,
+					"ghostbar" : 70,
 					"id" : "obj-37",
 					"maxclass" : "multislider",
 					"numinlets" : 1,
@@ -178,7 +183,9 @@
 					"patching_rect" : [ 203.0, 169.0, 135.0, 62.0 ],
 					"presentation_rect" : [ 203.0, 169.0, 135.0, 62.0 ],
 					"setminmax" : [ 0.0, 1.0 ],
-					"size" : 12,
+					"settype" : 0,
+					"size" : 10,
+					"spacing" : 1,
 					"style" : ""
 				}
 
@@ -233,7 +240,7 @@
 							"major" : 8,
 							"minor" : 0,
 							"revision" : 0,
-							"architecture" : "x64",
+							"architecture" : "x86",
 							"modernui" : 1
 						}
 ,
@@ -370,7 +377,7 @@
 											"major" : 8,
 											"minor" : 0,
 											"revision" : 0,
-											"architecture" : "x64",
+											"architecture" : "x86",
 											"modernui" : 1
 										}
 ,
@@ -602,7 +609,7 @@
 							"major" : 8,
 							"minor" : 0,
 							"revision" : 0,
-							"architecture" : "x64",
+							"architecture" : "x86",
 							"modernui" : 1
 						}
 ,
@@ -995,16 +1002,14 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-30",
-					"linecount" : 2,
 					"maxclass" : "newobj",
 					"numinlets" : 2,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 203.0, 239.184082, 490.125, 35.0 ],
-					"presentation_linecount" : 2,
-					"presentation_rect" : [ 203.0, 239.184082, 490.125, 35.0 ],
+					"patching_rect" : [ 203.0, 239.184082, 490.125, 22.0 ],
+					"presentation_rect" : [ 203.0, 239.184082, 490.125, 22.0 ],
 					"style" : "",
-					"text" : "mp.TUI.grid /grid_helper @mode 2 @name myGrid @dim 5 2 @scale 1 0.5 1 @caption r a d i o \" \" g a g a"
+					"text" : "mp.TUI.grid /grid_helper @mode 2 @dim 5 2 @scale 1 0.5 1 @caption r a d i o \" \" g a g a"
 				}
 
 			}
@@ -1198,20 +1203,6 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "LAM.rect2poscale.maxpat",
-				"bootpath" : "~/Documents/Max/Packages/lam-lib/patchers",
-				"patcherrelativepath" : "../../../../Max/Packages/lam-lib/patchers",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "LAM.poscale2rect.maxpat",
-				"bootpath" : "~/Documents/Max/Packages/lam-lib/patchers",
-				"patcherrelativepath" : "../../../../Max/Packages/lam-lib/patchers",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
 				"name" : "mp.deltabsolute.maxpat",
 				"bootpath" : "~/Documents/Max 7/Packages/ModularPolyphony/patchers",
 				"patcherrelativepath" : "../../ModularPolyphony/patchers",
@@ -1299,6 +1290,13 @@
 				"name" : "LAM.LAOS.maxpat",
 				"bootpath" : "~/Documents/Max/Packages/lam-lib/patchers",
 				"patcherrelativepath" : "../../../../Max/Packages/lam-lib/patchers",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "mp.state.change.maxpat",
+				"bootpath" : "~/Documents/Max 7/Packages/ModularPolyphony/patchers",
+				"patcherrelativepath" : "../../ModularPolyphony/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
