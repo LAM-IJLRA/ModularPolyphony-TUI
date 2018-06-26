@@ -9,8 +9,9 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 104.0, 409.0, 817.0, 440.0 ],
+		"rect" : [ 122.0, 489.0, 817.0, 342.0 ],
 		"bgcolor" : [ 0.9, 0.91, 0.91, 1.0 ],
+		"editing_bgcolor" : [ 0.898039, 0.898039, 0.898039, 1 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -192,7 +193,7 @@
 					"patching_rect" : [ 521.5, 251.315918, 205.0, 22.0 ],
 					"presentation_rect" : [ 521.5, 251.315918, 205.0, 22.0 ],
 					"style" : "",
-					"text" : "0.365606 0. 1."
+					"text" : "0.596947 0.536013 0.596947"
 				}
 
 			}
@@ -224,13 +225,13 @@
 					"presentation_rect" : [ 322.5, 372.315918, 136.0, 20.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_type" : 0,
-							"parameter_unitstyle" : 4,
 							"parameter_mmin" : -70.0,
 							"parameter_longname" : "live.gain~",
 							"parameter_mmax" : 6.0,
 							"parameter_initial" : [ 0.0 ],
-							"parameter_shortname" : "live.gain~"
+							"parameter_shortname" : "live.gain~",
+							"parameter_type" : 0,
+							"parameter_unitstyle" : 4
 						}
 
 					}
@@ -335,6 +336,7 @@
 ,
 						"rect" : [ 603.0, 473.0, 640.0, 480.0 ],
 						"bgcolor" : [ 0.9, 0.91, 0.91, 1.0 ],
+						"editing_bgcolor" : [ 0.898039, 0.898039, 0.898039, 1 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -471,6 +473,8 @@
 										}
 ,
 										"rect" : [ 34.0, 79.0, 640.0, 480.0 ],
+										"bgcolor" : [ 0.898039, 0.898039, 0.898039, 1 ],
+										"editing_bgcolor" : [ 0.898039, 0.898039, 0.898039, 1 ],
 										"bglocked" : 0,
 										"openinpresentation" : 0,
 										"default_fontsize" : 12.0,
@@ -583,9 +587,7 @@
 										"bgfillcolor_type" : "gradient",
 										"bgfillcolor_color1" : [ 0.435294, 0.462745, 0.498039, 1.0 ],
 										"bgfillcolor_color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-										"bgfillcolor_color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-										"bgfillcolor_angle" : 270.0,
-										"bgfillcolor_proportion" : 0.39
+										"bgfillcolor_color" : [ 0.290196, 0.309804, 0.301961, 1.0 ]
 									}
 ,
 									"patching_rect" : [ 72.5, 104.056641, 38.0, 21.0 ],
@@ -667,7 +669,8 @@
 								}
 
 							}
- ]
+ ],
+						"locked_bgcolor" : [ 0.9, 0.91, 0.91, 1.0 ]
 					}
 ,
 					"patching_rect" : [ 9.0, 247.0, 59.0, 22.0 ],
@@ -676,6 +679,7 @@
 						"description" : "",
 						"digest" : "",
 						"globalpatchername" : "",
+						"locked_bgcolor" : [ 0.9, 0.91, 0.91, 1.0 ],
 						"style" : "",
 						"tags" : ""
 					}
@@ -704,6 +708,7 @@
 ,
 						"rect" : [ 168.0, 275.0, 688.0, 259.0 ],
 						"bgcolor" : [ 0.9, 0.91, 0.91, 1.0 ],
+						"editing_bgcolor" : [ 0.898039, 0.898039, 0.898039, 1 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -778,6 +783,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "bang" ],
+									"parameter_enable" : 0,
 									"patching_rect" : [ 50.0, 102.0, 24.0, 24.0 ],
 									"presentation_rect" : [ 50.0, 102.0, 24.0, 24.0 ],
 									"style" : ""
@@ -791,6 +797,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "bang" ],
+									"parameter_enable" : 0,
 									"patching_rect" : [ 461.0, 34.0, 24.0, 24.0 ],
 									"presentation_rect" : [ 461.0, 34.0, 24.0, 24.0 ],
 									"style" : ""
@@ -818,6 +825,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "bang" ],
+									"parameter_enable" : 0,
 									"patching_rect" : [ 213.000031, 102.0, 24.0, 24.0 ],
 									"presentation_rect" : [ 213.000031, 102.0, 24.0, 24.0 ],
 									"style" : ""
@@ -970,7 +978,8 @@
 								"parentstyle" : "",
 								"multi" : 0
 							}
- ]
+ ],
+						"locked_bgcolor" : [ 0.9, 0.91, 0.91, 1.0 ]
 					}
 ,
 					"patching_rect" : [ 205.0, 300.184082, 76.0, 24.0 ],
@@ -979,6 +988,7 @@
 						"description" : "",
 						"digest" : "",
 						"globalpatchername" : "",
+						"locked_bgcolor" : [ 0.9, 0.91, 0.91, 1.0 ],
 						"style" : "",
 						"tags" : ""
 					}
@@ -1021,7 +1031,7 @@
 					"patching_rect" : [ 9.0, 274.0, 215.0, 21.0 ],
 					"presentation_rect" : [ 9.0, 274.0, 215.0, 21.0 ],
 					"style" : "",
-					"text" : "jit.window /3Dslider_helper @fsmenubar 0"
+					"text" : "jit.window /3Dslider_helper @fsaa 1"
 				}
 
 			}
@@ -1125,16 +1135,15 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-30",
-					"linecount" : 3,
+					"linecount" : 2,
 					"maxclass" : "newobj",
 					"numinlets" : 2,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 333.0, 156.0, 286.0, 49.0 ],
-					"presentation_linecount" : 3,
-					"presentation_rect" : [ 333.0, 156.0, 286.0, 49.0 ],
+					"patching_rect" : [ 333.0, 156.0, 409.0, 35.0 ],
+					"presentation_rect" : [ 333.0, 156.0, 409.0, 35.0 ],
 					"style" : "",
-					"text" : "mp.TUI.3Dslider /3Dslider_helper @scale 0.5 0.5 1 @color 0. 1 0.5 0.5 @text mgs @xlabel harm @ylabel index"
+					"text" : "mp.TUI.3Dslider /3Dslider_helper @scale 0.5 0.5 1 @color 0. 1 0.5 0.5 @text 3Dslider @xlabel harm @ylabel index"
 				}
 
 			}
@@ -1250,7 +1259,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-30", 1 ],
-					"midpoints" : [ 514.5, 151.907959, 609.5, 151.907959 ],
+					"midpoints" : [ 514.5, 151.907959, 732.5, 151.907959 ],
 					"source" : [ "obj-25", 0 ]
 				}
 
@@ -1273,7 +1282,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-30", 1 ],
-					"midpoints" : [ 609.625, 149.407959, 609.5, 149.407959 ],
+					"midpoints" : [ 609.625, 149.407959, 732.5, 149.407959 ],
 					"source" : [ "obj-28", 0 ]
 				}
 
@@ -1288,7 +1297,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-28", 0 ],
-					"midpoints" : [ 609.5, 208.0, 752.375, 208.0, 752.375, 72.815918, 609.625, 72.815918 ],
+					"midpoints" : [ 732.5, 208.0, 752.375, 208.0, 752.375, 72.815918, 609.625, 72.815918 ],
 					"source" : [ "obj-30", 2 ]
 				}
 
@@ -1358,8 +1367,8 @@
 			}
 , 			{
 				"name" : "sw.maxpat",
-				"bootpath" : "/Users/Shared/Max 8/Examples/max-tricks/send-receive-tricks/lib",
-				"patcherrelativepath" : "../../../../../../Shared/Max 8/Examples/max-tricks/send-receive-tricks/lib",
+				"bootpath" : "~/Library/Application Support/Cycling '74/Max 8/Examples/max-tricks/send-receive-tricks/lib",
+				"patcherrelativepath" : "../../../../../Library/Application Support/Cycling '74/Max 8/Examples/max-tricks/send-receive-tricks/lib",
 				"type" : "JSON",
 				"implicit" : 1
 			}
@@ -1386,34 +1395,6 @@
 			}
 , 			{
 				"name" : "LAM.f.io.maxpat",
-				"bootpath" : "~/Documents/Max/Packages/lam-lib/patchers",
-				"patcherrelativepath" : "../../../../Max/Packages/lam-lib/patchers",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "LAM.f.call.maxpat",
-				"bootpath" : "~/Documents/Max/Packages/lam-lib/patchers",
-				"patcherrelativepath" : "../../../../Max/Packages/lam-lib/patchers",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "mp.TUI.worldtolocal.maxpat",
-				"bootpath" : "~/Documents/Max 7/Packages/ModularPolyphony-TUI/patchers",
-				"patcherrelativepath" : "../patchers",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "LAM.rect2poscale.maxpat",
-				"bootpath" : "~/Documents/Max/Packages/lam-lib/patchers",
-				"patcherrelativepath" : "../../../../Max/Packages/lam-lib/patchers",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "LAM.poscale2rect.maxpat",
 				"bootpath" : "~/Documents/Max/Packages/lam-lib/patchers",
 				"patcherrelativepath" : "../../../../Max/Packages/lam-lib/patchers",
 				"type" : "JSON",
@@ -1451,6 +1432,20 @@
 				"name" : "mp.block.init.maxpat",
 				"bootpath" : "~/Documents/Max 7/Packages/ModularPolyphony/patchers",
 				"patcherrelativepath" : "../../ModularPolyphony/patchers",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "mp.TUI.worldtolocal.maxpat",
+				"bootpath" : "~/Documents/Max 7/Packages/ModularPolyphony-TUI/patchers",
+				"patcherrelativepath" : "../patchers",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "LAM.f.call.maxpat",
+				"bootpath" : "~/Documents/Max/Packages/lam-lib/patchers",
+				"patcherrelativepath" : "../../../../Max/Packages/lam-lib/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
@@ -1507,6 +1502,13 @@
 				"name" : "LAM.LAOS.maxpat",
 				"bootpath" : "~/Documents/Max/Packages/lam-lib/patchers",
 				"patcherrelativepath" : "../../../../Max/Packages/lam-lib/patchers",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "mp.state.change.maxpat",
+				"bootpath" : "~/Documents/Max 7/Packages/ModularPolyphony/patchers",
+				"patcherrelativepath" : "../../ModularPolyphony/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
@@ -1570,7 +1572,7 @@
 				"name" : "mp.TUI-icon.png",
 				"bootpath" : "~/Documents/Max 7/Packages/ModularPolyphony-TUI/media",
 				"patcherrelativepath" : "../media",
-				"type" : "PNG ",
+				"type" : "PNG",
 				"implicit" : 1
 			}
  ],
@@ -1593,7 +1595,8 @@
 				"parentstyle" : "",
 				"multi" : 0
 			}
- ]
+ ],
+		"locked_bgcolor" : [ 0.9, 0.91, 0.91, 1.0 ]
 	}
 
 }
