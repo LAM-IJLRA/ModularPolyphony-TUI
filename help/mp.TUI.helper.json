@@ -168,5 +168,10 @@
 		"categories" : "component",
 		"description" : "A range-slider with draggable handles."
 	}
+,
+	"mp.TUI.slot" : 	{
+		"categories" : "component",
+		"description" : "DRAFT! slot for drag and drop."
+	}
 
 }
