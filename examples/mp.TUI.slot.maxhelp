@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 100.0, 100.0, 865.0, 612.0 ],
+		"rect" : [ 397.0, 250.0, 865.0, 612.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -68,7 +68,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 225.625, 454.0, 60.0, 22.0 ],
+					"patching_rect" : [ 227.625, 444.0, 60.0, 22.0 ],
 					"text" : "sw others"
 				}
 
@@ -772,7 +772,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 4,
 									"outlettype" : [ "", "", "", "" ],
-									"patching_rect" : [ 50.0, 62.0, 508.000091999999995, 29.0 ],
+									"patching_rect" : [ 50.0, 62.0, 508.000091552734375, 29.0 ],
 									"text" : "mp.TUI.hub /canvas_helper"
 								}
 
@@ -1121,6 +1121,20 @@
 				"patchline" : 				{
 					"destination" : [ "obj-38", 0 ],
 					"source" : [ "obj-7", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-8", 0 ],
+					"source" : [ "obj-7", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-7", 1 ],
+					"source" : [ "obj-8", 0 ]
 				}
 
 			}
