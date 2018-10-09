@@ -5,11 +5,11 @@
 			"major" : 8,
 			"minor" : 0,
 			"revision" : 0,
-			"architecture" : "x64",
+			"architecture" : "x86",
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 325.0, 268.0, 1046.0, 563.0 ],
+		"rect" : [ 285.0, 314.0, 1046.0, 563.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -61,7 +61,7 @@
 							"major" : 8,
 							"minor" : 0,
 							"revision" : 0,
-							"architecture" : "x64",
+							"architecture" : "x86",
 							"modernui" : 1
 						}
 ,
@@ -138,7 +138,7 @@
 					"presentation_linecount" : 2,
 					"presentation_rect" : [ 33.0, 356.0, 120.0, 35.0 ],
 					"style" : "",
-					"text" : "symbol \"24 Short Chord (01 - 18).aiff\""
+					"text" : "symbol 294-toothbrush"
 				}
 
 			}
@@ -210,7 +210,7 @@
 							"major" : 8,
 							"minor" : 0,
 							"revision" : 0,
-							"architecture" : "x64",
+							"architecture" : "x86",
 							"modernui" : 1
 						}
 ,
@@ -532,11 +532,13 @@
 , 							{
 								"box" : 								{
 									"id" : "obj-69",
+									"linecount" : 2,
 									"maxclass" : "newobj",
 									"numinlets" : 1,
 									"numoutlets" : 2,
 									"outlettype" : [ "jit_matrix", "" ],
 									"patching_rect" : [ 314.5, 407.0, 588.0, 22.0 ],
+									"presentation_linecount" : 2,
 									"presentation_rect" : [ 314.5, 407.0, 588.0, 22.0 ],
 									"style" : "",
 									"text" : "jit.gl.gridshape #1 @shape plane @dim 2 2 @color 1 1 0 0.1 @blend_enable 1 @depth_enable 0"
@@ -1089,7 +1091,7 @@
 							"major" : 8,
 							"minor" : 0,
 							"revision" : 0,
-							"architecture" : "x64",
+							"architecture" : "x86",
 							"modernui" : 1
 						}
 ,
@@ -1203,7 +1205,7 @@
 											"major" : 8,
 											"minor" : 0,
 											"revision" : 0,
-											"architecture" : "x64",
+											"architecture" : "x86",
 											"modernui" : 1
 										}
 ,
@@ -1494,7 +1496,7 @@
 											"major" : 8,
 											"minor" : 0,
 											"revision" : 0,
-											"architecture" : "x64",
+											"architecture" : "x86",
 											"modernui" : 1
 										}
 ,
@@ -1538,7 +1540,7 @@
 															"major" : 8,
 															"minor" : 0,
 															"revision" : 0,
-															"architecture" : "x64",
+															"architecture" : "x86",
 															"modernui" : 1
 														}
 ,
@@ -1679,7 +1681,7 @@
 																			"major" : 8,
 																			"minor" : 0,
 																			"revision" : 0,
-																			"architecture" : "x64",
+																			"architecture" : "x86",
 																			"modernui" : 1
 																		}
 ,
@@ -1713,13 +1715,11 @@
 																		"boxes" : [ 																			{
 																				"box" : 																				{
 																					"id" : "obj-46",
-																					"linecount" : 2,
 																					"maxclass" : "newobj",
 																					"numinlets" : 1,
 																					"numoutlets" : 1,
 																					"outlettype" : [ "" ],
 																					"patching_rect" : [ 50.0, 100.0, 241.0, 22.0 ],
-																					"presentation_linecount" : 2,
 																					"presentation_rect" : [ 50.0, 100.0, 241.0, 22.0 ],
 																					"style" : "",
 																					"text" : "mp.TUI.worldtolocal #0.canvas/stepNode"
@@ -2140,7 +2140,7 @@
 											"major" : 8,
 											"minor" : 0,
 											"revision" : 0,
-											"architecture" : "x64",
+											"architecture" : "x86",
 											"modernui" : 1
 										}
 ,
@@ -2253,7 +2253,7 @@
 															"major" : 8,
 															"minor" : 0,
 															"revision" : 0,
-															"architecture" : "x64",
+															"architecture" : "x86",
 															"modernui" : 1
 														}
 ,
@@ -2764,7 +2764,7 @@
 															"major" : 8,
 															"minor" : 0,
 															"revision" : 0,
-															"architecture" : "x64",
+															"architecture" : "x86",
 															"modernui" : 1
 														}
 ,
@@ -3146,7 +3146,7 @@
 															"major" : 8,
 															"minor" : 0,
 															"revision" : 0,
-															"architecture" : "x64",
+															"architecture" : "x86",
 															"modernui" : 1
 														}
 ,
@@ -3337,7 +3337,7 @@
 															"major" : 8,
 															"minor" : 0,
 															"revision" : 0,
-															"architecture" : "x64",
+															"architecture" : "x86",
 															"modernui" : 1
 														}
 ,
@@ -3450,7 +3450,7 @@
 																	"presentation_linecount" : 2,
 																	"presentation_rect" : [ 352.0, 173.0, 50.0, 35.0 ],
 																	"style" : "",
-																	"text" : "9003 state 0"
+																	"text" : "1 state 0"
 																}
 
 															}
@@ -3518,7 +3518,6 @@
 																	"numoutlets" : 1,
 																	"outlettype" : [ "" ],
 																	"patching_rect" : [ 729.0, 132.0, 72.0, 22.0 ],
-																	"presentation_linecount" : 2,
 																	"presentation_rect" : [ 729.0, 132.0, 72.0, 22.0 ],
 																	"style" : "",
 																	"text" : "r #0.edit"
@@ -3542,11 +3541,13 @@
 , 															{
 																"box" : 																{
 																	"id" : "obj-44",
+																	"linecount" : 2,
 																	"maxclass" : "newobj",
 																	"numinlets" : 2,
 																	"numoutlets" : 3,
 																	"outlettype" : [ "", "", "" ],
 																	"patching_rect" : [ 50.0, 135.095215, 541.0, 22.0 ],
+																	"presentation_linecount" : 2,
 																	"presentation_rect" : [ 50.0, 135.095215, 541.0, 22.0 ],
 																	"style" : "",
 																	"text" : "mp.TUI.orientslider #1 @position 0 0 0 @scale 1 1 1 @orientation 1 @anim #0.scrollerGutter"
@@ -3561,7 +3562,6 @@
 																	"numoutlets" : 2,
 																	"outlettype" : [ "", "" ],
 																	"patching_rect" : [ 177.0, 53.0, 603.0, 22.0 ],
-																	"presentation_linecount" : 2,
 																	"presentation_rect" : [ 177.0, 53.0, 603.0, 22.0 ],
 																	"style" : "",
 																	"text" : "jit.anim.node @name #0.scrollerGutter @anim #0.steppedBackground  @scale 0.1 1 1 @position 1.1 0 0"
@@ -3872,7 +3872,7 @@
 															"major" : 8,
 															"minor" : 0,
 															"revision" : 0,
-															"architecture" : "x64",
+															"architecture" : "x86",
 															"modernui" : 1
 														}
 ,
@@ -4386,7 +4386,7 @@
 															"major" : 8,
 															"minor" : 0,
 															"revision" : 0,
-															"architecture" : "x64",
+															"architecture" : "x86",
 															"modernui" : 1
 														}
 ,
@@ -4512,7 +4512,7 @@
 																			"major" : 8,
 																			"minor" : 0,
 																			"revision" : 0,
-																			"architecture" : "x64",
+																			"architecture" : "x86",
 																			"modernui" : 1
 																		}
 ,
@@ -5550,7 +5550,7 @@
 											"major" : 8,
 											"minor" : 0,
 											"revision" : 0,
-											"architecture" : "x64",
+											"architecture" : "x86",
 											"modernui" : 1
 										}
 ,
@@ -5691,7 +5691,7 @@
 															"major" : 8,
 															"minor" : 0,
 															"revision" : 0,
-															"architecture" : "x64",
+															"architecture" : "x86",
 															"modernui" : 1
 														}
 ,
@@ -6209,7 +6209,7 @@
 							"major" : 8,
 							"minor" : 0,
 							"revision" : 0,
-							"architecture" : "x64",
+							"architecture" : "x86",
 							"modernui" : 1
 						}
 ,
@@ -6605,7 +6605,7 @@
 							"major" : 8,
 							"minor" : 0,
 							"revision" : 0,
-							"architecture" : "x64",
+							"architecture" : "x86",
 							"modernui" : 1
 						}
 ,
@@ -6649,7 +6649,7 @@
 											"major" : 8,
 											"minor" : 0,
 											"revision" : 0,
-											"architecture" : "x64",
+											"architecture" : "x86",
 											"modernui" : 1
 										}
 ,
@@ -7227,7 +7227,7 @@
 											"major" : 8,
 											"minor" : 0,
 											"revision" : 0,
-											"architecture" : "x64",
+											"architecture" : "x86",
 											"modernui" : 1
 										}
 ,
@@ -8112,7 +8112,7 @@
 							"major" : 8,
 							"minor" : 0,
 							"revision" : 0,
-							"architecture" : "x64",
+							"architecture" : "x86",
 							"modernui" : 1
 						}
 ,
@@ -8227,7 +8227,7 @@
 											"major" : 8,
 											"minor" : 0,
 											"revision" : 0,
-											"architecture" : "x64",
+											"architecture" : "x86",
 											"modernui" : 1
 										}
 ,
@@ -8263,11 +8263,13 @@
 													"fontname" : "Verdana",
 													"fontsize" : 10.0,
 													"id" : "obj-9",
+													"linecount" : 3,
 													"maxclass" : "newobj",
 													"numinlets" : 0,
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 50.0, 54.0, 111.0, 21.0 ],
+													"presentation_linecount" : 3,
 													"presentation_rect" : [ 50.0, 54.0, 111.0, 21.0 ],
 													"style" : "",
 													"text" : "r #1/ck"
@@ -8293,11 +8295,13 @@
 													"fontname" : "Verdana",
 													"fontsize" : 10.0,
 													"id" : "obj-1",
+													"linecount" : 2,
 													"maxclass" : "newobj",
 													"numinlets" : 1,
 													"numoutlets" : 2,
 													"outlettype" : [ "jit_gl_texture", "" ],
 													"patching_rect" : [ 50.0, 292.0, 347.0, 21.0 ],
+													"presentation_linecount" : 2,
 													"presentation_rect" : [ 50.0, 292.0, 347.0, 21.0 ],
 													"style" : "",
 													"text" : "jit.gl.texture #1 @name #0.transTex @rectangle 1"
@@ -8354,11 +8358,13 @@
 													"fontname" : "Verdana",
 													"fontsize" : 10.0,
 													"id" : "obj-92",
+													"linecount" : 2,
 													"maxclass" : "newobj",
 													"numinlets" : 2,
 													"numoutlets" : 2,
 													"outlettype" : [ "jit_gl_texture", "" ],
 													"patching_rect" : [ 50.0, 242.0, 436.0, 21.0 ],
+													"presentation_linecount" : 2,
 													"presentation_rect" : [ 50.0, 242.0, 436.0, 21.0 ],
 													"style" : "",
 													"text" : "jit.gl.slab #1 @file cc.alphaglue.jxs @param thresh 0.5 @param fade 0."
@@ -8758,7 +8764,7 @@
 							"major" : 8,
 							"minor" : 0,
 							"revision" : 0,
-							"architecture" : "x64",
+							"architecture" : "x86",
 							"modernui" : 1
 						}
 ,
@@ -9011,11 +9017,11 @@
 							"major" : 8,
 							"minor" : 0,
 							"revision" : 0,
-							"architecture" : "x64",
+							"architecture" : "x86",
 							"modernui" : 1
 						}
 ,
-						"rect" : [ 920.0, 416.0, 640.0, 480.0 ],
+						"rect" : [ 766.0, 416.0, 640.0, 480.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -9092,8 +9098,8 @@
 									"numinlets" : 1,
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
-									"patching_rect" : [ 96.5, 315.5, 292.0, 22.0 ],
-									"presentation_rect" : [ 96.5, 315.5, 292.0, 22.0 ],
+									"patching_rect" : [ 96.5, 315.5, 312.0, 22.0 ],
+									"presentation_rect" : [ 96.5, 315.5, 312.0, 22.0 ],
 									"style" : "",
 									"text" : "jit.gl.sketch #1 @automatic 0 @enable 0"
 								}
@@ -9112,7 +9118,7 @@
 											"major" : 8,
 											"minor" : 0,
 											"revision" : 0,
-											"architecture" : "x64",
+											"architecture" : "x86",
 											"modernui" : 1
 										}
 ,
@@ -9548,7 +9554,7 @@
 							"major" : 8,
 							"minor" : 0,
 							"revision" : 0,
-							"architecture" : "x64",
+							"architecture" : "x86",
 							"modernui" : 1
 						}
 ,
@@ -9721,7 +9727,7 @@
 							"major" : 8,
 							"minor" : 0,
 							"revision" : 0,
-							"architecture" : "x64",
+							"architecture" : "x86",
 							"modernui" : 1
 						}
 ,
@@ -10150,7 +10156,7 @@
 							"major" : 8,
 							"minor" : 0,
 							"revision" : 0,
-							"architecture" : "x64",
+							"architecture" : "x86",
 							"modernui" : 1
 						}
 ,
@@ -10219,7 +10225,7 @@
 									"patching_rect" : [ 50.0, 96.0, 52.0, 22.0 ],
 									"presentation_rect" : [ 50.0, 96.0, 52.0, 22.0 ],
 									"style" : "",
-									"text" : "gate 1 0"
+									"text" : "gate 1 1"
 								}
 
 							}
@@ -10244,7 +10250,6 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 50.0, 20.0, 89.0, 22.0 ],
-									"presentation_linecount" : 2,
 									"presentation_rect" : [ 50.0, 20.0, 89.0, 22.0 ],
 									"style" : "",
 									"text" : "r #0.enable"
@@ -10284,8 +10289,8 @@
 									"numinlets" : 0,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 83.0, 69.0, 64.0, 22.0 ],
-									"presentation_rect" : [ 83.0, 69.0, 64.0, 22.0 ],
+									"patching_rect" : [ 83.0, 69.0, 134.0, 22.0 ],
+									"presentation_rect" : [ 83.0, 69.0, 134.0, 22.0 ],
 									"style" : "",
 									"text" : "r #1/ck"
 								}
@@ -10641,7 +10646,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-132", 2 ],
-					"midpoints" : [ 589.0, 500.75, 465.583333, 500.75 ],
+					"midpoints" : [ 589.0, 500.75, 465.583344, 500.75 ],
 					"order" : 1,
 					"source" : [ "obj-102", 0 ]
 				}
@@ -10650,7 +10655,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-132", 1 ],
-					"midpoints" : [ 589.0, 495.75, 414.166667, 495.75 ],
+					"midpoints" : [ 589.0, 495.75, 414.166656, 495.75 ],
 					"order" : 2,
 					"source" : [ "obj-102", 0 ]
 				}
