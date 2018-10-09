@@ -4778,6 +4778,18 @@
 						"subpatcher_template" : "WM-lib.HelpPatcher",
 						"boxes" : [ 							{
 								"box" : 								{
+									"id" : "obj-13",
+									"maxclass" : "message",
+									"numinlets" : 2,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 866.0, 414.0, 50.0, 22.0 ],
+									"text" : "97"
+								}
+
+							}
+, 							{
+								"box" : 								{
 									"comment" : "",
 									"id" : "obj-2",
 									"index" : 3,
@@ -7058,7 +7070,6 @@
 										"boxes" : [ 											{
 												"box" : 												{
 													"id" : "obj-7",
-													"linecount" : 2,
 													"maxclass" : "newobj",
 													"numinlets" : 1,
 													"numoutlets" : 4,
@@ -7355,8 +7366,8 @@
 									"numinlets" : 1,
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
-									"patching_rect" : [ 682.33331298828125, 360.0, 351.0, 23.0 ],
-									"text" : "jit.phys.picker @filterclass #1/picker  @dynamics 0"
+									"patching_rect" : [ 682.333312999999976, 360.0, 307.0, 23.0 ],
+									"text" : "jit.phys.picker @filterclass #1/picker "
 								}
 
 							}
@@ -7479,7 +7490,7 @@
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 197.5, 201.470229999999987, 81.0, 49.0 ],
-													"text" : "1 -99 -0.685754 -0.030682"
+													"text" : "1 1694 -1.244079 0.267833"
 												}
 
 											}
@@ -9384,7 +9395,16 @@
 							}
 , 							{
 								"patchline" : 								{
+									"destination" : [ "obj-13", 1 ],
+									"order" : 0,
+									"source" : [ "obj-9", 1 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
 									"destination" : [ "obj-45", 4 ],
+									"order" : 1,
 									"source" : [ "obj-9", 1 ]
 								}
 
