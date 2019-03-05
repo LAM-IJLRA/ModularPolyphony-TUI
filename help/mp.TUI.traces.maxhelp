@@ -44,8 +44,8 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 264.0, 166.0, 147.0, 22.0 ],
-					"text" : "r /toes_helper/TUI/cursors"
+					"patching_rect" : [ 279.0, 166.0, 157.0, 22.0 ],
+					"text" : "r /traces_helper/TUI/cursors"
 				}
 
 			}
@@ -55,13 +55,13 @@
 					"maxclass" : "ezdac~",
 					"numinlets" : 2,
 					"numoutlets" : 0,
-					"patching_rect" : [ 89.0, 71.0, 45.0, 45.0 ]
+					"patching_rect" : [ 104.0, 71.0, 45.0, 45.0 ]
 				}
 
 			}
 , 			{
 				"box" : 				{
-					"args" : [ "mp.TUI.toes", "@description", "Toes-looking cursors.", "@categories", "component" ],
+					"args" : [ "mp.TUI.traces", "@description", "traces-looking cursors.", "@categories", "component" ],
 					"bgmode" : 0,
 					"border" : 0,
 					"clickthrough" : 0,
@@ -74,7 +74,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"offset" : [ 0.0, 0.0 ],
-					"patching_rect" : [ -0.5, 0.060059, 802.0, 57.0 ],
+					"patching_rect" : [ 14.5, 0.060058999806643, 802.0, 57.0 ],
 					"viewvisibility" : 1
 				}
 
@@ -88,7 +88,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 4,
 					"numoutlets" : 0,
-					"patching_rect" : [ 377.0, 27.0, 95.0, 19.0 ],
+					"patching_rect" : [ 392.0, 27.0, 95.0, 19.0 ],
 					"text" : "bgcolor 0.9 0.91 0.91"
 				}
 
@@ -248,7 +248,7 @@
 									"maxclass" : "newobj",
 									"numinlets" : 0,
 									"numoutlets" : 1,
-									"outlettype" : [ "" ],
+									"outlettype" : [ "bang" ],
 									"patcher" : 									{
 										"fileversion" : 1,
 										"appversion" : 										{
@@ -460,7 +460,7 @@
 						"bgcolor" : [ 0.9, 0.91, 0.91, 1.0 ]
 					}
 ,
-					"patching_rect" : [ 209.125, 74.0, 59.0, 22.0 ],
+					"patching_rect" : [ 224.125, 74.0, 59.0, 22.0 ],
 					"saved_object_attributes" : 					{
 						"description" : "",
 						"digest" : "",
@@ -526,7 +526,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 57.0, 95.0, 110.0, 22.0 ],
-									"text" : "421 state 0"
+									"text" : "454 state 0"
 								}
 
 							}
@@ -598,8 +598,8 @@
 									"numinlets" : 2,
 									"numoutlets" : 4,
 									"outlettype" : [ "", "", "", "" ],
-									"patching_rect" : [ 22.0, 55.0, 508.000091999999995, 29.0 ],
-									"text" : "mp.TUI.hub /toes_helper"
+									"patching_rect" : [ 22.0, 55.0, 508.000091552734375, 29.0 ],
+									"text" : "mp.TUI.hub /traces_helper"
 								}
 
 							}
@@ -671,7 +671,7 @@
 , 							{
 								"patchline" : 								{
 									"destination" : [ "obj-4", 1 ],
-									"midpoints" : [ 194.500030666666675, 89.0, 280.5, 89.0 ],
+									"midpoints" : [ 194.500030517578125, 89.0, 280.5, 89.0 ],
 									"order" : 0,
 									"source" : [ "obj-49", 1 ]
 								}
@@ -716,7 +716,7 @@
 						"bgcolor" : [ 0.9, 0.91, 0.91, 1.0 ]
 					}
 ,
-					"patching_rect" : [ 602.625, 128.0, 76.0, 24.0 ],
+					"patching_rect" : [ 617.625, 128.0, 76.0, 24.0 ],
 					"saved_object_attributes" : 					{
 						"description" : "",
 						"digest" : "",
@@ -740,7 +740,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 9.0, 71.0, 71.0, 43.0 ],
+					"patching_rect" : [ 24.0, 71.0, 71.0, 43.0 ],
 					"text" : "OFF",
 					"texton" : "ON",
 					"usebgoncolor" : 1,
@@ -757,8 +757,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "bang", "" ],
-					"patching_rect" : [ 209.125, 101.0, 413.0, 21.0 ],
-					"text" : "jit.window /toes_helper"
+					"patching_rect" : [ 224.125, 101.0, 413.0, 21.0 ],
+					"text" : "jit.window /traces_helper"
 				}
 
 			}
@@ -771,8 +771,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "bang", "" ],
-					"patching_rect" : [ 9.0, 193.184081999999989, 175.0, 21.0 ],
-					"text" : "jit.gl.render /toes_helper @ortho 1"
+					"patching_rect" : [ 24.0, 193.18408203125, 187.0, 21.0 ],
+					"text" : "jit.gl.render /traces_helper @ortho 1"
 				}
 
 			}
@@ -785,7 +785,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "bang", "erase" ],
-					"patching_rect" : [ 9.0, 158.0, 64.0, 21.0 ],
+					"patching_rect" : [ 24.0, 158.0, 64.0, 21.0 ],
 					"text" : "t b erase"
 				}
 
@@ -799,7 +799,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 9.0, 128.0, 63.0, 21.0 ],
+					"patching_rect" : [ 24.0, 128.0, 63.0, 21.0 ],
 					"text" : "qmetro 30"
 				}
 
@@ -811,8 +811,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 264.0, 193.184081999999989, 160.0, 22.0 ],
-					"text" : "mp.TUI.toes 10 /toes_helper"
+					"patching_rect" : [ 279.0, 193.18408203125, 180.0, 22.0 ],
+					"text" : "mp.TUI.traces 10 /traces_helper"
 				}
 
 			}
@@ -868,7 +868,7 @@
 			}
  ],
 		"dependency_cache" : [ 			{
-				"name" : "mp.TUI.toes.maxpat",
+				"name" : "mp.TUI.traces.maxpat",
 				"bootpath" : "~/Documents/Max 7/Packages/ModularPolyphony-TUI/patchers",
 				"patcherrelativepath" : "../patchers",
 				"type" : "JSON",
@@ -882,7 +882,7 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "mp.TUI.toes.p.maxpat",
+				"name" : "mp.TUI.traces.p.maxpat",
 				"bootpath" : "~/Documents/Max 7/Packages/ModularPolyphony-TUI/patchers",
 				"patcherrelativepath" : "../patchers",
 				"type" : "JSON",

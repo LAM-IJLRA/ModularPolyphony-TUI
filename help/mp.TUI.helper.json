@@ -173,5 +173,20 @@
 		"categories" : "component",
 		"description" : "DRAFT! slot for drag and drop."
 	}
+,
+	"mp.TUI.worms" : 	{
+		"categories" : "component",
+		"description" : "Worms-looking cursors."
+	}
+,
+	"mp.TUI.traces" : 	{
+		"categories" : "component",
+		"description" : "traces-looking cursors."
+	}
+,
+	"mp.TUI.ties" : 	{
+		"categories" : "component",
+		"description" : "ties-looking cursors."
+	}
 
 }

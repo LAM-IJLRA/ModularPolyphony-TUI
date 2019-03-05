@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 0,
-			"revision" : 3,
+			"revision" : 4,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
@@ -44,8 +44,8 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 264.0, 166.0, 147.0, 22.0 ],
-					"text" : "r /toes_helper/TUI/cursors"
+					"patching_rect" : [ 264.0, 166.0, 160.0, 22.0 ],
+					"text" : "r /worms_helper/TUI/cursors"
 				}
 
 			}
@@ -61,7 +61,7 @@
 			}
 , 			{
 				"box" : 				{
-					"args" : [ "mp.TUI.toes", "@description", "Toes-looking cursors.", "@categories", "component" ],
+					"args" : [ "mp.TUI.worms", "@description", "Worms-looking cursors.", "@categories", "component" ],
 					"bgmode" : 0,
 					"border" : 0,
 					"clickthrough" : 0,
@@ -105,7 +105,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 0,
-							"revision" : 3,
+							"revision" : 4,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -254,7 +254,7 @@
 										"appversion" : 										{
 											"major" : 8,
 											"minor" : 0,
-											"revision" : 3,
+											"revision" : 4,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -485,7 +485,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 0,
-							"revision" : 3,
+							"revision" : 4,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -526,7 +526,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 57.0, 95.0, 110.0, 22.0 ],
-									"text" : "421 state 0"
+									"text" : "522 state 0"
 								}
 
 							}
@@ -598,8 +598,8 @@
 									"numinlets" : 2,
 									"numoutlets" : 4,
 									"outlettype" : [ "", "", "", "" ],
-									"patching_rect" : [ 22.0, 55.0, 508.000091999999995, 29.0 ],
-									"text" : "mp.TUI.hub /toes_helper"
+									"patching_rect" : [ 22.0, 55.0, 508.000091552734375, 29.0 ],
+									"text" : "mp.TUI.hub /worms_helper"
 								}
 
 							}
@@ -671,7 +671,7 @@
 , 							{
 								"patchline" : 								{
 									"destination" : [ "obj-4", 1 ],
-									"midpoints" : [ 194.500030666666675, 89.0, 280.5, 89.0 ],
+									"midpoints" : [ 194.500030517578125, 89.0, 280.5, 89.0 ],
 									"order" : 0,
 									"source" : [ "obj-49", 1 ]
 								}
@@ -758,7 +758,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "bang", "" ],
 					"patching_rect" : [ 209.125, 101.0, 413.0, 21.0 ],
-					"text" : "jit.window /toes_helper"
+					"text" : "jit.window /worms_helper"
 				}
 
 			}
@@ -771,8 +771,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "bang", "" ],
-					"patching_rect" : [ 9.0, 193.184081999999989, 175.0, 21.0 ],
-					"text" : "jit.gl.render /toes_helper @ortho 1"
+					"patching_rect" : [ 9.0, 193.18408203125, 187.0, 21.0 ],
+					"text" : "jit.gl.render /worms_helper @ortho 1"
 				}
 
 			}
@@ -811,8 +811,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 264.0, 193.184081999999989, 160.0, 22.0 ],
-					"text" : "mp.TUI.toes 10 /toes_helper"
+					"patching_rect" : [ 264.0, 193.18408203125, 185.0, 22.0 ],
+					"text" : "mp.TUI.worms 10 /worms_helper"
 				}
 
 			}
@@ -868,7 +868,7 @@
 			}
  ],
 		"dependency_cache" : [ 			{
-				"name" : "mp.TUI.toes.maxpat",
+				"name" : "mp.TUI.worms.maxpat",
 				"bootpath" : "~/Documents/Max 7/Packages/ModularPolyphony-TUI/patchers",
 				"patcherrelativepath" : "../patchers",
 				"type" : "JSON",
@@ -882,7 +882,7 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "mp.TUI.toes.p.maxpat",
+				"name" : "mp.TUI.worms.p.maxpat",
 				"bootpath" : "~/Documents/Max 7/Packages/ModularPolyphony-TUI/patchers",
 				"patcherrelativepath" : "../patchers",
 				"type" : "JSON",

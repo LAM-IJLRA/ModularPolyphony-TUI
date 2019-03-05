@@ -4,13 +4,13 @@
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 0,
-			"revision" : 3,
+			"revision" : 4,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 75.0, 517.0, 800.0, 232.0 ],
+		"rect" : [ 82.0, 507.0, 806.0, 239.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -39,13 +39,25 @@
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-2",
+					"maxclass" : "button",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "bang" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 217.0, 198.0, 24.0, 24.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-28",
 					"maxclass" : "newobj",
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 264.0, 166.0, 147.0, 22.0 ],
-					"text" : "r /toes_helper/TUI/cursors"
+					"patching_rect" : [ 264.0, 166.0, 157.0, 22.0 ],
+					"text" : "r /ties_helper/TUI/cursors"
 				}
 
 			}
@@ -61,7 +73,7 @@
 			}
 , 			{
 				"box" : 				{
-					"args" : [ "mp.TUI.toes", "@description", "Toes-looking cursors.", "@categories", "component" ],
+					"args" : [ "mp.TUI.ties", "@description", "ties-looking cursors.", "@categories", "component" ],
 					"bgmode" : 0,
 					"border" : 0,
 					"clickthrough" : 0,
@@ -74,7 +86,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"offset" : [ 0.0, 0.0 ],
-					"patching_rect" : [ -0.5, 0.060059, 802.0, 57.0 ],
+					"patching_rect" : [ -0.5, 0.060058999806643, 802.0, 57.0 ],
 					"viewvisibility" : 1
 				}
 
@@ -105,7 +117,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 0,
-							"revision" : 3,
+							"revision" : 4,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -248,13 +260,13 @@
 									"maxclass" : "newobj",
 									"numinlets" : 0,
 									"numoutlets" : 1,
-									"outlettype" : [ "" ],
+									"outlettype" : [ "bang" ],
 									"patcher" : 									{
 										"fileversion" : 1,
 										"appversion" : 										{
 											"major" : 8,
 											"minor" : 0,
-											"revision" : 3,
+											"revision" : 4,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -485,7 +497,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 0,
-							"revision" : 3,
+							"revision" : 4,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -526,7 +538,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 57.0, 95.0, 110.0, 22.0 ],
-									"text" : "421 state 0"
+									"text" : "454 state 0"
 								}
 
 							}
@@ -598,8 +610,8 @@
 									"numinlets" : 2,
 									"numoutlets" : 4,
 									"outlettype" : [ "", "", "", "" ],
-									"patching_rect" : [ 22.0, 55.0, 508.000091999999995, 29.0 ],
-									"text" : "mp.TUI.hub /toes_helper"
+									"patching_rect" : [ 22.0, 55.0, 508.000091552734375, 29.0 ],
+									"text" : "mp.TUI.hub /ties_helper"
 								}
 
 							}
@@ -671,7 +683,7 @@
 , 							{
 								"patchline" : 								{
 									"destination" : [ "obj-4", 1 ],
-									"midpoints" : [ 194.500030666666675, 89.0, 280.5, 89.0 ],
+									"midpoints" : [ 194.500030517578125, 89.0, 280.5, 89.0 ],
 									"order" : 0,
 									"source" : [ "obj-49", 1 ]
 								}
@@ -758,7 +770,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "bang", "" ],
 					"patching_rect" : [ 209.125, 101.0, 413.0, 21.0 ],
-					"text" : "jit.window /toes_helper"
+					"text" : "jit.window /ties_helper"
 				}
 
 			}
@@ -771,8 +783,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "bang", "" ],
-					"patching_rect" : [ 9.0, 193.184081999999989, 175.0, 21.0 ],
-					"text" : "jit.gl.render /toes_helper @ortho 1"
+					"patching_rect" : [ 9.0, 193.18408203125, 187.0, 21.0 ],
+					"text" : "jit.gl.render /ties_helper @ortho 1"
 				}
 
 			}
@@ -811,8 +823,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 264.0, 193.184081999999989, 160.0, 22.0 ],
-					"text" : "mp.TUI.toes 10 /toes_helper"
+					"patching_rect" : [ 264.0, 193.18408203125, 180.0, 22.0 ],
+					"text" : "mp.TUI.ties 10 /ties_helper"
 				}
 
 			}
@@ -854,7 +866,16 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-2", 0 ],
+					"order" : 1,
+					"source" : [ "obj-28", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-30", 0 ],
+					"order" : 0,
 					"source" : [ "obj-28", 0 ]
 				}
 
@@ -868,7 +889,7 @@
 			}
  ],
 		"dependency_cache" : [ 			{
-				"name" : "mp.TUI.toes.maxpat",
+				"name" : "mp.TUI.ties.maxpat",
 				"bootpath" : "~/Documents/Max 7/Packages/ModularPolyphony-TUI/patchers",
 				"patcherrelativepath" : "../patchers",
 				"type" : "JSON",
@@ -882,7 +903,7 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "mp.TUI.toes.p.maxpat",
+				"name" : "mp.TUI.ties.p.maxpat",
 				"bootpath" : "~/Documents/Max 7/Packages/ModularPolyphony-TUI/patchers",
 				"patcherrelativepath" : "../patchers",
 				"type" : "JSON",
@@ -939,25 +960,6 @@
 			}
  ],
 		"autosave" : 0,
-		"styles" : [ 			{
-				"name" : "AudioStatus_Menu",
-				"default" : 				{
-					"bgfillcolor" : 					{
-						"type" : "color",
-						"color" : [ 0.294118, 0.313726, 0.337255, 1 ],
-						"color1" : [ 0.454902, 0.462745, 0.482353, 0.0 ],
-						"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-						"angle" : 270.0,
-						"proportion" : 0.39,
-						"autogradient" : 0
-					}
-
-				}
-,
-				"parentstyle" : "",
-				"multi" : 0
-			}
- ],
 		"bgcolor" : [ 0.9, 0.91, 0.91, 1.0 ]
 	}
 
