@@ -81,7 +81,7 @@
 ,
 	"mp.TUI.menu" : 	{
 		"description" : "A TUI drop-down menu.",
-		"categories" : [ "alpha", "beta", "gamma" ]
+		"categories" : "component"
 	}
 ,
 	"mp.TUI.bpf" : 	{
@@ -96,7 +96,7 @@
 ,
 	"mp.TUI.spectroscope~" : 	{
 		"description" : "A spectroscope~ as TUI.",
-		"categories" : [ "alpha", "beta", "gamma" ]
+		"categories" : "component"
 	}
 ,
 	"mp.TUI.voronoi" : 	{
