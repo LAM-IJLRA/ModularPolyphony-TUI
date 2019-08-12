@@ -917,7 +917,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 20.0, 118.0, 50.0, 35.0 ],
-									"text" : "-79 state 0"
+									"text" : "-32 state 0"
 								}
 
 							}
@@ -977,7 +977,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 267.666717529296875, 169.0, 142.0, 22.0 ],
-									"text" : "10341.slider"
+									"text" : "none"
 								}
 
 							}
@@ -1001,7 +1001,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 213.000030517578125, 205.0, 224.0, 22.0 ],
-									"text" : "-79 state 0"
+									"text" : "-32 state 0"
 								}
 
 							}
@@ -1224,7 +1224,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 168.0, 360.0, 1149.0, 489.0 ],
+						"rect" : [ 160.0, 200.0, 1149.0, 489.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -1251,8 +1251,43 @@
 						"tags" : "",
 						"style" : "",
 						"subpatcher_template" : "WM-lib.HelpPatcher",
-						"visible" : 1,
 						"boxes" : [ 							{
+								"box" : 								{
+									"id" : "obj-19",
+									"maxclass" : "toggle",
+									"numinlets" : 1,
+									"numoutlets" : 1,
+									"outlettype" : [ "int" ],
+									"parameter_enable" : 0,
+									"patching_rect" : [ 46.5, 232.0, 24.0, 24.0 ]
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-17",
+									"maxclass" : "newobj",
+									"numinlets" : 0,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 79.5, 232.0, 125.0, 22.0 ],
+									"text" : "r /WMglui/TUI/cursors"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-16",
+									"maxclass" : "newobj",
+									"numinlets" : 2,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 46.5, 259.0, 52.0, 22.0 ],
+									"text" : "gate 1 0"
+								}
+
+							}
+, 							{
 								"box" : 								{
 									"id" : "obj-29",
 									"maxclass" : "newobj",
@@ -1949,21 +1984,8 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 90.5, 326.666015625, 81.0, 22.0 ],
+									"patching_rect" : [ 68.5, 348.666015625, 81.0, 22.0 ],
 									"text" : "loadmess -12"
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"id" : "obj-13",
-									"linecount" : 2,
-									"maxclass" : "message",
-									"numinlets" : 2,
-									"numoutlets" : 1,
-									"outlettype" : [ "" ],
-									"patching_rect" : [ 268.5, 254.666015625, 50.0, 35.0 ],
-									"text" : "-99 state 0"
 								}
 
 							}
@@ -1973,7 +1995,7 @@
 									"maxclass" : "ezdac~",
 									"numinlets" : 2,
 									"numoutlets" : 0,
-									"patching_rect" : [ 67.5, 389.666015625, 45.0, 45.0 ]
+									"patching_rect" : [ 46.5, 411.666015625, 45.0, 45.0 ]
 								}
 
 							}
@@ -1988,7 +2010,7 @@
 									"orientation" : 1,
 									"outlettype" : [ "signal", "", "float", "list" ],
 									"parameter_enable" : 1,
-									"patching_rect" : [ 67.5, 360.666015625, 136.0, 20.0 ],
+									"patching_rect" : [ 46.5, 382.666015625, 136.0, 20.0 ],
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
 											"parameter_type" : 0,
@@ -2010,36 +2032,12 @@
 							}
 , 							{
 								"box" : 								{
-									"id" : "obj-135",
-									"maxclass" : "newobj",
-									"numinlets" : 0,
-									"numoutlets" : 1,
-									"outlettype" : [ "" ],
-									"patching_rect" : [ 67.5, 231.666015625, 112.0, 22.0 ],
-									"text" : "r /WMglui/TUI/none"
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"id" : "obj-7",
-									"maxclass" : "toggle",
-									"numinlets" : 1,
-									"numoutlets" : 1,
-									"outlettype" : [ "int" ],
-									"parameter_enable" : 0,
-									"patching_rect" : [ 34.5, 216.666015625, 24.0, 24.0 ]
-								}
-
-							}
-, 							{
-								"box" : 								{
 									"id" : "obj-8",
 									"maxclass" : "newobj",
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "signal" ],
-									"patching_rect" : [ 67.5, 269.666015625, 151.0, 22.0 ],
+									"patching_rect" : [ 46.5, 291.666015625, 151.0, 22.0 ],
 									"text" : "mp.TUI.dynFM 10 /WMglui"
 								}
 
@@ -2163,8 +2161,22 @@
 							}
 , 							{
 								"patchline" : 								{
-									"destination" : [ "obj-13", 1 ],
-									"source" : [ "obj-135", 0 ]
+									"destination" : [ "obj-8", 0 ],
+									"source" : [ "obj-16", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-16", 1 ],
+									"source" : [ "obj-17", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-16", 0 ],
+									"source" : [ "obj-19", 0 ]
 								}
 
 							}
@@ -2657,47 +2669,47 @@
 			}
  ],
 		"parameters" : 		{
-			"obj-2::obj-8::obj-26.10::obj-15" : [ "flonum[8]", "flonum", 0 ],
-			"obj-2::obj-8::obj-26.8::obj-23" : [ "number[21]", "number[2]", 0 ],
-			"obj-2::obj-8::obj-26.1::obj-15" : [ "flonum[14]", "flonum", 0 ],
-			"obj-2::obj-8::obj-26.4::obj-23" : [ "number[9]", "number[2]", 0 ],
-			"obj-2::obj-8::obj-26.1::obj-24" : [ "number[31]", "number[2]", 0 ],
-			"obj-2::obj-8::obj-26.5::obj-24" : [ "number[11]", "number[2]", 0 ],
-			"obj-2::obj-8::obj-26.3::obj-15" : [ "flonum[2]", "flonum", 0 ],
-			"obj-2::obj-8::obj-26.1::obj-23" : [ "number[32]", "number[2]", 0 ],
-			"obj-2::obj-8::obj-26.3::obj-24" : [ "number[5]", "number[2]", 0 ],
-			"obj-2::obj-8::obj-26.10::obj-24" : [ "number[26]", "number[2]", 0 ],
-			"obj-2::obj-8::obj-26.1::obj-22" : [ "number[33]", "number[2]", 0 ],
-			"obj-2::obj-8::obj-26.7::obj-23" : [ "number[17]", "number[2]", 0 ],
-			"obj-2::obj-8::obj-26.4::obj-22" : [ "number[7]", "number[2]", 0 ],
-			"obj-2::obj-8::obj-26.8::obj-24" : [ "number[20]", "number[2]", 0 ],
-			"obj-2::obj-8::obj-26.4::obj-24" : [ "number[8]", "number[2]", 0 ],
-			"obj-2::obj-8::obj-26.7::obj-15" : [ "flonum[15]", "flonum", 0 ],
-			"obj-2::obj-8::obj-26.6::obj-24" : [ "number[14]", "number[2]", 0 ],
-			"obj-2::obj-8::obj-26.9::obj-22" : [ "number[24]", "number[2]", 0 ],
-			"obj-2::obj-8::obj-26.10::obj-23" : [ "number[34]", "number[2]", 0 ],
-			"obj-2::obj-8::obj-26.3::obj-22" : [ "number[4]", "number[2]", 0 ],
-			"obj-2::obj-8::obj-26.4::obj-15" : [ "flonum[3]", "flonum", 0 ],
-			"obj-2::obj-8::obj-26.9::obj-23" : [ "number[23]", "number[2]", 0 ],
-			"obj-2::obj-8::obj-26.2::obj-24" : [ "number[2]", "number[2]", 0 ],
 			"obj-2::obj-8::obj-26.5::obj-22" : [ "number[10]", "number[2]", 0 ],
-			"obj-2::obj-8::obj-26.6::obj-23" : [ "number[15]", "number[2]", 0 ],
-			"obj-2::obj-8::obj-26.2::obj-15" : [ "flonum[1]", "flonum", 0 ],
-			"obj-2::obj-8::obj-26.8::obj-15" : [ "flonum[6]", "flonum", 0 ],
-			"obj-2::obj-8::obj-26.9::obj-24" : [ "number[22]", "number[2]", 0 ],
-			"obj-2::obj-8::obj-26.8::obj-22" : [ "number[19]", "number[2]", 0 ],
-			"obj-2::obj-8::obj-26.5::obj-23" : [ "number[12]", "number[2]", 0 ],
-			"obj-2::obj-8::obj-26.5::obj-15" : [ "flonum[4]", "flonum", 0 ],
-			"obj-2::obj-8::obj-26.3::obj-23" : [ "number[6]", "number[2]", 0 ],
-			"obj-2::obj-9" : [ "live.gain~", "live.gain~", 0 ],
-			"obj-2::obj-8::obj-26.2::obj-23" : [ "number[3]", "number[2]", 0 ],
-			"obj-2::obj-8::obj-26.6::obj-22" : [ "number[13]", "number[2]", 0 ],
-			"obj-2::obj-8::obj-26.10::obj-22" : [ "number[25]", "number[2]", 0 ],
-			"obj-2::obj-8::obj-26.2::obj-22" : [ "number[1]", "number[2]", 0 ],
 			"obj-2::obj-8::obj-26.6::obj-15" : [ "flonum[5]", "flonum", 0 ],
 			"obj-2::obj-8::obj-26.7::obj-22" : [ "number[18]", "number[2]", 0 ],
-			"obj-2::obj-8::obj-26.9::obj-15" : [ "flonum[7]", "flonum", 0 ],
+			"obj-2::obj-8::obj-26.8::obj-23" : [ "number[21]", "number[2]", 0 ],
+			"obj-2::obj-8::obj-26.2::obj-15" : [ "flonum[1]", "flonum", 0 ],
+			"obj-2::obj-8::obj-26.9::obj-24" : [ "number[22]", "number[2]", 0 ],
+			"obj-2::obj-8::obj-26.3::obj-23" : [ "number[6]", "number[2]", 0 ],
+			"obj-2::obj-8::obj-26.10::obj-24" : [ "number[26]", "number[2]", 0 ],
+			"obj-2::obj-8::obj-26.4::obj-15" : [ "flonum[3]", "flonum", 0 ],
+			"obj-2::obj-8::obj-26.5::obj-24" : [ "number[11]", "number[2]", 0 ],
+			"obj-2::obj-8::obj-26.10::obj-23" : [ "number[34]", "number[2]", 0 ],
+			"obj-2::obj-8::obj-26.6::obj-22" : [ "number[13]", "number[2]", 0 ],
 			"obj-2::obj-8::obj-26.7::obj-24" : [ "number[16]", "number[2]", 0 ],
+			"obj-2::obj-8::obj-26.2::obj-24" : [ "number[2]", "number[2]", 0 ],
+			"obj-2::obj-8::obj-26.8::obj-15" : [ "flonum[6]", "flonum", 0 ],
+			"obj-2::obj-8::obj-26.3::obj-24" : [ "number[5]", "number[2]", 0 ],
+			"obj-2::obj-8::obj-26.9::obj-23" : [ "number[23]", "number[2]", 0 ],
+			"obj-2::obj-8::obj-26.4::obj-22" : [ "number[7]", "number[2]", 0 ],
+			"obj-2::obj-8::obj-26.5::obj-23" : [ "number[12]", "number[2]", 0 ],
+			"obj-2::obj-8::obj-26.10::obj-15" : [ "flonum[8]", "flonum", 0 ],
+			"obj-2::obj-8::obj-26.6::obj-24" : [ "number[14]", "number[2]", 0 ],
+			"obj-2::obj-8::obj-26.7::obj-23" : [ "number[17]", "number[2]", 0 ],
+			"obj-2::obj-8::obj-26.8::obj-22" : [ "number[19]", "number[2]", 0 ],
+			"obj-2::obj-8::obj-26.9::obj-15" : [ "flonum[7]", "flonum", 0 ],
+			"obj-2::obj-9" : [ "live.gain~", "live.gain~", 0 ],
+			"obj-2::obj-8::obj-26.2::obj-23" : [ "number[3]", "number[2]", 0 ],
+			"obj-2::obj-8::obj-26.2::obj-22" : [ "number[1]", "number[2]", 0 ],
+			"obj-2::obj-8::obj-26.3::obj-22" : [ "number[4]", "number[2]", 0 ],
+			"obj-2::obj-8::obj-26.4::obj-24" : [ "number[8]", "number[2]", 0 ],
+			"obj-2::obj-8::obj-26.5::obj-15" : [ "flonum[4]", "flonum", 0 ],
+			"obj-2::obj-8::obj-26.10::obj-22" : [ "number[25]", "number[2]", 0 ],
+			"obj-2::obj-8::obj-26.6::obj-23" : [ "number[15]", "number[2]", 0 ],
+			"obj-2::obj-8::obj-26.1::obj-15" : [ "flonum[14]", "flonum", 0 ],
+			"obj-2::obj-8::obj-26.7::obj-15" : [ "flonum[15]", "flonum", 0 ],
+			"obj-2::obj-8::obj-26.1::obj-24" : [ "number[31]", "number[2]", 0 ],
+			"obj-2::obj-8::obj-26.8::obj-24" : [ "number[20]", "number[2]", 0 ],
+			"obj-2::obj-8::obj-26.1::obj-23" : [ "number[32]", "number[2]", 0 ],
+			"obj-2::obj-8::obj-26.3::obj-15" : [ "flonum[2]", "flonum", 0 ],
+			"obj-2::obj-8::obj-26.9::obj-22" : [ "number[24]", "number[2]", 0 ],
+			"obj-2::obj-8::obj-26.1::obj-22" : [ "number[33]", "number[2]", 0 ],
+			"obj-2::obj-8::obj-26.4::obj-23" : [ "number[9]", "number[2]", 0 ],
 			"parameterbanks" : 			{
 
 			}
