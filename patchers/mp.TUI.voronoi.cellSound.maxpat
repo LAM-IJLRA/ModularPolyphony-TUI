@@ -319,12 +319,13 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-10",
+					"linecount" : 2,
 					"maxclass" : "newobj",
 					"numinlets" : 2,
 					"numoutlets" : 4,
 					"outlettype" : [ "signal", "signal", "", "" ],
-					"patching_rect" : [ 26.609894000000001, 183.0, 404.0, 22.0 ],
-					"text" : "poly~ mp.TUI.voronoi.cellViz.p #1 @args #0.mpContext #2"
+					"patching_rect" : [ 26.609894000000001, 183.0, 404.0, 35.0 ],
+					"text" : "poly~ mp.TUI.voronoi.cellSound.p #1 @args #0.mpContext #2"
 				}
 
 			}

@@ -3,14 +3,14 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 8,
-			"minor" : 0,
-			"revision" : 6,
+			"minor" : 1,
+			"revision" : 0,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 111.0, 494.0, 811.0, 371.0 ],
+		"rect" : [ 34.0, 453.0, 810.0, 462.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -39,12 +39,25 @@
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-16",
+					"linecount" : 2,
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 2,
+					"outlettype" : [ "signal", "signal" ],
+					"patching_rect" : [ 237.5, 332.5, 268.970580999999981, 35.0 ],
+					"text" : "mp.TUI.voronoi.cellSound 10 /voronoi_helper @scale 0.8 0.6 1"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-4",
 					"maxclass" : "message",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 628.0, 234.5, 34.0, 22.0 ],
+					"patching_rect" : [ 629.0, 250.5, 34.0, 22.0 ],
 					"text" : "flush"
 				}
 
@@ -72,8 +85,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 0,
-							"revision" : 6,
+							"minor" : 1,
+							"revision" : 0,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -161,7 +174,7 @@
  ]
 					}
 ,
-					"patching_rect" : [ 569.5, 234.5, 55.0, 22.0 ],
+					"patching_rect" : [ 570.5, 250.5, 55.0, 22.0 ],
 					"saved_object_attributes" : 					{
 						"description" : "",
 						"digest" : "",
@@ -181,7 +194,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 569.5, 199.5, 24.0, 24.0 ]
+					"patching_rect" : [ 570.5, 215.5, 24.0, 24.0 ]
 				}
 
 			}
@@ -191,7 +204,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 2,
 					"numoutlets" : 0,
-					"patching_rect" : [ 237.5, 342.0, 268.970580999999981, 22.0 ],
+					"patching_rect" : [ 237.5, 412.0, 268.970580999999981, 22.0 ],
 					"text" : "dac~ 1 2"
 				}
 
@@ -207,8 +220,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 0,
-							"revision" : 6,
+							"minor" : 1,
+							"revision" : 0,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -295,13 +308,13 @@
 									"patching_rect" : [ 50.0, 258.0, 179.0, 36.0 ],
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
-											"parameter_initial" : [ 0.0 ],
 											"parameter_shortname" : "live.gain~[1]",
 											"parameter_type" : 0,
 											"parameter_unitstyle" : 4,
 											"parameter_mmin" : -70.0,
 											"parameter_longname" : "live.gain~[2]",
-											"parameter_mmax" : 6.0
+											"parameter_mmax" : 6.0,
+											"parameter_initial" : [ 0.0 ]
 										}
 
 									}
@@ -324,8 +337,8 @@
 										"fileversion" : 1,
 										"appversion" : 										{
 											"major" : 8,
-											"minor" : 0,
-											"revision" : 6,
+											"minor" : 1,
+											"revision" : 0,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -1025,7 +1038,7 @@
  ]
 					}
 ,
-					"patching_rect" : [ 237.5, 307.5, 268.970580999999981, 22.0 ],
+					"patching_rect" : [ 237.5, 377.5, 268.970580999999981, 22.0 ],
 					"saved_object_attributes" : 					{
 						"description" : "",
 						"digest" : "",
@@ -1045,7 +1058,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "signal", "signal" ],
-					"patching_rect" : [ 237.5, 265.5, 269.0, 35.0 ],
+					"patching_rect" : [ 256.5, 282.5, 249.970580999999981, 35.0 ],
 					"text" : "mp.TUI.voronoi.cellViz 10 /voronoi_helper @scale 0.8 0.6 1"
 				}
 
@@ -1061,8 +1074,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 0,
-							"revision" : 6,
+							"minor" : 1,
+							"revision" : 0,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -1195,7 +1208,7 @@
  ]
 					}
 ,
-					"patching_rect" : [ 487.5, 237.5, 71.0, 22.0 ],
+					"patching_rect" : [ 488.5, 253.5, 71.0, 22.0 ],
 					"saved_object_attributes" : 					{
 						"description" : "",
 						"digest" : "",
@@ -1243,8 +1256,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 0,
-							"revision" : 6,
+							"minor" : 1,
+							"revision" : 0,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -1935,8 +1948,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 0,
-							"revision" : 6,
+							"minor" : 1,
+							"revision" : 0,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -2060,8 +2073,8 @@
 										"fileversion" : 1,
 										"appversion" : 										{
 											"major" : 8,
-											"minor" : 0,
-											"revision" : 6,
+											"minor" : 1,
+											"revision" : 0,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -2277,8 +2290,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 0,
-							"revision" : 6,
+							"minor" : 1,
+							"revision" : 0,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -2427,7 +2440,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 594.8751220703125, 51.0, 55.0, 49.0 ],
-									"text" : "/tuio/2Dcur fseq 246324"
+									"text" : "/tuio/2Dcur fseq 4965"
 								}
 
 							}
@@ -2713,6 +2726,20 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-8", 1 ],
+					"source" : [ "obj-16", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-8", 0 ],
+					"source" : [ "obj-16", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-10", 0 ],
 					"source" : [ "obj-17", 0 ]
 				}
@@ -2741,20 +2768,6 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-8", 1 ],
-					"source" : [ "obj-21", 1 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-8", 0 ],
-					"source" : [ "obj-21", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"destination" : [ "obj-31", 0 ],
 					"source" : [ "obj-22", 0 ]
 				}
@@ -2762,7 +2775,16 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-16", 0 ],
+					"order" : 1,
+					"source" : [ "obj-23", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-21", 0 ],
+					"order" : 0,
 					"source" : [ "obj-23", 0 ]
 				}
 
@@ -2770,7 +2792,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-28", 0 ],
-					"midpoints" : [ 498.0, 240.5, 333.5625, 240.5, 333.5625, 120.5, 351.125, 120.5 ],
+					"midpoints" : [ 498.0, 237.5, 553.5625, 237.5, 553.5625, 126.5, 351.125, 126.5 ],
 					"order" : 1,
 					"source" : [ "obj-23", 1 ]
 				}
@@ -2816,7 +2838,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-21", 1 ],
-					"midpoints" : [ 579.0, 263.5, 497.0, 263.5 ],
+					"midpoints" : [ 580.0, 280.5, 496.970580999999981, 280.5 ],
 					"source" : [ "obj-31", 0 ]
 				}
 
@@ -2824,7 +2846,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-21", 1 ],
-					"midpoints" : [ 637.5, 263.5, 497.0, 263.5 ],
+					"midpoints" : [ 638.5, 280.5, 496.970580999999981, 280.5 ],
 					"source" : [ "obj-4", 0 ]
 				}
 
@@ -3143,6 +3165,20 @@
 				"name" : "yafr2.maxpat",
 				"bootpath" : "~/Library/Application Support/Cycling '74/Max 8/Examples/effects/reverb/lib",
 				"patcherrelativepath" : "../../../../../Library/Application Support/Cycling '74/Max 8/Examples/effects/reverb/lib",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "mp.TUI.voronoi.cellSound.maxpat",
+				"bootpath" : "~/Documents/Max 7/Packages/ModularPolyphony-TUI/patchers",
+				"patcherrelativepath" : "../patchers",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "mp.TUI.voronoi.cellSound.p.maxpat",
+				"bootpath" : "~/Documents/Max 7/Packages/ModularPolyphony-TUI/patchers",
+				"patcherrelativepath" : "../patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
