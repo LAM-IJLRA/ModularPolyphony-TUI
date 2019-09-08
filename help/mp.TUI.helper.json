@@ -188,5 +188,10 @@
 		"categories" : "component",
 		"description" : "ties-looking cursors."
 	}
+,
+	"mp.TUI.dial" : 	{
+		"categories" : "component",
+		"description" : "A simple dial."
+	}
 
 }
