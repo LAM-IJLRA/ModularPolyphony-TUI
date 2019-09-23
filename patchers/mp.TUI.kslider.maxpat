@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 356.0, 473.0, 872.0, 522.0 ],
+		"rect" : [ 2184.0, 422.0, 905.0, 624.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -38,6 +38,30 @@
 		"style" : "",
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
+				"box" : 				{
+					"id" : "obj-32",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 428.541655999999989, 550.0, 149.0, 22.0 ],
+					"text" : "target 0, color $2 $3 $4 $5"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-6",
+					"maxclass" : "newobj",
+					"numinlets" : 0,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 430.041655999999989, 499.904784999999947, 91.0, 22.0 ],
+					"text" : "r #0.keycolor"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"id" : "obj-30",
 					"maxclass" : "newobj",
@@ -474,7 +498,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 269.041655999999989, 543.0, 185.0, 22.0 ],
+					"patching_rect" : [ 269.041655999999989, 601.0, 185.0, 22.0 ],
 					"text" : "mp.TUI.kslider.key 5 #0.node"
 				}
 
@@ -3268,7 +3292,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 463.0, 273.0, 943.0, 590.0 ],
+						"rect" : [ 2200.0, 393.0, 943.0, 590.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -3296,6 +3320,17 @@
 						"style" : "",
 						"subpatcher_template" : "",
 						"boxes" : [ 							{
+								"box" : 								{
+									"id" : "obj-4",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 428.450027750000004, 113.0, 93.0, 22.0 ],
+									"text" : "s #0.keycolor"
+								}
+
+							}
+, 							{
 								"box" : 								{
 									"id" : "obj-7",
 									"maxclass" : "newobj",
@@ -3594,7 +3629,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
-									"patching_rect" : [ 501.300018000000023, 159.013701999999995, 211.0, 22.0 ],
+									"patching_rect" : [ 509.300018000000023, 161.013701999999995, 211.0, 22.0 ],
 									"text" : "jit.anim.node @anim #0.animnode"
 								}
 
@@ -3606,7 +3641,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 3,
 									"outlettype" : [ "jit_gl_texture", "", "" ],
-									"patching_rect" : [ 482.300018000000023, 208.013701999999995, 219.0, 22.0 ],
+									"patching_rect" : [ 490.300018000000023, 210.013701999999995, 235.0, 22.0 ],
 									"text" : "jit.gl.node #1 @name #0.node "
 								}
 
@@ -3628,7 +3663,7 @@
 									"maxclass" : "newobj",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 410.5, 79.0, 82.0, 22.0 ],
+									"patching_rect" : [ 365.625023125000041, 85.0, 82.0, 22.0 ],
 									"text" : "s #0.color"
 								}
 
@@ -3640,7 +3675,7 @@
 									"numinlets" : 0,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 385.5, 159.013701999999995, 90.0, 22.0 ],
+									"patching_rect" : [ 393.5, 161.013701999999995, 90.0, 22.0 ],
 									"text" : "r #0.enable"
 								}
 
@@ -3775,7 +3810,7 @@
 									"maxclass" : "newobj",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 338.700012000000015, 105.0, 92.0, 22.0 ],
+									"patching_rect" : [ 302.800018500000022, 108.0, 92.0, 22.0 ],
 									"text" : "s #0.enable"
 								}
 
@@ -3784,11 +3819,11 @@
 								"box" : 								{
 									"id" : "obj-20",
 									"maxclass" : "newobj",
-									"numinlets" : 8,
-									"numoutlets" : 8,
-									"outlettype" : [ "", "", "", "", "", "", "", "" ],
+									"numinlets" : 9,
+									"numoutlets" : 9,
+									"outlettype" : [ "", "", "", "", "", "", "", "", "" ],
 									"patching_rect" : [ 51.5, 53.0, 521.600037000000043, 22.0 ],
-									"text" : "routepass position scale rotatexyz anim enable color layer"
+									"text" : "routepass position scale rotatexyz anim enable color keycolor layer"
 								}
 
 							}
@@ -3800,7 +3835,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
-									"patching_rect" : [ 385.5, 242.986298000000005, 508.0, 35.0 ],
+									"patching_rect" : [ 393.5, 244.986298000000005, 508.0, 35.0 ],
 									"text" : "jit.phys.body @shape cube @kinematic 1 @damping 1 1 @name #0.slider  @collisions 0 @filters #1/picker @worldname #1.phys @anim #0.animnode"
 								}
 
@@ -3841,14 +3876,14 @@
 , 							{
 								"patchline" : 								{
 									"destination" : [ "obj-17", 0 ],
-									"source" : [ "obj-20", 7 ]
+									"source" : [ "obj-20", 8 ]
 								}
 
 							}
 , 							{
 								"patchline" : 								{
 									"destination" : [ "obj-2", 0 ],
-									"source" : [ "obj-20", 6 ]
+									"source" : [ "obj-20", 7 ]
 								}
 
 							}
@@ -3872,6 +3907,13 @@
 									"destination" : [ "obj-30", 0 ],
 									"order" : 0,
 									"source" : [ "obj-20", 1 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-4", 0 ],
+									"source" : [ "obj-20", 6 ]
 								}
 
 							}
@@ -4184,6 +4226,13 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-15", 1 ],
+					"source" : [ "obj-32", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-31", 0 ],
 					"source" : [ "obj-33", 0 ]
 				}
@@ -4329,6 +4378,13 @@
 					"destination" : [ "obj-29", 0 ],
 					"order" : 1,
 					"source" : [ "obj-59", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-32", 0 ],
+					"source" : [ "obj-6", 0 ]
 				}
 
 			}
