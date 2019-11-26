@@ -193,5 +193,10 @@
 		"categories" : "component",
 		"description" : "A simple dial."
 	}
+,
+	"mp.TUI.wigglyline" : 	{
+		"categories" : "utilities",
+		"description" : "Utils to build interfaces"
+	}
 
 }
