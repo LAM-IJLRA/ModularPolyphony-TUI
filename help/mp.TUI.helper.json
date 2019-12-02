@@ -213,5 +213,10 @@
 		"categories" : "component",
 		"description" : "A rounded TUI slider."
 	}
+,
+	"mp.UI.wave~" : 	{
+		"categories" : "utilities",
+		"description" : "Simple waveform"
+	}
 
 }
