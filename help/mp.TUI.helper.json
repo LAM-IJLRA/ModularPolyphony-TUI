@@ -198,5 +198,20 @@
 		"categories" : "utilities",
 		"description" : "Utils to build interfaces"
 	}
+,
+	"mp.TUI.text" : 	{
+		"categories" : "component",
+		"description" : "A simple text wrapper."
+	}
+,
+	"mp.UI.slider" : 	{
+		"categories" : "component",
+		"description" : "A rounded UI slider."
+	}
+,
+	"mp.TUI.slider.rounded" : 	{
+		"categories" : "component",
+		"description" : "A rounded TUI slider."
+	}
 
 }
