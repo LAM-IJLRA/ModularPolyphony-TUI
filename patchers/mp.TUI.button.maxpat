@@ -4,13 +4,13 @@
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 1,
-			"revision" : 0,
+			"revision" : 1,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 227.0, 408.0, 721.0, 298.0 ],
+		"rect" : [ 227.0, 408.0, 1047.0, 390.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -62,7 +62,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 1,
-							"revision" : 0,
+							"revision" : 1,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -179,7 +179,7 @@
 										"appversion" : 										{
 											"major" : 8,
 											"minor" : 1,
-											"revision" : 0,
+											"revision" : 1,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -526,7 +526,7 @@
 										"appversion" : 										{
 											"major" : 8,
 											"minor" : 1,
-											"revision" : 0,
+											"revision" : 1,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -750,7 +750,7 @@
 										"appversion" : 										{
 											"major" : 8,
 											"minor" : 1,
-											"revision" : 0,
+											"revision" : 1,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -1559,7 +1559,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 1,
-							"revision" : 0,
+							"revision" : 1,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -1623,7 +1623,7 @@
 									"maxclass" : "newobj",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 15.0, 329.0, 84.0, 22.0 ],
+									"patching_rect" : [ 15.0, 329.0, 82.0, 35.0 ],
 									"text" : "s #0.enable"
 								}
 
@@ -1711,7 +1711,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "jit_matrix", "" ],
 									"patching_rect" : [ 158.0, 315.986297999999977, 652.0, 35.0 ],
-									"text" : "jit.gl.gridshape #0.slider.node @shape plane @dim 2 2 @scale 1 1 0  @poly_mode 1 1 @name #0.slider/background"
+									"text" : "jit.gl.gridshape #0.slider.node @shape plane @dim 2 2 @scale 1 1 0  @poly_mode 1 1 @name #0.slider/background @gridmode 0 "
 								}
 
 							}
