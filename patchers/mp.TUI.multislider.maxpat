@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 385.0, 199.0, 1204.0, 754.0 ],
+		"rect" : [ 34.0, 79.0, 1204.0, 754.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -495,7 +495,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-5",
-					"index" : 3,
+					"index" : 0,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -579,6 +579,58 @@
 								"box" : 								{
 									"fontname" : "Arial",
 									"fontsize" : 12.0,
+									"id" : "obj-10",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 309.5, 116.0, 54.0, 22.0 ],
+									"text" : "deferlow"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"fontname" : "Arial",
+									"fontsize" : 12.0,
+									"id" : "obj-9",
+									"maxclass" : "newobj",
+									"numinlets" : 2,
+									"numoutlets" : 1,
+									"outlettype" : [ "bang" ],
+									"patching_rect" : [ 309.5, 92.0, 61.0, 22.0 ],
+									"text" : "delay 10"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-8",
+									"maxclass" : "button",
+									"numinlets" : 1,
+									"numoutlets" : 1,
+									"outlettype" : [ "bang" ],
+									"parameter_enable" : 0,
+									"patching_rect" : [ 230.0, 157.0, 24.0, 24.0 ]
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-4",
+									"maxclass" : "message",
+									"numinlets" : 2,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 347.0, 194.0, 50.0, 22.0 ],
+									"text" : "24"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"fontname" : "Arial",
+									"fontsize" : 12.0,
 									"id" : "obj-1",
 									"maxclass" : "newobj",
 									"numinlets" : 1,
@@ -598,7 +650,7 @@
 									"numinlets" : 0,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 123.5, 152.0, 127.0, 22.0 ],
+									"patching_rect" : [ 309.5, 63.0, 127.0, 22.0 ],
 									"text" : "r #0.poly_is_ready"
 								}
 
@@ -822,6 +874,13 @@
 							}
 , 							{
 								"patchline" : 								{
+									"destination" : [ "obj-8", 0 ],
+									"source" : [ "obj-10", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
 									"destination" : [ "obj-21", 0 ],
 									"order" : 0,
 									"source" : [ "obj-12", 0 ]
@@ -925,6 +984,13 @@
 							}
 , 							{
 								"patchline" : 								{
+									"destination" : [ "obj-25", 0 ],
+									"source" : [ "obj-4", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
 									"destination" : [ "obj-18", 0 ],
 									"source" : [ "obj-52", 0 ]
 								}
@@ -980,6 +1046,13 @@
 							}
 , 							{
 								"patchline" : 								{
+									"destination" : [ "obj-1", 0 ],
+									"source" : [ "obj-8", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
 									"destination" : [ "obj-52", 0 ],
 									"source" : [ "obj-85", 0 ]
 								}
@@ -987,7 +1060,14 @@
 							}
 , 							{
 								"patchline" : 								{
-									"destination" : [ "obj-1", 0 ],
+									"destination" : [ "obj-10", 0 ],
+									"source" : [ "obj-9", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-9", 0 ],
 									"source" : [ "obj-90", 0 ]
 								}
 
@@ -3717,7 +3797,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 167.0, 229.0, 112.0, 50.0 ],
 					"signed" : 1,
-					"size" : 10
+					"size" : 2
 				}
 
 			}
@@ -3777,7 +3857,7 @@
 				"box" : 				{
 					"comment" : "CanvasID, OSO-state, cursorID, cursorX, cursorY",
 					"id" : "obj-1",
-					"index" : 2,
+					"index" : 0,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -3789,7 +3869,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-23",
-					"index" : 1,
+					"index" : 0,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -3813,7 +3893,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-3",
-					"index" : 2,
+					"index" : 0,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -3838,7 +3918,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-122",
-					"index" : 1,
+					"index" : 0,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -4193,6 +4273,196 @@
 
 			}
  ],
+		"dependency_cache" : [ 			{
+				"name" : "mp.TUI.multislider.p.maxpat",
+				"bootpath" : "~/Documents/Max 7/Packages/ModularPolyphony-TUI/patchers",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "mp.TUI.rect2poscale.maxpat",
+				"bootpath" : "~/Documents/Max 7/Packages/ModularPolyphony-TUI/patchers",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "mp.TUI.worldtolocal.maxpat",
+				"bootpath" : "~/Documents/Max 7/Packages/ModularPolyphony-TUI/patchers",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "LAM.f.call.maxpat",
+				"bootpath" : "~/Documents/Max/Packages/lam-lib/patchers",
+				"patcherrelativepath" : "../../../../Max/Packages/lam-lib/patchers",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "LAM.intnogap.maxpat",
+				"bootpath" : "~/Documents/Max/Packages/lam-lib/patchers",
+				"patcherrelativepath" : "../../../../Max/Packages/lam-lib/patchers",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "LAM.rect2poscale.maxpat",
+				"bootpath" : "~/Documents/Max/Packages/lam-lib/patchers",
+				"patcherrelativepath" : "../../../../Max/Packages/lam-lib/patchers",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "mp.TUI.receiver.maxpat",
+				"bootpath" : "~/Documents/Max 7/Packages/ModularPolyphony-TUI/patchers",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "mp.polycount.maxpat",
+				"bootpath" : "~/Documents/Max 7/Packages/ModularPolyphony/patchers",
+				"patcherrelativepath" : "../../ModularPolyphony/patchers",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "LAM.f.io.maxpat",
+				"bootpath" : "~/Documents/Max/Packages/lam-lib/patchers",
+				"patcherrelativepath" : "../../../../Max/Packages/lam-lib/patchers",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "mp.deltabsolute.maxpat",
+				"bootpath" : "~/Documents/Max 7/Packages/ModularPolyphony/patchers",
+				"patcherrelativepath" : "../../ModularPolyphony/patchers",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "mp.deltabsolute.p.maxpat",
+				"bootpath" : "~/Documents/Max 7/Packages/ModularPolyphony/patchers",
+				"patcherrelativepath" : "../../ModularPolyphony/patchers",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "mp.muter.maxpat",
+				"bootpath" : "~/Documents/Max 7/Packages/ModularPolyphony/patchers",
+				"patcherrelativepath" : "../../ModularPolyphony/patchers",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "mp.router.maxpat",
+				"bootpath" : "~/Documents/Max 7/Packages/ModularPolyphony/patchers",
+				"patcherrelativepath" : "../../ModularPolyphony/patchers",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "mp.block.init.maxpat",
+				"bootpath" : "~/Documents/Max 7/Packages/ModularPolyphony/patchers",
+				"patcherrelativepath" : "../../ModularPolyphony/patchers",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "LAM.r2d.maxpat",
+				"bootpath" : "~/Documents/Max/Packages/lam-lib/patchers",
+				"patcherrelativepath" : "../../../../Max/Packages/lam-lib/patchers",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "mp.delta.maxpat",
+				"bootpath" : "~/Documents/Max 7/Packages/ModularPolyphony/patchers",
+				"patcherrelativepath" : "../../ModularPolyphony/patchers",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "mp.delta.p.maxpat",
+				"bootpath" : "~/Documents/Max 7/Packages/ModularPolyphony/patchers",
+				"patcherrelativepath" : "../../ModularPolyphony/patchers",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "mp.+.maxpat",
+				"bootpath" : "~/Documents/Max 7/Packages/ModularPolyphony/patchers",
+				"patcherrelativepath" : "../../ModularPolyphony/patchers",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "mp.+.p.maxpat",
+				"bootpath" : "~/Documents/Max 7/Packages/ModularPolyphony/patchers",
+				"patcherrelativepath" : "../../ModularPolyphony/patchers",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "mp.LAOS.maxpat",
+				"bootpath" : "~/Documents/Max 7/Packages/ModularPolyphony/patchers",
+				"patcherrelativepath" : "../../ModularPolyphony/patchers",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "mp.uID.maxpat",
+				"bootpath" : "~/Documents/Max 7/Packages/ModularPolyphony/patchers",
+				"patcherrelativepath" : "../../ModularPolyphony/patchers",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "LAM.LAOS.maxpat",
+				"bootpath" : "~/Documents/Max/Packages/lam-lib/patchers",
+				"patcherrelativepath" : "../../../../Max/Packages/lam-lib/patchers",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "mp.state.change.maxpat",
+				"bootpath" : "~/Documents/Max 7/Packages/ModularPolyphony/patchers",
+				"patcherrelativepath" : "../../ModularPolyphony/patchers",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "mp.oo2ouo.maxpat",
+				"bootpath" : "~/Documents/Max 7/Packages/ModularPolyphony/patchers",
+				"patcherrelativepath" : "../../ModularPolyphony/patchers",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "LAM.f.dcall.maxpat",
+				"bootpath" : "~/Documents/Max/Packages/lam-lib/patchers",
+				"patcherrelativepath" : "../../../../Max/Packages/lam-lib/patchers",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "sw.maxpat",
+				"bootpath" : "~/Library/Application Support/Cycling '74/Max 8/Examples/max-tricks/send-receive-tricks/lib",
+				"patcherrelativepath" : "../../../../../Library/Application Support/Cycling '74/Max 8/Examples/max-tricks/send-receive-tricks/lib",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "thru.maxpat",
+				"bootpath" : "C74:/patchers/m4l/Pluggo for Live resources/patches",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+ ],
+		"autosave" : 0,
 		"styles" : [ 			{
 				"name" : "AudioStatus_Menu",
 				"default" : 				{
