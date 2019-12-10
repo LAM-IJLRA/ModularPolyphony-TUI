@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 101.0, 224.0, 1007.0, 521.0 ],
+		"rect" : [ 169.0, 420.0, 1007.0, 521.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -45,7 +45,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 813.0, 126.184081999999989, 119.0, 22.0 ],
-					"presentation_linecount" : 5,
 					"text" : "read myLayouts.json"
 				}
 
@@ -58,7 +57,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 686.0, 126.184081999999989, 35.0, 22.0 ],
-					"presentation_linecount" : 2,
 					"text" : "clear"
 				}
 
@@ -71,7 +69,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 727.0, 126.184081999999989, 34.0, 22.0 ],
-					"presentation_linecount" : 2,
 					"text" : "write"
 				}
 
@@ -169,7 +166,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 378.0, 448.0, 100.0, 22.0 ],
+					"patching_rect" : [ 378.0, 465.0, 100.0, 22.0 ],
 					"text" : "route name"
 				}
 
@@ -205,7 +202,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 9.0, 476.0, 469.0, 22.0 ],
+					"patching_rect" : [ 9.0, 493.0, 469.0, 22.0 ],
 					"text" : "mp.TUI.2Dcursor 10 /layout_helper @scale 1 0.2 @color 1 1 1 0.2"
 				}
 
@@ -213,24 +210,26 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-22",
+					"linecount" : 2,
 					"maxclass" : "newobj",
 					"numinlets" : 3,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 9.0, 416.184081999999989, 469.0, 22.0 ],
-					"text" : "mp.TUI.canvas /layout_helper @position 0.6 0 0 @scale 0.3 0.2 @color 1 1 1 0.2"
+					"patching_rect" : [ 9.0, 416.184081999999989, 469.0, 35.0 ],
+					"text" : "mp.TUI.canvas /layout_helper @position 0.6 0 0 @scale 0.3 0.2 @color 1 1 1 0.2 @name myCanvas"
 				}
 
 			}
 , 			{
 				"box" : 				{
 					"id" : "obj-3",
+					"linecount" : 2,
 					"maxclass" : "newobj",
 					"numinlets" : 2,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 9.0, 368.184081999999989, 469.0, 22.0 ],
-					"text" : "mp.TUI.multislider /layout_helper @numsliders 10 @position -0.6 0 0 @scale 0.3 0.2 0"
+					"patching_rect" : [ 9.0, 368.184081999999989, 469.0, 35.0 ],
+					"text" : "mp.TUI.multislider /layout_helper @numsliders 10 @position -0.6 0 0 @scale 0.3 0.2 0 @name myMultiSlider"
 				}
 
 			}
@@ -278,7 +277,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 9.0, 335.184081999999989, 469.0, 22.0 ],
-					"text" : "mp.TUI.button /layout_helper @scale 0.2 0.2 0"
+					"text" : "mp.TUI.button /layout_helper @scale 0.2 0.2 0 @name myButton"
 				}
 
 			}
@@ -470,7 +469,7 @@
 									"maxclass" : "newobj",
 									"numinlets" : 0,
 									"numoutlets" : 1,
-									"outlettype" : [ "bang" ],
+									"outlettype" : [ "" ],
 									"patcher" : 									{
 										"fileversion" : 1,
 										"appversion" : 										{
@@ -1144,7 +1143,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 9.0, 301.184081999999989, 469.0, 22.0 ],
-					"text" : "mp.TUI.slider /layout_helper @position 0 0.5 0 @scale 1. 0.1 0"
+					"text" : "mp.TUI.slider /layout_helper @position 0 0.5 0 @scale 1. 0.1 0 @name mySlider"
 				}
 
 			}
