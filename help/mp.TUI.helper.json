@@ -223,5 +223,10 @@
 		"categories" : "system",
 		"description" : "Storing and recalling layouts."
 	}
+,
+	"mp.TUI.popup" : 	{
+		"categories" : "component",
+		"description" : "A text popup."
+	}
 
 }
