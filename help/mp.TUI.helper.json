@@ -228,5 +228,10 @@
 		"categories" : "component",
 		"description" : "A text popup."
 	}
+,
+	"mp.UI.bubble" : 	{
+		"categories" : "component",
+		"description" : "A UI bubble."
+	}
 
 }
