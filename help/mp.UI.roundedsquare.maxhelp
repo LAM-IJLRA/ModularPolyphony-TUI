@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 644.0, 501.0, 830.0, 311.0 ],
+		"rect" : [ 143.0, 602.0, 830.0, 321.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -39,6 +39,31 @@
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
 				"box" : 				{
+					"format" : 6,
+					"id" : "obj-4",
+					"maxclass" : "flonum",
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "", "bang" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 508.0, 229.0, 50.0, 22.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-2",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 511.0, 262.0, 69.0, 22.0 ],
+					"text" : "rounded $1"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"bgmode" : 0,
 					"border" : 1,
 					"clickthrough" : 0,
@@ -59,7 +84,7 @@
 			}
 , 			{
 				"box" : 				{
-					"args" : [ "mp.UI.bubble", "@description", "A UI bubble.", "@categories", "component" ],
+					"args" : [ "mp.UI.roundedsquare", "@description", "A UI rounded square.", "@categories", "component" ],
 					"bgmode" : 0,
 					"border" : 0,
 					"clickthrough" : 0,
@@ -487,7 +512,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
 									"patching_rect" : [ 337.0, 109.0, 171.0, 35.0 ],
-									"text" : "mp.TUI.toes 10 /bubble_helper"
+									"text" : "mp.TUI.toes 10 /roundedsquare_helper"
 								}
 
 							}
@@ -506,12 +531,12 @@
 , 							{
 								"box" : 								{
 									"id" : "obj-7",
-									"linecount" : 2,
+									"linecount" : 3,
 									"maxclass" : "newobj",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 224.125, 188.0, 153.0, 35.0 ],
-									"text" : "s /bubble_helper/global/edit"
+									"patching_rect" : [ 224.125, 188.0, 153.0, 49.0 ],
+									"text" : "s /roundedsquare_helper/global/edit"
 								}
 
 							}
@@ -584,8 +609,8 @@
 									"numinlets" : 2,
 									"numoutlets" : 4,
 									"outlettype" : [ "", "", "", "" ],
-									"patching_rect" : [ 50.0, 62.0, 508.000091999999995, 29.0 ],
-									"text" : "mp.TUI.hub /bubble_helper"
+									"patching_rect" : [ 50.0, 62.0, 508.000092999999993, 29.0 ],
+									"text" : "mp.TUI.hub /roundedsquare_helper"
 								}
 
 							}
@@ -759,8 +784,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "bang", "" ],
-					"patching_rect" : [ 138.125, 128.0, 252.0, 21.0 ],
-					"text" : "jit.window /bubble_helper @fsmenubar 0 @fsaa 1"
+					"patching_rect" : [ 138.125, 128.0, 293.0, 21.0 ],
+					"text" : "jit.window /roundedsquare_helper @fsmenubar 0 @fsaa 1"
 				}
 
 			}
@@ -769,13 +794,12 @@
 					"fontname" : "Arial",
 					"fontsize" : 11.0,
 					"id" : "obj-13",
-					"linecount" : 2,
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "bang", "" ],
-					"patching_rect" : [ 9.0, 253.184081999999989, 185.0, 33.0 ],
-					"text" : "jit.gl.render /bubble_helper @ortho 1"
+					"patching_rect" : [ 9.0, 289.184081999999989, 228.0, 21.0 ],
+					"text" : "jit.gl.render /roundedsquare_helper"
 				}
 
 			}
@@ -834,11 +858,12 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-30",
+					"linecount" : 3,
 					"maxclass" : "newobj",
 					"numinlets" : 3,
 					"numoutlets" : 0,
-					"patching_rect" : [ 222.625, 223.184081999999989, 246.0, 22.0 ],
-					"text" : "mp.UI.bubble /bubble_helper @scale 0.2 0.2"
+					"patching_rect" : [ 222.625, 223.184081999999989, 246.0, 49.0 ],
+					"text" : "mp.UI.roundedsquare /roundedsquare_helper @scale 0.6 0.4 @line_width 4"
 				}
 
 			}
@@ -880,6 +905,13 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-30", 2 ],
+					"source" : [ "obj-2", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-25", 0 ],
 					"source" : [ "obj-24", 0 ]
 				}
@@ -909,6 +941,13 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-2", 0 ],
+					"source" : [ "obj-4", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-15", 0 ],
 					"source" : [ "obj-67", 0 ]
 				}
@@ -916,7 +955,7 @@
 			}
  ],
 		"dependency_cache" : [ 			{
-				"name" : "mp.UI.bubble.maxpat",
+				"name" : "mp.UI.roundedsquare.maxpat",
 				"bootpath" : "~/Documents/Max 7/Packages/ModularPolyphony-TUI/patchers",
 				"patcherrelativepath" : "../patchers",
 				"type" : "JSON",

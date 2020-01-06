@@ -233,5 +233,10 @@
 		"categories" : "component",
 		"description" : "A UI bubble."
 	}
+,
+	"mp.UI.roundedsquare" : 	{
+		"categories" : "component",
+		"description" : "A UI rounded square."
+	}
 
 }
