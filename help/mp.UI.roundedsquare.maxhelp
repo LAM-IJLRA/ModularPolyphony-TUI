@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 143.0, 602.0, 830.0, 321.0 ],
+		"rect" : [ 337.0, 581.0, 830.0, 321.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -39,14 +39,30 @@
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
 				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 11.0,
+					"id" : "obj-1",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "", "" ],
+					"patching_rect" : [ 97.0, 188.0, 64.0, 21.0 ],
+					"text" : "jit.gl.handle"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"format" : 6,
 					"id" : "obj-4",
 					"maxclass" : "flonum",
+					"maximum" : 1.0,
+					"minimum" : -1.0,
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 508.0, 229.0, 50.0, 22.0 ]
+					"patching_rect" : [ 511.0, 236.684081999999989, 50.0, 22.0 ]
 				}
 
 			}
@@ -862,13 +878,20 @@
 					"maxclass" : "newobj",
 					"numinlets" : 3,
 					"numoutlets" : 0,
-					"patching_rect" : [ 222.625, 223.184081999999989, 246.0, 49.0 ],
-					"text" : "mp.UI.roundedsquare /roundedsquare_helper @scale 0.6 0.4 @line_width 4"
+					"patching_rect" : [ 222.625, 223.184081999999989, 224.5, 49.0 ],
+					"text" : "mp.UI.roundedsquare /roundedsquare_helper @scale 1 1 @line_width 4"
 				}
 
 			}
  ],
 		"lines" : [ 			{
+				"patchline" : 				{
+					"destination" : [ "obj-13", 0 ],
+					"source" : [ "obj-1", 0 ]
+				}
+
+			}
+, 			{
 				"patchline" : 				{
 					"destination" : [ "obj-19", 0 ],
 					"source" : [ "obj-14", 0 ]
@@ -920,7 +943,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-30", 2 ],
-					"midpoints" : [ 484.625, 216.092040999999995, 459.125, 216.092040999999995 ],
+					"midpoints" : [ 484.625, 216.092040999999995, 437.625, 216.092040999999995 ],
 					"source" : [ "obj-25", 0 ]
 				}
 

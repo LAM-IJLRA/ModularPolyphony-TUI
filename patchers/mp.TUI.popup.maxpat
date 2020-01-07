@@ -474,25 +474,24 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-20",
-					"linecount" : 3,
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "jit_matrix", "" ],
-					"patching_rect" : [ 509.041655999999989, 607.0, 101.0, 49.0 ],
-					"text" : "jit.gl.text @mode 3d @align 3 @scale 0.1"
+					"patching_rect" : [ 509.041655999999989, 607.0, 115.0, 22.0 ],
+					"text" : "jit.gl.text @mode 3d"
 				}
 
 			}
 , 			{
 				"box" : 				{
 					"id" : "obj-8",
-					"linecount" : 14,
+					"linecount" : 13,
 					"maxclass" : "message",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 722.5, 411.0, 361.0, 196.0 ],
+					"patching_rect" : [ 722.5, 411.0, 368.0, 183.0 ],
 					"text" : "text \"Qu’est que c’est?. C’est une phrase francaise avant le lorem ipsum. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Etiam lobortis facilisis sem. Nullam nec mi et neque pharetra sollicitudin. Praesent imperdiet mi nec ante. Donec ullamcorper, felis non sodales commodo, lectus velit ultrices augue, a dignissim nibh lectus placerat pede. Vivamus nunc nunc, molestie ut, ultricies vel, semper in, velit. Ut porttitor. Praesent in sapien. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Duis fringilla tristique neque. Sed interdum libero ut metus. Pellentesque placerat. Nam rutrum augue a leo. Morbi sed elit sit amet ante lobortis sollicitudin. Praesent blandit blandit mauris. Praesent lectus tellus, aliquet aliquam, luctus a, egestas a, turpis. Mauris lacinia lorem sit amet ipsum. Nunc quis urna dictum turpis accumsan semper.\""
 				}
 
@@ -1677,7 +1676,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 2,
 									"outlettype" : [ "jit_matrix", "" ],
-									"patching_rect" : [ 255.0, 567.0, 420.0, 35.0 ],
+									"patching_rect" : [ 255.0, 567.0, 422.0, 35.0 ],
 									"text" : "jit.gl.text #1 @mode 3d @align 1 @color 0.9 0.9 0.9 1  @enable 0 @layer -2"
 								}
 
@@ -2113,7 +2112,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 195.041655999999989, 109.365111999999996, 231.0, 22.0 ],
+					"patching_rect" : [ 195.041655999999989, 109.365111999999996, 236.0, 22.0 ],
 					"text" : "mp.TUI.receiver #1 #0.slider"
 				}
 
@@ -2285,6 +2284,7 @@
 , 							{
 								"box" : 								{
 									"id" : "obj-12",
+									"linecount" : 2,
 									"maxclass" : "newobj",
 									"numinlets" : 1,
 									"numoutlets" : 2,
@@ -2513,8 +2513,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 238.958313000000004, 59.365082000000001, 712.0, 22.0 ],
-					"text" : "patcherargs @position 0 0 @scale 1 0.1 @rotatexyz 0 0 0 @name #0.popup @enable 1 @corpus \"this is a text\" @title \"POPUP !\""
+					"patching_rect" : [ 238.958313000000004, 59.365082000000001, 785.0, 22.0 ],
+					"text" : "patcherargs @position 0 0 @scale 1 0.1 @rotatexyz 0 0 0 @name #0.popup @enable 1 @title \"POPUP !\" @text align 0 @text scale 0.1 0.1 0.1"
 				}
 
 			}
@@ -3023,7 +3023,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-81", 0 ],
-					"midpoints" : [ 941.458312999999976, 103.365097000000006, 204.541655999999989, 103.365097000000006 ],
+					"midpoints" : [ 1014.458312999999976, 103.365097000000006, 204.541655999999989, 103.365097000000006 ],
 					"source" : [ "obj-92", 1 ]
 				}
 
