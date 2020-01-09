@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 116.0, 605.0, 807.0, 357.0 ],
+		"rect" : [ 256.0, 508.0, 807.0, 357.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -623,7 +623,7 @@
 			}
 , 			{
 				"box" : 				{
-					"args" : [ "mp.TUI.nslider", "@description", "A note-slider.", "@categories", "component" ],
+					"args" : [ "mp.TUI.staff4", "@description", "A 4 staves staff.", "@categories", "component" ],
 					"bgmode" : 0,
 					"border" : 0,
 					"clickthrough" : 0,
@@ -1045,13 +1045,12 @@
 						"boxes" : [ 							{
 								"box" : 								{
 									"id" : "obj-3",
-									"linecount" : 2,
 									"maxclass" : "newobj",
 									"numinlets" : 2,
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
-									"patching_rect" : [ 376.000061000000017, 135.0, 172.0, 35.0 ],
-									"text" : "mp.TUI.toes 10 /nslider_helper"
+									"patching_rect" : [ 376.000061000000017, 135.0, 172.0, 22.0 ],
+									"text" : "mp.TUI.toes 10 /staff4_helper"
 								}
 
 							}
@@ -1124,8 +1123,8 @@
 									"numinlets" : 2,
 									"numoutlets" : 4,
 									"outlettype" : [ "", "", "", "" ],
-									"patching_rect" : [ 50.0, 62.0, 508.000091999999995, 29.0 ],
-									"text" : "mp.TUI.hub /nslider_helper"
+									"patching_rect" : [ 50.0, 62.0, 508.000093000000106, 29.0 ],
+									"text" : "mp.TUI.hub /staff4_helper"
 								}
 
 							}
@@ -1279,7 +1278,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "bang", "" ],
 					"patching_rect" : [ 215.125, 101.0, 251.0, 21.0 ],
-					"text" : "jit.window /nslider_helper @fsmenubar 0"
+					"text" : "jit.window /staff4_helper @fsmenubar 0"
 				}
 
 			}
@@ -1288,13 +1287,12 @@
 					"fontname" : "Arial",
 					"fontsize" : 11.0,
 					"id" : "obj-13",
-					"linecount" : 2,
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "bang", "" ],
-					"patching_rect" : [ 9.0, 190.0, 186.0, 33.0 ],
-					"text" : "jit.gl.render /nslider_helper @ortho 1"
+					"patching_rect" : [ 9.0, 190.0, 186.0, 21.0 ],
+					"text" : "jit.gl.render /staff4_helper @ortho 1"
 				}
 
 			}
@@ -1378,7 +1376,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 215.125, 190.0, 348.875, 22.0 ],
-					"text" : "mp.TUI.nslider /nslider_helper @scale 0.1 0.5 0 @layer 1"
+					"text" : "mp.TUI.staff4 /staff4_helper @scale 0.1 0.5 0 @layer 1"
 				}
 
 			}
@@ -1517,7 +1515,7 @@
 		}
 ,
 		"dependency_cache" : [ 			{
-				"name" : "mp.TUI.nslider.maxpat",
+				"name" : "mp.TUI.staff4.maxpat",
 				"bootpath" : "~/Documents/Max 7/Packages/ModularPolyphony-TUI/patchers",
 				"patcherrelativepath" : "../patchers",
 				"type" : "JSON",

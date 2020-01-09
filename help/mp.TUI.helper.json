@@ -248,5 +248,15 @@
 		"categories" : "component",
 		"description" : "A note-slider."
 	}
+,
+	"mp.TUI.staff4" : 	{
+		"categories" : "component",
+		"description" : "A 4 staves staff."
+	}
+,
+	"mp.jit.2DtransformTSR" : 	{
+		"categories" : "component",
+		"description" : "2D transformation with translation, scaling and orientation."
+	}
 
 }
