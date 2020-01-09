@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 461.0, 476.0, 804.0, 358.0 ],
+		"rect" : [ 328.0, 560.0, 804.0, 358.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -58,7 +58,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 535.0, 252.0, 81.0, 22.0 ],
-					"text" : "loadmess -12"
+					"text" : "loadmess -24"
 				}
 
 			}
@@ -1112,7 +1112,6 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 594.875122000000033, 51.0, 55.0, 49.0 ],
-									"presentation_linecount" : 3,
 									"text" : "/tuio/2Dcur fseq 66609"
 								}
 
