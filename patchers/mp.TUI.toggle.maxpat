@@ -39,6 +39,19 @@
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
 				"box" : 				{
+					"comment" : "",
+					"id" : "obj-4",
+					"index" : 2,
+					"maxclass" : "inlet",
+					"numinlets" : 0,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 74.0, 31.013701999999999, 30.0, 30.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-2",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
@@ -85,11 +98,11 @@
 								"box" : 								{
 									"id" : "obj-2",
 									"maxclass" : "newobj",
-									"numinlets" : 2,
-									"numoutlets" : 2,
-									"outlettype" : [ "", "" ],
-									"patching_rect" : [ 40.0, 41.0, 101.0, 22.0 ],
-									"text" : "routepass enable"
+									"numinlets" : 3,
+									"numoutlets" : 3,
+									"outlettype" : [ "", "", "" ],
+									"patching_rect" : [ 40.0, 41.0, 134.0, 22.0 ],
+									"text" : "routepass enable name"
 								}
 
 							}
@@ -109,10 +122,11 @@
 , 							{
 								"box" : 								{
 									"id" : "obj-3",
+									"linecount" : 2,
 									"maxclass" : "newobj",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 86.0, 70.0, 84.0, 22.0 ],
+									"patching_rect" : [ 161.0, 78.0, 90.0, 22.0 ],
 									"text" : "s #0.enable"
 								}
 
@@ -126,7 +140,6 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
 									"patching_rect" : [ 66.0, 102.0, 702.0, 35.0 ],
-									"presentation_linecount" : 2,
 									"text" : "jit.phys.body @shape cube @kinematic 1 @damping 1 1 @name #0.toggle  @collisions 0 @filters #1/picker @worldname #1.phys @anim #0.toggle.animnode"
 								}
 
@@ -157,6 +170,13 @@
 									"destination" : [ "obj-12", 0 ],
 									"order" : 2,
 									"source" : [ "obj-2", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-19", 0 ],
+									"source" : [ "obj-2", 1 ]
 								}
 
 							}
@@ -962,8 +982,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "jit_matrix", "" ],
-					"patching_rect" : [ 146.0, 178.392486999999988, 540.0, 35.0 ],
-					"presentation_linecount" : 2,
+					"patching_rect" : [ 146.0, 178.392486999999988, 544.0, 35.0 ],
 					"text" : "jit.gl.gridshape #0.toggle.node @shape plane @dim 2 2 @scale 1 1 0 @layer -1 @blend_enable 1 @depth_enable 0"
 				}
 
@@ -1008,7 +1027,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-90",
-					"index" : 2,
+					"index" : 3,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -1025,8 +1044,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 193.5, 39.013702000000002, 519.0, 35.0 ],
-					"presentation_linecount" : 2,
+					"patching_rect" : [ 193.5, 39.013702000000002, 523.0, 35.0 ],
 					"text" : "patcherargs @position 0 0 @scale 1 1 1 @rotatexyz 0 0 0 @name #0.toggle @oncolor 1 0 0 1 @offcolor 0.5 0.5 0.5 1"
 				}
 
@@ -1039,7 +1057,7 @@
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
-					"outlettype" : [ "" ],
+					"outlettype" : [ "int" ],
 					"patching_rect" : [ 22.0, 30.013701999999999, 30.0, 30.0 ]
 				}
 
@@ -1121,7 +1139,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-6", 0 ],
-					"midpoints" : [ 703.0, 83.013701999999995, 155.5, 83.013701999999995 ],
+					"midpoints" : [ 707.0, 83.013701999999995, 155.5, 83.013701999999995 ],
 					"source" : [ "obj-91", 1 ]
 				}
 

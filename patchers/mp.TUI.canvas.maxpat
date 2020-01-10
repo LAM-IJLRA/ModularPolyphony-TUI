@@ -39,6 +39,18 @@
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-11",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 2,
+					"outlettype" : [ "", "" ],
+					"patching_rect" : [ 635.0, 177.0, 112.0, 22.0 ],
+					"text" : "routepass name"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-6",
 					"maxclass" : "newobj",
 					"numinlets" : 2,
@@ -104,7 +116,7 @@
 					"numinlets" : 3,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 483.0, 144.0, 131.0, 22.0 ],
+					"patching_rect" : [ 483.0, 144.0, 171.0, 22.0 ],
 					"text" : "route visible enable"
 				}
 
@@ -448,6 +460,7 @@
 , 							{
 								"box" : 								{
 									"id" : "obj-46",
+									"linecount" : 2,
 									"maxclass" : "newobj",
 									"numinlets" : 1,
 									"numoutlets" : 1,
@@ -626,7 +639,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "jit_matrix", "" ],
-					"patching_rect" : [ 411.0, 315.095244999999977, 509.0, 35.0 ],
+					"patching_rect" : [ 411.0, 315.095244999999977, 513.0, 35.0 ],
 					"text" : "jit.gl.gridshape  #0.canvas.node @name #0.canvas/background @shape plane @dim 2 2 @poly_mode 1 1 @gridmode 0"
 				}
 
@@ -640,7 +653,6 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "jit_matrix", "" ],
 					"patching_rect" : [ 425.0, 275.095244999999977, 431.0, 35.0 ],
-					"presentation_linecount" : 2,
 					"text" : "jit.gl.gridshape #0.canvas.node  @shape plane @dim 2 2   @blend_enable 1 @depth_enable 0"
 				}
 
@@ -654,7 +666,6 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 568.0, 209.5, 409.0, 35.0 ],
-					"presentation_linecount" : 2,
 					"text" : "jit.phys.body @worldname #1.phys @shape cube @kinematic 1 @collisions 0 @name #0.canvas @anim #0.canvas.animnode"
 				}
 
@@ -736,6 +747,13 @@
  ],
 		"lines" : [ 			{
 				"patchline" : 				{
+					"destination" : [ "obj-8", 0 ],
+					"source" : [ "obj-11", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-23", 0 ],
 					"source" : [ "obj-122", 0 ]
 				}
@@ -789,6 +807,13 @@
 				"patchline" : 				{
 					"destination" : [ "obj-9", 0 ],
 					"source" : [ "obj-24", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-11", 0 ],
+					"source" : [ "obj-25", 2 ]
 				}
 
 			}
