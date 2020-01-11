@@ -258,5 +258,10 @@
 		"categories" : "component",
 		"description" : "2D transformation with translation, scaling and orientation."
 	}
+,
+	"mp.TUI.movie" : 	{
+		"categories" : "component",
+		"description" : "A simple movie player."
+	}
 
 }
