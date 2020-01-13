@@ -263,5 +263,10 @@
 		"categories" : "component",
 		"description" : "A simple movie player."
 	}
+,
+	"mp.TUI.pic" : 	{
+		"categories" : "component",
+		"description" : "A simple picture display."
+	}
 
 }
