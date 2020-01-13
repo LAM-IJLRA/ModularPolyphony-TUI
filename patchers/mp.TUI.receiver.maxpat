@@ -1467,7 +1467,7 @@
 																	"numoutlets" : 1,
 																	"outlettype" : [ "" ],
 																	"patching_rect" : [ 161.5, 298.0, 190.0, 22.0 ],
-																	"text" : "0.6 0 0"
+																	"text" : "-0.4 -0.06 0"
 																}
 
 															}
@@ -4934,8 +4934,8 @@
 									"numinlets" : 1,
 									"numoutlets" : 2,
 									"outlettype" : [ "jit_matrix", "" ],
-									"patching_rect" : [ 541.5, 570.930786000000012, 689.0, 35.0 ],
-									"text" : "jit.gl.gridshape #1 @shape plane @dim 2 2 @poly_mode 1 1 @name #0.rotator.shape @layer 3 @enable 0 @color 0 1 1 1"
+									"patching_rect" : [ 541.5, 570.930786000000012, 692.0, 35.0 ],
+									"text" : "jit.gl.gridshape #1 @shape plane @dim 2 2 @poly_mode 1 1 @name #0.rotator.shape @layer 3 @enable 0 @color 0 1 1 1 @layer -999999"
 								}
 
 							}
@@ -5021,7 +5021,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "jit_matrix", "" ],
 									"patching_rect" : [ 585.5, 342.930786000000012, 667.0, 35.0 ],
-									"text" : "jit.gl.gridshape #1 @shape plane @dim 2 2 @poly_mode 1 1 @name #0.scaler.shape @layer 3 @enable 0 @color 0 1 1 1"
+									"text" : "jit.gl.gridshape #1 @shape plane @dim 2 2 @poly_mode 1 1 @name #0.scaler.shape @layer 3 @enable 0 @color 0 1 1 1 @layer -999999"
 								}
 
 							}
@@ -5445,6 +5445,18 @@
 						"subpatcher_template" : "",
 						"boxes" : [ 							{
 								"box" : 								{
+									"id" : "obj-15",
+									"maxclass" : "newobj",
+									"numinlets" : 0,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 619.0, 79.0, 171.0, 22.0 ],
+									"text" : "r #1/global/edit"
+								}
+
+							}
+, 							{
+								"box" : 								{
 									"id" : "obj-14",
 									"maxclass" : "newobj",
 									"numinlets" : 1,
@@ -5495,7 +5507,7 @@
 									"numinlets" : 3,
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "" ],
-									"patching_rect" : [ 599.0, 98.0, 92.0, 22.0 ],
+									"patching_rect" : [ 599.0, 44.0, 92.0, 22.0 ],
 									"text" : "route edit name"
 								}
 
@@ -5986,6 +5998,13 @@
 								"patchline" : 								{
 									"destination" : [ "obj-16", 0 ],
 									"source" : [ "obj-13", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-6", 0 ],
+									"source" : [ "obj-15", 0 ]
 								}
 
 							}
