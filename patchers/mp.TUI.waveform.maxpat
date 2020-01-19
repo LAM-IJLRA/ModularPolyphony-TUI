@@ -3,8 +3,8 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 8,
-			"minor" : 0,
-			"revision" : 0,
+			"minor" : 1,
+			"revision" : 1,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
@@ -44,7 +44,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 11.0, 296.0, 98.0, 22.0 ],
+					"patching_rect" : [ 11.0, 296.0, 105.0, 22.0 ],
 					"text" : "set #0_buffer"
 				}
 
@@ -57,7 +57,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 424.200012000000015, 141.0, 105.0, 22.0 ],
+					"patching_rect" : [ 424.200012000000015, 141.0, 111.0, 22.0 ],
 					"text" : "s #0.timeGran"
 				}
 
@@ -83,7 +83,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 19.0, 440.0, 88.0, 22.0 ],
+					"patching_rect" : [ 19.0, 440.0, 93.0, 22.0 ],
 					"text" : "r #0/record"
 				}
 
@@ -125,7 +125,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 576.0, 670.0, 115.0, 22.0 ],
+					"patching_rect" : [ 576.0, 670.0, 122.0, 22.0 ],
 					"text" : "r #0.displayStart"
 				}
 
@@ -139,7 +139,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 82.125, 631.0, 90.0, 22.0 ],
+					"patching_rect" : [ 82.125, 631.0, 95.0, 22.0 ],
 					"text" : "r #0.enable"
 				}
 
@@ -165,7 +165,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 320.0, 677.0, 127.0, 22.0 ],
+					"patching_rect" : [ 320.0, 677.0, 133.0, 22.0 ],
 					"text" : "r #0.displayLength"
 				}
 
@@ -191,7 +191,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 543.0, 555.0, 211.0, 22.0 ],
+					"patching_rect" : [ 543.0, 555.0, 217.0, 22.0 ],
 					"text" : "jit.anim.node @anim #0.animnode"
 				}
 
@@ -307,8 +307,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 0,
-							"revision" : 0,
+							"minor" : 1,
+							"revision" : 1,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -414,6 +414,7 @@
 									"fontname" : "Arial",
 									"fontsize" : 12.0,
 									"id" : "obj-67",
+									"linecount" : 2,
 									"maxclass" : "newobj",
 									"numinlets" : 0,
 									"numoutlets" : 1,
@@ -535,7 +536,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 185.625, 472.0, 93.0, 22.0 ],
+					"patching_rect" : [ 185.625, 472.0, 99.0, 22.0 ],
 					"text" : "s #0.bufsize"
 				}
 
@@ -549,7 +550,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 421.5, 334.0, 137.0, 22.0 ],
+					"patching_rect" : [ 421.5, 334.0, 144.0, 22.0 ],
 					"text" : "sw #0.displayLength"
 				}
 
@@ -577,7 +578,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 73.125, 326.0, 113.0, 22.0 ],
+					"patching_rect" : [ 73.125, 326.0, 120.0, 22.0 ],
 					"text" : "r #0/buffername"
 				}
 
@@ -591,7 +592,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 472.0, 212.0, 93.0, 22.0 ],
+					"patching_rect" : [ 472.0, 212.0, 99.0, 22.0 ],
 					"text" : "r #0/showall"
 				}
 
@@ -677,8 +678,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 0,
-							"revision" : 0,
+							"minor" : 1,
+							"revision" : 1,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -716,6 +717,7 @@
 									"fontname" : "Arial",
 									"fontsize" : 12.0,
 									"id" : "obj-8",
+									"linecount" : 2,
 									"maxclass" : "newobj",
 									"numinlets" : 0,
 									"numoutlets" : 1,
@@ -730,6 +732,7 @@
 									"fontname" : "Arial",
 									"fontsize" : 12.0,
 									"id" : "obj-18",
+									"linecount" : 2,
 									"maxclass" : "newobj",
 									"numinlets" : 1,
 									"numoutlets" : 2,
@@ -750,7 +753,6 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
 									"patching_rect" : [ 731.0, 368.5, 377.0, 35.0 ],
-									"presentation_linecount" : 2,
 									"text" : "jit.anim.node @anim #0.animnode @inherit_scale 0 @scale 0.03 0.03 0.1"
 								}
 
@@ -982,6 +984,7 @@
 									"fontname" : "Arial",
 									"fontsize" : 12.0,
 									"id" : "obj-21",
+									"linecount" : 2,
 									"maxclass" : "newobj",
 									"numinlets" : 1,
 									"numoutlets" : 2,
@@ -1474,8 +1477,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 0,
-							"revision" : 0,
+							"minor" : 1,
+							"revision" : 1,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -1533,8 +1536,8 @@
 										"fileversion" : 1,
 										"appversion" : 										{
 											"major" : 8,
-											"minor" : 0,
-											"revision" : 0,
+											"minor" : 1,
+											"revision" : 1,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -1572,13 +1575,11 @@
 													"fontname" : "Arial",
 													"fontsize" : 12.0,
 													"id" : "obj-7",
-													"linecount" : 2,
 													"maxclass" : "newobj",
 													"numinlets" : 0,
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
-													"patching_rect" : [ 204.0, 249.0, 82.0, 22.0 ],
-													"presentation_linecount" : 2,
+													"patching_rect" : [ 169.0, 160.0, 95.0, 22.0 ],
 													"text" : "r #0.enable"
 												}
 
@@ -1602,11 +1603,12 @@
 													"fontname" : "Arial",
 													"fontsize" : 12.0,
 													"id" : "obj-3",
+													"linecount" : 2,
 													"maxclass" : "newobj",
 													"numinlets" : 1,
 													"numoutlets" : 2,
 													"outlettype" : [ "", "" ],
-													"patching_rect" : [ 318.0, 174.0, 304.0, 22.0 ],
+													"patching_rect" : [ 318.0, 174.0, 304.0, 35.0 ],
 													"text" : "jit.anim.node @anim #0.animnode @inherit_scale 0"
 												}
 
@@ -1691,7 +1693,7 @@
 													"numoutlets" : 2,
 													"outlettype" : [ "jit_matrix", "" ],
 													"patching_rect" : [ 17.0, 295.0, 643.0, 22.0 ],
-													"text" : "jit.gl.text #1 @mode 3d @blend_enable 1 @blend_mode 1 1 @depth_enable 0 @position 1 -1 @align 2"
+													"text" : "jit.gl.text #1 @mode 3d @position 1 -1 @align 2"
 												}
 
 											}
@@ -1798,8 +1800,8 @@
 										"fileversion" : 1,
 										"appversion" : 										{
 											"major" : 8,
-											"minor" : 0,
-											"revision" : 0,
+											"minor" : 1,
+											"revision" : 1,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -1837,13 +1839,11 @@
 													"fontname" : "Arial",
 													"fontsize" : 12.0,
 													"id" : "obj-6",
-													"linecount" : 2,
 													"maxclass" : "newobj",
 													"numinlets" : 0,
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
-													"patching_rect" : [ 200.0, 164.0, 82.0, 22.0 ],
-													"presentation_linecount" : 2,
+													"patching_rect" : [ 200.0, 164.0, 95.0, 22.0 ],
 													"text" : "r #0.enable"
 												}
 
@@ -1871,7 +1871,7 @@
 													"numinlets" : 1,
 													"numoutlets" : 2,
 													"outlettype" : [ "", "" ],
-													"patching_rect" : [ 183.0, 134.0, 304.0, 22.0 ],
+													"patching_rect" : [ 183.0, 134.0, 310.0, 22.0 ],
 													"text" : "jit.anim.node @anim #0.animnode @inherit_scale 0"
 												}
 
@@ -1956,7 +1956,7 @@
 													"numoutlets" : 2,
 													"outlettype" : [ "jit_matrix", "" ],
 													"patching_rect" : [ 19.0, 201.0, 657.0, 22.0 ],
-													"text" : "jit.gl.text #1 @mode 3d @blend_enable 1 @blend_mode 1 1 @depth_enable 0 @position -1 -1 0 @align 0"
+													"text" : "jit.gl.text #1 @mode 3d @position -1 -1 0 @align 0"
 												}
 
 											}
@@ -2075,7 +2075,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 273.0, 334.0, 117.0, 22.0 ],
+					"patching_rect" : [ 273.0, 334.0, 124.0, 22.0 ],
 					"text" : "s #0.displayStart"
 				}
 
@@ -2102,7 +2102,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 73.125, 209.0, 318.0, 29.0 ],
+					"patching_rect" : [ 73.125, 209.0, 328.0, 29.0 ],
 					"text" : "jit.anim.node @name #0.animnode"
 				}
 
@@ -2119,8 +2119,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 0,
-							"revision" : 0,
+							"minor" : 1,
+							"revision" : 1,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -2158,13 +2158,12 @@
 									"fontname" : "Arial",
 									"fontsize" : 12.0,
 									"id" : "obj-6",
-									"linecount" : 2,
+									"linecount" : 3,
 									"maxclass" : "newobj",
 									"numinlets" : 0,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 424.0, 121.0, 82.0, 22.0 ],
-									"presentation_linecount" : 2,
 									"text" : "r #0.enable"
 								}
 
@@ -2174,6 +2173,7 @@
 									"fontname" : "Arial",
 									"fontsize" : 12.0,
 									"id" : "obj-1",
+									"linecount" : 2,
 									"maxclass" : "newobj",
 									"numinlets" : 1,
 									"numoutlets" : 2,
@@ -2188,6 +2188,7 @@
 									"fontname" : "Arial",
 									"fontsize" : 12.0,
 									"id" : "obj-9",
+									"linecount" : 2,
 									"maxclass" : "newobj",
 									"numinlets" : 0,
 									"numoutlets" : 1,
@@ -2202,6 +2203,7 @@
 									"fontname" : "Arial",
 									"fontsize" : 12.0,
 									"id" : "obj-11",
+									"linecount" : 2,
 									"maxclass" : "newobj",
 									"numinlets" : 1,
 									"numoutlets" : 2,
@@ -2279,8 +2281,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 0,
-							"revision" : 0,
+							"minor" : 1,
+							"revision" : 1,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -2318,13 +2320,12 @@
 									"fontname" : "Arial",
 									"fontsize" : 12.0,
 									"id" : "obj-6",
-									"linecount" : 2,
+									"linecount" : 3,
 									"maxclass" : "newobj",
 									"numinlets" : 0,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 158.0, 89.0, 82.0, 22.0 ],
-									"presentation_linecount" : 2,
 									"text" : "r #0.enable"
 								}
 
@@ -2334,6 +2335,7 @@
 									"fontname" : "Arial",
 									"fontsize" : 12.0,
 									"id" : "obj-3",
+									"linecount" : 2,
 									"maxclass" : "newobj",
 									"numinlets" : 1,
 									"numoutlets" : 2,
@@ -2348,6 +2350,7 @@
 									"fontname" : "Arial",
 									"fontsize" : 12.0,
 									"id" : "obj-2",
+									"linecount" : 2,
 									"maxclass" : "newobj",
 									"numinlets" : 0,
 									"numoutlets" : 1,
@@ -2454,8 +2457,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 0,
-							"revision" : 0,
+							"minor" : 1,
+							"revision" : 1,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -2503,6 +2506,7 @@
 , 							{
 								"box" : 								{
 									"id" : "obj-13",
+									"linecount" : 2,
 									"maxclass" : "newobj",
 									"numinlets" : 1,
 									"numoutlets" : 0,
@@ -2526,6 +2530,7 @@
 , 							{
 								"box" : 								{
 									"id" : "obj-30",
+									"linecount" : 2,
 									"maxclass" : "newobj",
 									"numinlets" : 0,
 									"numoutlets" : 1,
@@ -2575,8 +2580,8 @@
 										"fileversion" : 1,
 										"appversion" : 										{
 											"major" : 8,
-											"minor" : 0,
-											"revision" : 0,
+											"minor" : 1,
+											"revision" : 1,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -2650,8 +2655,8 @@
 														"fileversion" : 1,
 														"appversion" : 														{
 															"major" : 8,
-															"minor" : 0,
-															"revision" : 0,
+															"minor" : 1,
+															"revision" : 1,
 															"architecture" : "x64",
 															"modernui" : 1
 														}
@@ -2972,7 +2977,6 @@
 									"numinlets" : 1,
 									"numoutlets" : 0,
 									"patching_rect" : [ 219.0, 232.0, 200.0, 33.0 ],
-									"presentation_linecount" : 2,
 									"text" : "all other messages go to jit.gl.node object (scaling, positionning...)"
 								}
 
@@ -2990,8 +2994,8 @@
 										"fileversion" : 1,
 										"appversion" : 										{
 											"major" : 8,
-											"minor" : 0,
-											"revision" : 0,
+											"minor" : 1,
+											"revision" : 1,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -3057,6 +3061,7 @@
 													"fontname" : "Arial",
 													"fontsize" : 12.0,
 													"id" : "obj-9",
+													"linecount" : 2,
 													"maxclass" : "newobj",
 													"numinlets" : 1,
 													"numoutlets" : 0,
@@ -3078,8 +3083,8 @@
 														"fileversion" : 1,
 														"appversion" : 														{
 															"major" : 8,
-															"minor" : 0,
-															"revision" : 0,
+															"minor" : 1,
+															"revision" : 1,
 															"architecture" : "x64",
 															"modernui" : 1
 														}
@@ -3131,6 +3136,7 @@
 																	"fontname" : "Arial",
 																	"fontsize" : 12.0,
 																	"id" : "obj-55",
+																	"linecount" : 2,
 																	"maxclass" : "newobj",
 																	"numinlets" : 0,
 																	"numoutlets" : 1,
@@ -3145,6 +3151,7 @@
 																	"fontname" : "Arial",
 																	"fontsize" : 12.0,
 																	"id" : "obj-54",
+																	"linecount" : 2,
 																	"maxclass" : "newobj",
 																	"numinlets" : 0,
 																	"numoutlets" : 1,
@@ -3498,7 +3505,6 @@
 									"numinlets" : 1,
 									"numoutlets" : 0,
 									"patching_rect" : [ 235.0, 82.0, 114.0, 33.0 ],
-									"presentation_linecount" : 2,
 									"text" : "frequent messages routed first"
 								}
 
@@ -3516,8 +3522,8 @@
 										"fileversion" : 1,
 										"appversion" : 										{
 											"major" : 8,
-											"minor" : 0,
-											"revision" : 0,
+											"minor" : 1,
+											"revision" : 1,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -3796,8 +3802,8 @@
 										"fileversion" : 1,
 										"appversion" : 										{
 											"major" : 8,
-											"minor" : 0,
-											"revision" : 0,
+											"minor" : 1,
+											"revision" : 1,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -3847,12 +3853,11 @@
 													"fontname" : "Arial",
 													"fontsize" : 12.0,
 													"id" : "obj-5",
-													"linecount" : 2,
+													"linecount" : 3,
 													"maxclass" : "newobj",
 													"numinlets" : 1,
 													"numoutlets" : 0,
 													"patching_rect" : [ 312.944457999999997, 158.0, 82.0, 22.0 ],
-													"presentation_linecount" : 2,
 													"text" : "s #0/record"
 												}
 
@@ -3876,6 +3881,7 @@
 													"fontname" : "Arial",
 													"fontsize" : 12.0,
 													"id" : "obj-9",
+													"linecount" : 2,
 													"maxclass" : "newobj",
 													"numinlets" : 1,
 													"numoutlets" : 0,
@@ -3930,6 +3936,7 @@
 													"fontname" : "Arial",
 													"fontsize" : 12.0,
 													"id" : "obj-4",
+													"linecount" : 2,
 													"maxclass" : "newobj",
 													"numinlets" : 1,
 													"numoutlets" : 0,
@@ -3957,6 +3964,7 @@
 													"fontname" : "Arial",
 													"fontsize" : 12.0,
 													"id" : "obj-1",
+													"linecount" : 2,
 													"maxclass" : "newobj",
 													"numinlets" : 1,
 													"numoutlets" : 0,
@@ -4387,8 +4395,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 0,
-							"revision" : 0,
+							"minor" : 1,
+							"revision" : 1,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -4507,6 +4515,7 @@
 									"fontname" : "Arial",
 									"fontsize" : 12.0,
 									"id" : "obj-48",
+									"linecount" : 2,
 									"maxclass" : "newobj",
 									"numinlets" : 0,
 									"numoutlets" : 1,
@@ -4596,7 +4605,6 @@
 									"numinlets" : 1,
 									"numoutlets" : 0,
 									"patching_rect" : [ 383.0, 130.0, 183.0, 33.0 ],
-									"presentation_linecount" : 2,
 									"text" : "resample the waveform, in this case to the width of your screen."
 								}
 
@@ -4737,7 +4745,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 831.5, 542.5, 85.0, 33.0 ],
-					"presentation_linecount" : 2,
 					"text" : "normalized selection end"
 				}
 
