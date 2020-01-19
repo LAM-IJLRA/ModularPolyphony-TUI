@@ -1023,7 +1023,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 271.5, 407.0, 123.0, 22.0 ],
-									"text" : "target 0, scale $1 1 1"
+									"text" : "target 0, scale $1 0 0"
 								}
 
 							}
@@ -4417,7 +4417,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 167.0, 229.0, 112.0, 50.0 ],
 					"signed" : 1,
-					"size" : 32
+					"size" : 12
 				}
 
 			}
