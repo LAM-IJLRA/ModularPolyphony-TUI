@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 209.0, 503.0, 816.0, 312.0 ],
+		"rect" : [ 100.0, 100.0, 816.0, 312.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -111,8 +111,8 @@
 					"numinlets" : 3,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 253.625, 232.184081999999989, 267.0, 49.0 ],
-					"text" : "mp.UI.pic /movie_helper @file sunset.jpg @scale 0.8 0.6 @position -0.1 0.1 0 @rotatexyz 0 0 4"
+					"patching_rect" : [ 253.625, 232.184081999999989, 241.0, 49.0 ],
+					"text" : "mp.TUI.pic /movie_helper @file sunset.jpg @scale 0.8 0.6 @position -0.1 0.1 0 @rotatexyz 0 0 4"
 				}
 
 			}
@@ -980,7 +980,7 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "mp.UI.pic.maxpat",
+				"name" : "mp.TUI.pic.maxpat",
 				"bootpath" : "~/Documents/Max 7/Packages/ModularPolyphony-TUI/patchers",
 				"patcherrelativepath" : "../patchers",
 				"type" : "JSON",

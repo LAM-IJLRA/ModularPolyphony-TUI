@@ -44,7 +44,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 45.0, 456.0, 94.0, 22.0 ],
+					"patching_rect" : [ 45.0, 456.0, 95.0, 22.0 ],
 					"text" : "r #0.enable"
 				}
 
@@ -225,7 +225,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 137.0, 76.0, 90.0, 22.0 ],
-									"text" : "dim 256 256 0"
+									"text" : "dim 913 721 0"
 								}
 
 							}
@@ -612,13 +612,13 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-19",
-					"linecount" : 4,
+					"linecount" : 3,
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "jit_matrix", "" ],
-					"patching_rect" : [ 186.0, 517.0, 204.0, 62.0 ],
-					"text" : "jit.gl.videoplane #1 @dim 2 2 @texture #0.tex @color 1 1 1 1 @tex_map 1 @anim #0.pic.animnode"
+					"patching_rect" : [ 186.0, 517.0, 205.0, 49.0 ],
+					"text" : "jit.gl.videoplane #1 @dim 2 2 @texture #0.tex @tex_map 1 @anim #0.pic.animnode"
 				}
 
 			}
@@ -1226,7 +1226,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 140.0, 104.743865999999997, 246.0, 22.0 ],
+					"patching_rect" : [ 146.0, 104.743865999999997, 246.0, 22.0 ],
 					"text" : "mp.TUI.receiver #1 #0.pic"
 				}
 
@@ -1343,7 +1343,7 @@
 									"maxclass" : "newobj",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 15.0, 329.0, 91.0, 35.0 ],
+									"patching_rect" : [ 15.0, 329.0, 91.0, 22.0 ],
 									"text" : "s #0.enable"
 								}
 
@@ -1409,6 +1409,32 @@
 								}
 
 							}
+, 							{
+								"box" : 								{
+									"id" : "obj-19",
+									"linecount" : 2,
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 2,
+									"outlettype" : [ "", "" ],
+									"patching_rect" : [ 213.5, 225.0, 666.0, 35.0 ],
+									"text" : "jit.phys.body @shape cube @kinematic 1 @damping 1 1 @name #0.pic  @collisions 0 @filters #1/picker @worldname #1.phys "
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-12",
+									"linecount" : 2,
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 2,
+									"outlettype" : [ "jit_matrix", "" ],
+									"patching_rect" : [ 158.0, 315.986297999999977, 652.0, 35.0 ],
+									"text" : "jit.gl.gridshape #0.pic.node @shape plane @dim 2 2 @scale 1 1 0  @poly_mode 1 1 @name #0.pic/background @gridmode 0 @enable 0"
+								}
+
+							}
  ],
 						"lines" : [ 							{
 								"patchline" : 								{
@@ -1421,6 +1447,27 @@
 								"patchline" : 								{
 									"destination" : [ "obj-4", 0 ],
 									"source" : [ "obj-11", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-19", 0 ],
+									"source" : [ "obj-13", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-19", 0 ],
+									"source" : [ "obj-14", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-12", 0 ],
+									"source" : [ "obj-19", 0 ]
 								}
 
 							}
@@ -1464,6 +1511,15 @@
 , 							{
 								"patchline" : 								{
 									"destination" : [ "obj-10", 0 ],
+									"order" : 1,
+									"source" : [ "obj-3", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-19", 0 ],
+									"order" : 0,
 									"source" : [ "obj-3", 0 ]
 								}
 
@@ -1472,6 +1528,13 @@
 								"patchline" : 								{
 									"destination" : [ "obj-13", 0 ],
 									"source" : [ "obj-4", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-19", 0 ],
+									"source" : [ "obj-6", 0 ]
 								}
 
 							}
@@ -1921,7 +1984,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-6", 0 ],
-					"midpoints" : [ 687.0, 83.013701999999995, 149.5, 83.013701999999995 ],
+					"midpoints" : [ 687.0, 83.013701999999995, 155.5, 83.013701999999995 ],
 					"source" : [ "obj-91", 1 ]
 				}
 

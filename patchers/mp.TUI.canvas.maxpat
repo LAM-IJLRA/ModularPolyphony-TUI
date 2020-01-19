@@ -639,7 +639,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "jit_matrix", "" ],
-					"patching_rect" : [ 411.0, 315.095244999999977, 513.0, 35.0 ],
+					"patching_rect" : [ 411.0, 375.095244999999977, 513.0, 35.0 ],
 					"text" : "jit.gl.gridshape  #0.canvas.node @name #0.canvas/background @shape plane @dim 2 2 @poly_mode 1 1 @gridmode 0"
 				}
 
@@ -652,7 +652,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "jit_matrix", "" ],
-					"patching_rect" : [ 425.0, 275.095244999999977, 431.0, 35.0 ],
+					"patching_rect" : [ 425.0, 335.095244999999977, 431.0, 35.0 ],
 					"text" : "jit.gl.gridshape #0.canvas.node  @shape plane @dim 2 2   @blend_enable 1 @depth_enable 0"
 				}
 
@@ -665,7 +665,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 568.0, 209.5, 409.0, 35.0 ],
+					"patching_rect" : [ 568.0, 258.595244999999977, 409.0, 35.0 ],
 					"text" : "jit.phys.body @worldname #1.phys @shape cube @kinematic 1 @collisions 0 @name #0.canvas @anim #0.canvas.animnode"
 				}
 

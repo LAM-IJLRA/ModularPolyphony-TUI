@@ -4,13 +4,13 @@
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 1,
-			"revision" : 0,
+			"revision" : 1,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 671.0, 272.0, 1102.0, 774.0 ],
+		"rect" : [ 544.0, 272.0, 1102.0, 774.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -38,6 +38,18 @@
 		"style" : "",
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
+				"box" : 				{
+					"id" : "obj-36",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "int" ],
+					"patching_rect" : [ 740.5, 291.0, 22.0, 22.0 ],
+					"text" : "t 0"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"id" : "obj-34",
 					"maxclass" : "newobj",
@@ -97,7 +109,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 1,
-							"revision" : 0,
+							"revision" : 1,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -590,7 +602,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 331.0, 411.0, 52.0, 35.0 ],
-					"text" : "-44 state 0"
+					"text" : "-99 on 0"
 				}
 
 			}
@@ -693,7 +705,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 1,
-							"revision" : 0,
+							"revision" : 1,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -985,7 +997,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 56.0, 362.0, 506.0, 35.0 ],
-					"text" : "mp.TUI.button /WMglui @anim #0.node  @scale 0.02 0.02 0.02 @position -0.04 0 0 @enable 0 @mode toggle"
+					"text" : "mp.TUI.button #2 @anim #0.node  @scale 0.02 0.02 0.02 @position -0.04 0 0 @enable 0 @mode toggle"
 				}
 
 			}
@@ -1037,7 +1049,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 1,
-							"revision" : 0,
+							"revision" : 1,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -1247,12 +1259,13 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-16",
+					"linecount" : 2,
 					"maxclass" : "newobj",
 					"numinlets" : 3,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 574.0, 362.0, 426.0, 22.0 ],
-					"text" : "mp.TUI.button /WMglui @anim #0.node @scale 0.02 0.02 0.02 @enable 0"
+					"patching_rect" : [ 574.0, 362.0, 431.0, 35.0 ],
+					"text" : "mp.TUI.button #2 @anim #0.node @scale 0.02 0.02 0.02 @enable 0"
 				}
 
 			}
@@ -1260,11 +1273,11 @@
 				"box" : 				{
 					"id" : "obj-27",
 					"maxclass" : "newobj",
-					"numinlets" : 2,
-					"numoutlets" : 2,
-					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 674.5, 192.0, 51.0, 22.0 ],
-					"text" : "route xy"
+					"numinlets" : 3,
+					"numoutlets" : 3,
+					"outlettype" : [ "", "", "" ],
+					"patching_rect" : [ 674.5, 192.0, 80.0, 22.0 ],
+					"text" : "route xy flush"
 				}
 
 			}
@@ -1576,6 +1589,13 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-36", 0 ],
+					"source" : [ "obj-27", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-22", 0 ],
 					"source" : [ "obj-28", 0 ]
 				}
@@ -1635,6 +1655,13 @@
 				"patchline" : 				{
 					"destination" : [ "obj-69", 1 ],
 					"source" : [ "obj-35", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-18", 0 ],
+					"source" : [ "obj-36", 0 ]
 				}
 
 			}
