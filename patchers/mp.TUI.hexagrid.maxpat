@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 117.0, 137.0, 1120.0, 699.0 ],
+		"rect" : [ -83.0, 303.0, 1120.0, 699.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -38,6 +38,43 @@
 		"style" : "",
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
+				"box" : 				{
+					"id" : "obj-51",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 362.0, 632.5, 113.0, 22.0 ],
+					"text" : "prepend nodename"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-50",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 362.0, 594.5, 153.0, 22.0 ],
+					"text" : "loadmess #0.hexagrid"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-48",
+					"linecount" : 2,
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 431.0, 468.053223000000003, 100.0, 35.0 ],
+					"text" : "prepend hexamatrix"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"comment" : "MP input",
 					"id" : "obj-39",
@@ -105,7 +142,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 485.0, 540.0, 90.0, 22.0 ],
+					"patching_rect" : [ 485.0, 540.0, 95.0, 22.0 ],
 					"text" : "r #0.enable"
 				}
 
@@ -116,7 +153,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 943.5, 125.060058999999995, 92.0, 22.0 ],
+					"patching_rect" : [ 943.5, 125.060058999999995, 97.0, 22.0 ],
 					"text" : "s #0.enable"
 				}
 
@@ -128,7 +165,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 754.5, 214.0, 90.0, 22.0 ],
+					"patching_rect" : [ 754.5, 214.0, 95.0, 22.0 ],
 					"text" : "r #0.enable"
 				}
 
@@ -166,7 +203,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 165.0, 130.0, 50.0, 35.0 ],
-					"text" : "3 state 0"
+					"text" : "-99 state 0"
 				}
 
 			}
@@ -190,7 +227,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 835.75, 274.0, 356.0, 22.0 ],
+					"patching_rect" : [ 835.75, 274.0, 360.0, 22.0 ],
 					"text" : "jit.anim.node @anim #0.hexagrid.animnode @inherit_scale 0"
 				}
 
@@ -202,7 +239,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 101.0, 71.0, 276.0, 22.0 ],
+					"patching_rect" : [ 101.0, 71.0, 279.0, 22.0 ],
 					"text" : "mp.TUI.receiver #1 #0.hexagrid"
 				}
 
@@ -887,7 +924,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 175.0, 325.0, 202.0, 22.0 ],
+					"patching_rect" : [ 175.0, 325.0, 207.0, 22.0 ],
 					"text" : "mp.TUI.worldtolocal #0.hexagrid"
 				}
 
@@ -1354,7 +1391,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 835.75, 301.0, 559.0, 22.0 ],
+					"patching_rect" : [ 835.75, 301.0, 562.0, 22.0 ],
 					"text" : "jit.phys.body @shape cube @worldname #1.phys @kinematic 1 @name #0.hexagrid"
 				}
 
@@ -1914,7 +1951,7 @@
 							}
 , 							{
 								"box" : 								{
-									"cols" : 5,
+									"cols" : 7,
 									"fontface" : 0,
 									"fontname" : "Arial",
 									"fontsize" : 12.0,
@@ -2262,7 +2299,7 @@
 											}
 , 											{
 												"box" : 												{
-													"cols" : 5,
+													"cols" : 7,
 													"fontface" : 0,
 													"fontname" : "Arial",
 													"fontsize" : 12.0,
@@ -2304,7 +2341,7 @@
 											}
 , 											{
 												"box" : 												{
-													"cols" : 5,
+													"cols" : 7,
 													"fontface" : 0,
 													"fontname" : "Arial",
 													"fontsize" : 12.0,
@@ -5853,7 +5890,7 @@
 					"numinlets" : 3,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 598.5, 573.0, 394.0, 22.0 ],
+					"patching_rect" : [ 598.5, 573.0, 398.0, 22.0 ],
 					"text" : "jit.gl.multiple  #0.hexagrid.node 3 @glparams position color rotatexyz"
 				}
 
@@ -6306,8 +6343,29 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-36", 0 ],
+					"source" : [ "obj-48", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-17", 0 ],
 					"source" : [ "obj-49", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-51", 0 ],
+					"source" : [ "obj-50", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-36", 0 ],
+					"source" : [ "obj-51", 0 ]
 				}
 
 			}
@@ -6484,6 +6542,14 @@
 					"destination" : [ "obj-41", 3 ],
 					"midpoints" : [ 608.0, 514.526611000000003, 805.75, 514.526611000000003 ],
 					"order" : 1,
+					"source" : [ "obj-98", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-48", 0 ],
+					"order" : 3,
 					"source" : [ "obj-98", 0 ]
 				}
 
