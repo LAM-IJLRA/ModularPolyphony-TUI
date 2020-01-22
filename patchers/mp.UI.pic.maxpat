@@ -220,12 +220,13 @@
 , 							{
 								"box" : 								{
 									"id" : "obj-5",
+									"linecount" : 2,
 									"maxclass" : "message",
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 137.0, 76.0, 90.0, 22.0 ],
-									"text" : "dim 256 256 0"
+									"text" : "dim 1024 768 0"
 								}
 
 							}
@@ -617,8 +618,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "jit_matrix", "" ],
-					"patching_rect" : [ 186.0, 517.0, 204.0, 62.0 ],
-					"text" : "jit.gl.videoplane #1 @dim 2 2 @texture #0.tex @color 1 1 1 1 @tex_map 1 @anim #0.pic.animnode"
+					"patching_rect" : [ 186.0, 517.0, 208.0, 62.0 ],
+					"text" : "jit.gl.videoplane #1 @dim 2 2 @texture #0.tex @color 1 1 1 1 @tex_map 1 @anim #0.pic.animnode "
 				}
 
 			}
@@ -1040,7 +1041,6 @@
 , 							{
 								"box" : 								{
 									"id" : "obj-37",
-									"linecount" : 2,
 									"maxclass" : "newobj",
 									"numinlets" : 1,
 									"numoutlets" : 1,
@@ -1343,7 +1343,7 @@
 									"maxclass" : "newobj",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 15.0, 329.0, 91.0, 35.0 ],
+									"patching_rect" : [ 15.0, 329.0, 81.0, 35.0 ],
 									"text" : "s #0.enable"
 								}
 
