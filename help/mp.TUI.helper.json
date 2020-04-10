@@ -215,8 +215,8 @@
 	}
 ,
 	"mp.UI.wave~" : 	{
-		"categories" : "utilities",
-		"description" : "Simple waveform"
+		"categories" : "component",
+		"description" : "Waveform  scope."
 	}
 ,
 	"mp.TUI.layout" : 	{
