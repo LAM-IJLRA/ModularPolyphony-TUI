@@ -2,7 +2,7 @@
 
 This library is a set of OpenGL UI component using the [MP protocol](https://github.com/LAM-IJLRA/ModularPolyphony) in Max (® Cycling74).
 
-This code is under GNU-LGPL licence which can be read in the file named COPYING.
+This code is under GNU-LGPL licence which can be read in the file named LICENCE.md.
 
 This is all draft at the moment.
 Use at your own risk and curiosity.
@@ -18,7 +18,7 @@ Video tutorials here for the ModularPolyphony : https://vimeo.com/album/4387798
 
 The [Modular Polyphony](https://github.com/LAM-IJLRA/ModularPolyphony) library is required.
 
-The [lam-lib](https://github.com/LAM-IJLRA/lam-lib) library is not required but may be used in some examples.
+The [lam-lib](https://github.com/LAM-IJLRA/lam-lib) library is not required for the mp.TUI system to work, but is used in some objects and  examples.
 
 ## Credits
 
