@@ -268,5 +268,10 @@
 		"categories" : "component",
 		"description" : "A simple picture display."
 	}
+,
+	"mp.TUI.cascade" : 	{
+		"categories" : "component",
+		"description" : "A TUI multi-filters gaph"
+	}
 
 }
