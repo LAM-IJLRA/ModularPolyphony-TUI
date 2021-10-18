@@ -7,6 +7,8 @@ This code is under GNU-LGPL licence which can be read in the file named LICENCE.
 This is all draft at the moment.
 Use at your own risk and curiosity.
 
+![alt text](screenshot.png "Screenshot of a set of mp.TUI GUI components")
+
 ## Usage
 Download or clone this repository and put it in your Max package folder.
 
