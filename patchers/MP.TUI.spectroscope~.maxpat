@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 562.0, 105.0, 918.0, 877.0 ],
+		"rect" : [ 562.0, 105.0, 808.0, 686.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -651,7 +651,7 @@
 														}
 ,
 														"classnamespace" : "box",
-														"rect" : [ 59.0, 106.0, 640.0, 480.0 ],
+														"rect" : [ 59.0, 106.0, 360.0, 375.0 ],
 														"bglocked" : 0,
 														"openinpresentation" : 0,
 														"default_fontsize" : 12.0,
@@ -739,7 +739,7 @@
 																	"numoutlets" : 1,
 																	"outlettype" : [ "" ],
 																	"patching_rect" : [ 83.799987999999985, 145.0, 93.0, 22.0 ],
-																	"text" : "r 18026.freqmin"
+																	"text" : "r #0.freqmin"
 																}
 
 															}
@@ -824,7 +824,7 @@
 																	"numinlets" : 0,
 																	"numoutlets" : 1,
 																	"outlettype" : [ "" ],
-																	"patching_rect" : [ 50.0, 40.0, 30.0, 30.0 ]
+																	"patching_rect" : [ 50.0, 51.0, 30.0, 30.0 ]
 																}
 
 															}
@@ -836,7 +836,7 @@
 																	"maxclass" : "outlet",
 																	"numinlets" : 1,
 																	"numoutlets" : 0,
-																	"patching_rect" : [ 50.0, 347.0, 30.0, 30.0 ]
+																	"patching_rect" : [ 50.0, 302.0, 30.0, 30.0 ]
 																}
 
 															}
@@ -958,7 +958,7 @@
 														}
 ,
 														"classnamespace" : "box",
-														"rect" : [ 59.0, 106.0, 640.0, 480.0 ],
+														"rect" : [ 59.0, 106.0, 397.0, 271.0 ],
 														"bglocked" : 0,
 														"openinpresentation" : 0,
 														"default_fontsize" : 12.0,
@@ -1045,8 +1045,8 @@
 																	"numinlets" : 0,
 																	"numoutlets" : 1,
 																	"outlettype" : [ "" ],
-																	"patching_rect" : [ 143.400009000000011, 9.0, 93.0, 22.0 ],
-																	"text" : "r 18026.freqmin"
+																	"patching_rect" : [ 143.400002000000001, 56.0, 93.0, 22.0 ],
+																	"text" : "r #0.freqmin"
 																}
 
 															}
@@ -1107,7 +1107,7 @@
 																	"maxclass" : "outlet",
 																	"numinlets" : 1,
 																	"numoutlets" : 0,
-																	"patching_rect" : [ 50.0, 251.0, 30.0, 30.0 ]
+																	"patching_rect" : [ 50.0, 203.0, 30.0, 30.0 ]
 																}
 
 															}
