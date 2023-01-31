@@ -273,5 +273,10 @@
 		"categories" : "component",
 		"description" : "A TUI multi-filters gaph"
 	}
+,
+	"mp.TUI.circlescope~" : 	{
+		"categories" : "component",
+		"description" : "A TUI circle scope"
+	}
 
 }
