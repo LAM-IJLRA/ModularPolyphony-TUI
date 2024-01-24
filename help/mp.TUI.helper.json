@@ -278,5 +278,10 @@
 		"categories" : "component",
 		"description" : "A TUI circle scope"
 	}
+,
+	"mp.TUI.notenumber" : 	{
+		"categories" : "component",
+		"description" : "Note number box."
+	}
 
 }
