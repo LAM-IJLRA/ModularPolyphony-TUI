@@ -1,234 +1,292 @@
 {
-    "mp.TUI.patchbay": {
-        "categories": "component",
-        "description": "A simple patchbay example."
-    },
-    "mp.TUI.grid": {
-        "description": "A simple TUI-enabled checkbox/radiobutton.",
-        "categories": "component"
-    },
-    "mp.TUI.hub": {
-        "categories": "system",
-        "description": "Hub for the modular multitouch GUI system"
-    },
-    "mp.TUI.multislider": {
-        "categories": "component",
-        "description": "A simple TUI-enabled multislider."
-    },
-    "mp.TUI.rslider": {
-        "categories": "component",
-        "description": "A simple range-slider."
-    },
-    "mp.TUI.vumeter": {
-        "categories": "component",
-        "description": "A simple VU-meter."
-    },
-    "mp.TUI.kslider": {
-        "categories": "component",
-        "description": "A key-slider."
-    },
-    "mp.TUI.bslider": {
-        "categories": "component",
-        "description": "A simple bend-able slider."
-    },
-    "mp.TUI.2Dslider": {
-        "categories": "component",
-        "description": "A 2D slider."
-    },
-    "mp.TUI.balls": {
-        "categories": "component",
-        "description": "Bucephalus boucing balls."
-    },
-    "mp.TUI.slider": {
-        "description": "A simple slider.",
-        "categories": "component"
-    },
-    "mp.TUI.scope~": {
-        "description": "A scope~ as TUI.",
-        "categories": "component"
-    },
-    "mp.TUI.button": {
-        "description": "A TUI bang.",
-        "categories": "component"
-    },
-    "mp.TUI.canvas": {
-        "description": "A TUI canvas reporting x/y coords.",
-        "categories": "component"
-    },
-    "mp.TUI.filtergraph": {
-        "description": "A TUI filtergraph",
-        "categories": "component"
-    },
-    "mp.TUI.hexagrid": {
-        "description": "A TUI hexagonal keyboard",
-        "categories": "component"
-    },
-    "mp.TUI.menu": {
-        "description": "A TUI drop-down menu.",
-        "categories": "component"
-    },
-    "mp.TUI.bpf": {
-        "description": "A TUI break point function.",
-        "categories": "component"
-    },
-    "mp.TUI.toes": {
-        "categories": "component",
-        "description": "Toes-looking cursors."
-    },
-    "mp.TUI.spectroscope~": {
-        "description": "A spectroscope~ as TUI.",
-        "categories": "component"
-    },
-    "mp.TUI.voronoi": {
-        "description": "A tangible voronoi mesh",
-        "categories": "component"
-    },
-    "mp.TUI.graphslider": {
-        "description": "A slider outputting nearest graph value.",
-        "categories": "component"
-    },
-    "mp.TUI.worldtolocal": {
-        "categories": "utilities",
-        "description": "World to object transform."
-    },
-    "mp.TUI.receiver": {
-        "categories": "utilities",
-        "description": "Receive pointer data when object was selected."
-    },
-    "mp.TUI.nodes": {
-        "description": "Node data-interpolation.",
-        "categories": "component"
-    },
-    "mp.TUI.orientslider": {
-        "description": "Orientable slider.",
-        "categories": "component"
-    },
-    "mp.TUI.number": {
-        "description": "Number box.",
-        "categories": "component"
-    },
-    "mp.TUI.menuscroll": {
-        "description": "A scrollable drop-down menu.",
-        "categories": "component"
-    },
-    "mp.TUI.3Dslider": {
-        "categories": "component",
-        "description": "A 3D slider."
-    },
-    "mp.TUI.lightgrid": {
-        "categories": "component",
-        "description": "A light-weight version of mp.TUI.grid."
-    },
-    "mp.TUI.group": {
-        "description": "Create groups of UI components.",
-        "categories": "utilities"
-    },
-    "mp.TUI.textbutton": {
-        "description": "A TUI text-button.",
-        "categories": "component"
-    },
-    "mp.TUI.sslider": {
-        "description": "A signed slider.",
-        "categories": "component"
-    },
-    "mp.TUI.rhslider": {
-        "categories": "component",
-        "description": "A range-slider with draggable handles."
-    },
-    "mp.TUI.slot": {
-        "categories": "component",
-        "description": "DRAFT! slot for drag and drop."
-    },
-    "mp.TUI.worms": {
-        "categories": "component",
-        "description": "Worms-looking cursors."
-    },
-    "mp.TUI.traces": {
-        "categories": "component",
-        "description": "traces-looking cursors."
-    },
-    "mp.TUI.ties": {
-        "categories": "component",
-        "description": "ties-looking cursors."
-    },
-    "mp.TUI.dial": {
-        "categories": "component",
-        "description": "A simple dial."
-    },
-    "mp.TUI.wigglyline": {
-        "categories": "utilities",
-        "description": "Utils to build interfaces"
-    },
-    "mp.TUI.text": {
-        "categories": "component",
-        "description": "A simple text wrapper."
-    },
-    "mp.UI.slider": {
-        "categories": "component",
-        "description": "A rounded UI slider."
-    },
-    "mp.TUI.slider.rounded": {
-        "categories": "component",
-        "description": "A rounded TUI slider."
-    },
-    "mp.UI.wave~": {
-        "categories": "component",
-        "description": "Waveform  scope."
-    },
-    "mp.TUI.layout": {
-        "categories": "system",
-        "description": "Storing and recalling layouts."
-    },
-    "mp.TUI.popup": {
-        "categories": "component",
-        "description": "A text popup."
-    },
-    "mp.UI.bubble": {
-        "categories": "component",
-        "description": "A UI bubble."
-    },
-    "mp.UI.roundedsquare": {
-        "categories": "component",
-        "description": "A UI rounded square."
-    },
-    "mp.UI.roundedsquare2": {
-        "categories": "component",
-        "description": "A UI rounded square."
-    },
-    "mp.TUI.nslider": {
-        "categories": "component",
-        "description": "A note-slider."
-    },
-    "mp.TUI.staff4": {
-        "categories": "component",
-        "description": "A 4 staves staff."
-    },
-    "mp.jit.2DtransformTSR": {
-        "categories": "component",
-        "description": "2D transformation with translation, scaling and orientation."
-    },
-    "mp.TUI.movie": {
-        "categories": "component",
-        "description": "A simple movie player."
-    },
-    "mp.TUI.pic": {
-        "categories": "component",
-        "description": "A simple picture display."
-    },
-    "mp.TUI.cascade": {
-        "categories": "component",
-        "description": "A TUI multi-filters gaph"
-    },
-    "mp.TUI.circlescope~": {
-        "categories": "component",
-        "description": "A TUI circle scope"
-    },
-    "mp.TUI.notenumber": {
-        "categories": "component",
-        "description": "Note number box."
-    },
-    "mp.UI.clock": {
-        "categories": "component",
-        "description": "A simple clock."
-    }
+	"mp.TUI.patchbay" : 	{
+		"categories" : "component",
+		"description" : "A simple patchbay example."
+	}
+,
+	"mp.TUI.grid" : 	{
+		"description" : "A simple TUI-enabled checkbox/radiobutton.",
+		"categories" : "component"
+	}
+,
+	"mp.TUI.hub" : 	{
+		"categories" : "system",
+		"description" : "Hub for the modular multitouch GUI system"
+	}
+,
+	"mp.TUI.multislider" : 	{
+		"categories" : "component",
+		"description" : "A simple TUI-enabled multislider."
+	}
+,
+	"mp.TUI.rslider" : 	{
+		"categories" : "component",
+		"description" : "A simple range-slider."
+	}
+,
+	"mp.TUI.vumeter" : 	{
+		"categories" : "component",
+		"description" : "A simple VU-meter."
+	}
+,
+	"mp.TUI.kslider" : 	{
+		"categories" : "component",
+		"description" : "A key-slider."
+	}
+,
+	"mp.TUI.bslider" : 	{
+		"categories" : "component",
+		"description" : "A simple bend-able slider."
+	}
+,
+	"mp.TUI.2Dslider" : 	{
+		"categories" : "component",
+		"description" : "A 2D slider."
+	}
+,
+	"mp.TUI.balls" : 	{
+		"categories" : "component",
+		"description" : "Bucephalus boucing balls."
+	}
+,
+	"mp.TUI.slider" : 	{
+		"description" : "A simple slider.",
+		"categories" : "component"
+	}
+,
+	"mp.TUI.scope~" : 	{
+		"description" : "A scope~ as TUI.",
+		"categories" : "component"
+	}
+,
+	"mp.TUI.button" : 	{
+		"description" : "A TUI bang.",
+		"categories" : "component"
+	}
+,
+	"mp.TUI.canvas" : 	{
+		"description" : "A TUI canvas reporting x/y coords.",
+		"categories" : "component"
+	}
+,
+	"mp.TUI.filtergraph" : 	{
+		"description" : "A TUI filtergraph",
+		"categories" : "component"
+	}
+,
+	"mp.TUI.hexagrid" : 	{
+		"description" : "A TUI hexagonal keyboard",
+		"categories" : "component"
+	}
+,
+	"mp.TUI.menu" : 	{
+		"description" : "A TUI drop-down menu.",
+		"categories" : "component"
+	}
+,
+	"mp.TUI.bpf" : 	{
+		"description" : "A TUI break point function.",
+		"categories" : "component"
+	}
+,
+	"mp.TUI.toes" : 	{
+		"categories" : "component",
+		"description" : "Toes-looking cursors."
+	}
+,
+	"mp.TUI.spectroscope~" : 	{
+		"description" : "A spectroscope~ as TUI.",
+		"categories" : "component"
+	}
+,
+	"mp.TUI.voronoi" : 	{
+		"description" : "A tangible voronoi mesh",
+		"categories" : "component"
+	}
+,
+	"mp.TUI.graphslider" : 	{
+		"description" : "A slider outputting nearest graph value.",
+		"categories" : "component"
+	}
+,
+	"mp.TUI.worldtolocal" : 	{
+		"categories" : "utilities",
+		"description" : "World to object transform."
+	}
+,
+	"mp.TUI.receiver" : 	{
+		"categories" : "utilities",
+		"description" : "Receive pointer data when object was selected."
+	}
+,
+	"mp.TUI.nodes" : 	{
+		"description" : "Node data-interpolation.",
+		"categories" : "component"
+	}
+,
+	"mp.TUI.orientslider" : 	{
+		"description" : "Orientable slider.",
+		"categories" : "component"
+	}
+,
+	"mp.TUI.number" : 	{
+		"description" : "Number box.",
+		"categories" : "component"
+	}
+,
+	"mp.TUI.menuscroll" : 	{
+		"description" : "A scrollable drop-down menu.",
+		"categories" : "component"
+	}
+,
+	"mp.TUI.3Dslider" : 	{
+		"categories" : "component",
+		"description" : "A 3D slider."
+	}
+,
+	"mp.TUI.lightgrid" : 	{
+		"categories" : "component",
+		"description" : "A light-weight version of mp.TUI.grid."
+	}
+,
+	"mp.TUI.group" : 	{
+		"description" : "Create groups of UI components.",
+		"categories" : "utilities"
+	}
+,
+	"mp.TUI.textbutton" : 	{
+		"description" : "A TUI text-button.",
+		"categories" : "component"
+	}
+,
+	"mp.TUI.sslider" : 	{
+		"description" : "A signed slider.",
+		"categories" : "component"
+	}
+,
+	"mp.TUI.rhslider" : 	{
+		"categories" : "component",
+		"description" : "A range-slider with draggable handles."
+	}
+,
+	"mp.TUI.slot" : 	{
+		"categories" : "component",
+		"description" : "DRAFT! slot for drag and drop."
+	}
+,
+	"mp.TUI.worms" : 	{
+		"categories" : "component",
+		"description" : "Worms-looking cursors."
+	}
+,
+	"mp.TUI.traces" : 	{
+		"categories" : "component",
+		"description" : "traces-looking cursors."
+	}
+,
+	"mp.TUI.ties" : 	{
+		"categories" : "component",
+		"description" : "ties-looking cursors."
+	}
+,
+	"mp.TUI.dial" : 	{
+		"categories" : "component",
+		"description" : "A simple dial."
+	}
+,
+	"mp.TUI.wigglyline" : 	{
+		"categories" : "utilities",
+		"description" : "Utils to build interfaces"
+	}
+,
+	"mp.TUI.text" : 	{
+		"categories" : "component",
+		"description" : "A simple text wrapper."
+	}
+,
+	"mp.UI.slider" : 	{
+		"categories" : "component",
+		"description" : "A rounded UI slider."
+	}
+,
+	"mp.TUI.slider.rounded" : 	{
+		"categories" : "component",
+		"description" : "A rounded TUI slider."
+	}
+,
+	"mp.UI.wave~" : 	{
+		"categories" : "component",
+		"description" : "Waveform  scope."
+	}
+,
+	"mp.TUI.layout" : 	{
+		"categories" : "system",
+		"description" : "Storing and recalling layouts."
+	}
+,
+	"mp.TUI.popup" : 	{
+		"categories" : "component",
+		"description" : "A text popup."
+	}
+,
+	"mp.UI.bubble" : 	{
+		"categories" : "component",
+		"description" : "A UI bubble."
+	}
+,
+	"mp.UI.roundedsquare" : 	{
+		"categories" : "component",
+		"description" : "A UI rounded square."
+	}
+,
+	"mp.UI.roundedsquare2" : 	{
+		"categories" : "component",
+		"description" : "A UI rounded square."
+	}
+,
+	"mp.TUI.nslider" : 	{
+		"categories" : "component",
+		"description" : "A note-slider."
+	}
+,
+	"mp.TUI.staff4" : 	{
+		"categories" : "component",
+		"description" : "A 4 staves staff."
+	}
+,
+	"mp.jit.2DtransformTSR" : 	{
+		"categories" : "component",
+		"description" : "2D transformation with translation, scaling and orientation."
+	}
+,
+	"mp.TUI.movie" : 	{
+		"categories" : "component",
+		"description" : "A simple movie player."
+	}
+,
+	"mp.TUI.pic" : 	{
+		"categories" : "component",
+		"description" : "A simple picture display."
+	}
+,
+	"mp.TUI.cascade" : 	{
+		"categories" : "component",
+		"description" : "A TUI multi-filters gaph"
+	}
+,
+	"mp.TUI.circlescope~" : 	{
+		"categories" : "component",
+		"description" : "A TUI circle scope"
+	}
+,
+	"mp.TUI.notenumber" : 	{
+		"categories" : "component",
+		"description" : "Note number box."
+	}
+,
+	"mp.UI.clock" : 	{
+		"categories" : "component",
+		"description" : "A simple clock."
+	}
+
 }
